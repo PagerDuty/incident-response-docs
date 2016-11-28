@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{# mkdocs-material doesn't use content as a block, so cheating and using footer here, as that does use a block #}
+{% block footer %}
+
+  <section id="error">
+    <h1>Sorry! We couldn't find that page.</h1>
+    <p>Looks like our well-trained server monkeys dropped the ball. Rest assured they will be dealt with. In the meantime, you probably want to <a href="/">head home</a>.
+  </section>
+
+  <footer class="footer">
+    {% include "footer.html" %}
+  </footer>
+
+{% endblock %}

@@ -1,0 +1,64 @@
+# Project Information
+site_name: PagerDuty Incident Response Documentation
+site_description: A collection of information about the PagerDuty incident response process. Not only how to prepare new employees for on-call responsibilities, but also how to handle major incidents, both in preparation and after-work.
+site_author: PagerDuty, Inc.
+site_favicon: 'assets/img/icon.png'
+site_url: https://response.pagerduty.com
+
+# Repository
+repo_name: 'GitHub'
+repo_url: https://github.com/pagerduty/incident-response-docs
+
+# Copyright
+copyright: 'Copyright &copy; PagerDuty, Inc.'
+
+# Theme
+theme: 'material'
+theme_dir: 'theme'
+extra_css: ['assets/css/extra.css']
+extra:
+  logo: 'assets/img/icon.png'
+  cover: 'assets/img/cover.png'
+  palette:
+    primary: 'green'
+    accent: 'blue grey'
+  font:
+    text: 'Colfax Regular'
+    code: 'Roboto Mono'
+  author:
+    github: 'PagerDuty'
+    twitter: 'PagerDuty'
+
+# Contents
+pages:
+  - Home: 'index.md'
+  - On-Call:
+    - Being On-Call: 'oncall/being_oncall.md'
+    - Alerting Principles: 'oncall/alerting_principles.md'
+  - Before an Incident:
+    - Severity Levels: 'before/severity_levels.md'
+    - Different Roles: 'before/different_roles.md'
+    - Call Etiquette: 'before/call_etiquette.md'
+  - During an Incident:
+    - During An Incident: 'during/during_an_incident.md'
+    - Security Incident: 'during/security_incident_response.md'
+  - After an Incident:
+    - Post-Mortem Process: 'after/post_mortem_process.md'
+    - Post-Mortem Template: 'after/post_mortem_template.md'
+  - Training:
+    - Overview: 'training/overview.md'
+    - Incident Commander: 'training/incident_commander.md'
+    - Deputy: 'training/deputy.md'
+    - Scribe: 'training/scribe.md'
+    - Subject Matter Expert: 'training/subject_matter_expert.md'
+    - Glossary: 'training/glossary.md'
+  - About: 'about.md'
+
+# Analytics
+google_analytics: ['UA-8759953-1', 'auto']
+
+# Extensions
+markdown_extensions:
+  - toc(permalink=#)
+  - sane_lists:
+  - admonition:

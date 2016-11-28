@@ -1,0 +1,399 @@
+/* Colfax Font */
+@font-face {
+  font-family: 'Colfax Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('ColfaxRegular'), url(https://www.pagerduty.com/wp-content/themes/startit-child/fonts/ColfaxWebRegular.woff) format('woff2');
+}
+
+@font-face {
+  font-family: 'Colfax Light';
+  font-style: normal;
+  font-weight: 100;
+  src: local('ColfaxRegular'), url(https://www.pagerduty.com/wp-content/themes/startit-child/fonts/ColfaxWebLight.woff) format('woff2');
+}
+
+/* Defaults */
+body {
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Change the colour theme to better match PagerDuty */
+
+/* background: pd-green */
+.repo a {
+  background: #25c151;
+}
+
+@media only screen and (max-width: 959px) {
+  .palette-primary-green .project {
+    background: #25c151;
+  }
+}
+
+/* background: pd-navy */
+.palette-primary-green,
+.palette-primary-green .footer,
+.palette-primary-green .header,
+.palette-primary-green .results .meta,
+.palette-primary-green .article table th {
+  background: #1f293a;
+}
+
+.palette-primary-green .article table th {
+  background: #555;
+}
+
+/* font: pd-green */
+.palette-primary-green .article h1,
+.palette-primary-green .article h2,
+.palette-primary-green .drawer .toc a.current,
+.palette-primary-green .drawer .toc a:focus,
+.palette-primary-green .drawer .toc a:hover,
+.palette-primary-green .article a:hover {
+  color: #25c151;
+}
+
+/* font: pd-navy */
+.palette-primary-green .article a,
+.palette-primary-green .article code,
+.palette-primary-green .article h1,
+.palette-primary-green .article h2 {
+  color: #1f293a;
+}
+
+/* Selected nav section */
+.palette-primary-green .drawer .anchor a {
+  border-left: 3px solid #25c151;
+}
+
+/* Hide the page title, already in the navbar */
+.article h1 {
+  display: none;
+}
+
+/* But show it when printing */
+@media print {
+  .article h1 {
+    display: block;
+    padding-top: 0em;
+    padding-bottom: 0.1em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    border-bottom: none;
+  }
+
+  /* Also add a heading when printing */
+  .article h1:before {
+    background: url(/assets/img/logo.png) 0em -0.07em no-repeat;
+    background-size: 7em;
+    display: block;
+    height: 2em;
+    width: 100%;
+    padding-left: 7.2em;
+    content: 'Incident Response';
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0.6em;
+  }
+}
+
+
+/* Want the font to be bigger for articles, easier reading. */
+.article {
+	font-size: 1.45em;
+}
+
+/* Too much whitespace at the top, not enough at bottom */
+.article .wrapper {
+  padding: 56px 16px 132px !important;
+}
+
+@media only screen and (min-width: 720px) {
+  .article .wrapper {
+    padding: 70px 24px 126px !important;
+  }
+}
+
+/* Get rid of the whitespace when printing, let people set own margins. */
+@media print {
+  .article .wrapper {
+    padding: 0em !important;
+  }
+}
+
+ul, ol {
+  padding-left: 1em;
+}
+
+/* Expanding border menu */
+.drawer .toc li a {
+	overflow: hidden;
+	position: relative;
+}
+
+.drawer .toc li a:before {
+  display: block;
+  content: '';
+  position: absolute;
+  height: 2em;
+  left: 0px;
+  top: 0.5em;
+  border-left: 5px solid #25c151;
+  transform: scaleY(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.drawer .toc li a:hover:before {
+	transform: scaleY(1);
+}
+
+/* Don't do it on active menu items */
+.drawer .toc a.current:hover:before,
+.drawer .toc li.anchor a:hover:before {
+  transform: scaleY(0);
+	display: none;
+}
+
+/* Don't overflow horizontally on nav */
+.drawer .toc ul li a {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+/* Change the title bar to include the PD logo */
+nav div.mainlogo {
+	width: 15em;
+	display: table-cell;
+}
+
+nav div.mainlogo a {
+  min-height: 3.5em;
+  margin-bottom: -1.25em;
+  width: 14.5em;
+
+  background: url(/assets/img/logo.png) 0em 0.1em no-repeat;
+  background-size: contain;
+}
+
+nav div.mainlogo img {
+  display: none;
+}
+
+/* Admonition */
+.admonition {
+  background: #25c151;
+}
+.admonition.info {
+  background: #f5a623;
+}
+
+@media print {
+  .admonition {
+    padding: 1em 2em !important;
+  }
+}
+
+/* Typography */
+h4 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.project .logo+.name {
+	font-size: 13px;
+}
+
+span.bad {
+  color: #f00;
+}
+
+span.good {
+  color: #008800;
+}
+
+span.code,
+code {
+  font-family: monospace;
+  color: #00f !important;
+  border-radius: 2px;
+  padding: 0.1em;
+  border: 1px solid #eee;
+  background: #f4f4f4;
+}
+
+/* Icons */
+.button .icon:hover {
+  transition: color 250ms ease-in-out;
+  color: #25c151;
+}
+
+/* Images */
+.article .wrapper {
+	overflow: hidden;
+}
+
+/* Center all images */
+.article img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Header images */
+.article h1 + p + p img {
+  max-width: 110%;
+  margin-left: -2em;
+}
+
+/* Image Captions */
+img + em {
+  position: relative;
+  font-size: 0.8em;
+  margin-right: -2.3em;
+  padding: 0em 1em;
+  float: right;
+  margin-top: -2.1em;
+  color: #000;
+  border-top-left-radius: 3px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/* Fixes for smaller screen sizes */
+@media only screen and (max-width: 720px) {
+  .article h1 + p + p img {
+    max-width: 120%;
+  }
+
+  .article h1 + p + p img + em {
+    margin-right: -1.4em;
+    margin-top: -2em;
+  }
+}
+
+/* Hack to hide the header images when printing. */
+@media print {
+  .article h1 + p + p img {
+    display: none;
+  }
+
+  .article h1 + p + p img + em {
+    display: none;
+  }
+}
+
+/* Quotes */
+.article blockquote {
+  border-left: 3px solid #555;
+  background: #f9f9f9;
+  padding: 1em;
+  padding-left: 16px;
+  margin-top: 1em;
+  color: #333;
+  font-style: italic;
+}
+
+.article blockquote p {
+  margin: 0em;
+  padding: 0.5em 0em;
+}
+
+/* Horizontal Rules */
+.article hr {
+  margin-top: 2em;
+  border-top: 2px solid #f4f4f4;
+}
+
+/* Don't care about copyright notice for this project, Apache License. */
+aside.copyright {
+  display: none;
+}
+
+/* Custom tables */
+table.custom-table td ul {
+  margin-top: -0.8em;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+table.custom-table td.warning {
+  font-weight: bold;
+  text-align: center;
+  color: #f00;
+  background: #f4f4f4;
+}
+
+table.custom-table td.sev-1 {
+  background: #ffe7e7;
+  color: #f00;
+  font-weight: bold;
+}
+
+table.custom-table td.sev-2 {
+  background: #ffd;
+  color: rgb(255,153,0);
+  font-weight: bold;
+}
+
+table.custom-table td.sev-3 {
+  background: #e0f0ff;
+  color: rgb(51,102,255);
+  font-weight: bold;
+}
+
+table.custom-table td.sev-4 {
+  background: #f0f0f0;
+  color: rgb(128,128,128);
+  font-weight: bold;
+}
+
+table.custom-table td.sev-5 {
+  background: #ddfade;
+  color: rgb(0,128,0);
+  font-weight: bold;
+}
+
+table.custom-table td.centered {
+  text-align: center;
+}
+
+/* Embeds */
+iframe {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+/* Contact summary table */
+#contact-summary {
+  margin-bottom: -2em;
+  background: #fff;
+  color: #000;
+}
+
+/* Super horrible hack to get the training PDF images correct */
+#national-incident-management-system-nims ~ p img {
+  display: inline;
+}
+#national-incident-management-system-nims ~ p:nth-of-type(6) {
+  text-align: center;
+}
+
+/* 404 Page */
+#error {
+  text-align: center;
+  padding: 0em 5em;
+}
+
+#error h1 {
+  display: block;
+	font-size: 2.5em;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  border-bottom: 1px solid #eee;
+}
+
+#error p {
+  font-style: italic;
+  color: #555;
+}
