@@ -91,7 +91,7 @@ Follow our [Scribe training guide](/training/scribe.md), and then notify the Inc
 ## Subject Matter Expert
 
 ### What is it?
-Follow our Scribe training guide, and then notify the Incident Commanders in #incident-commanders that you would like to be considered for scribing for the next incident.
+A Subject Matter Expert (SME), sometimes called a "Resolver", is a domain expert or designated owner of a component or service that is part of the PagerDuty software stack.
 
 ### Why have one?
 The IC and deputy are not all-knowing super beings. When there is a problem with a service, an expert in that service is needed to be able to quickly help identify and fix issues.
