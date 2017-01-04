@@ -26,7 +26,7 @@ Once you've been designated as the owner of a post-mortem, you should start upda
 1. Begin populating the page with all of the information you have.
     * The timeline should be the main focus to begin with.
         * The timeline should include important changes in status/impact, and also key actions taken by responders.
-        * You should mark the start of the incident in red, and the resolution in green (for when we went into/outof SEV).
+        * You should mark the start of the incident in red, and the resolution in green (for when we went into/out of SEV).
     * Go through the history in Slack to identify the responders, and add them to the page.
         * Identify the Incident Commander and Scribe in this list.
 
