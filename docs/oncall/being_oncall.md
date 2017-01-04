@@ -51,7 +51,7 @@ On-call responsibilities extend beyond normal office hours, and if you are on-ca
     * Service owners will always know more about how their stuff works. Especially if our and their documentation is lacking, double-checking with the relevant team avoids mistakes. Measure twice, cut once – and it's often best to let the subject matter expert do the cutting.
 
 ## Recommendations
-If your team is starting it's own on-call rotation, here are some scheduling recommendations from the Operations team.
+If your team is starting its own on-call rotation, here are some scheduling recommendations from the Operations team.
 
 * Always have a backup schedule. Yes, this means two people being on-call at the same time, however it takes a lot of the stress off of the primary if they know they have a specific backup they can contact, rather than trying to chose a random member of the team.
     * A backup shift should generally come directly after a primary shift. It gives chance for the previous primary to pass on additional context which may have come up during their shift. It also helps to prevent people from sitting on issues with the intent of letting the next shift fix it.
