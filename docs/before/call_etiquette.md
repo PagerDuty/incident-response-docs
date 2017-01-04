@@ -34,7 +34,7 @@ The Incident Commander (IC) is the leader of the incident response process, and 
 
 * Follow all instructions from the incident commander, without exception.
 * Do not perform any actions unless the incident commander has told you to do so.
-* The commander will typically poll for any strong objections before performing a large action. This is you time to raise any objections if you have them.
+* The commander will typically poll for any strong objections before performing a large action. This is your time to raise any objections if you have them.
 * Once the commander has made a decision, that decision is final and should be followed, even if you disagreed during the poll.
 * Answer any questions the commander asks you in a clear and concise way.
     * Answering that you "don't know" something is perfectly acceptable. Do not try to guess.
