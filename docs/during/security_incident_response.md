@@ -38,7 +38,7 @@ Identify the likely attack vectors and path/fix them so they cannot be re-exploi
 * If you suspect a service application was an attack vector, disable any relevant code paths, or shut down the service entirely.
 
 ## Assemble Response Team
-Identify the key responders for the security incident, and keep them all in the loop. Set up a secure method of communicating all information associated with the incident. Details on the incident (or even the fact that an incident has occurred) should be kept private to the responders under you are confident the attack is not being triggered internally.
+Identify the key responders for the security incident, and keep them all in the loop. Set up a secure method of communicating all information associated with the incident. Details on the incident (or even the fact that an incident has occurred) should be kept private to the responders until you are confident the attack is not being triggered internally.
 
 * The security and site-reliability teams should usually be involved.
 * A representative for any affected services should be involved.
