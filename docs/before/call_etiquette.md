@@ -30,7 +30,7 @@ Standard radio [voice procedure](https://en.wikipedia.org/wiki/Voice_procedure#W
 Do not invent new abbreviations, and always favor being explicit of implicit. It is better to make things clearer than to try and save time by abbreviating, only to have a misunderstanding because others didn't know the abbreviation.
 
 ## The Commander
-The Incident Commander (IC) is the leader of the incident response process, and are responsible for bringing the incident to resolution. They will announce themselves at the start of the call, and will generally be doing most of the talking.
+The Incident Commander (IC) is the leader of the incident response process, and is responsible for bringing the incident to resolution. They will announce themselves at the start of the call, and will generally be doing most of the talking.
 
 * Follow all instructions from the incident commander, without exception.
 * Do not perform any actions unless the incident commander has told you to do so.
