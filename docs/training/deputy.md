@@ -45,7 +45,7 @@ You can page them however you see fit, phone call, etc.
 ### Provide Executive Status Updates
 Provide regular status updates on Slack (roughly every 30mins), giving an executive summary of the current status during SEV-1 incidents. Keep it short and to the point, and use @here. Mention the current state, the actions in progress, customer impact, and expected time remaining. It's OK to miss out some of those if the information isn't known.
 
-> @here: We are in SEV-1 due to X. Current actions in progress are to do Y. Expecting 3mins to complete that action. Once action is complete, system should recover on it's own within 5minutes.
+> @here: We are in SEV-1 due to X. Current actions in progress are to do Y. Expecting 3 mins to complete that action. Once action is complete, system should recover on its own within 5 minutes.
 
 ### Alert IC to Timers
 You are expected to keep track of how long the incident has been running for, and provide callouts to the IC every 10 minutes so they can take actions such as increasing the severity, or asking Support to Tweet out. This is as simple as telling the IC on the call,
