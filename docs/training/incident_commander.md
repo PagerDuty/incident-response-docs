@@ -128,7 +128,7 @@ If you are trained to be an IC and have joined a call, even if you aren't the IC
 If the on-call IC joins later, you may hand over to them at your discretion (see below for the hand-off procedure)
 
 ### Checking if SME's are Present
-During a call, you will want to know who is available from the various teams in order to resolve the incident. Etiquette dictates that people should announce themselves, but someones you may be joining late to the call. If you need a representative from a team, just ask on the call. Your deputy can page one if no one answers.
+During a call, you will want to know who is available from the various teams in order to resolve the incident. Etiquette dictates that people should announce themselves, but sometimes you may be joining late to the call. If you need a representative from a team, just ask on the call. Your deputy can page one if no one answers.
 
 > Do we have a representative from [X] on the call?
 
