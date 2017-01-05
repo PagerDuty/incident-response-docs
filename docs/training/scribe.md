@@ -8,7 +8,7 @@ The purpose of the Scribe is to maintain a timeline of key events during an inci
 
 It's important for the rest of the command staff to be able to focus on the problem at hand, rather than worrying about documenting the steps.
 
-Your job as is to listen to the call and to watch the incident Slack room, keeping track of context and actions that need to be performed, documenting these in Slack as you go. **You should not be performing any remediations, checking graphs, or investigating logs.** Those tasks will be delegated to the subject matter experts (SME's) by the Incident Commander.
+Your job as Scribe is to listen to the call and to watch the incident Slack room, keeping track of context and actions that need to be performed, documenting these in Slack as you go. **You should not be performing any remediations, checking graphs, or investigating logs.** Those tasks will be delegated to the subject matter experts (SME's) by the Incident Commander.
 
 
 ## Prerequisites
