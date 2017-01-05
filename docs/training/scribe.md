@@ -54,14 +54,14 @@ This will provide the update and allow the IC to see the status without having t
 ### Note Important Actions
 During a call, you will hear lots of discussion happening, you should not be documenting all of this in the chat room. You only want to document things which will be important for the final timeline. It's not always obvious what this might be, and it's usually a matter of judgement. You generally want to note any actions the IC has asked someone to perform, along with the result of any polling decisions.
 
-> Polled for decision on whether to perform rolling restart. We are proceeding with restart. <USER_A> to execute.
+> Polled for decision on whether to perform rolling restart. We are proceeding with restart. [USER_A] to execute.
 
 Some actions might seem important at the time, but end up not being. That's OK. It's better to have more info than not enough, but don't go overboard.
 
 ### Note Followup Actions
 Sometimes during the call, someone will either mention something we "should fix", or the IC will specifically ask you to note a followup item. You can do this in Slack by simply prefixing with "TODO", this will make it easier to search for later.
 
-> TODO: Why did we not get paged for the fall in traffic on <X> cluster?
+> TODO: Why did we not get paged for the fall in traffic on [X] cluster?
 
 The post-mortem owner will find these after and raise tasks for them.
 
