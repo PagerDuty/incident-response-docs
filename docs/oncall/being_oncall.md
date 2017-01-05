@@ -44,7 +44,7 @@ On-call responsibilities extend beyond normal office hours, and if you are on-ca
 ## Not Responsibilities
 
 1. No expectation to be the first to acknowledge _all_ of the alerts during the on-call period.
-    * Commute (and other necessary distractions) are facts of life, and sometimes it is not possible to receive or act on an before it escalates. That's what we have the backup on-call and schedule for.
+    * Commute (and other necessary distractions) are facts of life, and sometimes it is not possible to receive or act on an alert before it escalates. That's what we have the backup on-call and schedule for.
 
 1. No expectation to fix all issues by yourself.
     * No one knows everything. Your whole team is here to help. There is no shame, and much to be learned, by escalating issues you are not certain about. Our motto is "Never hesitate to escalate".
