@@ -68,7 +68,7 @@ A general agenda for the meeting would be something like,
 1. Recap the timeline, to make sure everyone agrees and is on the same page.
 1. Recap important points, and any unusual items.
 1. Discuss how the problem could've been caught.
-    * Did it show up in canary?
+    * Did it show up in [canary](https://www.pagerduty.com/blog/continuous-build-break-fix-fast#canary-releases)?
     * Could it have been caught in tests, or loadtest environment?
 1. Discuss customer impact. Any comments from customers, etc.
 1. Review action items that have been created, discuss if appropriate, or if more are needed, etc.
