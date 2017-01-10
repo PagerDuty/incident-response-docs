@@ -19,4 +19,6 @@ While it might not initially seem that this would be applicable to an IT operati
 
 If you want to learn more about NIMS, we recommend the [ICS-100](https://training.fema.gov/is/courseoverview.aspx?code=IS-100.b) and [ICS-700](https://training.fema.gov/is/courseoverview.aspx?code=IS-700.a) online training courses, which go over NIMS and the Incident Command System (You can also take an online examination after training in order to get a certificate from FEMA). There is also a wealth of [additional training material and courses from FEMA](https://training.fema.gov/nims/) on NIMS, which I would encourage you to look at.
 
+If you're based in the US and interested in taking a more active incident response role in your community, we recommend investigating your local [CERT programs](https://www.fema.gov/community-emergency-response-teams) (Community Emergency Response Teams). Many cities offer CERT training, after which you can volunteer as a CERT contributor within your community. Not only is it an opportunity to get real world experience with disaster response, but the skills you learn can be applied to everyday life too.
+
 Also take a look at the [Additional Reading](/#additional-reading) section on the home page.
