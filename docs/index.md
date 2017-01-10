@@ -50,3 +50,4 @@ Useful material and resources from external parties that are relevant to inciden
 * [Incident Response](http://shop.oreilly.com/product/9780596001308.do) (O'Reilly)
 * [Debriefing Facilitation Guide](http://extfiles.etsy.com/DebriefingFacilitationGuide.pdf) (Etsy)
 * [US National Incident Management System (NIMS)](https://www.fema.gov/national-incident-management-system) (FEMA)
+* [Every Minute Counts: Leading Heroku's Incident Response](https://www.heavybit.com/library/video/every-minute-counts-coordinating-herokus-incident-response/) (Blake Gentry)
