@@ -7,13 +7,13 @@ The purpose of the Customer Liaison is to be the primary individual in charge of
 
 It's important for the rest of the command staff to be able to focus on the problem at hand, rather than worrying about crafting messages to customers.
 
-Your job as Customer Liaison is to listen to the call, watch the incident Slack room, and track incoming customer support requests. Keeping track of what's going on and how far the incident is progressing (still investigating vs close to resolution). The Incident Commander will instruct you to notify customers of the incident and keep them updated at various points throughout the call. You will be required to craft the message, gain approval from the IC, and then disseminate that message to customers.
+Your job as Customer Liaison is to listen to the call, watch the incident Slack room, and track incoming customer support requests, keeping track of what's going on and how far the incident is progressing (still investigating vs close to resolution). The Incident Commander will instruct you to notify customers of the incident and keep them updated at various points throughout the call. You will be required to craft the message, gain approval from the IC, and then disseminate that message to customers.
 
 ## Prerequisites
 Before you can be a Customer Liaison, it is expected that you meet the following criteria. Don't worry if you don't meet them all yet, you can still continue with training!
 
 * Excellent verbal and written **communication skills**.
-* Be a member of the **Customer Support team**, or has had customer support training.
+* Be a member of the **Customer Support team**, or have had customer support training.
 
 ## Responsibilities
 Read up on our [Different Roles for Incidents](/before/different_roles.md) to see what is expected from a Customer Liaison, as well as what we expect from the other roles you'll be interacting with.
@@ -24,6 +24,8 @@ There is no formal training process for this role, you should feel free to conta
 ## Customer Liaison
 The objective of a customer liaison is to keep our customers informed during an incident as to what is happening, and to act as a voice for our customers to the Incident Commander. It is important for customers to have visibility into how they are impacted by an incident we are having, and to have insight into the fact that the problem is actively being worked on. Crafting a public message for customers is tricky, especially on platforms such as Twitter where the number of characters you can use are limited. But here are some general tips for crafting a public message,
 
+* Prepare a default message in advance.
+    * One that can be used for the initial update if the scope of the issue is unknown.
 * Be honest.
     * Never lie, and never guess. Work with the incident commander if you are unsure as to what is actually happening.
     * Provide transparent information to customers. If we are dropping the ball, be upfront about it.

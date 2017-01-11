@@ -129,4 +129,4 @@ All of the other roles will be actively working on identifying the cause and res
 Any member of the Support Team can act as a customer liaison.
 
 ### How can I become one?
-Follow our [Customer Liaison training guide](/training/customer_liaison.md), and discuss with the Support Team about becoming out next Customer Liaison.
+Follow our [Customer Liaison training guide](/training/customer_liaison.md), and discuss with the Support Team about becoming our next Customer Liaison.
