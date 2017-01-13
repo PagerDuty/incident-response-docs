@@ -31,6 +31,9 @@
         {{ page_title | default("", true) }}
       </div>
     </div>
+    <div class="button button-pagerduty" role="button" aria-label="PagerDuty">
+      <a href="https://www.pagerduty.com" title="PagerDuty Website" target="_blank" class="toggle-button icon icon-pagerduty"></a>
+    </div>
     {% if config.extra.get("author", {}).twitter %}
       {% set author = config.extra.author.twitter %}
       <div class="button button-twitter" role="button" aria-label="Twitter">

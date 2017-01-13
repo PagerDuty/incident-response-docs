@@ -13,6 +13,17 @@
   src: local('ColfaxRegular'), url(https://www.pagerduty.com/wp-content/themes/startit-child/fonts/ColfaxWebLight.woff) format('woff2');
 }
 
+@font-face {
+  font-family: 'pagerduty';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/pagerduty.eot');
+  src: url('/fonts/pagerduty.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/pagerduty.woff') format('woff'),
+       url('/fonts/pagerduty.ttf') format('truetype'),
+       url('/fonts/pagerduty.svg#pagerduty') format('svg');
+}
+
 /* Defaults */
 body {
   font-weight: 500;
@@ -124,6 +135,18 @@ body {
 
 ul, ol {
   padding-left: 1em;
+}
+
+/* PagerDuty icon in main header */
+.icon-pagerduty:before {
+  display: inline-block;
+  font-family: 'pagerduty';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\0041";
 }
 
 /* Expanding border menu */
