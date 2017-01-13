@@ -109,3 +109,5 @@ Be on stand-by to post public facing messages regarding the incident.
 1. You will typically be required to update the status page and to send Tweets from our various accounts at certain times during the call.
 
 1. Follow instructions from the Incident Commander.
+
+1. (After call ends) Follow the post-mortem progress, and update our status page with the external message once it is available.

@@ -7,6 +7,7 @@ Our training guides are split up by role, however you are encouraged to read thr
 * [Deputy Training](/training/deputy.md) - The Deputy is someone who supports the Incident Commander and can take over for them if necessary.
 * [Scribe Training](/training/scribe.md) - This is intended for individuals who will be acting as a scribe during an incident.
 * [SME / Resolver Training](/training/subject_matter_expert.md) - This is relevant to everyone at PagerDuty who are on-call for any team.
+* [Customer Liaison Training](/training/customer_liaison.md) - This is for individuals who will be publicly representing us and interacting with customers.
 
 ## National Incident Management System (NIMS)
 Our incident response process is loosely based on the [US National Incident Management System (NIMS)](https://www.fema.gov/national-incident-management-system), which is described as,

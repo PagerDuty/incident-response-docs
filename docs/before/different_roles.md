@@ -123,9 +123,10 @@ All of the other roles will be actively working on identifying the cause and res
 ### What are the responsibilities?
 1. Post any publicly facing messages regarding the incident (Twitter, StatusPage, etc).
 1. Notify the IC of any customers reporting that they are affected by the incident.
+1. Provide customers with the external message from the post-mortem once it is completed.
 
 ### Who are they?
 Any member of the Support Team can act as a customer liaison.
 
 ### How can I become one?
-Discuss with the Support Team about becoming our next customer liaison.
+Follow our [Customer Liaison training guide](/training/customer_liaison.md), and discuss with the Support Team about becoming our next Customer Liaison.
