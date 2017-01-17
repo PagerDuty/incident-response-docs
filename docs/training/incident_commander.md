@@ -170,7 +170,7 @@ It's important to maintain a cadence during a major incident call. Whenever ther
 ### Reducing Scope
 Once you've identified the cause of an incident, you can take some time to reduce the scope of your call. For example, if you've identified that a bad deploy is the cause, there's no need to keep your network engineering responder on the call. Responders will usually appreciate not having to stick around for something that doesn't involve them, especially when it's 3am. Generally, it's best to list out the people you want to remain on the call (rather than listing those that can leave), as this not only re-affirms who is required, but makes sure you won't forget about anyone who can leave.
 
-> Now that we've identified the primary cause and are on the way to recovery, I need the command staff, support, and site-reliability experts to stay on the call. Everyone else, thanks very much for your response, feel free to drop-off at your discretion.
+> Now that we've identified the primary cause and are on the way to recovery, I need the deputy, scribe, support, and site-reliability experts to stay on the call. Everyone else, thanks very much for your response, feel free to drop-off at your discretion.
 
 There's no need to forcibly remove anyone from the call, leave the choice open. Sometimes responders prefer to remain to see how the incident eventually resolves, since they're already awake anyway.
 
