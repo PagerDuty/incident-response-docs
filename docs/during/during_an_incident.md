@@ -62,9 +62,7 @@ Resolve the incident as quickly and as safely as possible, use the Deputy to ass
     * Identify any post-incident clean-up work.
     * You may need to perform debriefing/analysis of the underlying root cause.
 
-1. (After call ends) Create the post-mortem page from the template, and assign an owner to the post-mortem for the incident.
-
-1. (After call ends) Send out an internal email explaining that we had a major incident, provide a link to the post-mortem.
+1. Once the call is over, you can start to follow the steps from [After an Incident](/after/after_an_incident.md).
 
 ## Steps for Deputy
 You are there to support the IC in whatever they need.
@@ -80,6 +78,8 @@ You are there to support the IC in whatever they need.
 
 1. Follow instructions from the Incident Commander.
 
+1. Once the call is over, you can start to follow the steps from [After an Incident](/after/after_an_incident.md).
+
 ## Steps for Scribe
 You are there to document the key information from the incident in Slack.
 
@@ -91,6 +91,8 @@ You are there to document the key information from the incident in Slack.
 
 1. Follow instructions from the Incident Commander.
 
+1. Once the call is over, you can start to follow the steps from [After an Incident](/after/after_an_incident.md).
+
 ## Steps for Subject Matter Experts
 You are there to support the incident commander in identifying the cause of the incident, suggesting and evaluation repair actions, and following through on the repair actions.
 
@@ -101,7 +103,7 @@ You are there to support the incident commander in identifying the cause of the 
 
 1. Follow instructions from the incident commander.
 
-1. (Optional) Once the call is over and post-mortem is created, add any notes you think are relevant to the post-mortem page.
+1. Once the call is over, you can start to follow the steps from [After an Incident](/after/after_an_incident.md).
 
 ## Steps for Customer Liaison
 Be on stand-by to post public facing messages regarding the incident.
@@ -110,4 +112,4 @@ Be on stand-by to post public facing messages regarding the incident.
 
 1. Follow instructions from the Incident Commander.
 
-1. (After call ends) Follow the post-mortem progress, and update our status page with the external message once it is available.
+1. Once the call is over, you can start to follow the steps from [After an Incident](/after/after_an_incident.md).

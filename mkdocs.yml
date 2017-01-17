@@ -40,9 +40,10 @@ pages:
     - Different Roles: 'before/different_roles.md'
     - Call Etiquette: 'before/call_etiquette.md'
   - During an Incident:
-    - During An Incident: 'during/during_an_incident.md'
+    - During an Incident: 'during/during_an_incident.md'
     - Security Incident: 'during/security_incident_response.md'
   - After an Incident:
+    - After an Incident: 'after/after_an_incident.md'
     - Post-Mortem Process: 'after/post_mortem_process.md'
     - Post-Mortem Template: 'after/post_mortem_template.md'
   - Training:
