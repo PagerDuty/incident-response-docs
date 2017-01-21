@@ -69,10 +69,7 @@ Resolve the incident as quickly and as safely as possible, use the Deputy to ass
 ## Steps for Deputy
 You are there to support the IC in whatever they need.
 
-1. Monitor the status, and notify the IC if/when the incident escalates in severity level,
-    * OfficerURL can help you to monitor the status on Slack,
-        * `!status` - Will tell you the current status.
-        * `!status stalk` - Will continually monitor the status and report it to the room every 30s.
+1. Monitor the status of the incident, and notify the IC if/when the incident escalates in severity level.
 
 1. Be prepared to page other people as directed by the Incident Commander.
 
@@ -85,6 +82,11 @@ You are there to document the key information from the incident in Slack.
 
 1. Update the Slack room with who the IC is, who the Deputy is, and that you're the scribe (if not already done).
     * e.g. "IC: Bob Boberson, Deputy: Deputy Deputyson, Scribe: Writer McWriterson"
+
+1. Start our status monitoring bot so that all responders can see the current state without needing to ask.
+    * OfficerURL can help you to monitor the status on Slack,
+        * `!status` - Will tell you the current status.
+        * `!status stalk` - Will continually monitor the status and report it to the room every 30s.
 
 1. You should add notes to Slack when significant actions are taken, or findings are determined. You don't need to wait for the IC to direct this - use your own judgment.
     * You should also add `TODO` notes to the Slack room that indicate follow-ups slated for later.
