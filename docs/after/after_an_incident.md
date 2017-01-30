@@ -32,7 +32,7 @@ There are no additional steps after an incident is resolved. However the IC may 
 
 
 ## Reviewing the Incident
-It's important that we review the incident in detail to see exactly what went wrong, why it went wrong, and what we can do to make sure it doesn't ever happen again. These take many names; after-action reviews, incident review, followup review, etc. We use the term post-mortem.
+It's important that we review the incident in detail to see exactly what went wrong, why it went wrong, and what we can do to make sure it doesn't happen again. These take many names; after-action reviews, incident review, followup review, etc. We use the term post-mortem.
 
 You can read all about our [post-mortem process](post_mortem_process.md), which goes over this in more detail.
 
