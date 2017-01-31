@@ -56,6 +56,8 @@ Resolve the incident as quickly and as safely as possible, use the Deputy to ass
 1. Listen for prompts from your Deputy regarding severity escalations, decide whether we need to announce publicly, and instruct customer liaison accordingly.
     * Announcing publicly is at your discretion as IC. If you are unsure, then announce publicly ("If in doubt, tweet it out").
 
+1. Keep track of your [span of control](/training/glossary.md). If the response starts to become larger, or the incident increases in complexity, consider [splitting off sub-teams](/before/complex_incidents.md#spinning-off-sub-teams) in order to get a more effective response.
+
 1. Once incident has recovered or is actively recovering, you can announce that the incident is over and that the call is ending. This usually indicates there's no more productive work to be done for the incident right now.
     * Move the remaining, non-time-critical discussion to Slack.
     * Follow up to ensure the customer liaison wraps up the incident publicly.

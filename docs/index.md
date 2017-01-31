@@ -16,6 +16,7 @@ Reading material for things you probably want to know before an incident occurs.
 * [Severity Levels](before/severity_levels.md) - _Information on our severity level classification. What constitutes a SEV-3? What's a "Major Incident"?, etc._
 * [Different Roles for Incidents](before/different_roles.md) - _Information on the roles during an incident; Incident Commander, Scribe, etc._
 * [Incident Call Etiquette](before/call_etiquette.md) - _Our etiquette guidelines for incident calls, before you find yourself in one._
+* [Complex Incidents](before/complex_incidents.md) - _Our guide for handling larger, more complex incidents._
 
 ## During an Incident
 
