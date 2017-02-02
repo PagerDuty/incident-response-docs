@@ -39,6 +39,7 @@ pages:
     - Severity Levels: 'before/severity_levels.md'
     - Different Roles: 'before/different_roles.md'
     - Call Etiquette: 'before/call_etiquette.md'
+    - Complex Incidents: 'before/complex_incidents.md'
   - During an Incident:
     - During an Incident: 'during/during_an_incident.md'
     - Security Incident: 'during/security_incident_response.md'

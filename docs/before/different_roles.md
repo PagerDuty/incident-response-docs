@@ -4,6 +4,8 @@ Here is a rough outline of our role hierarchy, with each role discussed in more 
 
 ![Incident Response Structure](../assets/img/misc/incident_response_roles.png)
 
+During larger complex incidents, the role structure may be adjusted to account for the creation of sub-teams. Read about how we handle [complex incidents](/before/complex_incidents.md) for more information.
+
 ---
 
 ## Incident Commander (IC)

@@ -28,6 +28,8 @@ _Include a description what solved the problem. If there was a temporary fix in 
 ## Impact
 _Be very specific here, include exact numbers._
 
+| | |
+|-|-|
 | Time in SEV-1 | ?mins |
 | Time in SEV-2 | ?mins |
 | Notifications Delivered out of SLA | ??% (?? of ??) |

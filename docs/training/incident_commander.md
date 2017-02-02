@@ -86,6 +86,8 @@ Every incident is different (we're hopefully not repeating the same issue multip
     * Maintain a cadence, and provide regular updates to everyone on the call.
     * What's happening, what are we doing about it, etc.
 
+You should also familiarize yourself with how we handle [complex incidents](/before/complex_incidents.md).
+
 ## Deputy
 The deputy for an incident is generally the backup Incident Commander. However, as an Incident Commander, you may appoint one or more Deputies. Note that Deputy Incident Commanders must be as qualified as the Incident Commander, and that if a Deputy is assigned, he or she must be fully qualified to assume the Incident Commander’s position if required.
 
@@ -173,6 +175,15 @@ Once you've identified the cause of an incident, you can take some time to reduc
 > Now that we've identified the primary cause and are on the way to recovery, I need the deputy, scribe, support, and site-reliability experts to stay on the call. Everyone else, thanks very much for your response, feel free to drop-off at your discretion.
 
 There's no need to forcibly remove anyone from the call, leave the choice open. Sometimes responders prefer to remain to see how the incident eventually resolves, since they're already awake anyway.
+
+### Spinning Off Sub-Teams
+When handling [complex incidents](/before/complex_incidents.md), it will sometimes be necessary to spin off a sub-team (or multiple sub-teams) to investigate specific issues in more detail before reporting back. This is to ensure that you can maintain an effective span of control. To do this, you should assign a team leader, give them a specific task (time-boxed in the usual way), and re-affirm that they are your primary contact and that all communication from their team should come via the leader. Use our pre-defined team names of Alpha, Bravo, and Charlie to avoid confusion when creating the teams.
+
+> IC: Anne, I'd like you to lead a sub-team to investigate the ongoing latency in the web-tier. Please gather your desired team and investigate, get back to me in 20 minutes. All communication from your team should be filtered through you. Use the Alpha team rooms and phone bridge.
+
+> Anne: Understood, I'll get back with an update in 20 minutes.
+
+You do not need to prescribe who their team consists of. Either they will have a pre-existing team structure they can utilize, or they should take the initiative to assemble a team on their own. You should pick your team leaders accordingly.
 
 ### Transfer of Command
 Transfer of command, involves (as the name suggests) transferring command to another Incident Commander. There are multiple reasons why a transfer of command might take place,
