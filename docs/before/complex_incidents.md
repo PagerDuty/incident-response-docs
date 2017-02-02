@@ -39,7 +39,11 @@ How do sub-teams fit into the role structure for our incident response? The team
 
 1. Each team will be given a specific task to complete, and will be time-boxed as they normally would for an individual responder.
 
-How teams are split is at the discretion of the incident commander, however they would normally be based on the teams you are part of in your day-to-day role.
+How teams are split is at the discretion of the incident commander. Potential structures include,
+
+* Cross-functional groups to address one entire problem domain per group.
+* Groups of Subject Matter Experts to focus on one specific element of a larger problem.
+* Teams based on normal day-to-day roles.
 
 ### Switching Sub-Teams
 If you feel like you would be better suited on another sub-team, you should bring this up with your **current team leader**. Do not bring it up to the Incident Commander, or with the leader of the team you wish to be on. An incident is currently in progress, and the defined escalation path should still be followed.
