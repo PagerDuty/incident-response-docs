@@ -13,7 +13,8 @@ If you've never been on-call before, you might be wondering what it's all about.
 
 Reading material for things you probably want to know before an incident occurs. You likely don't want to be reading these during an actual incident.
 
-* [Severity Levels](before/severity_levels.md) - _Information on our severity level classification. What constitutes a SEV-3? What's a "Major Incident"?, etc._
+* [What is an Incident?](before/what_is_an_incident.md) - _Before we can talk about incident response, we need to define what an incident actually is._
+* [Severity Levels](before/severity_levels.md) - _Information on our severity level classification. What constitutes a SEV-3 vs SEV-1? What response do they get?_
 * [Different Roles for Incidents](before/different_roles.md) - _Information on the roles during an incident; Incident Commander, Scribe, etc._
 * [Incident Call Etiquette](before/call_etiquette.md) - _Our etiquette guidelines for incident calls, before you find yourself in one._
 * [Complex Incidents](before/complex_incidents.md) - _Our guide for handling larger, more complex incidents._

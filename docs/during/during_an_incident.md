@@ -21,7 +21,7 @@ Information on what to do during a major incident. See our [severity level descr
       </tbody>
     </table>
 
-!!! info "Security Incident?"
+!!! warning "Security Incident?"
     If this is a security incident, you should follow the [Security Incident Response](/during/security_incident_response.md) process.
 
 ## Don't Panic!

@@ -211,6 +211,13 @@ nav div.mainlogo img {
   background: #f5a623;
 }
 
+.admonition.question {
+  background: #2196F3;
+}
+.admonition.question .admonition-title:before {
+  content: "\e609";
+}
+
 @media print {
   .admonition {
     padding: 1em 2em !important;
@@ -243,6 +250,23 @@ code {
   padding: 0.1em;
   border: 1px solid #eee;
   background: #f4f4f4;
+}
+
+/* Intent of severity levels. */
+p.intent {
+  margin-top: 0em;
+  color: rgb(51,102,255);
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+p.response {
+  margin-top: 0em;
+  color: rgb(255,102,0);
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 2em;
 }
 
 /* Icons */
@@ -342,7 +366,7 @@ table.custom-table td.warning {
   font-weight: bold;
   text-align: center;
   color: #f00;
-  background: #f4f4f4;
+  background: #ffe7e7;
 }
 
 table.custom-table td.sev-1 {
