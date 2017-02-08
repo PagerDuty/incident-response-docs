@@ -17,31 +17,15 @@ Your job as an IC is to listen to the call and to watch the incident Slack room 
 ## Prerequisites
 Before you can be an Incident Commander, it is expected that you meet the following criteria. Don't worry if you don't meet them all yet, you can still continue with training!
 
-* Has **excellent knowledge of PagerDuty systems** and is able to quickly evaluate good vs bad options, and quickly identify what's actually going on.
-* Been at PagerDuty for at least 6 months and has a **solid understanding of the incident notification pipeline and web stack**.
 * Excellent verbal and written **communication skills**.
-* Has **knowledge of obscure PagerDuty terms**.
-* Has gravitas and is **willing to kick people off a call** to remove distractions, even if it's the CEO.
+* Has **high-level knowledge** of how the different PagerDuty services interact with each other.
+* Ability to size-up a situation, **assess the effectiveness** of various tactics/strategies, and **make rapid decisions** on appropriate courses of action.
+* Has flexibility, and is able to **listen to expert feedback**, modifying plans on-the-fly as necessary.
+* Has been **involved in at least two major incident responses**, either as a spectator, or as an active participant.
+* Has gravitas, **takes command**, and is **willing to kick people off a call** to remove distractions, even if it's the CEO.
 
 ## Responsibilities
 Read up on our [Different Roles for Incidents](/before/different_roles.md) to see what is expected from an Incident Commander, as well as what we expect from the other roles you'll be interacting with.
-
-## Qualities
-Some qualities we expect from an effective leader include being able to:
-
-* Take command.
-* Motivate responders.
-* Communicate clear directions.
-* Size up the situation and make rapid decisions.
-* Assess the effectiveness of tactics/strategies.
-* Be flexible and modify your plans as necessary.
-
-As a leader, you should try to:
-
-* Be proficient in your job.
-* Make sound and timely decisions.
-* Ensure tasks are understood.
-* Be prepared to step out of a tactical role to assume a leadership role.
 
 ## Training Process
 The process is fairly loose for now. Here's a list of things you can do to train though,

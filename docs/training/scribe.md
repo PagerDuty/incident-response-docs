@@ -15,7 +15,6 @@ Your job as Scribe is to listen to the call and to watch the incident Slack room
 Before you can be a Scribe, it is expected that you meet the following criteria. Don't worry if you don't meet them all yet, you can still continue with training!
 
 * Excellent verbal and written **communication skills**.
-* Has **knowledge of obscure PagerDuty terms**.
 
 ## Responsibilities
 Read up on our [Different Roles for Incidents](/before/different_roles.md) to see what is expected from a Scribe, as well as what we expect from the other roles you'll be interacting with.
