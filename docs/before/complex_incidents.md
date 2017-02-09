@@ -1,4 +1,4 @@
-There will come a time when you will be involved in an incident (or multiple concurrent incidents) which ends up spanning a large number of resources. In these cases it's important for everyone to maintain an effective [span of control](../training/glossary.md). This page describes how we manage such incidents.
+There will come a time when you will be involved in an incident (or multiple concurrent incidents) which ends up spanning a large number of resources. In these cases it's important for everyone to maintain an effective [span of control](../training/glossary.md#span-of-control). This page describes how we manage such incidents.
 
 ## Identifying Complex Incidents
 Perhaps multiple issues are happening at once, or an existing incident escalated and had a knock-on effect on other services. It's important to identify these types of incidents as early as possible to prevent confusion and burn-out. Here are a few key things the Incident Commanders will be watching out for to help to identify a complex incident,
