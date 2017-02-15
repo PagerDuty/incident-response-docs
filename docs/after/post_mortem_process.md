@@ -2,6 +2,9 @@ For every major incident (SEV-2/1), we need to follow up with a post-mortem. A b
 
 ![Post-Mortem](../assets/img/headers/pagerduty_post_mortem.jpg)
 
+!!! warning "Don't Neglect the Post-Mortem"
+    Don't make the mistake of neglecting a post-mortem after an incident. Without a post-mortem you fail to recognize what you're doing right, where you could improve, and most importantly, how to avoid making the same exact mistakes next time around. A well-designed, blameless post-mortem allows teams to develop comprehensive action plans and serves as a powerful building block in refining your incident response process.
+
 ## Owner Designation
 The first step is that a post-mortem owner will be designated. This is done by the IC either at the end of a major incident call, or very shortly after. You will be notified directly by the IC if you are the owner for the post-mortem. The owner is responsible for populating the post-mortem page, looking up logs, managing the followup investigation, and keeping all interested parties in the loop. Please use Slack for coordinating followup. A detailed list of the steps is available below,
 
