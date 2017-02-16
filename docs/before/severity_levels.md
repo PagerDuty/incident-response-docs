@@ -86,8 +86,8 @@ The first step in any incident response process is to determine what actually [c
         <ul>
           <li>Performance issues (delays, etc).</li>
           <li>Individual host failure (i.e. one node out of a cluster).</li>
-          <li>Delayed job failure (not impacting alerting).</li>
-          <li>Cron failure (not impacting alerting).</li>
+          <li>Delayed job failure (not impacting event & notification pipeline).</li>
+          <li>Cron failure (not impacting event & notification pipeline).</li>
         </ul>
       </td>
       <td>
