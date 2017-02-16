@@ -1,5 +1,5 @@
-!!! note "Incident Commander Required"
-     As with all major incidents at PagerDuty, security ones will also involve an Incident Commander, who will delegate the tasks to relevant resolvers. Tasks may be performed in parallel as assigned by the IC. Page one at the earliest possible opportunity.
+!!! warning "Incident Commander Required"
+     As with all major incidents at PagerDuty, security ones will also involve an Incident Commander, who will delegate the tasks to relevant resolvers. Tasks may be performed in parallel as assigned by the IC. Page one at the earliest possible opportunity `!ic page`.
 
 ## Checklist
 Details for each of these items are available in the next section.
