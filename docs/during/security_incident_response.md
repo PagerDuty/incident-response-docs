@@ -1,5 +1,13 @@
+<div id="reviewed-dates">
+  <span><strong>Last Reviewed:</strong> <abbr title="We recommend you include with this document the date you last reviewed your process.">YYYY-MM-DD</abbr></span>
+  <span><strong>Last Tested:</strong> <abbr title="We recommend you include with this document the date you last tested your process.">YYYY-MM-DD</abbr></span>
+</div>
+
 !!! warning "Incident Commander Required"
      As with all major incidents at PagerDuty, security ones will also involve an Incident Commander, who will delegate the tasks to relevant resolvers. Tasks may be performed in parallel as assigned by the IC. Page one at the earliest possible opportunity `!ic page`.
+
+!!! tip "Not Sure it's a Security Incident?"
+    Trigger the process anyway. It's better to be safe than sorry. The Incident Commander will make a determination on if response is needed.
 
 ## Checklist
 Details for each of these items are available in the next section.
@@ -40,11 +48,15 @@ Identify the likely attack vectors and path/fix them so they cannot be re-exploi
 ## Assemble Response Team
 Identify the key responders for the security incident, and keep them all in the loop. Set up a secure method of communicating all information associated with the incident. Details on the incident (or even the fact that an incident has occurred) should be kept private to the responders until you are confident the attack is not being triggered internally.
 
-* The security and site-reliability teams should usually be involved.
-* A representative for any affected services should be involved.
-* An Incident Commander (IC) should be appointed, who will also appoint the usual incident command roles. The incident command team will be responsible for keeping documentation of actions taken, and for notifying internal stakeholders as appropriate.
-* Do not communicate with anyone not on the response team about the incident until forensics has been performed. The attack could be happening internally.
+* Page an Incident Commander if not already done so. They will also appoint the usual incident command roles. The incident command team will be responsible for keeping documentation of actions taken, and for notifying internal stakeholders as appropriate.
 * Give the project an innocuous codename that can be used for chats/documents so if anyone overhears they don't realize it's a security incident. (e.g. sapphire-unicorn).
+* Start the voice call if not already in progress.
+* Setup chat room using the codename of the incident.
+* Invite all responders to the voice call and chat room.
+    1. The **security team should always be included**.
+    1. A representative for any affected services should be included.
+    1. Executive stakeholders and legal counsel should be invited at earliest possible opportunity, but prioritize operational responders first.
+* Do not communicate with anyone not on the response team about the incident until forensics has been performed. The attack could be happening internally.
 * Prefix all emails, and chat topics with "Attorney Work Project".
 
 ## Isolate Affected Instances
@@ -115,6 +127,7 @@ Work with law enforcement to identify the source of the attack, letting any syst
 * Contact FBI.
 * Contact operators for any systems used in the attack, their systems may also have been compromised.
 * Contact security companies to help in assessing risk and any PR next steps.
+* Contact cyber insurance provider.
 
 ## External Communication
 **Delegate to:** Marketing Team
@@ -128,7 +141,19 @@ Once you have validated all of the information you have is accurate, have a time
 * Be as detailed as possible in what information was compromised, and how it affects customers. If we were storing something we shouldn't have been, be honest about it. It'll come out later and it'll be much worse.
 * Don't name and shame any external parties that might have caused the compromise. It's bad form. (Unless they've already publicly disclosed, in which case we can link to their disclosure).
 * Release the external communication as soon as possible, preferably within a few days of the compromise. The longer we wait, the worse it will be.
-* Figure out if there is a way to get in touch with customers' internal security teams before the general public notice is sent.
+* If possible, get in touch with customers' internal security teams before the general public notice is sent.
+
+---
+
+## Communicating During an Incident
+
+* Prefer voice call and Slack over any other methods.
+* Avoid email, but if you absolutely need to for some reason,
+    * Subject of emails should be "Attorney Work Project" and nothing else.
+    * If email chain has **ANY** contacts **not with the @pagerduty.com domain**, make sure your emails are encrypted.
+* Do not use SMS to communicate about the incident.
+    * The only exception is to tell someone to move to a more secure channel. e.g. "Please join Slack ASAP".
+* Do not disseminate anything about the incident to those outside the response team until you have approval to do so.
 
 ---
 

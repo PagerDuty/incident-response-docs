@@ -417,6 +417,20 @@ iframe {
   color: #000;
 }
 
+/* Reviewed dates */
+#reviewed-dates {
+  margin-top: 1em;
+  text-align: right;
+}
+
+#reviewed-dates abbr {
+  border-bottom: 1px dashed #aaa;
+}
+
+#reviewed-dates span {
+  padding-left: 1em;
+}
+
 /* Super horrible hack to get the training PDF images correct */
 #national-incident-management-system-nims ~ p img {
   display: inline;
