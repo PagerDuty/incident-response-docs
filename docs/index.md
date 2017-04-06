@@ -46,12 +46,8 @@ So, you want to learn about incident response? You've come to the right place.
 * [Customer Liaison Training](training/customer_liaison.md) - _A guide on how to act as our public representative during an incident._
 * [Glossary of Incident Response Terms](training/glossary.md) - _A collection of terms that you may hear being used, along with their definition._
 
-## Additional Reading
+## Additional Resources
 
 Useful material and resources from external parties that are relevant to incident response.
 
-* [Incident Management for Operations](http://shop.oreilly.com/product/0636920036159.do) (O'Reilly)
-* [Incident Response](http://shop.oreilly.com/product/9780596001308.do) (O'Reilly)
-* [Debriefing Facilitation Guide](http://extfiles.etsy.com/DebriefingFacilitationGuide.pdf) (Etsy)
-* [US National Incident Management System (NIMS)](https://www.fema.gov/national-incident-management-system) (FEMA)
-* [Every Minute Counts: Leading Heroku's Incident Response](https://www.heavybit.com/library/video/every-minute-counts-coordinating-herokus-incident-response/) (Blake Gentry)
+* [Reading](resources/reading.md) - _Recommended reading material relevant to incident response._
