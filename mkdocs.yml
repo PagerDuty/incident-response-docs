@@ -58,6 +58,7 @@ pages:
     - Glossary: 'training/glossary.md'
   - Additional Resources:
     - Reading: 'resources/reading.md'
+    - ChatOps: 'resources/chatops.md'
   - About: 'about.md'
 
 # Analytics
