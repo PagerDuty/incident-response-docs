@@ -56,6 +56,8 @@ pages:
     - Subject Matter Expert: 'training/subject_matter_expert.md'
     - Customer Liaison: 'training/customer_liaison.md'
     - Glossary: 'training/glossary.md'
+  - Additional Resources:
+    - Reading: 'resources/reading.md'
   - About: 'about.md'
 
 # Analytics
