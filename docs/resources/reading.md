@@ -19,6 +19,7 @@ This is a collection of additional reading on the topic of incident response tha
 ## Talks
 
 * [Every Minute Counts: Leading Heroku's Incident Response](https://www.heavybit.com/library/video/every-minute-counts-coordinating-herokus-incident-response/) (Blake Gentry)
+* [Three Analytical Traps in Accident Investigation](https://www.youtube.com/watch?v=TqaFT-0cY7U) (Dr. Johan Bergström)
 
 ## Official Resources
 
