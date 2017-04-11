@@ -51,3 +51,4 @@ So, you want to learn about incident response? You've come to the right place.
 Useful material and resources from external parties that are relevant to incident response.
 
 * [Reading](resources/reading.md) - _Recommended reading material relevant to incident response._
+* [ChatOps](resources/chatops.md) - _Description of the chat bot commands we've referenced in this documentation._
