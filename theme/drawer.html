@@ -1,6 +1,6 @@
 <nav aria-label="Navigation">
   {% set home = repo_url | default("/", true) %}
-  <a href="{{ home }}" class="project">
+  <a href="{{ home }}" class="project" {% if repo_id %} title="GitHub repo {{ repo_id }}"{% endif %}>
     <div class="banner">
       {% if config.extra.logo %}
         <div class="logo">
@@ -14,10 +14,8 @@
             {{ config.extra.version }}
           </span>
         </strong>
-        {% if repo_id %}
-          <br>
-          {{ repo_id }}
-        {% endif %}
+        <br>
+        <span class="icon icon-github"></span> Source on GitHub
       </div>
     </div>
   </a>

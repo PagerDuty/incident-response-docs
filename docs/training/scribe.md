@@ -1,7 +1,7 @@
 So you want to be a scribe? You've come to the right place! You don't need to be a senior team member to become a deputy or scribe, anyone can do it providing you have the requisite knowledge!
 
-![Typewriter](../assets/img/headers/typewriter.jpg)
-*Credit: [Holly Chaffin](http://www.publicdomainpictures.net/view-image.php?image=49706&picture=antique-typewriter-keys)*
+![Scribe](../assets/img/headers/fountain_pen.jpg)
+*Credit: [John-Mark Smith](https://www.pexels.com/photo/person-holding-fountain-pen-211291/)*
 
 ## Purpose
 The purpose of the Scribe is to maintain a timeline of key events during an incident. Documenting actions, and keeping track of any followup items that will need to be addressed.
