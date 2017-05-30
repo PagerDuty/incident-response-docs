@@ -61,7 +61,7 @@ We should ensure that alerts contain enough useful context to quickly identify t
 ## Testing Your Alerts
 
 !!! info "Testing is Critical"
-    An alert you haven't testing is equivalent to not having an alert at all. You cannot be sure it will alert you when the time comes. Testing that your alerting actually works is critical and should not be skipped.
+    An alert you haven't tested is equivalent to not having an alert at all. You cannot be sure it will alert you when the time comes. Testing that your alerting actually works is critical to proper service health, and should be included in any release planning / deployment efforts.
 
 Make sure to test all alerts that are added. This is usually covered as part of [Failure Friday](https://www.pagerduty.com/blog/failure-friday-at-pagerduty/) for any new service, however you should manually test them if you need it more quickly. Some things to test,
 
