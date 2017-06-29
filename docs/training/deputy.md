@@ -6,7 +6,7 @@ So you want to be a deputy? You've come to the right place!
 ## Purpose
 The purpose of the Deputy is to support the IC by keeping track of timers, notifying the IC of important information, and paging other people as directed by the IC.
 
-It's important for the IC to focus on the problem at hand, rather than worrying about monitoring timers. The deputy is there to help support the IC and keep them focussed on the incident.
+It's important for the IC to focus on the problem at hand, rather than worrying about monitoring timers. The deputy is there to help support the IC and keep them focused on the incident.
 
 As a Deputy, you will be expected to take over command from the IC if they request it.
 
