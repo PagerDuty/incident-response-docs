@@ -13,7 +13,7 @@ If you are on-call for your team, there are certain expectations of you as that 
     1. [Incident Call Etiquette](/before/call_etiquette.md) - How to behave during an incident call.
     1. [During an Incident](/during/during_an_incident.md) - What to do during an incident. You are specifically interested in the "Resolver" steps, but you should familiarize yourself with the entire document.
     1. [Glossary](/training/glossary.md) - Familiarize yourself with the terminology that may be used during the call.
-1. Make sure you have set up your alerting methods, and that PagerDuty can [bypass your "Do Not Disturb" settings](https://support.pagerduty.com/hc/en-us/articles/202828870-Phone-numbers-notifications-are-sent-from).
+1. Make sure you have set up your alerting methods, and that PagerDuty can [bypass your "Do Not Disturb" settings](https://support.pagerduty.com/docs/notification-phone-numbers).
 1. Check you can join the incident call. You may need to install a browser plugin. You don't want to be doing that the first time you get paged.
 1. Be aware of your upcoming on-call time and arrange swaps around travel, vacations, appointments, etc.
 1. If you are an Incident Commander, make sure you are not on-call for your team at the same time as being on-call as Incident Commander.
