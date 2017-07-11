@@ -12,11 +12,12 @@ The first step is that a post-mortem owner will be designated. This is done by t
 As owner of a post-mortem, you are responsible for the following,
 
 * Scheduling the post-mortem meeting (on the shared calendar) and inviting the relevant people (this should be scheduled within 5 business days of the incident).
-* Updating the page with all of the necessary content.
 * Investigating the incident, pulling in whomever you need from other teams to assist in the investigation.
+* Updating the page with all of the necessary content.
 * Creating follow-up JIRA tickets (_You are only responsible for creating the tickets, not following them up to resolution_).
 * Running the post-mortem meeting (_these generally run themselves, but you should get people back on topic if the conversation starts to wander_).
 * In cases where we need a public blog post, creating & reviewing it with appropriate parties.
+* Communicating the results of the post-mortem internally.
 
 ## Post-Mortem Wiki Page
 Once you've been designated as the owner of a post-mortem, you should start updating the page with all the relevant information.
@@ -53,6 +54,10 @@ Once you've been designated as the owner of a post-mortem, you should start upda
 1. Write the external message that will be sent to customers. This will be reviewed during the post-mortem meeting before it is sent out.
     * Avoid using the word "outage" unless it really was a full outage, use the word "incident" instead. Customers generally see "outage" and assume everything was down, when in reality it was likely just some alerts delivered outside of SLA.
     * Look at other examples of previous post-mortems to see the kind of thing you should send.
+
+1. Communicate internally so we can learn from the incident.
+    * Send out an internal email to the relevant stakeholders describing the results and key learnings.
+    * Include a link to the post-mortem.
 
 ## Post-Mortem Meeting
 These meetings should generally last 15-30 minutes, and are intended to be a wrap up of the post-mortem process. We should discuss what happened, what we could've done better, and any followup actions we need to take. The goal is to suss out any disagreement on the facts, analysis, or recommended actions, and to get some wider awareness of the problems that are causing reliability issues for us.

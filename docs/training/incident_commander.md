@@ -49,7 +49,9 @@ The process is fairly loose for now. Here's a list of things you can do to train
     * You should be the one to respond to incidents, and you will take point on calls, however the current IC will be there to take over should you not know how to proceed.
 
 ## Graduation
-What's the difference between an IC in training, and an IC? (This isn't the set up to a joke). Simple, an IC puts themselves on the schedule.
+What's the difference between an IC in training, and an IC? (This isn't the set up to a joke). Simple, an IC puts themselves on the schedules.
+
+Also, don't forget to announce yourself in the IC Slack channel, and get yourself added to our IC mailing list.
 
 ## Handling Incidents
 Every incident is different (we're hopefully not repeating the same issue multiple times!), but there's a common process you can apply to each one.

@@ -5,7 +5,12 @@ In addition to any direct followup items generated from an incident, each of our
 
 ### Steps for Incident Commander
 
-1. Create the post-mortem page from the template, and assign an owner to the post-mortem for the incident.
+1. Update the incident in PagerDuty.
+    * Group any related incidents under the primary incident.
+    * Set the final severity of the incident.
+    * Resolve the incident.
+
+1. Create the post-mortem, and assign an owner to the post-mortem for the incident.
 
 1. Send out an internal email to the relevant stakeholders explaining that we had an incident, provide a link to the post-mortem.
 
