@@ -31,6 +31,16 @@ This works similarly to `!ic page`, only it pages the responders list instead of
 
 ![Paging Responders](../assets/img/chatops/ic_page_responders.png)
 
+### `!ic who <user>`
+Sometimes we may need to identify a specific individual to bring them onto a call. This command lists out the contact info for a specific user, and a message telling users how to page them.
+
+![Identifying Users](../assets/img/chatops/ic_who_rich.png)
+
+### `!ic page <user>`
+This will page a specific person by username.
+
+![Paging a User](../assets/img/chatops/ic_page_rich.png)
+
 ## Status
 
 Our `!status` commands look at our internal monitoring systems to determine the current system state, as reported by the systems themselves. This is the status our alerting tooling uses to automatically notify us of issues.
