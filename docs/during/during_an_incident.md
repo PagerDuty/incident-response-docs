@@ -71,10 +71,6 @@ You are there to support the IC in whatever they need.
 
 1. Monitor the status of the incident, and notify the IC if/when the incident escalates in severity level.
 
-1. Be prepared to page other people as directed by the Incident Commander.
-
-1. Provide regular status updates in Slack (roughly every 30mins) to the executive team, giving an executive summary of the current status. Keep it short and to the point, and use @here.
-
 1. Follow instructions from the Incident Commander.
 
 1. Once the call is over, you can start to follow the steps from [After an Incident](/after/after_an_incident.md).
@@ -113,6 +109,19 @@ You are there to support the incident commander in identifying the cause of the 
 Be on stand-by to post public facing messages regarding the incident.
 
 1. You will typically be required to update the status page and to send Tweets from our various accounts at certain times during the call.
+
+1. Follow instructions from the Incident Commander.
+
+1. Once the call is over, you can start to follow the steps from [After an Incident](/after/after_an_incident.md).
+
+## Steps for Internal Liaison
+You are there to provide updates to internal stakeholders, and to mobilize additional internal responders as necessary.
+
+1. Be prepared to page other people as directed by the Incident Commander.
+
+1. Notify internal stakeholders as necessary, adding subscribers to the PagerDuty incident. We have pre-defined teams called "SEV-1 Stakeholders" and "SEV-2 Stakeholders" which can be used.
+
+1. Provide regular status updates in Slack (roughly every 30mins) to the executive team, giving an executive summary of the current status. Keep it short and to the point, and use `@here`.
 
 1. Follow instructions from the Incident Commander.
 

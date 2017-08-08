@@ -8,6 +8,7 @@ Our training guides are split up by role, however you are encouraged to read thr
 * [Scribe Training](/training/scribe.md) - This is intended for individuals who will be acting as a scribe during an incident.
 * [SME / Resolver Training](/training/subject_matter_expert.md) - This is relevant to everyone at PagerDuty who are on-call for any team.
 * [Customer Liaison Training](/training/customer_liaison.md) - This is for individuals who will be publicly representing us and interacting with customers.
+* [Internal Liaison Training](/training/internal_liaison.md) - This is relevant for anyone who might be called upon to work with teams internal during an incident.
 
 ## National Incident Management System (NIMS)
 Our incident response process is loosely based on the [US National Incident Management System (NIMS)](https://www.fema.gov/national-incident-management-system), which is described as,

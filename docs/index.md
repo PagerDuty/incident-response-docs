@@ -44,6 +44,7 @@ So, you want to learn about incident response? You've come to the right place.
 * [Scribe Training](training/scribe.md) - _A guide to scribing._
 * [Subject Matter Expert Training](training/subject_matter_expert.md) - _A guide on responsibilities and behavior for all participants in a major incident._
 * [Customer Liaison Training](training/customer_liaison.md) - _A guide on how to act as our public representative during an incident._
+* [Internal Liaison Training](training/internal_liaison.md) - _A guide on how to liaise with internal teams during an incident._
 * [Glossary of Incident Response Terms](training/glossary.md) - _A collection of terms that you may hear being used, along with their definition._
 
 ## Additional Resources
