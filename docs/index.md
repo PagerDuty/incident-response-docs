@@ -56,3 +56,4 @@ Useful material and resources from external parties that are relevant to inciden
 
 * [Reading](resources/reading.md) - _Recommended reading material relevant to incident response._
 * [ChatOps](resources/chatops.md) - _Description of the chat bot commands we've referenced in this documentation._
+* [Anti-Patterns](resources/anti_patterns.md) - _List of things we've tried and then rejected, learn from our mistakes._
