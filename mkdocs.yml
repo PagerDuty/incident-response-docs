@@ -32,6 +32,7 @@ extra:
 # Contents
 pages:
   - Home: 'index.md'
+  - Getting Started: 'getting_started.md'
   - On-Call:
     - Being On-Call: 'oncall/being_oncall.md'
     - Alerting Principles: 'oncall/alerting_principles.md'
