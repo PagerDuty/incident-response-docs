@@ -31,22 +31,6 @@ The [Steps for Deputy](/during/during_an_incident.md) provide a detailed descrip
 
 Here are some examples of phrases and patterns you should use during incident calls.
 
-### Keep Track of Responders
-As you listen to the call, you should keep track of the responders to the call as you hear them speak. Make a note on a piece of paper, or use the `!ic responders` to see who they are. The IC may ask you who is on-call for a particular system, and you should know the answer, and be able to page them.
-
-> Do we have a representative from [X] on the call?
-
-> (pause)
-
-> Deputy, can you go ahead and page the [X] on-call please.
-
-You can page them however you see fit, phone call, etc.
-
-### Provide Executive Status Updates
-Provide regular status updates on Slack (roughly every 30mins), giving an executive summary of the current status during SEV-1 incidents. Keep it short and to the point, and use @here. Mention the current state, the actions in progress, customer impact, and expected time remaining. It's OK to miss out some of those if the information isn't known.
-
-> @here: We are in SEV-1 due to X. Current actions in progress are to do Y. Expecting 3 mins to complete that action. Once action is complete, system should recover on its own within 5 minutes.
-
 ### Alert IC to Timers
 You are expected to keep track of how long the incident has been running for, and provide callouts to the IC every 10 minutes so they can take actions such as increasing the severity, or asking Support to Tweet out. This is as simple as telling the IC on the call,
 

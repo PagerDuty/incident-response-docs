@@ -35,6 +35,8 @@ There are no additional steps after an incident is resolved. However the IC may 
 
 1. Follow the post-mortem progress, and update our status page with the external message once it is available.
 
+### Steps for Internal Liaison
+There are no additional steps after an incident is resolved. However the IC may ask for your help with answering questions from internal stakeholders.
 
 ## Reviewing the Incident
 It's important that we review the incident in detail to see exactly what went wrong, why it went wrong, and what we can do to make sure it doesn't happen again. These take many names; after-action reviews, incident review, followup review, etc. We use the term post-mortem.

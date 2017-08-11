@@ -6,6 +6,9 @@ Here is a rough outline of our role hierarchy, with each role discussed in more 
 
 During larger complex incidents, the role structure may be adjusted to account for the creation of sub-teams. Read about how we handle [complex incidents](/before/complex_incidents.md) for more information.
 
+!!! tip "Flexible Structure"
+     It is not intended that every role be filled by a different person for every incident. For example, if the incident is small enough in scope, the Deputy might also take on the responsibilities of the Scribe and Internal Liaison for that specific incident. The structure should be flexible and scale based on the size and scope of the incident.
+
 ---
 
 ## Incident Commander (IC)
@@ -53,9 +56,7 @@ The Deputy is expected to:
 
 1. Bring up issues to the Incident Commander that may otherwise not be addressed (keeping an eye on timers that have been started, circling back around to missed items from a roll call, etc).
 1. Be a "hot standby" Incident Commander, should the primary need to either transition to a SME, or otherwise have to step away from the IC role.
-1. Page SME's or other on-call engineers as instructed by the Incident Commander.
 1. Manage the incident call, and be prepared to remove people from the call if instructed by the Incident Commander.
-1. Liaise with stakeholders and provide status updates on Slack as necessary.
 
 ### Who are they?
 Any Incident Commander can act as a deputy. Deputies need to be trained as an Incident Commander as they may be required to take over command.
@@ -132,3 +133,25 @@ Any member of the Support Team can act as a customer liaison.
 
 ### How can I become one?
 Follow our [Customer Liaison training guide](/training/customer_liaison.md), and discuss with the Support Team about becoming our next Customer Liaison.
+
+---
+
+## Internal Liaison
+
+### What is it?
+A person responsible for interacting with internal stakeholders. Whether it's notifying an internal team of the incident, or mobilizing additional responders within the organization.
+
+### Why have one?
+For larger incidents, we may have multiple teams across the organization involved. Having a dedicated liaison to mobilize those teams and bring them up to speed free's up the rest of the responders to handle the incident.
+
+### What are the responsibilities?
+1. Page SME's or other on-call engineers as instructed by the Incident Commander.
+1. Notify other teams within the organization (e.g. Finance, Legal, Marketing), as instructed by the Incident Commander.
+1. Liaise with stakeholders and provide status updates as necessary.
+1. Interact with internal stakeholders to answer their questions, to keep the primary call distraction free.
+
+### Who are they?
+Anyone designated by the Incident Commander during incident response.
+
+### How can I become one?
+Follow our [Internal Liaison training](/training/internal_liaison.md).

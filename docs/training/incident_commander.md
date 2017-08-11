@@ -125,7 +125,7 @@ During a call, you will want to know who is available from the various teams in 
 > Deputy, can you go ahead and page the [X] on-call please.
 
 ### Assigning Tasks
-When you need to give out an assignment or task, give it to a person directly, never say "can someone do..." as this leads to the [bystander effect](https://en.wikipedia.org/wiki/Bystander_effect). Instead, all actions should be assigned to a specific person, and time-boxed with a specific number of minutes.
+When you need to give out an assignment or task, give it to a person directly, never say "can someone do..." as this leads to the [bystander effect](https://en.wikipedia.org/wiki/Bystander_effect). Instead, all actions should be assigned to a specific person, and time-boxed with a specific number of minutes. You should also make sure to ask the individual to confirm they've acknowledged and understood the instructions.
 
 > IC: Bob, please investigate the high latency on web app boxes. I'll come back to you for an answer in 3 minutes.
 
