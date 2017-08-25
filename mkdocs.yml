@@ -6,7 +6,6 @@ site_favicon: 'assets/img/icon.png'
 site_url: https://response.pagerduty.com
 
 # Repository
-repo_name: 'GitHub'
 repo_url: https://github.com/pagerduty/incident-response-docs
 
 # Copyright
@@ -16,6 +15,7 @@ copyright: 'Copyright &copy; PagerDuty, Inc.'
 theme: 'material'
 theme_dir: 'theme'
 extra_css: ['assets/css/extra.css']
+extra_javascript: ['js/github_forks.js']
 extra:
   logo: 'assets/img/icon.png'
   cover: 'assets/img/cover.png'

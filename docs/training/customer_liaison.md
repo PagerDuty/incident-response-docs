@@ -1,6 +1,6 @@
-So you want to be a customer liaison? You've come to the right place!
-
 ![PagerDuty Status Page](../assets/img/headers/status_page.jpg)
+
+So you want to be a customer liaison? You've come to the right place!
 
 ## Purpose
 The purpose of the Customer Liaison is to be the primary individual in charge of notifying our customers of the current conditions, and informing the Incident Commander of any relevant feedback from customers as the incident progresses.

@@ -1,6 +1,6 @@
-A summary of expectations and helpful information for being on-call.
-
 ![Alert Fatigue](../assets/img/misc/alert_fatigue.png)
+
+A summary of expectations and helpful information for being on-call.
 
 ## What is On-Call?
 Being on-call means that you are able to be contacted at any time in order to investigate and fix issues that may arise for the system you are responsible for. For example, if you are on-call for your service at PagerDuty, should any alarms be triggered for that service, you will receive a "page" (an alert on your mobile device, email, phone call, or SMS, etc.) giving you details on what has broken and how to fix it. You will be expected to take whatever actions are necessary in order to resolve the issue and return your service to a normal state.

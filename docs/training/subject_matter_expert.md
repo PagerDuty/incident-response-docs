@@ -1,7 +1,7 @@
-If you are on-call for any team at PagerDuty, you may be paged for a major incident and will be expected to respond as a subject matter expert (SME) for your service. This page details everything you need to know in order to be prepared for that responsibility. If you are interested in becoming an Incident Commander, take a look at the [Incident Commander Training page](/training/incident_commander.md).
-
 ![Incident Response](../assets/img/headers/incident_response.jpg)
 *Credit: [oregondot @ Flickr](https://www.flickr.com/photos/oregondot/8743809853/in/album-72157633494644719/)*
+
+If you are on-call for any team at PagerDuty, you may be paged for a major incident and will be expected to respond as a subject matter expert (SME) for your service. This page details everything you need to know in order to be prepared for that responsibility. If you are interested in becoming an Incident Commander, take a look at the [Incident Commander Training page](/training/incident_commander.md).
 
 ## On-Call Expectations
 If you are on-call for your team, there are certain expectations of you as that on-call. This applies to both the primary and secondary on-calls. Getting paged about a SEV-3 or SEV-4 in your system comes with different expectations than getting paged with a major SEV-2.
