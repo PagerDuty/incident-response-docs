@@ -2,6 +2,8 @@ This documentation covers parts of the PagerDuty Incident Response process. It i
 
 ![Incident Response at PagerDuty](./assets/img/headers/pagerduty_ir.jpg)
 
+If you're new to incident response and don't yet have a formal process in your organization, we recommend looking at our [Getting Started](/getting_started.md) page for a quick list of things you can do to begin.
+
 ## Being On-Call
 
 If you've never been on-call before, you might be wondering what it's all about. These pages describe what the expectations of being on-call are, along with some resources to help you.
