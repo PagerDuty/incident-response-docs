@@ -1,7 +1,7 @@
-You've just joined an incident call, and you've never been on one before. You have no idea what's going on, or what you're supposed to be doing. This page will help you through your first time on an incident call, and will provide a reference for future calls you may be a part of.
-
 ![Obama phone](../assets/img/headers/obama_phone.jpg)
 *Credit: [Official White House Photo](https://commons.wikimedia.org/wiki/File:Barack_Obama_on_phone_with_Benjamin_Netanyahu_2009-06-08.jpg) by Pete Souza*
+
+You've just joined an incident call, and you've never been on one before. You have no idea what's going on, or what you're supposed to be doing. This page will help you through your first time on an incident call, and will provide a reference for future calls you may be a part of.
 
 ## First Steps
 

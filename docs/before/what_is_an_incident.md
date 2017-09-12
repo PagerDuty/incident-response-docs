@@ -1,6 +1,6 @@
-Before we can define our incident response process, we should first define what an incident (and a major incident) is.
-
 ![Incident](../assets/img/headers/server_incident.png)
+
+Before we can define our incident response process, we should first define what an incident (and a major incident) is.
 
 ## What is an incident?
 Any unplanned disruption or degradation of service that is actively affecting customers ability to use PagerDuty.

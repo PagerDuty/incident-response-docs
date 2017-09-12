@@ -6,7 +6,7 @@
 !!! warning "Incident Commander Required"
      As with all major incidents at PagerDuty, security ones will also involve an Incident Commander, who will delegate the tasks to relevant resolvers. Tasks may be performed in parallel as assigned by the IC. Page one at the earliest possible opportunity `!ic page`.
 
-!!! tip "Not Sure it's a Security Incident?"
+!!! question "Not Sure it's a Security Incident?"
     Trigger the process anyway. It's better to be safe than sorry. The Incident Commander will make a determination on if response is needed.
 
 ## Checklist

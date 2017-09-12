@@ -1,7 +1,7 @@
-So you want to be a deputy? You've come to the right place!
-
 ![Deputy](../assets/img/headers/incident_command_support.jpg)
 *Credit: [oregondot @ Flickr](https://www.flickr.com/photos/oregondot/8743801731/in/album-72157633494644719/)*
+
+So you want to be a deputy? You've come to the right place!
 
 ## Purpose
 The purpose of the Deputy is to support the IC by keeping track of timers, notifying the IC of important information, and paging other people as directed by the IC.
