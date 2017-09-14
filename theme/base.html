@@ -20,7 +20,7 @@
 
     <!-- Mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-    <meta name="theme-color" content="#1f293a" />
+    <meta name="theme-color" content="#363636" />
 
     <!-- Canonical Link -->
     {% if canonical_url %}<link rel="canonical" href="{{ canonical_url }}">{% endif %}
@@ -52,40 +52,7 @@
     <meta name="twitter:image" content="{{ site_url }}/{{ config.extra.cover }}" />
 
     <!-- Style -->
-    <style>
-      @font-face {
-      	font-family: 'Icon';
-      	src: url('{{ base_url }}/assets/fonts/icon.eot?52m981');
-      	src: url('{{ base_url }}/assets/fonts/icon.eot?#iefix52m981')
-               format('embedded-opentype'),
-      		   url('{{ base_url }}/assets/fonts/icon.woff?52m981')
-               format('woff'),
-      		   url('{{ base_url }}/assets/fonts/icon.ttf?52m981')
-               format('truetype'),
-      		   url('{{ base_url }}/assets/fonts/icon.svg?52m981#icon')
-               format('svg');
-      	font-weight: normal;
-      	font-style: normal;
-      }
-    </style>
     <link rel="stylesheet" href="{{ base_url }}/assets/stylesheets/application-a422ff04cc.css">
-    {% if config.extra.palette %}
-      <link rel="stylesheet" href="{{ base_url }}/assets/stylesheets/palettes-05ab2406df.css">
-    {% endif %}
-    {% if config.extra.font != "none" %}
-      {% set text = config.extra.get("font", {}).text | default("Ubuntu") %}
-      {% set code = config.extra.get("font", {}).code | default("Ubuntu Mono") %}
-      {% set font = text + ':400,700|' + code | replace(' ', '+') %}
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ font }}">
-      <style>
-        body, input {
-          font-family: '{{ text }}', Helvetica, Arial, sans-serif;
-        }
-        pre, code {
-          font-family: '{{ code }}', 'Courier New', 'Courier', monospace;
-        }
-      </style>
-    {% endif %}
     {% for path in extra_css %}
       <link rel="stylesheet" href="{{ path }}">
     {% endfor %}
