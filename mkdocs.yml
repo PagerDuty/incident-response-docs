@@ -59,6 +59,7 @@ pages:
   - Additional Resources:
     - Reading: 'resources/reading.md'
     - ChatOps: 'resources/chatops.md'
+    - Anti-Patterns: 'resources/anti_patterns.md'
   - About: 'about.md'
 
 # Analytics
