@@ -22,9 +22,6 @@ extra:
   palette:
     primary: 'green'
     accent: 'blue grey'
-  font:
-    text: 'Colfax Regular'
-    code: 'Roboto Mono'
   author:
     github: 'PagerDuty'
     twitter: 'PagerDuty'

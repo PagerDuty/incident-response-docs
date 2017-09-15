@@ -1,3 +1,5 @@
+![Who's On-Call?](../assets/img/headers/who_oncall.png)
+
 Organizational structures vary, but these are general guidelines about the way different functions in a business relate to incident response.
 
 Generally speaking, every department should have a primary point of contact, on-call rotation, and clear escalation path. Organizations should always strive to minimize dependencies and empower response teams as much as possible, but in novel situations you do not know who you will need to help out. A clear system for recruiting responders from all parts of the business ensures that when the unexpected happens, responders don’t waste time on manual processes or ambiguous points of contact.
@@ -6,7 +8,7 @@ Generally speaking, every department should have a primary point of contact, on-
 
 Engineers are typically the primary responders and [subject matter experts](../before/different_roles) during incident response.
 
-Which engineering teams are involved in which responses varies with a company’s operational model. In some, a designated “Operations” or “Site Reliability Engineering” team may have initial responsibility for triage and assessment of new issues. At PagerDuty, the on-call engineer for an affected service has initial triage and assessment responsibility. 
+Which engineering teams are involved in which responses varies with a company’s operational model. In some, a designated “Operations” or “Site Reliability Engineering” team may have initial responsibility for triage and assessment of new issues. At PagerDuty, the on-call engineer for an affected service has initial triage and assessment responsibility.
 
 ## Customer Support / Customer Success
 
@@ -34,13 +36,13 @@ Sales are generally stakeholders during incident response. Salespeople should be
 
 ## Human Resources (HR)
 
-HR is generally involved in any response to incidents affecting the safety or health of employees. Additionally, during a security incident, the security team may need to coordinate with HR both for management of an internal attacker as well as protection of any affected employees. 
+HR is generally involved in any response to incidents affecting the safety or health of employees. Additionally, during a security incident, the security team may need to coordinate with HR both for management of an internal attacker as well as protection of any affected employees.
 
 ## Finance
 
 Finance is most often a stakeholder during incident response, and should be kept up to date of any impacts to the platform that may affect billing, accounting, or end-of-month/quarter activities.
 
-However, finance should also have a clear on-call rotation and escalation path, as there may be components of incident response that require third-party account management or related actions. 
+However, finance should also have a clear on-call rotation and escalation path, as there may be components of incident response that require third-party account management or related actions.
 
 !!! tip "Consider Your Entire Organization"
 

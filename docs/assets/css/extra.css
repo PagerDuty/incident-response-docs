@@ -1,43 +1,62 @@
 /* Colfax Font */
 @font-face {
-  font-family: 'Colfax Regular';
+  font-family: 'Colfax';
+  src: url('/fonts/colfax/ColfaxWebRegular.woff') format('woff');
   font-style: normal;
-  font-weight: 400;
-  src: local('ColfaxRegular'), url(https://www.pagerduty.com/wp-content/themes/startit-child/fonts/ColfaxWebRegular.woff) format('woff2');
 }
 
 @font-face {
-  font-family: 'Colfax Light';
-  font-style: normal;
-  font-weight: 100;
-  src: local('ColfaxRegular'), url(https://www.pagerduty.com/wp-content/themes/startit-child/fonts/ColfaxWebLight.woff) format('woff2');
+  font-family: 'Colfax';
+  src: url('/fonts/colfax/ColfaxWebRegularItalic.woff') format('woff');
+  font-style: italic;
 }
 
+/* Base icons for the mkdocs material theme. */
+@font-face {
+  font-family: 'Icon';
+  font-weight: normal;
+  font-style: normal;
+  src: url('/assets/fonts/icon.eot');
+  src: url('/assets/fonts/icon.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/icon.woff') format('woff'),
+       url('/assets/fonts/icon.ttf') format('truetype'),
+       url('/assets/fonts/icon.svg#pagerduty') format('svg');
+}
+
+/* The PD icon. */
 @font-face {
   font-family: 'pagerduty';
   font-style: normal;
   font-weight: normal;
-  src: url('/fonts/pagerduty.eot');
-  src: url('/fonts/pagerduty.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/pagerduty.woff') format('woff'),
-       url('/fonts/pagerduty.ttf') format('truetype'),
-       url('/fonts/pagerduty.svg#pagerduty') format('svg');
+  src: url('/fonts/icons/pagerduty.eot');
+  src: url('/fonts/icons/pagerduty.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/icons/pagerduty.woff') format('woff'),
+       url('/fonts/icons/pagerduty.ttf') format('truetype'),
+       url('/fonts/icons/pagerduty.svg#pagerduty') format('svg');
 }
 
+/* Extra icons we've added, Fork, Note, etc. */
 @font-face {
   font-family: 'icons';
   font-style: normal;
   font-weight: normal;
-  src: url('/fonts/icons.eot');
-  src: url('/fonts/icons.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/icons.woff') format('woff'),
-       url('/fonts/icons.ttf') format('truetype'),
-       url('/fonts/icons.svg#pagerduty') format('svg');
+  src: url('/fonts/icons/icons.eot');
+  src: url('/fonts/icons/icons.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/icons/icons.woff') format('woff'),
+       url('/fonts/icons/icons.ttf') format('truetype'),
+       url('/fonts/icons/icons.svg#pagerduty') format('svg');
+}
+
+body, input {
+  font-family: 'Colfax', Helvetica, Arial, sans-serif;
+}
+
+pre, code {
+  font-family: 'Courier New', 'Courier', monospace;
 }
 
 /* Defaults */
 body {
-  font-weight: 500;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -105,6 +124,11 @@ ul.repo {
 .icon-code-fork:before {
   font-family: 'icons';
   content: "\e900";
+}
+
+/* Fix a small offset on pages with breadcrumbs. */
+.title .path .icon {
+  vertical-align: -1.5px;
 }
 
 /* Fix offsets for mobile layouts. */
@@ -261,6 +285,7 @@ nav div.mainlogo img {
 .admonition {
   background: #25c151;
 }
+@media print { .admonition { background: #fff !important; padding: 0px !important; } }
 
 .admonition.warning a {
   color: #000;
@@ -268,13 +293,19 @@ nav div.mainlogo img {
 .admonition.warning a:hover {
   color: #910000;
 }
-@media print { .admonition.warning { color: #e84e40; } }
+@media print { .admonition.warning, .admonition.warning a { color: #e84e40; } }
 
 /* Tip - green, flag icon (default) */
 .admonition.tip {
   background: #25c151;
 }
-@media print { .admonition.tip { color: #25c151; } }
+.admonition.tip a {
+  color: #fff;
+}
+.admonition.tip a:hover {
+  color: #000;
+}
+@media print { .admonition.tip, .admonition.tip a { color: #25c151; } }
 
 
 /* Info - grey, (i) icon */
@@ -285,7 +316,7 @@ nav div.mainlogo img {
   font-family: 'icons';
   content: "\e903";
 }
-@media print { .admonition.info { color: #607d8b; } }
+@media print { .admonition.info, .admonition.info a { color: #607d8b; } }
 
 /* Question - blue, (?) icon */
 .admonition.question {
@@ -295,7 +326,7 @@ nav div.mainlogo img {
   font-family: 'icons';
   content: "\e904";
 }
-@media print { .admonition.question { color: #2196f3; } }
+@media print { .admonition.question, .admonition.question a { color: #2196f3; } }
 
 /* Note - indigo, notepad icon */
 .admonition.note {
@@ -308,7 +339,7 @@ nav div.mainlogo img {
   font-family: 'icons';
   content: "\e902";
 }
-@media print { .admonition.note { color: #3f51b5; } }
+@media print { .admonition.note, .admonition.note a { color: #3f51b5; } }
 
 @media print {
   .admonition {
@@ -404,7 +435,12 @@ p.response {
 .article h1 + p img {
   max-width: 110%;
   margin-left: -2em;
-  margin-top: -2em;
+
+  /* Crop the images to have smaller height, to take up less content space. */
+  /* Want to be sure to crop from center though! */
+  margin-top: -4em;
+  margin-bottom: -2em;
+  clip-path: inset(2em 0px 2em 0px);
 }
 
 .article h1 + p + p img {
@@ -419,7 +455,7 @@ img + em {
   margin-right: -2.3em;
   padding: 0em 1em;
   float: right;
-  margin-top: -2.1em;
+  margin-top: -2em;
   color: #000;
   border-top-left-radius: 3px;
   background: rgba(255, 255, 255, 0.7);
@@ -427,11 +463,11 @@ img + em {
 
 /* Fixes for smaller screen sizes */
 @media only screen and (max-width: 720px) {
-  .article h1 + p + p img {
+  .article h1 + p img {
     max-width: 120%;
   }
 
-  .article h1 + p + p img + em {
+  .article h1 + p img + em {
     margin-right: -1.4em;
     margin-top: -2em;
   }
@@ -444,7 +480,7 @@ img + em {
     display: none;
   }
 
-  .article h1 + p + p img + em {
+  .article h1 + p img + em {
     display: none;
   }
 }
@@ -565,6 +601,15 @@ iframe {
 
 #reviewed-dates span {
   padding-left: 1em;
+}
+
+/* Pagination arrow alignment fix. */
+.pagination .button {
+  vertical-align: 0em;
+}
+
+.pagination .button .icon {
+  vertical-align: .25em;
 }
 
 /* Super horrible hack to get the training PDF images correct */

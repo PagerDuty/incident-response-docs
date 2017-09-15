@@ -2,7 +2,8 @@
 
 This documentation covers parts of the PagerDuty Incident Response process. It is a cut-down version of our internal documentation, used at PagerDuty for any major incidents, and to prepare new employees for on-call responsibilities. It provides information not only on preparing for an incident, but also what to do during and after. It is intended to be used by on-call practitioners and those involved in an operational incident response process (or those wishing to enact a formal incident response process). See the [about page](about.md) for more information on what this documentation is and why it exists.
 
-If you're new to incident response and don't yet have a formal process in your organization, we recommend looking at our [Getting Started](/getting_started.md) page for a quick list of things you can do to begin.
+!!! tip "Don't know where to start?"
+    If you're new to incident response and don't yet have a formal process in your organization, we recommend looking at our [Getting Started](/getting_started.md) page for a quick list of things you can do to begin.
 
 ## Being On-Call
 
