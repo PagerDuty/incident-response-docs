@@ -80,7 +80,7 @@ Remember that the job of an IC also includes preparing backup plans in case the 
 
 It can be tempting to try and solve every issue yourself if you're acting as a Subject Matter Expert. Every request that comes up, you want to jump on it and say you'll take care of it. You'll be the indispensable one who solves all the problems. As noble as the intent is, it rarely leads to an efficient outcome. You want to avoid as much multi-tasking as possible during an incident, and focus on one problem at a time. **Don't try to solve everything yourself**. If multiple requests are coming up for your area of expertise, delegate them to other experts, even paging backup responders if required.
 
-Likewise, if another SME has been assigned a task, don't do the task on their behalf without consulting with them first. While you are trying to help, it will end up hindering the response as you'll have two people working on the same issue, and they may be interferring with each other in unexpected ways.
+Likewise, if another SME has been assigned a task, don't do the task on their behalf without consulting with them first. While you are trying to help, it will end up hindering the response as you'll have two people working on the same issue, and they may be interfering with each other in unexpected ways.
 
 ## Not disseminating policy changes to responders.
 
