@@ -24,6 +24,9 @@ Before you can be an Incident Commander, it is expected that you meet the follow
 * Has been **involved in at least two major incident responses**, either as a spectator, or as an active participant.
 * Has gravitas, **takes command**, and is **willing to kick people off a call** to remove distractions, even if it's the CEO.
 
+!!!tip "Deep technical knowledge not required!"
+    [Incident Commanders do not require deep technical knowledge of our systems](../resources/anti_patterns.md#requiring-incident-commanders-to-have-deep-technical-knowledge). Your job as Incident Commander is to coordinate the response, not make technical changes. Don’t think you can’t be an Incident Commander just because you’re not in the engineering department!
+
 ## Responsibilities
 Read up on our [Different Roles for Incidents](/before/different_roles.md) to see what is expected from an Incident Commander, as well as what we expect from the other roles you'll be interacting with.
 

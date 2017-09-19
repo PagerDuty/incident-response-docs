@@ -87,3 +87,11 @@ Likewise, if another SME has been assigned a task, don't do the task on their be
 We've fallen into the trap in the past of making policy and process changes by simply updating our internal documentation (i.e. this), assuming everyone would read the documentation before an incident. Which of course, never happens.
 
 **Any policy changes need to be appropriately disseminated to your responders ahead of time** so that there are no surprises during an incident. This can be in the form of an email, or an update into a chat room, but big policy changes should never be a surprise to responders.
+
+## Requiring Incident Commanders to have deep technical knowledge.
+
+This is a trap we fell into in our early days of incident response. We had several strong technical requirements for any new Incident Commanders, aiming to only have IC's with deep technical expertise, the intention being that they could diagnose issues very quickly. When it became apparent that we would need a large selection of IC's in order to maintain an effective on-call rotation, we soon realised that we had artificially restricted our pool of potential IC candidates.
+
+**Incident Commanders can come from all across your organization, and don't need to be technical experts**. Since Incident Commanders only coordinate the response, they don't need deep technical knowledge of the system in order to perform their role. The Subject Matter Experts are the ones who need the deep technical knowledge. The Incident Commanders only require a high-level knowledge of how the system works. Where data flows in, how systems use it, and where data flows out. The technical details can be left to the SMEs, with the IC asking relevant questions.
+
+By dropping our strong technical requirements for Incident Commanders, we've been able to dramatically increase our pool of IC's, maintain a high level of quality and efficiency in our response, and help spread empathy for on-call workload to a larger portion of the company.
