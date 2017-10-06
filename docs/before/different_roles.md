@@ -72,7 +72,7 @@ Take a look at our [Deputy training guide](/training/deputy.md). Deputies also n
 A Scribe documents the timeline of an incident as it progresses, and makes sure all important decisions and data are captured for later review.
 
 ### Why have one?
-The incident commander will need to focus on the problem at hand, and the subject matter experts will need to focus on resolving the incident. It is important to capture a timeline of events as they happen so that they can be reviewed during the post-mortem to determine how well we performed, and so we can accurate determine any additional impact that we might not have noticed at the time.
+The incident commander will need to focus on the problem at hand, and the subject matter experts will need to focus on resolving the incident. It is important to capture a timeline of events as they happen so that they can be reviewed during the post-mortem to determine how well we performed, and so we can accurately determine any additional impact that we might not have noticed at the time.
 
 ### What are the responsibilities?
 The Scribe is expected to:
