@@ -19,8 +19,8 @@ _Include a **short** sentence or two summarizing the root cause, timeline summar
 ## What Happened
 _Include a short description of what happened._
 
-## Root Cause
-_Include a description of the root cause. If there were any actions taken that exacerbated the issue, also include them here with the intention of learning from any mistakes made during the resolution process._
+## Root Causes
+_Include a description of any conditions that contributed to the issue. If there were any actions taken that exacerbated the issue, also include them here with the intention of learning from any mistakes made during the resolution process._
 
 ## Resolution
 _Include a description what solved the problem. If there was a temporary fix in place, describe that along with the long-term solution._
