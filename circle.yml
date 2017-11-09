@@ -1,0 +1,24 @@
+machine:
+  python:
+    version: 2.7
+
+dependencies:
+  override:
+    - pip install awscli
+    - pip install mkdocs==0.15.3
+    - pip install mkdocs-material==0.2.4
+
+test:
+  override:
+    - mkdocs build --clean
+
+deployment:
+  production:
+    branch: master
+    commands:
+      # Sync and delete any old files from the S3 bucket.
+      - aws s3 sync site/ s3://$AWS_S3_BUCKET --acl public-read --cache-control "max-age=86400" --exclude "*.py*" --delete
+      # Allow `awscli` to make requests to CloudFront.
+      - aws configure set preview.cloudfront true
+      # Invalidate every object.
+      - aws cloudfront create-invalidation --distribution-id $AWS_CF_DISTRIBUTION_ID --paths "/*"

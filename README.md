@@ -1,4 +1,4 @@
-# PagerDuty Incident Response Documentation [![Build Status](https://travis-ci.com/PagerDuty/incident-response-docs.svg?token=zdc1SxQUyY3TG9TLD3Xz&branch=master)](https://travis-ci.com/PagerDuty/incident-response-docs)
+# PagerDuty Incident Response Documentation [![Build Status](https://circleci.com/gh/PagerDuty/incident-response-docs/tree/master.svg?style=svg)](https://circleci.com/gh/PagerDuty/incident-response-docs)
 This is a public version of the Incident Response process used at PagerDuty. It is also used to prepare new employees for on-call responsibilities, and provides information not only on preparing for an incident, but also what to do during and after. See the [about page](docs/about.md) for more information on what this documentation is and why it exists.
 
 You can view the documentation [directly](/docs/index.md) in this repository, or rendered as a website at https://response.pagerduty.com.
