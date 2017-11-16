@@ -43,7 +43,6 @@ _Be very specific here, include exact numbers._
 * _Who was the IC?_
 * _Who was the scribe?_
 * _Who else was involved?_
-* _Who else was involved?_
 
 ## Timeline
 _Some important times to include: (1) time the root cause began, (2) time of the page, (3) time that the status page was updated (i.e. when the incident became public), (4) time of any significant actions, (5) time the SEV-2/1 ended, (6) links to tools/logs that show how the timestamp was arrived at._
