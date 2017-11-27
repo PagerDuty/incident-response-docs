@@ -8,6 +8,9 @@ Any unplanned disruption or degradation of service that is actively affecting cu
 ## What is a major incident?
 Any incident that requires a co-ordinated response between multiple teams.
 
+## What is Incident Response?
+An organized approach to addressing and managing an incident. The goal isn't just to solve the incident, but to handle the situation in a way that limits damage and reduces recovery time and costs.
+
 ## What triggers our incident response process?
 Our incident response process should be initiated for any major incident. It provides a framework for effectively responding and reaching a fast resolution time. Our incident response process can be triggered one of two ways, either via automated monitoring and alerting, or manually via human action.
 
@@ -30,3 +33,9 @@ We trigger on any unplanned disruption or degradation of service to which any Pa
 Our [severity definitions](/before/severity_levels.md) determine how severe we _think_ an incident is, based on some pre-defined guidelines. The intent is to guide responders on the type of response they can provide. For example, the higher the severity, the riskier the decisions you can take to return the system to normal.
 
 Severities are useful to quickly determine whether something requires a more complex response, or whether it requires a co-ordinated response at all. However, they are not a black and white definition of what constitutes a major incident. If something is not covered by our severity definitions, but you think it requires incident response, then it requires incident response. We only need to know one thing: "Is this a major incident?". The severity level can be determined later, and isn't a requirement of triggering our response process.
+
+## Mentality Shift
+One of the more important concepts of our incident response process is the mentality shift that needs to be made during an incident. We typically call this the "Peacetime vs Wartime" mentality shift. The idea is that the decision making process changes when you are in an incident situation, and you are able to take riskier actions than you would normally consider during day-to-day operations. It can be hard for responders to grasp this concept, and your incident response process can be held up by responders who stick to the peacetime way of thinking, not wanting to proceed with a potentially risky action. You can read more about peacetime vs wartime in the [Responder Training Guide](/training/subject_matter_expert).
+
+!!!info "Normal vs Emergency"
+    Some people don't like the "Peacetime vs Wartime" analogy, in which case you can use any other terms you feel appropriate. "Normal vs Emergency" is a common choice, but you could equally use "OK vs Not OK". It's not terribly important what name you give it, the important part is to make the mentality shift.
