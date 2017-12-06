@@ -268,7 +268,7 @@ nav div.mainlogo {
 
 nav div.mainlogo a {
   min-height: 3.4em;
-  margin-bottom: -1.25em;
+  margin-bottom: -1.2em;
   width: 14.52em;
 
   background: url(/assets/img/logo.svg) 0em 0.1em no-repeat;
@@ -277,6 +277,18 @@ nav div.mainlogo a {
 
 nav div.mainlogo img {
   display: none;
+}
+
+/* Remove logo in favour of page title for smaller mobile devices. */
+@media only screen and (max-width: 480px) {
+  nav div.mainlogo {
+    width: 0em;
+  }
+
+  nav div.mainlogo a {
+    width: 4em;
+    background: none;
+  }
 }
 
 /* Admonitions */
@@ -610,6 +622,15 @@ iframe {
 
 .pagination .button .icon {
   vertical-align: .25em;
+}
+
+/* Make sure to show some previous titles even on smaller devices. */
+.pagination .previous { width: 40%; }
+.pagination .next { width: 60%; }
+
+.pagination .previous .direction,
+.pagination .previous .stretch {
+    display: table;
 }
 
 /* Super horrible hack to get the training PDF images correct */
