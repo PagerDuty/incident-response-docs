@@ -36,6 +36,7 @@ Our followup processes, how we make sure we don't repeat mistakes and are always
 * [After an Incident](after/after_an_incident.md) - _Information on what to do after an incident is resolved._
 * [Post-Mortem Process](after/post_mortem_process.md) - _Information on our post-mortem process; what's involved and how to write or run a post-mortem._
 * [Post-Mortem Template](after/post_mortem_template.md) - _The template we use for writing our post-mortems for major incidents._
+* [Effective Post-Mortems](after/effective_post_mortems.md) - _A guide for writing effective post-mortems._
 
 ## Training
 

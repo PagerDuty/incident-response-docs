@@ -47,6 +47,7 @@ pages:
     - After an Incident: 'after/after_an_incident.md'
     - Post-Mortem Process: 'after/post_mortem_process.md'
     - Post-Mortem Template: 'after/post_mortem_template.md'
+    - Effective Post-Mortems: 'after/effective_post_mortems.md'
   - Training:
     - Overview: 'training/overview.md'
     - Incident Commander: 'training/incident_commander.md'
