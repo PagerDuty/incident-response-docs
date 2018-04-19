@@ -54,7 +54,7 @@ After you have crafted the public message, you should gain approval from the IC 
 
 > (IC): Looks good, go ahead and post.
 
-It's important to get sign-off from the IC before posting as the nature of the incident may have changed while you were crafting the message, and new information might now be know and need to be included.
+It's important to get sign-off from the IC before posting as the nature of the incident may have changed while you were crafting the message, and new information might now be known and need to be included.
 
 ### Notification of Customer Response
 You may be receiving calls and emails from customers during the incident. This provides useful context for the incident commander, as it gives an indication of the scope of the incident. You should keep the IC apprised of any relevant information from customers.
