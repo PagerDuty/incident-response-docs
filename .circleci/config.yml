@@ -6,7 +6,6 @@ jobs:
       - image: circleci/python:2.7.14
     steps:
       - checkout
-      - run: 'sudo pip install awscli'
       - run: 'sudo pip install mkdocs==0.15.3'
       - run: 'sudo pip install mkdocs-material==0.2.4'
       - run: 'sudo pip install pymdown-extensions'
