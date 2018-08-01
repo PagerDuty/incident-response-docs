@@ -63,6 +63,9 @@ pages:
     - Anti-Patterns: 'resources/anti_patterns.md'
   - About: 'about.md'
 
+# Analytics
+google_analytics: ['UA-8759953-1', 'auto']
+
 # Extensions
 markdown_extensions:
   - toc(permalink=#)
