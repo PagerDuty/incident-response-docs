@@ -8,6 +8,8 @@ You can view the documentation [directly](/docs/index.md) in this repository, or
 ## Development
 We use [MkDocs](http://www.mkdocs.org/) to create a static site from this repository. For local development,
 
+1. Install v0.1.0 of [MkDocs Bootswatch](https://github.com/mkdocs/mkdocs-bootswatch) `pip install mkdocs-bootswatch==0.1.0`
+1. Install v0.1.1 of [MkDocs Bootstrap](https://github.com/mkdocs/mkdocs-bootstrap) `pip install mkdocs-bootstrap==0.1.1`
 1. Install v0.15.3 of [MkDocs](http://www.mkdocs.org/#installation). `pip install mkdocs==0.15.3`
 1. Install v0.2.4 of the [MkDocs Material theme](https://github.com/squidfunk/mkdocs-material). `pip install mkdocs-material==0.2.4`
 1. To test locally, run `mkdocs serve` from the project directory.
