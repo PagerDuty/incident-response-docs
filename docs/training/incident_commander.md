@@ -1,18 +1,18 @@
 ![Gene Kranz](../assets/img/headers/gene_kranz.jpg)
 *Credit: [NASA](https://en.wikipedia.org/wiki/File:Eugene_F._Kranz_at_his_console_at_the_NASA_Mission_Control_Center.jpg)*
 
-So you want to be an incident commander? You've come to the right place! You don't need to be a senior team member to become an IC, anyone can do it providing you have the requisite knowledge (yes, even an intern)!
+So you want to be an Incident Commander (IC)? You've come to the right place! You don't need to be a senior team member to become an IC, anyone can do it providing you have the requisite knowledge (yes, even an intern)!
 
 ## Purpose
-If you could boil down the definition of an Incident Commander to one sentence, it would be,
+If you could boil down the purpose of an Incident Commander to one sentence, it would be,
 
-> Take whatever actions are necessary to protect PagerDuty systems and customers.
+> Keep the incident moving towards resolution.
 
-The purpose of the Incident Commander is to be the decision maker during an major incident; Delegating tasks and listening to input from subject matter experts in order to bring the incident to resolution.
+The Incident Commander is the decision maker during an major incident; Delegating tasks and listening to input from subject matter experts in order to bring the incident to resolution. They become the highest ranking individual on any major incident call, regardless of their day-to-day rank. Their decisions made as commander are final.
 
-The Incident Commander becomes the highest ranking individual on any major incident call, regardless of their day-to-day rank. Their decisions made as commander are final.
+Your job as an Incident Commander is to listen to the call and to watch the incident Slack room in order to provide clear coordination, recruiting others to gather context/details. **You should not be performing any actions or remediations, checking graphs, or investigating logs.** Those tasks should be delegated.
 
-Your job as an IC is to listen to the call and to watch the incident Slack room in order to provide clear coordination, recruiting others to gather context/details. **You should not be performing any actions or remediations, checking graphs, or investigating logs.** Those tasks should be delegated.
+An IC should also be considering next steps and backup plans at every opportunity, in an effort avoid getting stuck without any clear options to proceed, and to keep things moving towards resolution.
 
 ## Prerequisites
 Before you can be an Incident Commander, it is expected that you meet the following criteria. Don't worry if you don't meet them all yet, you can still continue with training!
