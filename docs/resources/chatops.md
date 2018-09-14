@@ -1,3 +1,7 @@
+---
+cover: assets/img/covers/chatops.png
+description: Throughout this documentation references are made to various chat commands, all starting with an exclamation (e.g. 'ic page'). We have bots running in our Slack rooms which watch for these commands and execute various actions for us when they're detected. This page gives an overview of the commands we've referenced in this documentation, and what they do behind the scenes.
+---
 Throughout this documentation, references are made to various chat commands, all starting with an exclamation (e.g. `!ic page`). We have bots running in our Slack rooms which watch for these commands and execute various actions for us when they're detected. This page gives an overview of the commands we've referenced in this documentation, and what they do behind the scenes.
 
 !!! question "Are these bots open-source?"

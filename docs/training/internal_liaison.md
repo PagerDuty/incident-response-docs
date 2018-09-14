@@ -1,3 +1,7 @@
+---
+cover: assets/img/covers/internal_liaison.png
+description: So you want to be an internal liaison? You've come to the right place!
+---
 ![Internal Liaison](../assets/img/headers/internal_liaison.jpg)
 
 So you want to be an internal liaison? You've come to the right place!

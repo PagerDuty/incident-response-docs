@@ -1,3 +1,7 @@
+---
+cover: assets/img/covers/security_incident.png
+description: Checklist of actions for responding to a security incident at PagerDuty.
+---
 <div id="reviewed-dates">
   <span><strong>Last Reviewed:</strong> <abbr title="We recommend you include with this document the date you last reviewed your process.">YYYY-MM-DD</abbr></span>
   <span><strong>Last Tested:</strong> <abbr title="We recommend you include with this document the date you last tested your process.">YYYY-MM-DD</abbr></span>

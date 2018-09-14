@@ -1,3 +1,7 @@
+---
+cover: assets/img/covers/whos_on-call.png
+description: Organizational structures vary, but these are general guidelines about the way different functions in a business relate to incident response.
+---
 ![Who's On-Call?](../assets/img/headers/who_oncall.png)
 
 Organizational structures vary, but these are general guidelines about the way different functions in a business relate to incident response.

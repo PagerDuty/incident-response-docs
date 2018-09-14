@@ -1,3 +1,7 @@
+---
+cover: assets/img/covers/scribe.png
+description: So you want to be a scribe? You've come to the right place! You don't need to be a senior team member to become a deputy or scribe, anyone can do it providing you have the requisite knowledge!
+---
 ![Scribe](../assets/img/headers/fountain_pen.jpg)
 *Credit: [John-Mark Smith](https://www.pexels.com/photo/person-holding-fountain-pen-211291/)*
 
