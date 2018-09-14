@@ -1,3 +1,7 @@
+---
+cover: assets/img/covers/roles.png
+description: There are several main roles for our incident response teams at PagerDuty. This page describes each of our roles in detail, why it's important to have them, and what their responsibilities are.
+---
 There are several main roles for our incident response teams at PagerDuty. Certain roles only have one person per incident (e.g. IC), whereas other roles can have multiple people (e.g. Subject Matter Expert, SME). It's all about coming together as a team, working the problem, and getting a solution quickly.
 
 Here is a rough outline of our role hierarchy, with each role discussed in more detail on the rest of this page.

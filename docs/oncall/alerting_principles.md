@@ -1,3 +1,7 @@
+---
+cover: assets/img/covers/alerting_principles.png
+description: We manage how we get alerted based on a simple principle, an alert is something which requires a human to perform an action. Anything else is a notification, which is something that we cannot control, and for which we cannot make any action to affect it. Notifications are useful, but they shouldn't be waking people up under any circumstance.
+---
 We manage how we get alerted based on a simple principle, **an alert is something which requires a human to perform an action**. Anything else is a notification, which is something that we cannot control, and for which we cannot make any action to affect it. Notifications are useful, but they shouldn't be waking people up under any circumstance.
 
 ## Alert Priority
