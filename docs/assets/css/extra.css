@@ -126,6 +126,12 @@ ul.repo {
   content: "\e900";
 }
 
+/* Correct header navigation. */
+.bar .path a {
+  display: inline;
+  font-size: 1em;
+}
+
 /* Fix a small offset on pages with breadcrumbs. */
 .title .path .icon {
   vertical-align: -1.5px;
