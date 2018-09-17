@@ -459,6 +459,7 @@ p.response {
   margin-top: -4em;
   margin-bottom: -2em;
   clip-path: inset(2em 0px 2em 0px);
+  -webkit-clip-path: inset(2em 0px 2em 0px); /* Safari needs the -webkit- prefix on this one. */
 }
 
 .article h1 + p + p img {
