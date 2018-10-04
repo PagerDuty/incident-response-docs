@@ -29,7 +29,7 @@ Writing an effective post-mortem allows us to learn quickly from our mistakes an
 We have a Slack room dedicated to reviewing post-mortems before the scheduled meeting. Here are some of the things we're looking for:
 
 * Does it provide enough detail?
-* Rather than just pointing our what went wrong, does it drill down to the underlying causes of the issue?
+* Rather than just pointing out what went wrong, does it drill down to the underlying causes of the issue?
 * Does it separate “What Happened?” from “How to Fix it”?
 * Do the proposed action items make sense? Are they well-scoped enough?
 * Is the post-mortem well written and understandable?
