@@ -69,6 +69,7 @@ google_analytics: ['UA-8759953-1', 'auto']
 
 # Extensions
 markdown_extensions:
-  - toc(permalink=#)
+  - toc:
+      permalink: '#'
   - sane_lists:
   - admonition:
