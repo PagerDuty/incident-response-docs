@@ -1,3 +1,7 @@
+---
+cover: assets/img/covers/resolved.png
+description: Information on what to do after a major incident. Our followup and after action review procedures.
+---
 Information on what to do after a major incident. Our followup and after action review procedures.
 
 ## Followup Actions for Response Roles

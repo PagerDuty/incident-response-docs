@@ -1,3 +1,7 @@
+---
+cover: assets/img/covers/definitions.png
+description: Ever wonder what all of those strange words you sometimes see in our documentation mean? This page is here to help.
+---
 Ever wonder what all of those strange words you sometimes see in our documentation mean? This page is here to help.
 
 ### Incident Commander / IC

@@ -1,3 +1,7 @@
+---
+cover: assets/img/covers/anti-patterns.png
+description: These are some processes that we've found do not work well. We've either tried them in the past and regretted it, or spent considerable time thinking about them and ultimately rejected them. We want to document them to make sure we don't repeat mistakes or wonder why a decision was made later down the line.
+---
 !!! warning "Process Anti-Patterns"
     These are some processes that we've found do not work well. We've either tried them in the past and regretted it, or spent considerable time thinking about them and ultimately rejected them. We want to document them to make sure we don't repeat mistakes or wonder why a decision was made later down the line. The list is in no particular order.
 

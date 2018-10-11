@@ -14,7 +14,7 @@
     <meta name="dcterms.license" content="http://www.apache.org/licenses/LICENSE-2.0" />
 
     <!-- Page Description -->
-    {% if page_description %}<meta name="description" content="{{ page_description }}">{% endif %}
+    <meta name="description" content="{% if meta and meta.description %}{{ meta.description[0] }}{% else %}{{ config.site_description }}{% endif %}" />
     <meta name="keywords" content="pagerduty, incident, response" />
     <meta name="robots" content="index, follow, noarchive" />
 
@@ -26,30 +26,29 @@
     {% if canonical_url %}<link rel="canonical" href="{{ canonical_url }}">{% endif %}
 
     <!-- Favicon -->
-    {% set favicon = favicon | default("assets/images/favicon-e565ddfa3b.ico", true) %}
-    <link rel="shortcut icon" type="image/x-icon" href="{{ base_url }}/{{ favicon }}" />
-    <link rel="icon" type="image/x-icon" href="{{ base_url }}/{{ favicon }}" />
+    <link rel="shortcut icon" type="image/png" href="/{{ config.extra.favicon }}" />
+    <link rel="icon" type="image/png" href="/{{ config.extra.favicon }}" />
+    <link rel="apple-touch-icon" href="/{{ config.extra.favicon }}">
 
     <!-- Apple -->
     <meta name="apple-mobile-web-app-title" content="{{ site_name }}" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    {% if config.extra.logo %}<link rel="apple-touch-icon" href="{{ base_url }}/{{ config.extra.logo }}">{% endif %}
 
     <!-- Open Graph -->
     <meta property="og:url" content="{{ canonical_url }}" />
     <meta property="og:title" content="{{ title }}" />
     <meta property="og:site_name" content="{{ site_name }}" />
-    <meta property="og:description" content="{{ config.site_description }}" />
-    <meta property="og:image" content="{{ site_url }}/{{ config.extra.cover }}" />
+    <meta property="og:description" content="{% if meta and meta.description %}{{ meta.description[0] }}{% else %}{{ config.site_description }}{% endif %}" />
+    <meta property="og:image" content="{{ site_url }}/{% if meta and meta.cover %}{{ meta.cover[0] }}{% else %}{{ config.extra.cover }}{% endif %}" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{{ title }}" />
-    <meta name="twitter:description" content="{{ config.site_description }}" />
-    <meta name="twitter:image" content="{{ site_url }}/{{ config.extra.cover }}" />
+    <meta name="twitter:description" content="{% if meta and meta.description %}{{ meta.description[0] }}{% else %}{{ config.site_description }}{% endif %}" />
+    <meta name="twitter:image" content="{{ site_url }}/{% if meta and meta.cover %}{{ meta.cover[0] }}{% else %}{{ config.extra.cover }}{% endif %}" />
 
     <!-- Style -->
     <link rel="stylesheet" href="{{ base_url }}/assets/stylesheets/application-a422ff04cc.css">

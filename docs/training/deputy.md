@@ -1,3 +1,7 @@
+---
+cover: assets/img/covers/deputy.png
+description: So you want to be a deputy? You've come to the right place!
+---
 ![Deputy](../assets/img/headers/incident_command_support.jpg)
 *Credit: [oregondot @ Flickr](https://www.flickr.com/photos/oregondot/8743801731/in/album-72157633494644719/)*
 

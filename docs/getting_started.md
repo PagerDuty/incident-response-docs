@@ -1,9 +1,13 @@
+---
+cover: assets/img/covers/getting_started.png
+description: This 'Getting Started' guide will help you to navigate the most important parts of our process, and provide some guidelines about which bits we think you should start with. If you're just starting out with your own incident response process, this is a great way to know what order we think you should do things in.
+---
 ![Getting Started](../assets/img/headers/getting_started.jpg)
 *Credit: [Breakingpic @ Pexels](https://www.pexels.com/photo/young-game-match-kids-2923/)*
 
 If you don't yet have a process in your own organization, or if you're just starting out, you may find the sheer quantity of information in this documentation overwhelming. It's important to remember that this **isn't something you'll be able to implement overnight**. It's a process that should be built up over time. While it took us years to get to this point, our hope is that you can make use of this documentation to skip some of the awkward growing pains we went through, and reach a more mature incident response process in the most efficient way possible.
 
-To that end, we've put together this "Getting Started" guide to help you navigate the most important parts of our process, and provide some guidelines about which bits we think you should start with. If you're just starting out with our own incident response process, this is a great way to know what order we think you should do things in.
+To that end, we've put together this "Getting Started" guide to help you navigate the most important parts of our process, and provide some guidelines about which bits we think you should start with. If you're just starting out with your own incident response process, this is a great way to know what order we think you should do things in.
 
 ## Define what an "Incident" and "Major Incident" are for you.
 You don't have to use [our definitions](/before/severity_levels.md), they're just a starting point. Feel free to come up with whatever you want. The point is that the definition should be a short, simple statement that makes sure everyone is on the same page. You want to remove any discussion around whether something is an incident or not during your response process. If you have a metric to use (e.g. "if errors go above 100/minute it's a major incident"), that's great. If not, don't let that stop you from defining what a Major Incident is.
