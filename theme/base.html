@@ -7,6 +7,7 @@
   <head>
     <meta charset="utf-8">
     {% set title = page_title ~ ' - ' ~ site_name if page_title else site_name %}
+    {% set title = meta.title[0] ~ ' - ' ~ site_name if meta and meta.title %}
     <title>{{ title }}</title>
 
     <!-- Author and License -->
@@ -55,6 +56,9 @@
     {% for path in extra_css %}
       <link rel="stylesheet" href="{{ path }}">
     {% endfor %}
+    {% if meta and meta.style %}
+      <link rel="stylesheet" href="{{ base_url }}/assets/css/{{ meta.style[0] }}.css">
+    {% endif %}
 
     <!-- Scripts -->
     <script src="{{ base_url }}/assets/javascripts/modernizr-4ab42b99fd.js"></script>
@@ -88,6 +92,13 @@
         <div class="wrapper">
           {% if not h1 %}
             <h1>{{ page_title | default(site_name, true)}}</h1>
+          {% endif %}
+          {% if meta and meta.pdf %}
+          <div id="download-link">
+            <a href="{{ meta.pdf[0] }}" target="_blank" title="Download slides as PDF." data-action="download">
+              <i class="icon icon-download"></i>Slides
+            </a>
+          </div>
           {% endif %}
           {{ content }}
           <aside class="copyright" role="note">
@@ -123,9 +134,10 @@
       var repo_id  = '{{ repo_id }}';
     </script>
     <script src="{{ base_url }}/assets/javascripts/application-997097ee0c.js"></script>
-    {% for path in extra_javascript %}
-      <script src="{{ path }}"></script>
-    {% endfor %}
+    {% if meta and meta.style and meta.style[0] == "slides" %}
+      <script src="/assets/js/jquery-1.10.2.min.js"></script>
+      <script src="/assets/js/lazy_load_images.js"></script>
+    {% endif %}
     {% if google_analytics %}
       <script>
         /* Google Analytics */

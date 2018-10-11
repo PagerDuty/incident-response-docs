@@ -46,13 +46,20 @@ Our followup processes, how we make sure we don't repeat mistakes and are always
 So, you want to learn about incident response? You've come to the right place.
 
 * [Training Overview](training/overview.md) - _An overview of our training guides and additional training material from third-parties._
+* [Glossary of Incident Response Terms](training/glossary.md) - _A collection of terms that you may hear being used, along with their definition._
+
+### Training Guides
+
 * [Incident Commander Training](training/incident_commander.md) - _A guide to becoming our next Incident Commander._
 * [Deputy Training](training/deputy.md) - _How to be a deputy and back up the Incident Commander._
 * [Scribe Training](training/scribe.md) - _A guide to scribing._
 * [Subject Matter Expert Training](training/subject_matter_expert.md) - _A guide on responsibilities and behavior for all participants in a major incident._
 * [Customer Liaison Training](training/customer_liaison.md) - _A guide on how to act as our public representative during an incident._
 * [Internal Liaison Training](training/internal_liaison.md) - _A guide on how to liaise with internal teams during an incident._
-* [Glossary of Incident Response Terms](training/glossary.md) - _A collection of terms that you may hear being used, along with their definition._
+
+### Training Courses
+
+* [Incident Response Training Course](training/courses/incident_response.md) - _An introductory course on incident response and the role of the Incident Commander._
 
 ## Additional Resources
 

@@ -1,5 +1,6 @@
 ---
 cover: assets/img/covers/training_overview.png
+title: Training Overview
 description: Learning about the PagerDuty major incident response process is an important part of being an effective on-call engineer at PagerDuty. This section goes over our training material for the various roles that are involved in our incident response, along with some additional information and training material from government agencies.
 ---
 Learning about the PagerDuty major incident response process is an important part of being an effective on-call engineer at PagerDuty. This section goes over our training material for the various roles that are involved in our incident response, along with some additional information and training material from government agencies.
@@ -13,6 +14,11 @@ Our training guides are split up by role, however you are encouraged to read thr
 * [SME / Resolver Training](/training/subject_matter_expert.md) - This is relevant to everyone at PagerDuty who are on-call for any team.
 * [Customer Liaison Training](/training/customer_liaison.md) - This is for individuals who will be publicly representing us and interacting with customers.
 * [Internal Liaison Training](/training/internal_liaison.md) - This is relevant for anyone who might be called upon to work with teams internal during an incident.
+
+## Training Courses
+We've also published slides and videos of some of our training courses. Originally used internally at PagerDuty to train our staff, we've since adapted them for a wider audience so you can make use of them in your own organizations.
+
+* [Incident Response Training Course](/training/courses/incident_response.md) - Introductory course on incident response and the role of the Incident Commander.
 
 ## National Incident Management System (NIMS)
 Our incident response process is loosely based on the [US National Incident Management System (NIMS)](https://www.fema.gov/national-incident-management-system), which is described as,
