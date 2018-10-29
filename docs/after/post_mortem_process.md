@@ -88,6 +88,8 @@ You should invite the following people to the post-mortem meeting,
     * The incident commander shadowee (if there was one).
     * Service owners involved in the incident.
     * Key engineer(s)/responders involved in the incident.
+    * Engineering manager for impacted systems.
+    * Product manager for impacted systems. 
 * Optional
     * Customer liaison. (Only SEV-1 incidents)
 
