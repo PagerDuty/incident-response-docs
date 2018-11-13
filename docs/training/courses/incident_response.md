@@ -433,7 +433,7 @@ Importantly, we also want to make sure we ask what risks are involved with the p
 
 Without this information, we can't make an informed decision. For example, if we need to restart our servers to fix a problem, we could either reboot them all at once and be done in 30 seconds, or we could do a rolling restart and take 10 minutes. On the surface of it, the first option sounds like the best.
 
-But, if we ask for the risks involved, we'll learn that the first option will cause downtown for everyone in those 30s, whereas the second option, while slower, will result in no downtime for end users. This can change the decision you make, so it's important to get the information.
+But, if we ask for the risks involved, we'll learn that the first option will cause downtime for everyone in those 30s, whereas the second option, while slower, will result in no downtime for end users. This can change the decision you make, so it's important to get the information.
 
 ---
 
@@ -557,7 +557,7 @@ Several important things happened in this exchange as I was assigning the task.
 <input type="checkbox" id="041" /><label for="041">![041](/assets/slides/incident_response/incident_response.041.jpeg)</label>
 _041. Assign tasks to a specific person._
 
-First, the task was assigned **directly to a specific person**. It’s ok to assign it to a role too “DBA on-call…”, etc. But it must be a single individual. Don't assign things to a group, because they won't get done.
+First, the task was assigned **directly to a specific person**. It’s ok to assign it to a role to “DBA on-call…”, etc. But it must be a single individual. Don't assign things to a group, because they won't get done.
 
 ---
 
