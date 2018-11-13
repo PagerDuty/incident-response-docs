@@ -60,6 +60,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Prevent re-drawing of the backdrop when scrolling with mousewheel. Would cause weird artifacts
+in Chrome. */
+.backdrop {
+  position: fixed;
+}
+
 /* Change the colour theme to better match PagerDuty */
 
 /* background: pd-green */
@@ -344,6 +350,13 @@ nav div.mainlogo img {
   font-family: 'icons';
   content: "\e904";
 }
+/* Fix link colours for questions, dark blue/green doesn't really work here. */
+.admonition.question a {
+  color: #fff;
+}
+.admonition.question a:hover {
+  color: #00f;
+}
 @media print { .admonition.question, .admonition.question a { color: #2196f3; } }
 
 /* Note - indigo, notepad icon */
@@ -373,6 +386,28 @@ h4 {
 
 .project .logo+.name {
 	font-size: 13px;
+}
+
+mark {
+  margin: 0 .25em;
+  padding: .0625em 0;
+  border-radius: .2rem;
+  background-color: rgba(255,235,59,.5);
+  -webkit-box-shadow: 0.25em 0 0 rgba(255,235,59,.5), -0.25em 0 0 rgba(255,235,59,.5);
+  box-shadow: 0.25em 0 0 rgba(255,235,59,.5), -0.25em 0 0 rgba(255,235,59,.5);
+  word-break: break-word;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.article a {
+  border-bottom: 1px solid;
+}
+
+abbr {
+  border-bottom: 1px dotted #aaa;
+  text-decoration: none;
+  cursor: help;
 }
 
 span.bad {
@@ -506,16 +541,16 @@ img + em {
 
 /* Quotes */
 .article blockquote {
-  border-left: 4px solid #32689b;
+  border-left: 4px solid #25c151;
   background: #f7f7f7;
   padding: 0.6em;
   padding-left: 0.8em;
   margin-top: 1em;
-  color: #101862;
+  color: #353535;
   font-style: italic;
   position: relative;
   margin-left: 3em;
-  width: 93%;
+  width: 95%;
 }
 
 .article blockquote:before {
@@ -524,7 +559,7 @@ img + em {
   position: absolute;
   top: 0.6em;
   left: -1.5em;
-  color: #32689b;
+  color: #25c151;
   font-weight: bold;
   font-style: normal;
   font-size: 2em;
@@ -533,6 +568,62 @@ img + em {
 .article blockquote p {
   margin: 0em;
   padding: 0.5em 0em;
+}
+
+/* Asides */
+.article details.aside {
+  border-left: 4px solid #157ee0;
+  background: #f7f7f7;
+  padding: 0.9em;
+  padding-left: 1.1em;
+  margin-top: 1em;
+  color: #353535;
+  font-style: normal;
+  position: relative;
+  width: 95%;
+  margin-left: 3em;
+}
+
+.article details.aside:before {
+  font-family: 'icons';
+  content: "\e903";
+  position: absolute;
+  top: 0.45em;
+  left: -1.5em;
+  color: #157ee0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+}
+
+.article details.aside summary {
+  font-weight: bold;
+  color: #157ee0;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.article details.aside p {
+  margin: 0em;
+  padding: 0.5em 0em;
+}
+
+@media only screen and (max-width: 720px) {
+  /* Get rid of the icon for blockquotes and asides. */
+  .article blockquote,
+  .article details.aside {
+    width: 100% !important;
+    margin-left: 0em !important;
+  }
+
+  .article blockquote:before,
+  .article details.aside:before {
+    display: none;
+  }
+}
+
+.article details.hide-arrow summary::-webkit-details-marker {
+  display:none;
 }
 
 /* Horizontal Rules */
@@ -644,7 +735,7 @@ iframe {
 #national-incident-management-system-nims ~ p img {
   display: inline;
 }
-#national-incident-management-system-nims ~ p:nth-of-type(6) {
+#national-incident-management-system-nims ~ p:nth-of-type(7) {
   text-align: center;
 }
 

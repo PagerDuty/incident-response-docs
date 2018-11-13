@@ -58,6 +58,8 @@ pages:
     - Customer Liaison: 'training/customer_liaison.md'
     - Internal Liaison: 'training/internal_liaison.md'
     - Glossary: 'training/glossary.md'
+  - Training Courses:
+    - Incident Response: 'training/courses/incident_response.md'
   - Additional Resources:
     - Reading: 'resources/reading.md'
     - ChatOps: 'resources/chatops.md'
@@ -73,3 +75,8 @@ markdown_extensions:
       permalink: '#'
   - sane_lists:
   - admonition:
+  - meta:
+  - pymdownx.details:
+  - pymdownx.extra:
+  - pymdownx.mark:
+  - pymdownx.tilde:
