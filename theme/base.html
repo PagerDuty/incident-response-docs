@@ -7,7 +7,7 @@
   <head>
     <meta charset="utf-8">
     {% set title = page_title ~ ' - ' ~ site_name if page_title else site_name %}
-    {% set title = meta.title[0] ~ ' - ' ~ site_name if meta and meta.title %}
+    {% if meta and meta.title %}{% set title = meta.title[0] ~ ' - ' ~ site_name %}{% endif %}
     <title>{{ title }}</title>
 
     <!-- Author and License -->
