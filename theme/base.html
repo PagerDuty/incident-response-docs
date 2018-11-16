@@ -134,6 +134,9 @@
       var repo_id  = '{{ repo_id }}';
     </script>
     <script src="{{ base_url }}/assets/javascripts/application-997097ee0c.js"></script>
+    {% for path in extra_javascript %}
+      <script src="{{ path }}"></script>
+    {% endfor %}
     {% if meta and meta.style and meta.style[0] == "slides" %}
       <script src="/assets/js/jquery-1.10.2.min.js"></script>
       <script src="/assets/js/lazy_load_images.js"></script>
