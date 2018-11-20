@@ -5,8 +5,10 @@ site_author: PagerDuty, Inc.
 site_favicon: 'assets/img/icon.png'
 site_url: https://response.pagerduty.com
 
+docs_dir: ./docs
+
 # Repository
-repo_url: https://github.com/pagerduty/incident-response-docs
+repo_url: https://github.com/getyourguide/incident-response-docs
 
 # Copyright
 copyright: 'Copyright &copy; PagerDuty, Inc.'
@@ -65,9 +67,6 @@ pages:
     - ChatOps: 'resources/chatops.md'
     - Anti-Patterns: 'resources/anti_patterns.md'
   - About: 'about.md'
-
-# Analytics
-google_analytics: ['UA-8759953-1', 'auto']
 
 # Extensions
 markdown_extensions:
