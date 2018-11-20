@@ -12,6 +12,16 @@ service:
   containers:
     web:
       dockerfile: Dockerfile
+      ports:
+      - name: http
+        container: 80
+      resources:
+        requests:
+          memory: 128Mi
+          cpu: 100m
+        limits:
+          memory: 192Mi
+          cpu: 200m
 autodeploy:
   environments:
   - production
