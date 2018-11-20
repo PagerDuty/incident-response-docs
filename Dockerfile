@@ -1,5 +1,5 @@
 FROM nginx
 
-ADD html /usr/share/nginx/html
+ADD site /usr/share/nginx/html
 
 EXPOSE 80

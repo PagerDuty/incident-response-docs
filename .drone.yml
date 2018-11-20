@@ -4,7 +4,7 @@ pipeline:
     repo: hub.gyg.io/devops/incident-response
     commands:
       - pip install -r requirements.txt
-      - mkdocs build --clean html
+      - mkdocs build --clean
   build-image:
     image: hub.gyg.io/drone-plugins/gyg-registry
     privileged: true
