@@ -1,1 +1,6 @@
 site/
+/.gygdev-dc.yml
+/.gygdev_generated
+/.config
+/.secrets
+/.build.env

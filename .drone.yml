@@ -1,0 +1,25 @@
+pipeline:
+  setup_site:
+    image: hub.docker.com/library/python
+    pull: true
+    commands:
+      - pip install -r requirements.txt
+      - mkdocs build --clean html
+  build-image:
+    image: hub.gyg.io/drone-plugins/gyg-registry
+    privileged: true
+    context: .
+    dockerfile: ./Dockerfile
+    repo: hub.gyg.io/devops/incident-response
+    tags:
+      - ${DRONE_BUILD_NUMBER}.${DRONE_COMMIT_SHA:0:7}
+    when:
+      event: push
+  register-dss:
+    image: hub.gyg.io/drone-plugins/dss
+    privileged: true
+    repo: hub.gyg.io/devops/incident-response
+    tags:
+      - ${DRONE_BUILD_NUMBER}.${DRONE_COMMIT_SHA:0:7}
+    when:
+      event: push
