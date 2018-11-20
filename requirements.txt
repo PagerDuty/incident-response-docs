@@ -1,5 +1,5 @@
-mkdocs-bootswatch==0.1.0
-mkdocs-bootstrap==0.1.1
-mkdocs==0.15.3
-mkdocs-material==0.2.4
-pymdown-extensions==6.0
+mkdocs-bootswatch
+mkdocs-bootstrap
+mkdocs>=1.0.4
+mkdocs-material
+pymdown-extensions
