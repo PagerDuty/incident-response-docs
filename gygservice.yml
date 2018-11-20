@@ -1,0 +1,20 @@
+version: '1'
+service:
+  name: incident-response
+  owner: devops
+  level: best effort
+  replicas: 2
+  ingress:
+    domain: incident-response.gygadmin.com
+    authenticated: yes
+  handles_restart: true
+  strategy: rolling
+  containers:
+    web:
+      dockerfile: Dockerfile
+autodeploy:
+  environments:
+  - production
+  branches:
+  - master
+
