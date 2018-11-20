@@ -3,7 +3,7 @@ site_name: PagerDuty Incident Response Documentation
 site_description: A collection of information about the PagerDuty incident response process. Not only how to prepare new employees for on-call responsibilities, but also how to handle major incidents, both in preparation and after-work.
 site_author: PagerDuty, Inc.
 site_favicon: 'assets/img/icon.png'
-site_url: https://response.pagerduty.com
+site_url: https://incident-response.gygadmin.com
 
 docs_dir: ./docs
 

@@ -1,6 +1,6 @@
 version: '1'
 service:
-  name: incident-response
+  name: incident-response-docs
   owner: devops
   level: best effort
   replicas: 2
