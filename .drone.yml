@@ -1,7 +1,6 @@
 pipeline:
   setup_site:
     image: python:3-slim
-    repo: hub.gyg.io/devops/incident-response
     commands:
       - pip install -r requirements.txt
       - mkdocs build --clean
@@ -10,7 +9,7 @@ pipeline:
     privileged: true
     context: .
     dockerfile: ./Dockerfile
-    repo: hub.gyg.io/devops/incident-response
+    repo: hub.gyg.io/devops/incident-response-docs
     tags:
       - ${DRONE_BUILD_NUMBER}.${DRONE_COMMIT_SHA:0:7}
     when:
@@ -18,7 +17,7 @@ pipeline:
   register-dss:
     image: hub.gyg.io/drone-plugins/dss
     privileged: true
-    repo: hub.gyg.io/devops/incident-response
+    repo: hub.gyg.io/devops/incident-response-docs
     tags:
       - ${DRONE_BUILD_NUMBER}.${DRONE_COMMIT_SHA:0:7}
     when:
