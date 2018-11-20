@@ -1,7 +1,7 @@
 pipeline:
   setup_site:
-    image: hub.docker.com/library/python
-    pull: true
+    image: python:3-slim
+    repo: hub.gyg.io/devops/incident-response
     commands:
       - pip install -r requirements.txt
       - mkdocs build --clean html
