@@ -1,8 +1,8 @@
 ---
 cover: assets/img/covers/post-mortem_template.png
-description: This is a standard template we use for post-mortems at PagerDuty. Each section describes the type of information you will want to put in that section.
+description: This is a standard template we use for post-mortems at GetYourGuide. Each section describes the type of information you will want to put in that section.
 ---
-This is a standard template we use for post-mortems at PagerDuty. Each section describes the type of information you will want to put in that section.
+This is a standard template we use for post-mortems at GetYourGuide. Each section describes the type of information you will want to put in that section.
 
 ---
 

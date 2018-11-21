@@ -1,9 +1,9 @@
 ---
 cover: assets/img/covers/training_overview.png
 title: Training Overview
-description: Learning about the PagerDuty major incident response process is an important part of being an effective on-call engineer at PagerDuty. This section goes over our training material for the various roles that are involved in our incident response, along with some additional information and training material from government agencies.
+description: Learning about the GetYourGuide major incident response process is an important part of being an effective on-call engineer at GetYourGuide. This section goes over our training material for the various roles that are involved in our incident response, along with some additional information and training material from government agencies.
 ---
-Learning about the PagerDuty major incident response process is an important part of being an effective on-call engineer at PagerDuty. This section goes over our training material for the various roles that are involved in our incident response, along with some additional information and training material from government agencies.
+Learning about the GetYourGuide major incident response process is an important part of being an effective on-call engineer at GetYourGuide. This section goes over our training material for the various roles that are involved in our incident response, along with some additional information and training material from government agencies.
 
 ## Training Guides
 Our training guides are split up by role, however you are encouraged to read through the training guides even for roles you don't belong to, as it can give you some good insight into how those people will be behaving during major incidents.
@@ -11,12 +11,12 @@ Our training guides are split up by role, however you are encouraged to read thr
 * [Incident Commander Training](/training/incident_commander.md) - The "IC" is the person who drives a major incident to resolution. They're the person who will be directing everyone else.
 * [Deputy Training](/training/deputy.md) - The Deputy is someone who supports the Incident Commander and can take over for them if necessary.
 * [Scribe Training](/training/scribe.md) - This is intended for individuals who will be acting as a scribe during an incident.
-* [SME / Resolver Training](/training/subject_matter_expert.md) - This is relevant to everyone at PagerDuty who are on-call for any team.
+* [SME / Resolver Training](/training/subject_matter_expert.md) - This is relevant to everyone at GetYourGuide who are on-call for any team.
 * [Customer Liaison Training](/training/customer_liaison.md) - This is for individuals who will be publicly representing us and interacting with customers.
 * [Internal Liaison Training](/training/internal_liaison.md) - This is relevant for anyone who might be called upon to work with teams internal during an incident.
 
 ## Training Courses
-We've also published slides and videos of some of our training courses. Originally used internally at PagerDuty to train our staff, we've since adapted them for a wider audience so you can make use of them in your own organizations.
+We've also published slides and videos of some of our training courses. Originally used internally at GetYourGuide to train our staff, we've since adapted them for a wider audience so you can make use of them in your own organizations.
 
 * [Incident Response Training Course](/training/courses/incident_response.md) - Introductory course on incident response and the role of the Incident Commander.
 
@@ -40,7 +40,7 @@ While NIMS is the US incident response framework, many countries have their own 
 
 A book called "[Comparative Emergency Management: Understanding Disaster Policies, Organizations, and Initiatives from Around the World](https://training.fema.gov/hiedu/aemrc/booksdownload/compemmgmtbookproject/)" (available from the [FEMA website](https://training.fema.gov/hiedu/aemrc/)) compares the systems used by 30 or so different countries, and is an amazing collection of information on emergency management frameworks used around the world.
 
-Here are a few of the systems we looked at in more detail in order to adapt and improve our own process at PagerDuty.
+Here are a few of the systems we looked at in more detail in order to adapt and improve our own process at GetYourGuide.
 
 ### United Kingdom
 

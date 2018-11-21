@@ -7,7 +7,7 @@ description: Before defining an incident response process, we should first defin
 Before we can define our incident response process, we should first define what an incident (and a major incident) is.
 
 ## What is an incident?
-Any unplanned disruption or degradation of service that is actively affecting customers ability to use PagerDuty.
+Any unplanned disruption or degradation of service that is actively affecting customers ability to use GetYourGuide.
 
 ## What is a major incident?
 Any incident that requires a co-ordinated response between multiple teams.
@@ -21,14 +21,14 @@ Our incident response process should be initiated for any major incident. It pro
 ### Automated Monitoring
 Throughout our system, we monitor various metrics to determine if our system is in a state which would require a co-ordinated human response in order to resolve. To determine which metrics we monitor, and what to monitor them for, we ask ourselves these questions. If the answer to any is "No", then we should trigger our incident response process.
 
-1. Can customers perform all incident response functions provided by PagerDuty, across all platforms?
+1. Can customers perform all incident response functions provided by GetYourGuide, across all platforms?
     * e.g. Can customers acknowledge, reassign, and resolve incidents via every supported method?
 1. Are customers receiving notifications within SLA?
 
 ### Human Escalation
-Automatic monitoring is only part of the process. We may have parts of our functionality which lack the necessary monitoring. It's important to still be able to trigger a coordinated incident response in those cases. For example, if our Support team start to receive requests that indicate a system issue, they need to have the power to trigger our response. Any PagerDuty employee has the ability to trigger our incident response process at any time.
+Automatic monitoring is only part of the process. We may have parts of our functionality which lack the necessary monitoring. It's important to still be able to trigger a coordinated incident response in those cases. For example, if our Support team start to receive requests that indicate a system issue, they need to have the power to trigger our response. Any GetYourGuide employee has the ability to trigger our incident response process at any time.
 
-We trigger on any unplanned disruption or degradation of service to which any PagerDuty employee deems necessary of requiring co-ordinated incident response.
+We trigger on any unplanned disruption or degradation of service to which any GetYourGuide employee deems necessary of requiring co-ordinated incident response.
 
 !!! question "Is a response required?"
     If you are unsure of whether response is required, trigger our incident response process. All you need to do to start the process is page an IC in Slack with `!ic page`.

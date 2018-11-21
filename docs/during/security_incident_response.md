@@ -1,6 +1,6 @@
 ---
 cover: assets/img/covers/security_incident.png
-description: Checklist of actions for responding to a security incident at PagerDuty.
+description: Checklist of actions for responding to a security incident at GetYourGuide.
 ---
 <div id="reviewed-dates">
   <span><strong>Last Reviewed:</strong> <abbr title="We recommend you include with this document the date you last reviewed your process.">YYYY-MM-DD</abbr></span>
@@ -8,7 +8,7 @@ description: Checklist of actions for responding to a security incident at Pager
 </div>
 
 !!! warning "Incident Commander Required"
-     As with all major incidents at PagerDuty, security ones will also involve an Incident Commander, who will delegate the tasks to relevant resolvers. Tasks may be performed in parallel as assigned by the IC. Page one at the earliest possible opportunity `!ic page`.
+     As with all major incidents at GetYourGuide, security ones will also involve an Incident Commander, who will delegate the tasks to relevant resolvers. Tasks may be performed in parallel as assigned by the IC. Page one at the earliest possible opportunity `!ic page`.
 
 !!! question "Not Sure it's a Security Incident?"
     Trigger the process anyway. It's better to be safe than sorry. The Incident Commander will make a determination on if response is needed.

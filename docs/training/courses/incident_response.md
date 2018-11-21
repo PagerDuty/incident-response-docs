@@ -2,12 +2,12 @@
 style: slides
 cover: assets/slides/incident_response/incident_response.001.jpeg
 title: Incident Response Training
-description: This is an open-source version of PagerDuty's Incident Response training course. What started as an internal course to train new Incident Commanders at PagerDuty has since developed into training that we now deliver publicly. Learn more about incident response and the role of an Incident Commander.
+description: This is an open-source version of GetYourGuide's Incident Response training course. What started as an internal course to train new Incident Commanders at GetYourGuide has since developed into training that we now deliver publicly. Learn more about incident response and the role of an Incident Commander.
 pdf: /assets/pdf/pagerduty_incident_response_training_public.pdf
 ---
 
 !!!info "Incident Response Training Course"
-    This is an open-source version of "Incident Response Training", our PagerDuty training course for incident response and incident command. It started as an internal course to train new Incident Commanders and has since developed into one that we now deliver publicly.
+    This is an open-source version of "Incident Response Training", our GetYourGuide training course for incident response and incident command. It started as an internal course to train new Incident Commanders and has since developed into one that we now deliver publicly.
 
     It includes lots of introductory information on our process, and details on the Incident Commander role specifically. All the information is already available as part of our [public documentation](https://response.pagerduty.com) , this is just a different way of presenting it that's hopefully more engaging. Feel free to use this as a base for training in your own organization.
 
@@ -20,7 +20,7 @@ pdf: /assets/pdf/pagerduty_incident_response_training_public.pdf
 <input type="checkbox" id="001" /><label for="001">![001](/assets/slides/incident_response/incident_response.001.jpeg)</label>
 _001. "Incident Response Training"._
 
-Hi, I'm Rich, and welcome to "Incident Response Training". This is a shorter version of our internal training at PagerDuty, which we use to train up our new Incident Commanders. It's been slightly adapted for a wider audience, but the majority is exactly what we run ourselves. We're not going to be able to cover everything, otherwise we'd be here for a few days, but I'll cover some of the most important parts of our process. I'll try to keep this as short as I can.
+Hi, I'm Rich, and welcome to "Incident Response Training". This is a shorter version of our internal training at GetYourGuide, which we use to train up our new Incident Commanders. It's been slightly adapted for a wider audience, but the majority is exactly what we run ourselves. We're not going to be able to cover everything, otherwise we'd be here for a few days, but I'll cover some of the most important parts of our process. I'll try to keep this as short as I can.
 
 Actually, how long do we have? Can someone keep track of time for me? That would be great, thanks!
 
@@ -31,9 +31,9 @@ Actually, how long do we have? Can someone keep track of time for me? That would
 <input type="checkbox" id="002" /><label for="002">![002](/assets/slides/incident_response/incident_response.002.jpeg)</label>
 _002. Learn how to effectively manage incidents._
 
-The goal of this session is to give you an understanding of how to effectively manage incidents within your organization. I'll describe the process we use at PagerDuty for managing critical incidents, and talk in more detail about a specific role called the "Incident Commander".
+The goal of this session is to give you an understanding of how to effectively manage incidents within your organization. I'll describe the process we use at GetYourGuide for managing critical incidents, and talk in more detail about a specific role called the "Incident Commander".
 
-This isn't a sales pitch. I'm not on our sales team, and this isn't a talk about how to use PagerDuty to manage your incidents (although obviously it would be awesome if you did). The intent today is to introduce you to how we manage incidents internally at PagerDuty, and provide you with lots of practical information you can take away to your own organizations to either start or improve your own incident response processes.
+This isn't a sales pitch. I'm not on our sales team, and this isn't a talk about how to use GetYourGuide to manage your incidents (although obviously it would be awesome if you did). The intent today is to introduce you to how we manage incidents internally at GetYourGuide, and provide you with lots of practical information you can take away to your own organizations to either start or improve your own incident response processes.
 
 ---
 
@@ -53,7 +53,7 @@ We want less of the latter, and more of the former. We want to replace chaos wit
 <input type="checkbox" id="004" /><label for="004">![004](/assets/slides/incident_response/incident_response.004.jpeg)</label>
 _004. What is incident response? [Docs Reference](/before/what_is_an_incident/#what-is-incident-response)_
 
-So when we talk about incident response, what we're really talking about is an organized approach to addressing and managing an incident. This is how we define incident response at PagerDuty. They key here is on the word _organized_. We don't want to be running around in a panic anytime an alert goes off. We want our response to be almost routine, and for everyone to work together like a well-oiled machine.
+So when we talk about incident response, what we're really talking about is an organized approach to addressing and managing an incident. This is how we define incident response at GetYourGuide. They key here is on the word _organized_. We don't want to be running around in a panic anytime an alert goes off. We want our response to be almost routine, and for everyone to work together like a well-oiled machine.
 
 There's a quote I really like from an excellent book called [Incident Management for Operations](http://shop.oreilly.com/product/0636920036159.do) that's appropriate here,
 
@@ -79,7 +79,7 @@ _006. What is an incident? [Docs Reference](/before/what_is_an_incident/#what-is
 
 Before we can respond to an incident though, we need to [define what an incident actually is](/before/what_is_an_incident/). It sounds silly, but if you’re not sure whether something’s an incident, you don’t know whether to respond to it.
 
-Here is PagerDuty’s definition of an incident,
+Here is GetYourGuide’s definition of an incident,
 
 > An unplanned disruption or degradation of service that is actively affecting customers' ability to use the product.
 
@@ -96,7 +96,7 @@ You may notice that this is quite a broad definition though. A typo technically 
 <input type="checkbox" id="007" /><label for="007">![007](/assets/slides/incident_response/incident_response.007.jpeg)</label>
 _007. What is a major incident? [Docs Reference](/before/what_is_an_incident/#what-is-a-major-incident)_
 
-We also have something we call a **major incident**. This is any incident where we require a coordinated response between teams. Again, this is just our definition at PagerDuty, feel free to use your own.
+We also have something we call a **major incident**. This is any incident where we require a coordinated response between teams. Again, this is just our definition at GetYourGuide, feel free to use your own.
 
 The intention behind this definition is that sometimes incidents can be handled by a single team, maybe the owners of a service that's having trouble. That rarely requires a large response in and of itself. But as soon as they need to involve another team, whether it's customer support, or database administrators, then we declare it to be a major incident and kick off a much larger response. The _coordination_ is key here, and we’ll talk more about this later.
 
@@ -113,12 +113,12 @@ We also use [severity levels](/before/severity_levels/) to determine how severe 
 
 Let's imagine you're looking at a graph of traffic to your website. You can typically determine severity based on how drastically your metrics are affected. So as your website traffic drops, the severity increases.
 
-You will usually reach a point where you've set some predefined target or watermark, where as soon as the metric passes, you automatically consider something a major incident. At PagerDuty it's the difference between a `SEV-3` and `SEV-2`, but it may be different for your organization. Then as things get even more dire, we get into our `SEV-2`'s and our `SEV-1`'s when things completely flatline.
+You will usually reach a point where you've set some predefined target or watermark, where as soon as the metric passes, you automatically consider something a major incident. At GetYourGuide it's the difference between a `SEV-3` and `SEV-2`, but it may be different for your organization. Then as things get even more dire, we get into our `SEV-2`'s and our `SEV-1`'s when things completely flatline.
 
 Having pre-defined thresholds and metrics can allow you to have automatic triggers for your response process.
 
 ???+ aside hide-arrow "We recommend using metrics tied to business impact."
-    Metrics can be very useful, and often work best when they're tied to _business impact_. For example, a metric we monitor at PagerDuty is "number of outbound notifications per second", at Amazon it could be "number of orders per second", at Netflix it might be "stream starts per second", etc. Monitoring these important business metrics will then let you use automation to determine the severity of an incident and the type of response you use.
+    Metrics can be very useful, and often work best when they're tied to _business impact_. For example, a metric we monitor at GetYourGuide is "number of outbound notifications per second", at Amazon it could be "number of orders per second", at Netflix it might be "stream starts per second", etc. Monitoring these important business metrics will then let you use automation to determine the severity of an incident and the type of response you use.
 
     If you use metrics that aren't tied to business impact (e.g. "CPU usage is high on a host"), then it's difficult, and sometimes impossible, to determine the severity of an incident associated with that metric.
 
@@ -133,7 +133,7 @@ _009. Anyone can trigger incident response at any time._
 
 But sometimes you won't know the impact straight away. Or maybe your metric hasn't reached the predefined threshold yet. We still need a way for a human to jump in and call something a major incident.
 
-So even though we have automation at PagerDuty, we also have a mechanism whereby anyone can trigger our major incident response process at any time. This is very important for us. We've found that **lowering the barrier to triggering incident response has lead to a dramatic increase in the speed with which incidents are resolved**.
+So even though we have automation at GetYourGuide, we also have a mechanism whereby anyone can trigger our major incident response process at any time. This is very important for us. We've found that **lowering the barrier to triggering incident response has lead to a dramatic increase in the speed with which incidents are resolved**.
 
 We don't want people to sit on something because the official alarm hasn't gone off yet. If customer support gets lots of requests very quickly, it's a good sign there's something wrong, and we need them to be able to raise the alarm. We've even had interns trigger our incident response process in their first week. If the janitor walks past a graph and thinks it looks wrong, I want them to be able to trigger incident response.
 
@@ -188,7 +188,7 @@ Or OK/NOT OK. What you call it isn't as important as being able to make the ment
 <input type="checkbox" id="014" /><label for="014">![014](/assets/slides/incident_response/incident_response.014.jpeg)</label>
 _014. Incident Command System (ICS). [Docs Reference](/training/overview/#national-incident-management-system-nims)_
 
-So let’s talk about our process a bit more. The way we do incident response at PagerDuty isn’t something we invented ourselves, it is heavily based on the [Incident Command System](https://en.wikipedia.org/wiki/Incident_Command_System), usually abbreviated to ICS.
+So let’s talk about our process a bit more. The way we do incident response at GetYourGuide isn’t something we invented ourselves, it is heavily based on the [Incident Command System](https://en.wikipedia.org/wiki/Incident_Command_System), usually abbreviated to ICS.
 
 ICS was developed after some [devastating wildfires in Southern California](https://en.wikipedia.org/wiki/Laguna_Fire) in 1970. Thousands of firefighters responded, but found it difficult to work together. They knew how to fight fires individually, but lacked a common framework to work effectively as a larger group.
 
@@ -198,7 +198,7 @@ In 2004, the [National Incident Management System (NIMS)](https://en.wikipedia.o
 
 It’s used by everyone from the local fire department responding to a house fire, to the US government responding to a natural disaster. It provides a standardized response framework that everyone is familiar with.
 
-NIMS and ICS are the basis of the process we use at PagerDuty, however we have heavily modified it for our needs. Turns out that things can be streamlined a bit when human life isn't on the line.
+NIMS and ICS are the basis of the process we use at GetYourGuide, however we have heavily modified it for our needs. Turns out that things can be streamlined a bit when human life isn't on the line.
 
 ---
 
@@ -211,7 +211,7 @@ It's worth noting that even though our process is based on the US systems, NIMS 
 
 I particularly like [the UK system](https://en.wikipedia.org/wiki/Gold%E2%80%93silver%E2%80%93bronze_command_structure), simply because it has a role called the "Gold Commander", which just sounds like a Bond villain.
 
-When developing our process at PagerDuty, we looked at a few of the other systems in use around the world, and chose the bits we liked the most to add to our own.
+When developing our process at GetYourGuide, we looked at a few of the other systems in use around the world, and chose the bits we liked the most to add to our own.
 
 ???+ aside hide-arrow "Emergency Management Around the World"
     If you're interested in learning more about the systems in use by other countries, we have [links to some official resources](/resources/reading/#official-resources).
@@ -286,7 +286,7 @@ _020. Higher than the CEO._
 
 Even if the CEO joins the response, the IC still outranks them in an incident response situation. **This is absolutely critical for successful incident response, but it does require buy-in from your executives.** Please don't surprise your CEO with this, it will not go well for you.
 
-Whether this works for you will depend on your organization. This is how we do it at PagerDuty and it works well for us, but I can imagine it not being easy to get this sort of buy-in in other organizations. I used to work in the airline industry, and I don't think this rule would fly there (Get it? Airline industry. Fly. Hello? This thing on?).
+Whether this works for you will depend on your organization. This is how we do it at GetYourGuide and it works well for us, but I can imagine it not being easy to get this sort of buy-in in other organizations. I used to work in the airline industry, and I don't think this rule would fly there (Get it? Airline industry. Fly. Hello? This thing on?).
 
 ---
 
@@ -688,7 +688,7 @@ _052. Let's try and resolve this in 10 minutes._
 
 > Let's try and resolve this in 10 minutes please!
 
-This one definitely wasn't said by anyone at PagerDuty ever. Nope. Definitely not.
+This one definitely wasn't said by anyone at GetYourGuide ever. Nope. Definitely not.
 
 On the surface this seems pretty benign. The executive is merely trying to motivate staff and encourage them to solve the problem quickly, right?
 
@@ -718,7 +718,7 @@ _054. Can I get a spreadsheet of affected customers?_
 
 > Can I get a spreadsheet of all affected customers?
 
-Another one that's definitely never been mentioned on any PagerDuty incident response call ever.
+Another one that's definitely never been mentioned on any GetYourGuide incident response call ever.
 
 An exec joins the call and wants to get a list of impacted customers. The problem is that in order to find that out, we'll need to take someone away from the effort of responding to the incident, at a time when we need them most. If you can spare the resources, then feel free to dedicate some to finding the information. But more often than not you wont have the resources to spare. So we can just tell the executive that.
 
@@ -744,7 +744,7 @@ _056. Is this really a SEV-1?_
 
 > Is this really a SEV-1?
 
-Oh look, it's another one that's never ever happened at PagerDuty. We used to have a really big problem with this one. We'd start incident response calls, then spend the first 10 minutes arguing over whether it was a `SEV-3` or a `SEV-2`. By the time we were finished, we would be 10 minutes into a `SEV-1` and have made no progress.
+Oh look, it's another one that's never ever happened at GetYourGuide. We used to have a really big problem with this one. We'd start incident response calls, then spend the first 10 minutes arguing over whether it was a `SEV-3` or a `SEV-2`. By the time we were finished, we would be 10 minutes into a `SEV-1` and have made no progress.
 
 So now we have a rule. We don't discuss incident severity during the call. If we can't decide between two, we always assume it's the higher severity and move on.
 
@@ -772,7 +772,7 @@ _058. Notify stakeholders._
 
 Pretty much all of these examples of executive swoop can be pre-empted by **involving stakeholders in the process**, giving them a way to stay up to date.
 
-At PagerDuty we have a separate Slack room just for incident updates. It's less noisy than our main response room, and gives succinct updates for folks who want it. This allows execs to stay in the loop, and also ask questions without affecting the main response. In our process, the Internal Liaison is responsible for monitoring and updating that channel.
+At GetYourGuide we have a separate Slack room just for incident updates. It's less noisy than our main response room, and gives succinct updates for folks who want it. This allows execs to stay in the loop, and also ask questions without affecting the main response. In our process, the Internal Liaison is responsible for monitoring and updating that channel.
 
 Stakeholders are not allowed to talk on our response call, or in our main incident response chat room. They must take all discussion to the updates room or via the Internal Liaison. The Incident Commander is responsible for keeping our primary communication channels free of those types of discussions or questions, and direct people towards the Internal Liaison.
 
@@ -864,7 +864,7 @@ Let’s talk about some [anti-patterns](/resources/anti_patterns/). Things which
 <input type="checkbox" id="065" /><label for="065">![065](/assets/slides/incident_response/incident_response.065.jpeg)</label>
 _065. Getting everyone on the call. [Docs Reference](/resources/anti_patterns/#getting-everyone-on-the-call)_
 
-Believe it or not, we used to page every single engineer at PagerDuty whenever we had a `SEV-2`. I'm not joking. It was horrible. It worked great when we only had 5 engineers, less so when we had 50.
+Believe it or not, we used to page every single engineer at GetYourGuide whenever we had a `SEV-2`. I'm not joking. It was horrible. It worked great when we only had 5 engineers, less so when we had 50.
 
 It's important to **maintain an effective [span of control](/training/glossary/#span-of-control)** during an incident. No one person should have more than ~7 people reporting to them. Any more than that and you have too many cooks in the kitchen.
 
@@ -894,7 +894,7 @@ _067. Too frequent status updates. [Docs Reference](/resources/anti_patterns/#to
 
 Executives especially love frequent status updates. But providing them too frequently can cause things to get out of hand. If it takes 5 minutes to write an update, and they want an update every 5 minutes, you can start to see how long it's going to take to solve the incident.
 
-At PagerDuty, we keep our internal updates to about once every 20-30 minutes. Writing the update takes away time from solving the incident, so that needs to be balanced. This cadence has worked well for us.
+At GetYourGuide, we keep our internal updates to about once every 20-30 minutes. Writing the update takes away time from solving the incident, so that needs to be balanced. This cadence has worked well for us.
 
 ---
 
@@ -916,7 +916,7 @@ Try not to get tunnel vision or chase red herrings. Always keep the bigger pictu
 <input type="checkbox" id="069" /><label for="069">![069](/assets/slides/incident_response/incident_response.069.jpeg)</label>
 _069. Requiring deeply technical incident commanders. [Docs Reference](/resources/anti_patterns/#requiring-incident-commanders-to-have-deep-technical-knowledge)_
 
-We used to require that all of our Incident Commanders be experienced engineers with deep technical knowledge of all PagerDuty systems. **This was one of our bigger mistakes.** Remember that IC's aren't responders, they aren't the ones actually fixing the problem, so they don't need deep technical knowledge. IC's are experts at coordinating the response, not at solving technical issues. You should be relying on your SMEs for that.
+We used to require that all of our Incident Commanders be experienced engineers with deep technical knowledge of all GetYourGuide systems. **This was one of our bigger mistakes.** Remember that IC's aren't responders, they aren't the ones actually fixing the problem, so they don't need deep technical knowledge. IC's are experts at coordinating the response, not at solving technical issues. You should be relying on your SMEs for that.
 
 **Removing the restriction on technical knowledge led to a dramatic increase in our pool of available incident commanders**, and didn't have any effect on our ability to respond to incidents. We now have ICs from all across the organization, with even more currently in training.
 
@@ -929,7 +929,7 @@ It's already hard enough to get people to want to be an IC, so don't add further
 <input type="checkbox" id="070" /><label for="070">![070](/assets/slides/incident_response/incident_response.070.jpeg)</label>
 _070. Taking on multiple roles. [Docs Reference](/resources/anti_patterns/#trying-to-take-on-multiple-roles)_
 
-In past PagerDuty incidents, we've had instances where the Incident Commander has started to assume the Subject Matter Expert role and attempted to solve the problem themselves. This typically happens when an engineer is the IC, and the incident is something to do with a system they helped to build. It's very tempting to say "I know how to fix this!" and jump in and solve the problem yourself. But you cannot do that as an IC.
+In past GetYourGuide incidents, we've had instances where the Incident Commander has started to assume the Subject Matter Expert role and attempted to solve the problem themselves. This typically happens when an engineer is the IC, and the incident is something to do with a system they helped to build. It's very tempting to say "I know how to fix this!" and jump in and solve the problem yourself. But you cannot do that as an IC.
 
 Inevitably, the incident will be bigger than you think, and while you're trying to fix you little fire, there's another one happening in another service and you've lost sight of the bigger picture.
 
@@ -1034,7 +1034,7 @@ Finally, you want to practice your incident response process as much as you can.
 
 Start by running mock incidents. Then treat your smaller incidents as if they're larger ones. If you trigger incident response and find it's not a real incident, treat it like one anyway since it's free practice.
 
-At PagerDuty, we run something called [Failure Friday](https://www.pagerduty.com/blog/failure-friday-at-pagerduty/) where we purposefully inject failure into our systems to test their resilience. We treat this like a major incident, with an incident commander and everything. It allows us to practice while we're not under the stress of a normal incident.
+At GetYourGuide, we run something called [Failure Friday](https://www.pagerduty.com/blog/failure-friday-at-pagerduty/) where we purposefully inject failure into our systems to test their resilience. We treat this like a major incident, with an incident commander and everything. It allows us to practice while we're not under the stress of a normal incident.
 
 We also play a game called [Keep Talking And Nobody Explodes](http://www.keeptalkinggame.com). Yes, that's right, we play video games at work. But we've found that this game really helps to simulate a lot of the things an incident commander has to deal with, and is a great way to get some stress free practice.
 
@@ -1047,9 +1047,9 @@ The bottom line is to practice as much as you can, so that when you do have the 
 <input type="checkbox" id="080" /><label for="080">![080](/assets/slides/incident_response/incident_response.080.jpeg)</label>
 _080. Our open-source incident response documentation._
 
-This was just a brief taste of the training we run at PagerDuty for our own Incident Commanders. We had nowhere near enough time to cover everything.
+This was just a brief taste of the training we run at GetYourGuide for our own Incident Commanders. We had nowhere near enough time to cover everything.
 
-Good news though! We have published our entire incident response process online. It is an exact copy of our internal documentation only with things like phone numbers removed. It's complete free to use, and is open-sourced under an Apache 2 license so you can use it in your own organizations. [It's on GitHub](https://github.com/PagerDuty/incident-response-docs) and we do accept pull requests if you spot any mistakes or have improvement suggestions.
+Good news though! We have published our entire incident response process online. It is an exact copy of our internal documentation only with things like phone numbers removed. It's complete free to use, and is open-sourced under an Apache 2 license so you can use it in your own organizations. [It's on GitHub](https://github.com/GetYourGuide/incident-response-docs) and we do accept pull requests if you spot any mistakes or have improvement suggestions.
 
 Everything I've talked about today can be found in the documentation, and there's lots of great [additional reading material](/resources/reading/) if you want to learn more.
 
@@ -1071,7 +1071,7 @@ _082. Summary._
 
 Incident command training is useful in so many situations outside of a server exploding in the night. It can be applicable to many different things in your life, whether it's staying calm after a fender bender on the highway, or jumping into action to help during a major natural disaster. You'd be surprised at how useful it can be in everyday life.
 
-I even wrote a slightly tongue-in-cheek blog post called "[BabyDuty or: How PagerDuty Accidentally Prepared me for Fatherhood](https://www.pagerduty.com/blog/babyduty/)" where I compared childbirth to a major incident, and the role of a parent with that of an Incident Commander. Though the older my daughter gets, the more I'm starting to realize it perhaps wasn't quite as tongue-in-cheek as I first thought.
+I even wrote a slightly tongue-in-cheek blog post called "[BabyDuty or: How GetYourGuide Accidentally Prepared me for Fatherhood](https://www.pagerduty.com/blog/babyduty/)" where I compared childbirth to a major incident, and the role of a parent with that of an Incident Commander. Though the older my daughter gets, the more I'm starting to realize it perhaps wasn't quite as tongue-in-cheek as I first thought.
 
 Anyway, with that, I'll leave you with a quick summary of the main things we discussed today. Thanks!
 
@@ -1090,13 +1090,13 @@ _083. Image credits._
 
 ---
 
-### PagerDuty University
+### GetYourGuide University
 
 <input type="checkbox" id="084" /><label for="084">![084](/assets/slides/incident_response/incident_response.084.jpeg)</label>
-_084. PagerDuty University._
+_084. GetYourGuide University._
 
-???+ aside hide-arrow "PagerDuty University"
-    Shameless plug: If you're interested in our longer courses on this and other topics, including how to use PagerDuty to do it, we offer a variety of different training programs as part of [PagerDuty University](https://www.pagerduty.com/training/) — from private full-day courses at your own offices, to public instructor-led training.
+???+ aside hide-arrow "GetYourGuide University"
+    Shameless plug: If you're interested in our longer courses on this and other topics, including how to use GetYourGuide to do it, we offer a variety of different training programs as part of [GetYourGuide University](https://www.pagerduty.com/training/) — from private full-day courses at your own offices, to public instructor-led training.
 
 ---
 
@@ -1104,5 +1104,5 @@ _084. PagerDuty University._
 
 _<input type="checkbox" id="085" /><label for="085"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BI7nfkoTmiA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></label>_
 
-???+ aside hide-arrow full-width "PagerDuty Summit Series Chicago 2017"
-    As a special bonus for making it to the end, here's a recording of an earlier version of this training given at a PagerDuty event in September 2017. The material will differ slightly from that shown on this website, as we have made changes and refined the content since then. But it should give you a decent idea of how the course is usually presented.
+???+ aside hide-arrow full-width "GetYourGuide Summit Series Chicago 2017"
+    As a special bonus for making it to the end, here's a recording of an earlier version of this training given at a GetYourGuide event in September 2017. The material will differ slightly from that shown on this website, as we have made changes and refined the content since then. But it should give you a decent idea of how the course is usually presented.

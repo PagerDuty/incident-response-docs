@@ -123,7 +123,7 @@ You are there to provide updates to internal stakeholders, and to mobilize addit
 
 1. Be prepared to page other people as directed by the Incident Commander.
 
-1. Notify internal stakeholders as necessary, adding subscribers to the PagerDuty incident. We have pre-defined teams called "SEV-1 Stakeholders" and "SEV-2 Stakeholders" which can be used.
+1. Notify internal stakeholders as necessary, adding subscribers to the GetYourGuide incident. We have pre-defined teams called "SEV-1 Stakeholders" and "SEV-2 Stakeholders" which can be used.
 
 1. Provide regular status updates in Slack (roughly every 30mins) to the executive team, giving an executive summary of the current status. Keep it short and to the point, and use `@here`.
 

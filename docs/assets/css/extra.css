@@ -66,7 +66,7 @@ in Chrome. */
   position: fixed;
 }
 
-/* Change the colour theme to better match PagerDuty */
+/* Change the colour theme to better match GetYourGuide */
 
 /* background: pd-green */
 .repo a {
@@ -225,7 +225,7 @@ ul, ol {
   padding-left: 1em;
 }
 
-/* PagerDuty icon in main header */
+/* GetYourGuide icon in main header */
 .icon-pagerduty:before {
   display: inline-block;
   font-family: 'pagerduty';
@@ -359,9 +359,9 @@ nav div.mainlogo img {
 }
 @media print { .admonition.question, .admonition.question a { color: #2196f3; } }
 
-/* Note - indigo, notepad icon */
+/* Note - guiding red, notepad icon */
 .admonition.note {
-  background: #3f51b5;
+  background: #ff5533;
 }
 .admonition.note .admonition-title {
   text-indent: 0.05em;
@@ -370,7 +370,7 @@ nav div.mainlogo img {
   font-family: 'icons';
   content: "\e902";
 }
-@media print { .admonition.note, .admonition.note a { color: #3f51b5; } }
+@media print { .admonition.note, .admonition.note a { color: #ff5533; } }
 
 @media print {
   .admonition {

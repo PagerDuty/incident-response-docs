@@ -1,12 +1,9 @@
 ---
 cover: assets/img/covers/incident_response_docs.png
 ---
-![Incident Response at PagerDuty](./assets/img/headers/pagerduty_ir.jpg)
+![Incident Response at GetYourGuide](./assets/img/headers/pagerduty_ir.jpg)
 
-This documentation covers parts of the PagerDuty Incident Response process. It is a cut-down version of our internal documentation, used at PagerDuty for any major incidents, and to prepare new employees for on-call responsibilities. It provides information not only on preparing for an incident, but also what to do during and after. It is intended to be used by on-call practitioners and those involved in an operational incident response process (or those wishing to enact a formal incident response process). See the [about page](about.md) for more information on what this documentation is and why it exists.
-
-!!! tip "Don't know where to start?"
-    If you're new to incident response and don't yet have a formal process in your organization, we recommend looking at our [Getting Started](/getting_started.md) page for a quick list of things you can do to begin.
+This documentation covers parts of the GetYourGuide Incident Response process. It provides information not only on preparing for an incident, but also what to do during and after. It is intended to be used by on-call practitioners and those involved in an operational incident response process (or those wishing to enact a formal incident response process). See the [about page](about.md) for more information on what this documentation is and why it exists.
 
 ## Being On-Call
 
@@ -38,7 +35,7 @@ Our followup processes, how we make sure we don't repeat mistakes and are always
 
 * [After an Incident](after/after_an_incident.md) - _Information on what to do after an incident is resolved._
 * [Post-Mortem Process](after/post_mortem_process.md) - _Information on our post-mortem process; what's involved and how to write or run a post-mortem._
-* [Post-Mortem Template](after/post_mortem_template.md) - _The template we use for writing our post-mortems for major incidents._
+* TODO: lbedford: find a link to ours, if it's better. [Post-Mortem Template](after/post_mortem_template.md) - _The template we use for writing our post-mortems for major incidents._
 * [Effective Post-Mortems](after/effective_post_mortems.md) - _A guide for writing effective post-mortems._
 
 ## Training

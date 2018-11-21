@@ -11,10 +11,10 @@ We manage how we get alerted based on a simple principle, **an alert is somethin
 
 | Priority | Alerts | Response |
 | -------- | ------ | -------- |
-| High | High-Priority PagerDuty Alert 24/7/365. | Requires **immediate human action**. |
-| Medium | High-Priority PagerDuty Alert during **business hours only**. | Requires human action within 24 hours. |
-| Low | Low-Priority PagerDuty Alert 24/7/365. | Requires human action at some point. |
-| Notification | Suppressed PagerDuty Event. | No response required. Informational only. |
+| High | High-Priority GetYourGuide Alert 24/7/365. | Requires **immediate human action**. |
+| Medium | High-Priority GetYourGuide Alert during **business hours only**. | Requires human action within 24 hours. |
+| Low | Low-Priority GetYourGuide Alert 24/7/365. | Requires human action at some point. |
+| Notification | Suppressed GetYourGuide Event. | No response required. Informational only. |
 
 If you're setting up a new alert/notification, consider the chart above for how you want to alert people. Be mindful of not creating new high-priority alerts if they don't require an immediate response, for example.
 

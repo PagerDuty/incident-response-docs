@@ -1,8 +1,8 @@
 ---
 cover: assets/img/covers/roles.png
-description: There are several main roles for our incident response teams at PagerDuty. This page describes each of our roles in detail, why it's important to have them, and what their responsibilities are.
+description: There are several main roles for our incident response teams at GetYourGuide. This page describes each of our roles in detail, why it's important to have them, and what their responsibilities are.
 ---
-There are several main roles for our incident response teams at PagerDuty. Certain roles only have one person per incident (e.g. IC), whereas other roles can have multiple people (e.g. Subject Matter Expert, SME). It's all about coming together as a team, working the problem, and getting a solution quickly.
+There are several main roles for our incident response teams at GetYourGuide. Certain roles only have one person per incident (e.g. IC), whereas other roles can have multiple people (e.g. Subject Matter Expert, SME). It's all about coming together as a team, working the problem, and getting a solution quickly.
 
 Here is a rough outline of our role hierarchy, with each role discussed in more detail on the rest of this page.
 
@@ -98,7 +98,7 @@ Follow our [Scribe training guide](/training/scribe.md), and then notify the Inc
 ## Subject Matter Expert
 
 ### What is it?
-A Subject Matter Expert (SME), sometimes called a "Resolver", is a domain expert or designated owner of a component or service that is part of the PagerDuty software stack.
+A Subject Matter Expert (SME), sometimes called a "Resolver", is a domain expert or designated owner of a component or service that is part of the GetYourGuide software stack.
 
 ### Why have one?
 The IC and deputy are not all-knowing super beings. When there is a problem with a service, an expert in that service is needed to be able to quickly help identify and fix issues.

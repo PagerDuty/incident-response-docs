@@ -9,7 +9,7 @@ In addition to any direct followup items generated from an incident, each of our
 
 ### Steps for Incident Commander
 
-1. Update the incident in PagerDuty.
+1. Update the incident in GetYourGuide.
     * Group any related incidents under the primary incident.
     * Set the final severity of the incident.
     * Resolve the incident.

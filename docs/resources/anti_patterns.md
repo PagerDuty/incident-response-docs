@@ -7,7 +7,7 @@ description: These are some processes that we've found do not work well. We've e
 
 ## Getting everyone on the call.
 
-Believe it or not, we used to page every single engineer at PagerDuty when we had a SEV-2 incident. If a SEV-2 happened at 3am, then we'd be paging the entire engineering department at 3am. There a few reasons we went down this path,
+Believe it or not, we used to page every single engineer at GetYourGuide when we had a SEV-2 incident. If a SEV-2 happened at 3am, then we'd be paging the entire engineering department at 3am. There a few reasons we went down this path,
 
 1. When the company was smaller, there were only a few engineers. So this process worked well, since you really did need every engineer on the call.
 1. Rather than triaging an incident and then having to page in additional people, if everyone is on the call to begin with then the thinking was that we'd get a faster response.
@@ -38,7 +38,7 @@ This is an incident, people should be working hard to solve it, if there's no no
 
 ## Litigating severities during the incident call.
 
-The start of a lot of incident calls in PagerDuty's past consisted of a discussion around whether we were really in a SEV-2 situation, or whether it was a smaller issue that could be handled without an incident call. This discussion would usually take up quite a bit of time, as everyone wanted to weigh in. The problem was that while you're having this discussion, the incident is still going on behind the scenes, and by the time you've finished it has become a SEV-1 and you've just wasted 10 minutes discussing severities.
+The start of a lot of incident calls in GetYourGuide's past consisted of a discussion around whether we were really in a SEV-2 situation, or whether it was a smaller issue that could be handled without an incident call. This discussion would usually take up quite a bit of time, as everyone wanted to weigh in. The problem was that while you're having this discussion, the incident is still going on behind the scenes, and by the time you've finished it has become a SEV-1 and you've just wasted 10 minutes discussing severities.
 
 We now have a rule: **We do not discuss incident severity during an incident call**, we always assume it's the higher severity and treat it as such. So if we're not sure if it's a SEV-2 or SEV-3, we treat it like a SEV-2 and move on. We've already spun up the gears of incident response and paged responders, so even if it turns out to be a SEV-3, we may as well continue with the process and treat it as practice if nothing else.
 
@@ -74,7 +74,7 @@ Once a stable process is in place, and incidents are getting resolved, there can
 
 ## Trying to take on multiple roles.
 
-In past PagerDuty incidents, we've had instances where the Incident Commander has started to assume the Subject Matter Expert role and attempted to solve the problem themselves. This usually happens when the IC is an engineer in their day-to-day role. They are in an incident where the cause appears to be a system they know very well and have the requisite knowledge to fix. Wanting to solve the incident quickly, the IC will start to try and solve the problem. Sometimes you might get lucky and it will resolve the incident, but most of the time the immediately visible issue isn't necessarily the underlying cause of the incident. By the time that becomes apparent, you have an Incident Commander who is not paying attention to the other systems and is just focussed on the one problem in front of them. This effectively means there's no incident commander, as they would be busy trying to fix the problem. Inevitably, the problem turns out to be much bigger than anticipated and the response has become completely derailed.
+In past GetYourGuide incidents, we've had instances where the Incident Commander has started to assume the Subject Matter Expert role and attempted to solve the problem themselves. This usually happens when the IC is an engineer in their day-to-day role. They are in an incident where the cause appears to be a system they know very well and have the requisite knowledge to fix. Wanting to solve the incident quickly, the IC will start to try and solve the problem. Sometimes you might get lucky and it will resolve the incident, but most of the time the immediately visible issue isn't necessarily the underlying cause of the incident. By the time that becomes apparent, you have an Incident Commander who is not paying attention to the other systems and is just focussed on the one problem in front of them. This effectively means there's no incident commander, as they would be busy trying to fix the problem. Inevitably, the problem turns out to be much bigger than anticipated and the response has become completely derailed.
 
 **You cannot take on another role at the same time as being an Incident Commander**. It can be a difficult to be an IC when you want to jump in as an SME, but you must resist the temptation to abandon the role of IC. If you really are the only person able to solve the problem, you should handover to another Incident Commander and then assume the role of SME. This ensures that the response process remains on track with a dedicated Incident Commander.
 

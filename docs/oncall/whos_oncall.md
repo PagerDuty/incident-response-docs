@@ -12,7 +12,7 @@ Generally speaking, every department should have a primary point of contact, on-
 
 Engineers are typically the primary responders and [subject matter experts](../before/different_roles) during incident response.
 
-Which engineering teams are involved in which responses varies with a company’s operational model. In some, a designated “Operations” or “Site Reliability Engineering” team may have initial responsibility for triage and assessment of new issues. At PagerDuty, the on-call engineer for an affected service has initial triage and assessment responsibility.
+Which engineering teams are involved in which responses varies with a company’s operational model. In some, a designated “Operations” or “Site Reliability Engineering” team may have initial responsibility for triage and assessment of new issues. At GetYourGuide, the on-call engineer for an affected service has initial triage and assessment responsibility.
 
 ## Customer Support / Customer Success
 

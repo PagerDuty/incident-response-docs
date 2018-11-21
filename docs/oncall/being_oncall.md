@@ -1,24 +1,25 @@
 ---
 cover: assets/img/covers/being_on-call.png
-description: A summary of the expectations and responsibilities of being on-call at PagerDuty, along with some best practice and etiquette recommendations.
+description: A summary of the expectations and responsibilities of being on-call at GetYourGuide, along with some best practice and etiquette recommendations.
 ---
 ![Alert Fatigue](../assets/img/misc/alert_fatigue.png)
 
 A summary of expectations and helpful information for being on-call.
 
 ## What is On-Call?
-Being on-call means that you are able to be contacted at any time in order to investigate and fix issues that may arise for the system you are responsible for. For example, if you are on-call for your service at PagerDuty, should any alarms be triggered for that service, you will receive a "page" (an alert on your mobile device, email, phone call, or SMS, etc.) giving you details on what has broken and how to fix it. You will be expected to take whatever actions are necessary in order to resolve the issue and return your service to a normal state.
+Being on-call means that you are able to be contacted at any time in order to investigate and fix issues that may arise for the system you are responsible for. For example, if you are on-call for your service at GetYourGuide, should any alarms be triggered for that service, you will receive a "page" (an alert on your mobile device, email, phone call, or SMS, etc.) giving you details on what has broken and how to fix it. You will be expected to take whatever actions are necessary in order to resolve the issue and return your service to a normal state.
 
-On-call responsibilities extend beyond normal office hours, and if you are on-call you are expected to be able to respond to issues, even at 2am. This sounds horrible (and it can be), but this is what our customers go through, and is the problem that the PagerDuty product itself is trying to fix!
+On-call responsibilities can extend beyond normal office hours, and if you are on-call you are expected to be able to respond to issues. If your team is on an L3 oncall rotation, this includes overnight.
 
 ## Responsibilities
 
 1. **Prepare**
     * Have your laptop and Internet with you (office, home, a MiFi dongle, a phone with a tethering plan, etc).
         * Have a way to charge your MiFi.
-    * Team alert escalation happens within 5 minutes, set/stagger your notification timeouts (push, SMS, phone...) accordingly.
-        * Make sure PagerDuty texts and calls can [bypass your "Do Not Disturb" settings](https://support.pagerduty.com/docs/notification-phone-numbers).
+    * Team alert escalation happens within 30 minutes, set/stagger your notification timeouts (push, SMS, phone...) accordingly.
+        * Make sure PagerDuty (our alerting provider) texts and calls can [bypass your "Do Not Disturb" settings](https://support.pagerduty.com/docs/notification-phone-numbers).
     * Be prepared (environment is set up, a current working copy of the necessary repos is local and functioning, you have configured and tested environments on workstations, your credentials for third-party services are current and so on...)
+        * Ensure you have your 2FA codes or device with you.
     * Read our Incident Response documentation (that's this!) to understand how we handle serious incidents, what the different roles and methods of communication are, etc.
     * Be aware of your upcoming on-call time (primary, backup) and arrange swaps around travel, vacations, appointments etc.
 
@@ -28,12 +29,13 @@ On-call responsibilities extend beyond normal office hours, and if you are on-ca
         * Is it something that should be worked on right now or escalated into a major incident? ("production server on fire" situations. Security alerts) - do so.
         * Is it some tactical work that doesn't have to happen during the night? (for example, disk utilization high watermark, but there's plenty of space left and the trend is not indicating impending doom) - snooze the alert until a more suitable time (working hours, the next morning...) and get back to fixing it then.
     * Check Slack for current activity. Often (but not always) actions that could potentially cause alerts will be announced there.
-    * Does the alert and your initial investigation indicate a general problem or an issue with a specific service that the relevant team should look into? If it does not look like a problem you are the expert for, then escalate to another team.
+    * Does the alert and your initial investigation indicate a general problem or an issue with a specific service that the relevant team should look into? If it does not look like a problem you are the expert for, then [escalate](/oncall/escalation_matrix.md) to another team.
 
 1. **Fix**
     * You are empowered to dive into any problem and act to fix it.
     * Involve other team members as necessary: do not hesitate to escalate if you cannot figure out the cause within a reasonable timeframe or if the service / alert is something you have not tackled before.
     * If the issue is not very time sensitive and you have other priority work, create a JIRA ticket to keep a track of it (with an appropriate severity).
+        * Your ticket should probably also include an investigation of why this paged rather than some other kind of alert.
 
 1. **Improve**
     * If a particular issue keeps happening; if an issue alerts often but turns out to be a preventable non-issue – perhaps improving this should be a longer-term task.
@@ -44,6 +46,7 @@ On-call responsibilities extend beyond normal office hours, and if you are on-ca
     * When your on-call "shift" ends, let the next on-call know about issues that have not been resolved yet and other experiences of note.
     * If you are making a change that impacts the schedule (adding / removing yourself, for example), let others know since many of us make arrangements around the on-call schedule well in advance.
     * Support each other: when doing activities that might generate plenty of pages, it is courteous to "take the page" away from the on-call by notifying them and scheduling an override for the duration.
+        * Alternatively, consider adding downtime for relevant monitors, if they are specific enough (don't add downtime for all errors in Frankfurt!)
 
 ## Not Responsibilities
 
@@ -66,9 +69,9 @@ If your team is starting its own on-call rotation, here are some scheduling reco
 
 * Team managers can (and should) be part of your normal rotation. It gives a better insight into what has been going on.
 
-* New members of the team should shadow your on-call rotation during the first few weeks. They should get all alerts, and should follow along with what you are doing. (All new employees shadow the Operations team for one week of on-call, but it's useful to have new team members shadow your team rotations also. Just not at the same time).
+* New members of the team should shadow your on-call rotation during the first few weeks. They should get all alerts, and should follow along with what you are doing. 
 
-* We recommend you set your escalation timeout to 5 minutes. This should be plenty of time for someone to acknowledge the incident if they're able to. If they're not able to within 5 minutes, then they're probably not in a good position to respond to the incident anyway.
+* We recommend you set your escalation timeout to 30 minutes. This should be plenty of time for someone to acknowledge the incident if they're able to. If they're not able to within 30 minutes, then they're probably not in a good position to respond to the incident anyway.
 
 * When going off-call, you should provide a quick summary to the next on-call about any issues that may come up during their shift. A service has been flapping, an issue is likely to re-occur, etc. If you want to be formal, this can be a written report via email, but generally a verbal summary is sufficient.
 
@@ -79,6 +82,7 @@ You are free to set up your notification rules as you see fit, to match how you 
 
 * Use Push Notification and Email as your first method of notification. Most of us have phones with us at all times, so this is a prudent first method and is usually sufficient.
 * Use Phone and/or SMS notification each minute after, until the escalation time. If Push didn't work, then it's likely you need something stronger, like a phone call. Keep calling every minute until it's too late. If you don't pick up by the 3rd time, then it's unlikely you are able to respond, and the incident will get escalated away from you.
+* If you enable Do Not Disturb mode regularly, ensure that the Pagerduty contacts are able to override that (star them in Android) so that calls get through.
 
 ## Etiquette
 

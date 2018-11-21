@@ -1,7 +1,7 @@
 ---
 cover: assets/img/covers/incident_response_docs.png
 ---
-![PagerDuty](../assets/img/headers/getyourguide_logo.png)
+![GetYourGuide](../assets/img/headers/getyourguide_logo.png)
 
 This site documents the GetYourGuide Incident Response process. The aim is to prepare new employees for on-call responsibilities. It provides information not only on preparing for an incident, but also what to do during and after.
 

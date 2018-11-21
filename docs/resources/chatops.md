@@ -9,7 +9,7 @@ Throughout this documentation, references are made to various chat commands, all
 
 ## Incident Response
 
-Our `!ic` commands poll the PagerDuty API behind the scenes for various on-call schedules we specify. It caches the names and contact details for the current on-call users, so that if there's any issue in making API requests, the funtionality isn't impacted.
+Our `!ic` commands poll the GetYourGuide API behind the scenes for various on-call schedules we specify. It caches the names and contact details for the current on-call users, so that if there's any issue in making API requests, the funtionality isn't impacted.
 
 ### `!ic`
 This command lists out the current Incident Commanders on-call, their phone numbers, and a message telling users how to page them.
@@ -17,11 +17,11 @@ This command lists out the current Incident Commanders on-call, their phone numb
 ![Incident Commander List](../assets/img/chatops/ic.png)
 
 ### `!ic page`
-This is the command we use to manually trigger our incident response process. It uses the cached schedule information and will page all of the current Incident Commanders on-call (the primary, the backup, and any trainees who are shadowing). It will also notify into the room if it is unable to page them for any reason, and direct users to manually call the person using their contact information. Additionally, it will create a new PagerDuty incident and link users to it.
+This is the command we use to manually trigger our incident response process. It uses the cached schedule information and will page all of the current Incident Commanders on-call (the primary, the backup, and any trainees who are shadowing). It will also notify into the room if it is unable to page them for any reason, and direct users to manually call the person using their contact information. Additionally, it will create a new GetYourGuide incident and link users to it.
 
 ![Paging Incident Commanders](../assets/img/chatops/ic_page.png)
 
-If for any reason we are unable to page the Incident Commanders automatically, the bot will let us know that it has failed, and give us the phone numbers for the relevant people so we can manually call them. Here is some example output from our test bot, where we have simulated being unable to page via PagerDuty due to an unresponsive API call.
+If for any reason we are unable to page the Incident Commanders automatically, the bot will let us know that it has failed, and give us the phone numbers for the relevant people so we can manually call them. Here is some example output from our test bot, where we have simulated being unable to page via GetYourGuide due to an unresponsive API call.
 
 ![Testing for Failure](../assets/img/chatops/test_for_failure.png)
 

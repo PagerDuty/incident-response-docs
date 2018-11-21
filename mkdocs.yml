@@ -37,6 +37,7 @@ pages:
     - Being On-Call: 'oncall/being_oncall.md'
     - Who's On-Call?: 'oncall/whos_oncall.md'
     - Alerting Principles: 'oncall/alerting_principles.md'
+    - Escalation Matrix: 'oncall/escalation_matrix.md'
   - Before an Incident:
     - What is an Incident?: 'before/what_is_an_incident.md'
     - Severity Levels: 'before/severity_levels.md'
