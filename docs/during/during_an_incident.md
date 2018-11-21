@@ -5,25 +5,11 @@ description: Information on what to do during a major incident.
 Information on what to do during a major incident. See our [severity level descriptions](/before/severity_levels.md) for what constitutes a major incident.
 
 !!! note "Documentation"
-    For your own internal documentation, you should make sure that this page has all of the necessary information prominently displayed. Such as: phone bridge numbers, Slack rooms, important chat commands, etc. Here is an example,
+FIX ME!
+| #incident-chat  | https://bluejeans.com/119076926  | +41.81.588.0256/+49.69.255.114411  |
+| Need an IC? Do <code>!incident summary</code> in Slack |
+| <em>For executive summary updates only, join <a href="#">#executive-summary-updates</a>.</em> |
 
-    <table class="custom-table" id="contact-summary">
-      <thead>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a href="#">#incident-chat</a></td>
-          <td><a href="#">https://a-voip-provider.com/incident-call</a></td>
-          <td><a href="#">+1 555 BIG FIRE</a> (+1 555 244 3473) / PIN: 123456</td>
-        </tr>
-        <tr>
-          <td colspan="3" class="centered">Need an IC? Do <code>!ic page</code> in Slack</td>
-        </tr>
-        <tr>
-          <td colspan="3"><em>For executive summary updates only, join <a href="#">#executive-summary-updates</a>.</em></td>
-        </tr>
-      </tbody>
-    </table>
 
 !!! warning "Security Incident?"
     If this is a security incident, you should follow the [Security Incident Response](/during/security_incident_response.md) process.
