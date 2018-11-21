@@ -1,7 +1,7 @@
 # Project Information
-site_name: PagerDuty Incident Response Documentation
-site_description: A collection of information about the PagerDuty incident response process. Not only how to prepare new employees for on-call responsibilities, but also how to handle major incidents, both in preparation and after-work.
-site_author: PagerDuty, Inc.
+site_name: GetYourGuide Incident Response Documentation
+site_description: A collection of information about the GetYourGuide incident response process. Not only how to prepare new employees for on-call responsibilities, but also how to handle major incidents, both in preparation and after-work.
+site_author: GetYourGuide, Inc.
 site_favicon: 'assets/img/icon.png'
 site_url: https://incident-response.gygadmin.com
 
@@ -11,7 +11,7 @@ docs_dir: ./docs
 repo_url: https://github.com/getyourguide/incident-response-docs
 
 # Copyright
-copyright: 'Copyright &copy; PagerDuty, Inc.'
+copyright: 'Modifications Copyright &copy; GetYourGuide AG; Original Copyright &copy; PagerDuty, Inc.'
 
 # Theme
 theme: 'material'
@@ -23,11 +23,11 @@ extra:
   logo: 'assets/img/icon.png'
   cover: 'assets/img/covers/default.png'
   palette:
-    primary: 'green'
+    primary: '#ff5533'
     accent: 'blue grey'
   author:
-    github: 'PagerDuty'
-    twitter: 'PagerDuty'
+    github: 'getyourguide'
+    twitter: 'getyourguide'
 
 # Contents
 pages:
