@@ -48,7 +48,7 @@ The Incident Commander (IC) is the leader of the incident response process, and 
 ## Problems?
 
 #### There's no incident commander on the call! I don't know what to do!
-Ask on the call if an IC is present. If you have no response, type `!ic page` in Slack. This will page the primary and backup IC to the call.
+Ask on the call if an IC is present. If you have no response, type `/incident summary` in Slack. This will page the primary and backup Devops to the call.
 
 #### I can join the call or Slack, but not both, what should I do?
 You're welcome to join only one of the channels, however you should not actively participate in the incident response if so, as it causes disjoined communication. Liaise with someone who is both in Slack and on the call to provide any input you may have so that they can raise it.

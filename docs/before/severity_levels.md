@@ -10,6 +10,10 @@ The first step in any incident response process is to determine what actually [c
 !!! question "Can a SEV-3 be a major incident?"
      All SEV-2's are major incidents, but not all major incidents need to be SEV-2's. If you require co-ordinated response, even for lower severity issues, then trigger our incident response process. The IC can make a determination on whether full incident response is necessary.
 
+
+!!! note "Be Specific"
+    Work with stakeholders in Engineering to define these
+    
 <table class="custom-table">
   <thead>
     <tr>
@@ -32,7 +36,7 @@ The first step in any incident response process is to determine what actually [c
       <td>
         <p class="response">Major incident response.</p>
         <ul>
-          <li>Page an IC in Slack <code>!ic page</code>.</li>
+          <li>Page an IC in Slack <code>/incident summary</code>.</li>
           <li>See <a href="/during/during_an_incident">During an Incident</a>.</li>
           <li>Notify internal stakeholders.</li>
           <li>Public notification.</li>
@@ -44,8 +48,7 @@ The first step in any incident response process is to determine what actually [c
       <td>
         <p class="intent">Critical system issue actively impacting many customers' ability to use the product.</p>
         <ul>
-          <li>Notification pipeline is severely impaired.</li>
-          <li>Incident response functionality (ack, resolve, etc) is severely impaired.</li>
+          <li>Purchase functionality is severely impaired.</li>
           <li>Web app is unavailable or experiencing severe performance degradation for most/all users.</li>
           <li>Monitoring of GetYourGuide systems for major incident conditions is impaired.</li>
           <li>Any other event to which a GetYourGuide employee deems necessary of incident response.</li>
@@ -54,7 +57,7 @@ The first step in any incident response process is to determine what actually [c
       <td>
         <p class="response">Major incident response.</p>
         <ul>
-          <li>Page an IC in Slack <code>!ic page</code>.</li>
+          <li>Page an IC in Slack <code>/incident summary</code>.</li>
           <li>See <a href="/during/during_an_incident">During an Incident</a>.</li>
         </ul>
     </tr>
@@ -66,6 +69,7 @@ The first step in any incident response process is to determine what actually [c
       <td>
         <p class="intent">Stability or minor customer-impacting issues that require immediate attention from service owners.</p>
         <ul>
+          <li>Notification pipeline is severely impaired.</li>
           <li>Partial loss of functionality, not affecting majority of customers.</li>
           <li>Something that has the likelihood of becoming a SEV-2 if nothing is done.</li>
           <li>No redundancy in a service (failure of 1 more node will cause outage).</li>
@@ -120,5 +124,3 @@ The first step in any incident response process is to determine what actually [c
   </tbody>
 </table>
 
-!!! note "Be Specific"
-    These severity descriptions have been changed from the GetYourGuide internal definitions to be more generic. For your own documentation, you are encouraged to make your definitions very specific, usually referring to a % of users/accounts affected. You will usually want your severity definitions to be metric driven.

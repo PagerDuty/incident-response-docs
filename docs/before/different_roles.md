@@ -40,7 +40,7 @@ As any software system grows in size and complexity, things break and cause inci
     * Work with Team Leads/Managers on scheduling preventive actions.
 
 ### Who are they?
-Anyone on the Incident Commander on-call schedule. Trainees are typically on the Incident Commander Shadow schedule.
+Anyone on the incident can be declared the Commander. Sometimes the person who received the page, sometimes someone else is better placed.
 
 ### How can I become one?
 Take a look at our [Incident Commander training guide](/training/incident_commander.md).
@@ -63,7 +63,7 @@ The Deputy is expected to:
 1. Manage the incident call, and be prepared to remove people from the call if instructed by the Incident Commander.
 
 ### Who are they?
-Any Incident Commander can act as a deputy. Deputies need to be trained as an Incident Commander as they may be required to take over command.
+Similar to Incident Commander, anyone can be one.
 
 ### How can I become one?
 Take a look at our [Deputy training guide](/training/deputy.md). Deputies also need to be [trained as an Incident Commander](/training/incident_commander.md).
@@ -91,7 +91,7 @@ The Scribe is expected to:
 Anyone can act as a scribe during an incident, and are chosen by the Incident Commander at the start of the call. Typically the Deputy will act as the Scribe, but that doesn't necessarily need to happen, and for larger incidents may not be possible.
 
 ### How can I become one?
-Follow our [Scribe training guide](/training/scribe.md), and then notify the Incident Commanders that you would like to be considered for scribing for the next incident.
+Follow our [Scribe training guide](/training/scribe.md).
 
 ---
 

@@ -84,6 +84,9 @@ You are free to set up your notification rules as you see fit, to match how you 
 * Use Phone and/or SMS notification each minute after, until the escalation time. If Push didn't work, then it's likely you need something stronger, like a phone call. Keep calling every minute until it's too late. If you don't pick up by the 3rd time, then it's unlikely you are able to respond, and the incident will get escalated away from you.
 * If you enable Do Not Disturb mode regularly, ensure that the Pagerduty contacts are able to override that (star them in Android) so that calls get through.
 
+## Required training
+Ensure you are familiar with all the (roles)[/before/different_roles.md] in the Incident Management process, and have consulted the training. It's possible you'll be called upon for any of the various roles during an incident. For example, if you are primary oncall for a service, you will likely be considered the [Subject Matter Expert](/training/subject_matter_expert.md) for that service should there be an incident.
+
 ## Etiquette
 
 * If the current on-call comes into the office at 12pm looking tired, it's not because they're lazy. They probably got paged in the night. Cut them some slack and be nice.

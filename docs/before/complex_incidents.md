@@ -17,16 +17,16 @@ Perhaps multiple issues are happening at once, or an existing incident escalated
 1. The incident calls "feels crowded". This is a rather fuzzy metric, but most people can generally get a feeling when there's too many responders on the call.
 
 ## Sub-Teams
-When it is identified that we have a complex incident, the incident commander will spin off sub-teams to work on each individual problem. We have three pre-defined sub-teams, which the Incident Commander may assign you to; Alpha, Bravo, and Charlie. Each team has it's own Slack room and conference call bridge already set up and ready for use.
+When it is identified that we have a complex incident, the incident commander will spin off sub-teams to work on each individual problem. We have three pre-defined sub-teams, which the Incident Commander may assign you to; Alpha, Bravo, and Charlie. Each team has it's own Slack room and bluejeans meeting already set up and ready for use.
 
 !!! note "Team Names"
     We chose the phonetic alphabet for our teams. We did not use colors as "Red Team" and "Blue Team" have other definitions within security incident response, and we wanted to prevent confusion.
 
 | | | |
 |-|-|-|
-| Alpha Team | #team-alpha | +1.555.123.4567 |
-| Bravo Team | #team-bravo | +1.555.123.4568 |
-| Charlie Team | #team-charlie | +1.555.123.4569 |
+| Alpha Team | #team-alpha | INSERT BLUEJEANS HERE |
+| Bravo Team | #team-bravo | INSERT BLUEJEANS HERE |
+| Charlie Team | #team-charlie | INSERT BLUEJEANS HERE |
 
 All three teams do not necessarily need to be active at the same time, an incident may call for only one, or even more than three if necessary. Team leaders will be picked and then assigned to a specific team designation by the Incident Commander.
 
