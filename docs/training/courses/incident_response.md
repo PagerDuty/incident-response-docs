@@ -11,7 +11,7 @@ pdf: /assets/pdf/pagerduty_incident_response_training_public.pdf
 
     It includes lots of introductory information on our process, and details on the Incident Commander role specifically. All the information is already available as part of our [public documentation](https://response.pagerduty.com) , this is just a different way of presenting it that's hopefully more engaging. Feel free to use this as a base for training in your own organization.
 
-    The text presented here is a semi-accurate transcription of how the training is usually delivered.
+    The text presented here is a semi-accurate transcription of how the training is usually delivered. You can also watch a [video](#video) of an older version of this course if you prefer.
 
 ---
 
