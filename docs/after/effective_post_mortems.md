@@ -12,15 +12,15 @@ Writing an effective post-mortem allows us to learn quickly from our mistakes an
 
 ## Dont's
 
-* Don't use the word "outage" unless it really was an outage. We want to be sure we accurate reflect the impact of an incident, and outage is usually too broad a term to use. It can lead customers to think we were fully unavailable when that likely was nowhere near the case.
+* Don't use the word "outage" unless it really was an outage. We want to be sure we accurately reflect the impact of an incident, and outage is usually too broad a term to use. It can lead customers to think we were fully unavailable when that likely was nowhere near the case.
 * Change details or events to make things "look better". We need to be honest in our post-mortems, even to ourselves, otherwise they lose their effectiveness.
-* Name and shame someone. We keep our post-mortems blameless. If someone deployed a changed that broken things, it's not their fault, it's our fault for having a system that allowed them to deploy a breaking change, etc.
+* Name and shame someone. We keep our post-mortems blameless. If someone deployed a change that broke things, it's not their fault, it's our fault for having a system that allowed them to deploy a breaking change, etc.
 
 ## Suggestions
 
 * Avoid the concept of "human error". This is related to the point above about "naming and shaming", but there's a subtle difference - very rarely is the mistake "rooted" in a human performing an action, there are often several contributing factors (the script the human ran didn't have rate limiting, the documentation was out of date, etc...) that can and should be addressed.
 * Avoid "alternate reality" discussion in the timeline or description sections. "Service X started seeing elevated traffic early this morning, and stopped responding to requests. _*If service X had*_ rate limited the requests from the customer, _*it would not have*_ failed." & "Service X began slowly responding to requests this evening, _*there was insufficient monitoring*_ to detect the elevated CPU usage." as two examples, blends describing the actual problem with a hypothetical fix - keep the improvements separate from the description, so that each can be appropriately discussed.
-* These videos go into more detail on the above points,
+* These videos go into more detail on the above points:
   * "[Three analytical traps in accident investigation](https://www.youtube.com/watch?v=TqaFT-0cY7U)"
   * "[Two views on Human Error](https://www.youtube.com/watch?v=rHeukoWWtQ8)"
 
@@ -35,7 +35,7 @@ We have a Slack room dedicated to reviewing post-mortems before the scheduled me
 * Is the post-mortem well written and understandable?
 * Does the external message resonate well with customers or is it likely to cause outrage?
 
-Reviewing a post-mortem isn't about nit-picking typo's (although we should make sure our external message isn't littered with spelling errors). It's about providing constructive feedback on valuable changes to a post-mortem so that we get the most benefit from them.
+Reviewing a post-mortem isn't about nit-picking typos (although we should make sure our external message isn't littered with spelling errors). It's about providing constructive feedback on valuable changes to a post-mortem so that we get the most benefit from them.
 
 ## Examples
 Here are some examples of post-mortems from other companies as a reference,
