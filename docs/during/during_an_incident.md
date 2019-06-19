@@ -66,7 +66,7 @@ Resolve the incident as quickly and as safely as possible, use the Deputy to ass
     * Move the remaining, non-time-critical discussion to Slack.
     * Follow up to ensure the customer liaison wraps up the incident publicly.
     * Identify any post-incident clean-up work.
-    * You may need to perform debriefing/analysis of the underlying root cause.
+    * You may need to perform debriefing/analysis of the underlying contributing factor.
 
 1. Once the call is over, you can start to follow the steps from [After an Incident](/after/after_an_incident.md).
 
