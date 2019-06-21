@@ -18,12 +18,12 @@ This is a standard template we use for post-mortems at PagerDuty. Each section d
 ** Call Recording:** _Link to the incident call recording._
 
 ## Overview
-_Include a **short** sentence or two summarizing the root cause, timeline summary, and the impact. E.g. "On the morning of August 99th, we suffered a 1 minute SEV-1 due to a runaway process on our primary database machine. This slowness caused roughly 0.024% of alerts that had begun during this time to be delivered out of SLA."_
+_Include a **short** sentence or two summarizing the contributing factors, timeline summary, and the impact. E.g. "On the morning of August 99th, we suffered a 1 minute SEV-1 due to a runaway process on our primary database machine. This slowness caused roughly 0.024% of alerts that had begun during this time to be delivered out of SLA."_
 
 ## What Happened
 _Include a short description of what happened._
 
-## Root Causes
+## Contributing Factors
 _Include a description of any conditions that contributed to the issue. If there were any actions taken that exacerbated the issue, also include them here with the intention of learning from any mistakes made during the resolution process._
 
 ## Resolution
@@ -49,7 +49,7 @@ _Be very specific here, include exact numbers._
 * _Who else was involved?_
 
 ## Timeline
-_Some important times to include: (1) time the root cause began, (2) time of the page, (3) time that the status page was updated (i.e. when the incident became public), (4) time of any significant actions, (5) time the SEV-2/1 ended, (6) links to tools/logs that show how the timestamp was arrived at._
+_Some important times to include: (1) time the contributing factor began, (2) time of the page, (3) time that the status page was updated (i.e. when the incident became public), (4) time of any significant actions, (5) time the SEV-2/1 ended, (6) links to tools/logs that show how the timestamp was arrived at._
 
 | Time (UTC) | Event | Data Link |
 | ---------- | ----- | --------- |
@@ -65,7 +65,7 @@ _Some important times to include: (1) time the root cause began, (2) time of the
 * _List anything you think we didn't do very well. The intent is that we should follow up on all points here to improve our processes._
 
 ## Action Items
-_Each action item should be in the form of a JIRA ticket, and each ticket should have the same set of two tags:  “sev1_YYYYMMDD” (such as sev1_20150911) and simply “sev1”. Include action items such as: (1) any fixes required to prevent the root cause in the future, (2) any preparedness tasks that could help mitigate the problem if it came up again, (3) remaining post-mortem steps, such as the internal email, as well as the status-page public post, (4) any improvements to our incident response process._
+_Each action item should be in the form of a JIRA ticket, and each ticket should have the same set of two tags:  “sev1_YYYYMMDD” (such as sev1_20150911) and simply “sev1”. Include action items such as: (1) any fixes required to prevent the contributing factor in the future, (2) any preparedness tasks that could help mitigate the problem if it came up again, (3) remaining post-mortem steps, such as the internal email, as well as the status-page public post, (4) any improvements to our incident response process._
 
 ## Messaging
 
