@@ -4,17 +4,17 @@ description: Writing an effective post-mortem allows us to learn quickly from ou
 ---
 Writing an effective post-mortem allows us to learn quickly from our mistakes and improve our systems and processes for everyone. We want to be sure we're writing detailed and accurate post-mortems in order to get the most benefit out of them. This guide lists some of the things we can do to make sure our post-mortems are effective.
 
-## Do's
+## Dos
 
 * Make sure the timeline is an accurate representation of events.
 * Describe any technical lingo/acronyms you use that newcomers may not understand.
 * [Discuss how the incident fits into our understanding of the health and resiliency of the services affected](https://www.pagerduty.com/blog/postmortem-understand-service-reliability/).
 
-## Dont's
+## Don'ts
 
 * Don't use the word "outage" unless it really was an outage. We want to be sure we accurately reflect the impact of an incident, and outage is usually too broad a term to use. It can lead customers to think we were fully unavailable when that likely was nowhere near the case.
-* Change details or events to make things "look better". We need to be honest in our post-mortems, even to ourselves, otherwise they lose their effectiveness.
-* Name and shame someone. We keep our post-mortems blameless. If someone deployed a change that broke things, it's not their fault, it's our fault for having a system that allowed them to deploy a breaking change, etc.
+* Don't change details or events to make things "look better". We need to be honest in our post-mortems, even to ourselves, otherwise they lose their effectiveness.
+* Don't name and shame someone. We keep our post-mortems blameless. If someone deployed a change that broke things, it's not their fault, it's our fault for having a system that allowed them to deploy a breaking change, etc.
 
 ## Suggestions
 
