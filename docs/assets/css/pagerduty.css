@@ -1,14 +1,55 @@
+/*
+Do not modify this stlye just for this project, as we use it on all our static docs sites.
+Edit assets/custom.css if you want to make modifications just for this site.
+*/
+
 /* Colfax Font */
 @font-face {
   font-family: 'Colfax';
-  src: url('/fonts/colfax/ColfaxWebRegular.woff') format('woff');
-  font-style: normal;
+  src: url('/fonts/colfax/ColfaxWebMedium.eot');
+  src: url('/fonts/colfax/ColfaxWebMedium.woff') format("woff");
+  font-weight: 700;
+  font-style: normal
 }
 
 @font-face {
   font-family: 'Colfax';
-  src: url('/fonts/colfax/ColfaxWebRegularItalic.woff') format('woff');
-  font-style: italic;
+  src: url('/fonts/colfax/ColfaxWebMediumItalic.eot');
+  src: url('/fonts/colfax/ColfaxWebMediumItalic.woff') format("woff");
+  font-weight: 700;
+  font-style: italic
+}
+
+@font-face {
+  font-family: 'Colfax';
+  src: url('/fonts/colfax/ColfaxWebRegular.eot');
+  src: url('/fonts/colfax/ColfaxWebRegular.woff') format("woff");
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Colfax';
+  src: url('/fonts/colfax/ColfaxWebRegularItalic.eot');
+  src: url('/fonts/colfax/ColfaxWebRegularItalic.woff') format("woff");
+  font-weight: 400;
+  font-style: italic
+}
+
+@font-face {
+  font-family: 'Colfax';
+  src: url('/fonts/colfax/ColfaxWebLight.eot');
+  src: url('/fonts/colfax/ColfaxWebLight.woff') format("woff");
+  font-weight: 100;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Colfax';
+  src: url('/fonts/colfax/ColfaxWebLightItalic.eot');
+  src: url('/fonts/colfax/ColfaxWebLightItalic.woff') format("woff");
+  font-weight: 100;
+  font-style: italic
 }
 
 /* Base icons for the mkdocs material theme. */
@@ -49,14 +90,11 @@
 
 body, input {
   font-family: 'Colfax', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 pre, code {
   font-family: 'Courier New', 'Courier', monospace;
-}
-
-/* Defaults */
-body {
   -webkit-font-smoothing: antialiased;
 }
 
@@ -68,28 +106,50 @@ in Chrome. */
 
 /* Change the colour theme to better match PagerDuty */
 
+@media only screen and (min-width: 960px) {
+  .backdrop {
+    background:#f6f6f6;
+  }
+}
+
 /* background: pd-green */
 .repo a {
-  background: #25c151;
+  background: #06ac38;
+}
+
+.palette-primary-green .results .meta {
+  background: #06ac38;
+}
+
+.palette-primary-green .article table th {
+  background: #06ac38;
+}
+
+@media print {
+  .palette-primary-green .article table th {
+    background: #000;
+    color: #fff;
+  }
 }
 
 @media only screen and (max-width: 959px) {
   .palette-primary-green .project {
-    background: #25c151;
+    background: #06ac38;
   }
 }
 
-/* background: pd-slate */
+/* background: white */
 .palette-primary-green,
 .palette-primary-green .footer,
-.palette-primary-green .header,
-.palette-primary-green .results .meta,
-.palette-primary-green .article table th {
-  background: #363636;
+.palette-primary-green .header {
+  background: #fff;
+  color: #222;
 }
 
-.palette-primary-green .article table th {
-  background: #555;
+/* font: black */
+.palette-primary-green .article a,
+.palette-primary-green .article code {
+  color: #222;
 }
 
 /* font: pd-green */
@@ -99,20 +159,34 @@ in Chrome. */
 .palette-primary-green .drawer .toc a:focus,
 .palette-primary-green .drawer .toc a:hover,
 .palette-primary-green .article a:hover {
-  color: #25c151;
+  color: #06ac38;
 }
 
-/* font: pd-slate */
-.palette-primary-green .article a,
-.palette-primary-green .article code,
-.palette-primary-green .article h1,
+@media print {
+  .palette-primary-green .article h1,
+  .palette-primary-green .article h2 {
+    color: #000;
+  }
+}
+
+/* Remove underline on footer links */
+.article .footer .pagination a {
+  border-bottom: none;
+}
+
+/* Increase the weight of heading. */
 .palette-primary-green .article h2 {
-  color: #363636;
+  font-weight: 600;
 }
 
 /* Selected nav section */
 .palette-primary-green .drawer .anchor a {
-  border-left: 3px solid #25c151;
+  border-left: 3px solid #06ac38;
+}
+
+/* Need some visual break between content and footer. */
+.footer {
+  box-shadow: 0 -1.5px 3px rgba(0,0,0,.24), 0 -3px 8px rgba(0,0,0,.05);
 }
 
 /* Hide the repository info under normal conditions, since we can just link to it in button. */
@@ -133,9 +207,13 @@ ul.repo {
 }
 
 /* Correct header navigation. */
+.bar .path {
+  color: #4b4f4f;
+}
 .bar .path a {
   display: inline;
   font-size: 1em;
+  color: #4b4f4f;
 }
 
 /* Fix a small offset on pages with breadcrumbs. */
@@ -184,19 +262,20 @@ ul.repo {
 
   /* Also add a heading when printing */
   .article h1:before {
-    background: url(/assets/img/logo.png) 0em -0.07em no-repeat;
-    background-size: 7em;
+    background: url(/assets/img/logo.png) 0em 0em no-repeat;
+    background-size: 5.8em;
     display: block;
-    height: 2em;
+    height: 1.7em;
     width: 100%;
-    padding-left: 7.2em;
-    content: 'Incident Response';
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 0.6em;
+    padding-left: 6.1em;
+    content: 'Documentation';
+    color: #000;
+    font-size: 1.1em;
+    border-bottom: 1px solid #000;
+    margin-bottom: 0.8em;
     -webkit-print-color-adjust: exact; /* Force to show when printing. Chrome/Safari only :( */
   }
 }
-
 
 /* Want the font to be bigger for articles, easier reading. */
 .article {
@@ -227,10 +306,12 @@ ul, ol {
 
 /* PagerDuty icon in main header */
 .icon-pagerduty:before {
-  display: inline-block;
+  display: block;
   font-family: 'pagerduty';
   font-style: normal;
   font-weight: normal;
+  font-size: 0.8em;
+  margin-top: 0.13em;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -250,7 +331,7 @@ ul, ol {
   height: 2em;
   left: 0px;
   top: 0.5em;
-  border-left: 5px solid #25c151;
+  border-left: 5px solid #06ac38;
   transform: scaleY(0);
   transition: transform 250ms ease-in-out;
 }
@@ -274,16 +355,16 @@ ul, ol {
 
 /* Change the title bar to include the PD logo */
 nav div.mainlogo {
-	width: 15em;
+	width: 125px;
 	display: table-cell;
 }
 
 nav div.mainlogo a {
-  min-height: 3.4em;
-  margin-bottom: -1.2em;
-  width: 14.52em;
+  min-height: 26px;
+  margin-bottom: -.7em;
+  width: 120px;
 
-  background: url(/assets/img/logo.svg) 0em 0.1em no-repeat;
+  background: url(/assets/img/logo.svg) 0em 0em no-repeat;
   background-size: contain;
 }
 
@@ -305,63 +386,67 @@ nav div.mainlogo img {
 
 /* Admonitions */
 
-/* Default */
+/* Defaults */
 .admonition {
-  background: #25c151;
+  background: #06ac38;
+}
+.admonition .admonition-title {
+  font-weight: 600;
+}
+.admonition .admonition-title:before {
+  margin-top: -0.05em;
+  font-weight: normal;
+}
+.palette-primary-green .article .admonition a {
+  color: #fff;
+}
+.palette-primary-green .article .admonition a:hover {
+  color: #000;
 }
 @media print { .admonition { background: #fff !important; padding: 0px !important; } }
 
-.admonition.warning a {
-  color: #000;
+/* Warnings */
+.admonition.warning {
+  background: #da2e3c;
 }
-.admonition.warning a:hover {
-  color: #910000;
-}
-@media print { .admonition.warning, .admonition.warning a { color: #e84e40; } }
+@media print { .admonition.warning, .palette-primary-green .article .admonition.warning a { color: #da2e3c; } }
 
-/* Tip - green, flag icon (default) */
+/* Tip */
 .admonition.tip {
-  background: #25c151;
+  background: #06ac38;
 }
-.admonition.tip a {
-  color: #fff;
-}
-.admonition.tip a:hover {
-  color: #000;
-}
-@media print { .admonition.tip, .admonition.tip a { color: #25c151; } }
+@media print { .admonition.tip, .palette-primary-green .article .admonition.tip a { color: #06ac38; } }
 
-
-/* Info - grey, (i) icon */
+/* Info */
 .admonition.info {
-  background: #607d8b;
+  background: #4b4f4f;
 }
 .admonition.info .admonition-title:before {
   font-family: 'icons';
   content: "\e903";
 }
-@media print { .admonition.info, .admonition.info a { color: #607d8b; } }
+@media print { .admonition.info, .palette-primary-green .article .admonition.info a { color: #4b4f4f; } }
 
-/* Question - blue, (?) icon */
+/* Question */
 .admonition.question {
-  background: #2196f3;
+  background: #157ee0;
 }
 .admonition.question .admonition-title:before {
   font-family: 'icons';
   content: "\e904";
 }
-/* Fix link colours for questions, dark blue/green doesn't really work here. */
-.admonition.question a {
-  color: #fff;
-}
-.admonition.question a:hover {
-  color: #00f;
-}
-@media print { .admonition.question, .admonition.question a { color: #2196f3; } }
+@media print { .admonition.question, .palette-primary-green .article .admonition.question a { color: #157ee0; } }
 
-/* Note - indigo, notepad icon */
+/* Note */
 .admonition.note {
-  background: #3f51b5;
+  background: #ffe664;
+  color: #333;
+}
+.palette-primary-green .article .admonition.note a {
+  color: #333;
+}
+.palette-primary-green .article .admonition.note a:hover {
+  color: #000;
 }
 .admonition.note .admonition-title {
   text-indent: 0.05em;
@@ -370,7 +455,7 @@ nav div.mainlogo img {
   font-family: 'icons';
   content: "\e902";
 }
-@media print { .admonition.note, .admonition.note a { color: #3f51b5; } }
+@media print { .admonition.note, .palette-primary-green .article .admonition.note a { color: #000; } }
 
 @media print {
   .admonition {
@@ -411,11 +496,11 @@ abbr {
 }
 
 span.bad {
-  color: #f00;
+  color: #da2e3c;
 }
 
 span.good {
-  color: #008800;
+  color: #06ac38;
 }
 
 /* Code blocks */
@@ -435,10 +520,11 @@ span.good {
 .article span.code,
 .article code {
   font-family: monospace;
-  border-radius: 2px;
+  border-radius: .2rem;
   padding: 0.1em;
-  border: 1px solid #eee;
-  background: #f4f4f4;
+  font-size: 1.23em;
+  border: 1px solid #f1f1f1;
+  background: #f5f5f5;
 }
 
 .palette-primary-green .article code {
@@ -470,7 +556,7 @@ p.response {
 /* Icons */
 .button .icon:hover {
   transition: color 250ms ease-in-out;
-  color: #25c151;
+  color: #06ac38;
 }
 
 /* Images */
@@ -541,12 +627,12 @@ img + em {
 
 /* Quotes */
 .article blockquote {
-  border-left: 4px solid #25c151;
+  border-left: 4px solid #06ac38;
   background: #f7f7f7;
-  padding: 0.6em;
-  padding-left: 0.8em;
+  padding: 0.5em;
+  padding-left: 1.1em;
   margin-top: 1em;
-  color: #353535;
+  color: #222;
   font-style: italic;
   position: relative;
   margin-left: 3em;
@@ -554,15 +640,15 @@ img + em {
 }
 
 .article blockquote:before {
-  font-family: 'icons';
-  content: "\e901";
+  font-family: Arial, sans-serif;
+  content: "\201C";
   position: absolute;
-  top: 0.6em;
-  left: -1.5em;
-  color: #25c151;
+  top: 0.4em;
+  left: -.8em;
+  color: #06ac38;
   font-weight: bold;
   font-style: normal;
-  font-size: 2em;
+  font-size: 4em;
 }
 
 .article blockquote p {
@@ -570,25 +656,25 @@ img + em {
   padding: 0.5em 0em;
 }
 
-/* Asides */
-.article details.aside {
+/* Details / Aside */
+.article details {
   border-left: 4px solid #157ee0;
   background: #f7f7f7;
   padding: 0.9em;
   padding-left: 1.1em;
   margin-top: 1em;
-  color: #353535;
+  color: #222;
   font-style: normal;
   position: relative;
   width: 95%;
   margin-left: 3em;
 }
 
-.article details.aside:before {
+.article details:before {
   font-family: 'icons';
   content: "\e903";
   position: absolute;
-  top: 0.45em;
+  top: 0.4em;
   left: -1.5em;
   color: #157ee0;
   font-weight: normal;
@@ -596,17 +682,89 @@ img + em {
   font-size: 2em;
 }
 
-.article details.aside summary {
+.article details summary {
   font-weight: bold;
   color: #157ee0;
   font-style: normal;
   cursor: pointer;
 }
 
-.article details.aside p {
+.article details p {
   margin: 0em;
   padding: 0.5em 0em;
 }
+
+@media only screen and (max-width: 720px) {
+  /* Get rid of the icon for blockquotes and asides. */
+  .article blockquote,
+  .article details {
+    width: 100% !important;
+    margin-left: 0em !important;
+  }
+
+  .article blockquote:before,
+  .article details:before {
+    display: none;
+  }
+}
+
+/* Other types of details/aside */
+
+/* Info is the default, but we also want to hide arrows. */
+.article details.info summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Standlone aside, no summary */
+.article details.standalone {
+  padding: 0.5em;
+  padding-left: 1.1em;
+}
+.article details.standalone summary {
+  display:none;
+}
+
+/* Warnings */
+.article details.warning {
+  border-left: 4px solid #ba120a;
+}
+.article details.warning:before {
+  color: #ba120a;
+  font-family: 'Icon';
+  content: "\e610"; /* Warning triangle */
+}
+.article details.warning summary {
+  color: #ba120a;
+}
+.article details.warning summary::-webkit-details-marker {
+  display:none;
+}
+
+/* Questions */
+.article details.question:before {
+  font-family: 'icons';
+  content: "\e904"; /* ? */
+}
+.article details.question summary::-webkit-details-marker {
+  display:none;
+}
+
+/* Comments */
+.article details.comment {
+  border-left: 4px solid #4b4f4f;
+}
+.article details.comment:before {
+  color: #4b4f4f;
+  font-family: 'icons';
+  content: "\e901"; /* Comment */
+}
+.article details.comment summary {
+  color: #4b4f4f;
+}
+.article details.comment summary::-webkit-details-marker {
+  display:none;
+}
+
 
 @media only screen and (max-width: 720px) {
   /* Get rid of the icon for blockquotes and asides. */
@@ -637,54 +795,6 @@ aside.copyright {
   display: none;
 }
 
-/* Custom tables */
-table.custom-table td ul {
-  margin-top: -0.8em;
-  padding-top: 0px;
-  padding-left: 0px;
-}
-
-table.custom-table td.warning {
-  font-weight: bold;
-  text-align: center;
-  color: #f00;
-  background: #ffe7e7;
-}
-
-table.custom-table td.sev-1 {
-  background: #ffe7e7;
-  color: #f00;
-  font-weight: bold;
-}
-
-table.custom-table td.sev-2 {
-  background: #ffd;
-  color: rgb(255,153,0);
-  font-weight: bold;
-}
-
-table.custom-table td.sev-3 {
-  background: #e0f0ff;
-  color: rgb(51,102,255);
-  font-weight: bold;
-}
-
-table.custom-table td.sev-4 {
-  background: #f0f0f0;
-  color: rgb(128,128,128);
-  font-weight: bold;
-}
-
-table.custom-table td.sev-5 {
-  background: #ddfade;
-  color: rgb(0,128,0);
-  font-weight: bold;
-}
-
-table.custom-table td.centered {
-  text-align: center;
-}
-
 /* Embeds */
 iframe {
   display: block;
@@ -692,25 +802,15 @@ iframe {
   margin-top: 1em;
 }
 
-/* Contact summary table */
-#contact-summary {
-  margin-bottom: -2em;
-  background: #fff;
+/* Pagination colors. */
+.pagination a,
+.pagination a .button,
+.pagination a .title {
   color: #000;
 }
 
-/* Reviewed dates */
-#reviewed-dates {
-  margin-top: 1em;
-  text-align: right;
-}
-
-#reviewed-dates abbr {
-  border-bottom: 1px dashed #aaa;
-}
-
-#reviewed-dates span {
-  padding-left: 1em;
+.pagination .direction {
+  color: #4b4f4f;
 }
 
 /* Pagination arrow alignment fix. */
@@ -729,14 +829,6 @@ iframe {
 .pagination .previous .direction,
 .pagination .previous .stretch {
     display: table;
-}
-
-/* Super horrible hack to get the training PDF images correct */
-#national-incident-management-system-nims ~ p img {
-  display: inline;
-}
-#national-incident-management-system-nims ~ p:nth-of-type(8) {
-  text-align: center;
 }
 
 /* 404 Page */
