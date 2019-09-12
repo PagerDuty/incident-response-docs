@@ -20,7 +20,7 @@
 
     <!-- Mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-    <meta name="theme-color" content="#363636" />
+    <meta name="theme-color" content="#ffffff" />
 
     <!-- Canonical Link -->
     {% if canonical_url %}<link rel="canonical" href="{{ canonical_url }}">{% endif %}
@@ -93,7 +93,7 @@
             <h1>{{ page_title | default(site_name, true)}}</h1>
           {% endif %}
           {% if meta and meta.pdf %}
-          <div id="download-link">
+          <div id="download-link-pdf" class="download-link">
             <a href="{{ meta.pdf[0] }}" target="_blank" title="Download slides as PDF." data-action="download">
               <i class="icon icon-download"></i>Slides
             </a>

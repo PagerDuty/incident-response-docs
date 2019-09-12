@@ -1,3 +1,8 @@
+/*
+Theme used on pages which are presenting slides from a talk with presenter notes. It will also need
+the usual pagerduty.css loaded beforehand as it overrides from that.
+*/
+
 /* Kill the left margin so we can use the space for slides. */
 .article {
   margin-left: 0px;
@@ -159,12 +164,6 @@
   margin-left: -1.7em;
 }
 
-/*
-.article h3 a.headerlink:before {
-  content: '🔗';
-}
-*/
-
 /* Lists */
 .article ul,
 .article ol {
@@ -197,46 +196,20 @@
   transition: box-shadow ease-in-out 0.2s;
 }
 
-/* Higlight redacted slide marker. */
-span.redacted {
-  display: block;
-  margin-top: 2.5em;
-  margin-bottom: 0.5em;
-  width: 7em;
-  text-align: center;
-  position: relative;
-  text-transform: uppercase;
-  color: #fff;
-  /*background: #c62818;*/
-  background: #25c151;
-  border-radius: 3px;
-  font-size: 0.8em;
-  font-weight: bold;
-}
-
-.admonition.info a {
-  color: #fff;
-}
-
-@media print {
-  .admonition.info a {
-    color: #607d8b;
-  }
-}
-
-/* Quotes */
+/* Quotes should be half width. */
 .article blockquote {
   width: 45%;
   margin-left: 55%;
 }
 
-/* Asides */
-.article details.aside {
+/* Asides should also be half width. */
+.article details {
   width: 45%;
   margin-left: 55%;
 }
 
-.article details.aside.full-width {
+/* Unless we specifically want full width. */
+.article details.full-width {
   width: calc(100% - 3em);
   margin-left: 3em;
   margin-top: 1.6em;
@@ -328,7 +301,6 @@ span.redacted {
     opacity: 1;
   }
 }
-
 
 /* Lightbox background. */
 .article input[type=checkbox]:checked + label {
@@ -457,14 +429,15 @@ span.redacted {
   background: #f3f3f3;
 }
 
-/* PDF download link. */
-#download-link {
-  text-align: right;
-  margin-bottom: -4.5em;
-  margin-top: 2.3em;
+/* Download links. */
+.download-link {
+  float: right;
+  margin-top: 2.5em;
+  margin-left: 1em;
 }
 
-#download-link a {
+#download-link-pdf a,
+#download-link-keynote a {
   display: inline-block;
   padding: 0 10px 0 6px;
   font-size: 12px;
@@ -474,36 +447,38 @@ span.redacted {
   border-bottom: none;
   text-decoration: none;
   text-transform: uppercase;
-  background: #25c151;
+  background: #06ac38;
   color: #fff;
   border-radius: 3px;
   -webkit-transition: box-shadow .4s,opacity .4s;
   transition: box-shadow .4s,opacity .4s;
 }
 
-#download-link a .icon {
+.download-link a .icon {
   font-size: 18px;
   vertical-align: -4px;
   padding-right: 2px;
 }
 
-#download-link a:focus,
-#download-link a:hover {
+.download-link a:focus,
+.download-link a:hover {
   box-shadow: 0 4px 7px rgba(0,0,0,.23),0 8px 25px rgba(0,0,0,.05);
   opacity: .8;
 }
 
 /* For smaller screens, show button differently. */
 @media only screen and (max-width: 540px) {
-  #download-link {
-    margin-bottom: 0px;
+  .download-link {
+    display: block;
     margin-top: 1.3em;
+    float: none;
+    text-align: right;
   }
 }
 
 /* Hide download link when printing. */
 @media print {
-  #download-link {
+  .download-link {
     display: none;
   }
 }
