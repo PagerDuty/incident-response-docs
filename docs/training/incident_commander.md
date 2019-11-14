@@ -268,7 +268,7 @@ You may ask a question as IC and receive an answer that doesn't actually answer 
 
 > SME: Well... it might not do...
 
-> IC: Stop. I'm going to ask again, and the only two words I want to hear from you are "yes" or "no. If this going to disable the service for everyone?
+> IC: Stop. I'm going to ask again, and the only two words I want to hear from you are "yes" or "no. Is this going to disable the service for everyone?
 
 > SME: Well.. like I was saying..
 
