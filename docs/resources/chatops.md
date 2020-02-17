@@ -4,9 +4,6 @@ description: Throughout this documentation references are made to various chat c
 ---
 Throughout this documentation, references are made to various chat commands, all starting with an exclamation (e.g. `!ic page`). We have bots running in our Slack rooms which watch for these commands and execute various actions for us when they're detected. This page gives an overview of the commands we've referenced in this documentation, and what they do behind the scenes.
 
-!!! question "Are these bots open-source?"
-    The chat plugins and bots we use are unfortunately not currently open-sourced, however we would like to eventually get them open-sourced so that you can all benefit from them. In the meantime, the hope is that the descriptions on this page can help you to reproduce similar functionality with your own  tooling.
-
 ## Incident Response
 
 Our `!ic` commands poll the PagerDuty API behind the scenes for various on-call schedules we specify. It caches the names and contact details for the current on-call users, so that if there's any issue in making API requests, the funtionality isn't impacted.
