@@ -1,9 +1,9 @@
-# PagerDuty Incident Response Documentation [![Build Status](https://circleci.com/gh/PagerDuty/incident-response-docs/tree/master.svg?style=svg)](https://circleci.com/gh/PagerDuty/incident-response-docs)
-This is a public version of the Incident Response process used at PagerDuty. It is also used to prepare new employees for on-call responsibilities, and provides information not only on preparing for an incident, but also what to do during and after. See the [about page](docs/about.md) for more information on what this documentation is and why it exists.
+# Elimu Informatics Incident Response Documentation
+This is a public version of the Incident Response process used at Elimu Informatics. It is also used to prepare new employees for on-call responsibilities, and provides information not only on preparing for an incident, but also what to do during and after. See the [about page](docs/about.md) for more information on what this documentation is and why it exists.
 
 You can view the documentation [directly](/docs/index.md) in this repository, or rendered as a website at https://response.pagerduty.com.
 
-[![PagerDuty Incident Response Documentation](screenshot.png)](https://response.pagerduty.com)
+[![Elimu Informatics Incident Response Documentation](screenshot.png)](https://response.pagerduty.com)
 
 ## Development
 We use [MkDocs](http://www.mkdocs.org/) to create a static site from this repository. For local development,
@@ -26,14 +26,3 @@ We use [MkDocs](http://www.mkdocs.org/) to create a static site from this reposi
 
 ## License
 [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) (See [LICENSE](LICENSE) file)
-
-## Contributing
-Thank you for considering contributing! If you have any questions, just ask - or submit your issue or pull request anyway. The worst that can happen is we'll politely ask you to change something. We appreciate all friendly contributions.
-
-Here is our preferred process for submitting a pull request,
-
-1. Fork it ( https://github.com/PagerDuty/incident-response-docs/fork )
-1. Create your feature branch (`git checkout -b my-new-feature`)
-1. Commit your changes (`git commit -am 'Add some feature'`)
-1. Push to the branch (`git push origin my-new-feature`)
-1. Create a new Pull Request.
