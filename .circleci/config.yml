@@ -10,7 +10,7 @@ jobs:
       - run: 'sudo pip install mkdocs-bootstrap==0.1.1'
       - run: 'sudo pip install mkdocs==0.15.3'
       - run: 'sudo pip install mkdocs-material==0.2.4'
-      - run: 'sudo pip install pymdown-extensions'
+      - run: 'sudo pip install pymdown-extensions==6.2.1'
       - run: 'mkdocs build --clean'
 
   deploy:
@@ -23,7 +23,7 @@ jobs:
       - run: 'sudo pip install mkdocs-bootstrap==0.1.1'
       - run: 'sudo pip install mkdocs==0.15.3'
       - run: 'sudo pip install mkdocs-material==0.2.4'
-      - run: 'sudo pip install pymdown-extensions'
+      - run: 'sudo pip install pymdown-extensions==6.2.1'
       - run: 'mkdocs build --clean'
       # Sync and delete any old files from the S3 bucket.
       - run: 'aws s3 sync site/ s3://$AWS_S3_BUCKET --acl public-read --cache-control "max-age=86400" --exclude "*.py*" --delete'
