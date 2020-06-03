@@ -701,7 +701,7 @@ Your job as IC is to nip this in the bud and keep things on track.
 ### Keep Comments Until The End
 
 <input type="checkbox" id="053" /><label for="053">![053](/assets/slides/incident_response/incident_response.053.jpeg)</label>
-_053. Keep your comments until the end. [Docs Reference](/training/incident_commander/#executive-swoop-anti-motiviation)_
+_053. Keep your comments until the end. [Docs Reference](/training/incident_commander/#executive-swoop-anti-motivation)_
 
 To keep things moving, you need to remind the executive of what's going on, and direct questions to be handled at a later time. It may come across slightly abrupt, but it gets the point across quickly and allows you to keep moving. Most people will pick up on the subtext here.
 

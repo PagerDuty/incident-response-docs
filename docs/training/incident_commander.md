@@ -291,7 +291,7 @@ This is an extreme example, but illustrates the concept of "Executive Swoop", wh
 
 This makes it clear to the executive that they have the option of being in charge and making decisions, but in order to do so they must continue as an Incident Commander. If they refuse, then remind them that you are in charge and disruptive interruptions will not be tolerated. If they continue, remove them from the call.
 
-### Executive Swoop - Anti-Motiviation
+### Executive Swoop - Anti-Motivation
 > Executive: Let's try and resolve this in 10 minutes please!
 
 It's rare for an executive to maliciously derail an incident response call, usually it is done with the best of intentions. However, these good intentions can still derail your response process and demotivate responders. As an Incident Commander you will need to recognize and respond to these situations. In the case above, it seems motivational, however it assumes responders aren't already working as hard as possible to solve the problem, and adds no value to the response process. You can respond to this by reminding the commenter that these things should be kept until after the incident is over.
