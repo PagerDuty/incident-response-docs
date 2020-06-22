@@ -31,7 +31,7 @@ Standard radio [voice procedure](https://en.wikipedia.org/wiki/Voice_procedure#W
 * **Standby** - "Please wait a moment for the next response"
 * **Wilco** - "Will comply"
 
-Do not invent new abbreviations, and always favor being explicit of implicit. It is better to make things clearer than to try and save time by abbreviating, only to have a misunderstanding because others didn't know the abbreviation.
+Do not invent new abbreviations, and always favor being explicit rather than implicit. It is better to make things clearer than to try and save time by abbreviating, only to have a misunderstanding because others didn't know the abbreviation.
 
 ## The Commander
 The Incident Commander (IC) is the leader of the incident response process, and is responsible for bringing the incident to resolution. They will announce themselves at the start of the call, and will generally be doing most of the talking.
