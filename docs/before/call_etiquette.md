@@ -36,14 +36,14 @@ Do not invent new abbreviations, and always favor being explicit rather than imp
 ## The Commander
 The Incident Commander (IC) is the leader of the incident response process and is responsible for bringing the incident to resolution. They will announce themselves at the start of the call and will generally be doing most of the talking.
 
-* Follow all instructions from the incident commander - without exception.
-* Do not perform any actions unless the incident commander has told you to do so.
-* The commander will typically poll for any strong objections before performing a large action. This is your time to raise any objections if you have them.
-* Once the commander has made a decision, that decision is final and should be followed, even if you disagreed during the poll.
-* Answer any questions the commander asks you in a clear and concise way.
+* Follow all instructions from the Incident Commander - without exception.
+* Do not perform any actions unless the Incident Commander has told you to do so.
+* The Incident Commander will typically poll for any strong objections before performing a large action. This is your time to raise any objections if you have them.
+* Once the Incident Commander has made a decision, that decision is final and should be followed, even if you disagreed during the poll.
+* Answer any questions the Incident Commander asks you in a clear and concise way.
     * Answering that you "don't know" something is perfectly acceptable. Do not try to guess.
-* The commander may ask you to investigate something and get back to them in X minutes. Make sure you are ready with an answer within that time.
-    * Answering that you need more time is perfectly acceptable, but you need to give the commander an estimate of how much time.
+* The Incident Commander may ask you to investigate something and get back to them in X minutes. Make sure you are ready with an answer within that time.
+    * Answering that you need more time is perfectly acceptable, but you need to give the Incident Commander an estimate of how much time.
 
 ## Problems?
 
