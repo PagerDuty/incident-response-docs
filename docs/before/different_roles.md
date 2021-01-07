@@ -88,7 +88,7 @@ The Scribe is expected to:
     * Any key callouts either during the call or at the ending review (Example: "Note: (Bob B) We should have a better way to determine stuck locks.")
 
 ### Who are they?
-Anyone can act as a scribe during an incident, and are chosen by the Incident Commander at the start of the call. Typically the Deputy will act as the Scribe, but that doesn't necessarily need to happen, and for larger incidents may not be possible.
+Anyone can act as a Scribe during an incident, and are chosen by the Incident Commander at the start of the call. Typically the Deputy will act as the Scribe, but that doesn't necessarily need to happen, and for larger incidents may not be possible.
 
 ### How can I become one?
 Follow our [Scribe training guide](/training/scribe.md), and then notify the Incident Commanders that you would like to be considered for scribing for the next incident.
@@ -101,7 +101,7 @@ Follow our [Scribe training guide](/training/scribe.md), and then notify the Inc
 A Subject Matter Expert (SME), sometimes called a "Resolver", is a domain expert or designated owner of a component or service that is part of the PagerDuty software stack.
 
 ### Why have one?
-The IC and deputy are not all-knowing super beings. When there is a problem with a service, an expert in that service is needed to be able to quickly help identify and fix issues.
+The IC and Deputy are not all-knowing super beings. When there is a problem with a service, an expert in that service is needed to be able to quickly help identify and fix issues.
 
 ### What are the responsibilities?
 1. Being able to diagnose common problems with the service.
