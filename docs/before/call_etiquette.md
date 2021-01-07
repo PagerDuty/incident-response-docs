@@ -5,14 +5,14 @@ description: You've just joined an incident call, and you've never been on one b
 ![Obama phone](../assets/img/headers/obama_phone.jpg)
 *Credit: [Official White House Photo](https://commons.wikimedia.org/wiki/File:Barack_Obama_on_phone_with_Benjamin_Netanyahu_2009-06-08.jpg) by Pete Souza*
 
-You've just joined an incident call, and you've never been on one before. You have no idea what's going on, or what you're supposed to be doing. This page will help you through your first time on an incident call, and will provide a reference for future calls you may be a part of.
+You've just joined an incident call and you've never been on one before. You have no idea what's going on or what you're supposed to be doing. This page will help you through your first time on an incident call, and will provide a reference for future calls you may be a part of.
 
 ## First Steps
 
 * If you intend on participating on the incident call you should join both the call, and Slack.
 * Make sure you are in a quiet environment in order to participate on the call. Background noise should be kept to a minimum.
 * Keep your microphone muted until you have something to say.
-* Identify yourself when you join the call; State your name and the system you are the expert for.
+* Identify yourself when you join the call; state your name and the system you are the expert for.
 * Speak up and speak clearly.
 * Be direct and factual.
 * Keep conversations/discussions short and to the point.
@@ -34,9 +34,9 @@ Standard radio [voice procedure](https://en.wikipedia.org/wiki/Voice_procedure#W
 Do not invent new abbreviations, and always favor being explicit rather than implicit. It is better to make things clearer than to try and save time by abbreviating, only to have a misunderstanding because others didn't know the abbreviation.
 
 ## The Commander
-The Incident Commander (IC) is the leader of the incident response process, and is responsible for bringing the incident to resolution. They will announce themselves at the start of the call, and will generally be doing most of the talking.
+The Incident Commander (IC) is the leader of the incident response process and is responsible for bringing the incident to resolution. They will announce themselves at the start of the call and will generally be doing most of the talking.
 
-* Follow all instructions from the incident commander, without exception.
+* Follow all instructions from the incident commander - without exception.
 * Do not perform any actions unless the incident commander has told you to do so.
 * The commander will typically poll for any strong objections before performing a large action. This is your time to raise any objections if you have them.
 * Once the commander has made a decision, that decision is final and should be followed, even if you disagreed during the poll.
@@ -51,4 +51,4 @@ The Incident Commander (IC) is the leader of the incident response process, and 
 Ask on the call if an IC is present. If you have no response, type `!ic page` in Slack. This will page the primary and backup IC to the call.
 
 #### I can join the call or Slack, but not both, what should I do?
-You're welcome to join only one of the channels, however you should not actively participate in the incident response if so, as it causes disjointed communication. Liaise with someone who is both in Slack and on the call to provide any input you may have so that they can raise it.
+You're welcome to join only one of the channels, however you should not actively participate in the incident response if so as it causes disjointed communication. Liaise with someone who is both in Slack and on the call to provide any input you may have so that they can raise it.
