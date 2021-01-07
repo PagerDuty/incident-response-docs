@@ -4,7 +4,7 @@ description: There are several main roles for our incident response teams at Pag
 ---
 There are several main roles for our incident response teams at PagerDuty. Certain roles only have one person per incident (e.g. IC), whereas other roles can have multiple people (e.g. Subject Matter Expert, SME). It's all about coming together as a team, working the problem, and getting a solution quickly.
 
-Here is a rough outline of our role hierarchy, with each role discussed in more detail on the rest of this page.
+Here is a rough outline of our role hierarchy with each role discussed in more detail on the rest of this page.
 
 ![Incident Response Structure](../assets/img/misc/incident_response_roles.png)
 
@@ -18,7 +18,7 @@ During larger complex incidents, the role structure may be adjusted to account f
 ## Incident Commander (IC)
 
 ### What is it?
-An Incident Commander acts as the single source of truth of what is currently happening and what is going to happen during an major incident. They come in all shapes, sizes, and colors.
+An Incident Commander acts as the single source of truth of what is currently happening and what is going to happen during a major incident. They come in all shapes, sizes, and colors.
 
 ### Why have one?
 As any software system grows in size and complexity, things break and cause incidents. The Incident Commander is needed to help drive major incidents to resolution.
@@ -31,12 +31,12 @@ As any software system grows in size and complexity, things break and cause inci
 1. Drive major incidents to resolution,
     * Get everyone on the same communication channel.
     * Collect information from team members for their services/area of ownership status.
-    * Collect proposed repair actions, then recommend repair actions to be taken.
+    * Collect proposed repair actions and then recommend repair actions to be taken.
     * Delegate all repair actions, the Incident Commander is NOT a resolver.
     * Be the single authority on system status
 1. Post Mortem,
     * Creating the initial template right after the incident so people can put in their thoughts while fresh.
-    * Assigning the post-mortem after the event is over, this can be done after the call.
+    * Assigning the postmortem after the event is over, this can be done after the call.
     * Work with Team Leads/Managers on scheduling preventive actions.
 
 ### Who are they?
@@ -50,20 +50,20 @@ Take a look at our [Incident Commander training guide](/training/incident_comman
 ## Deputy
 
 ### What is it?
-A Deputy is a direct support role for the Incident Commander. This is not a shadow where the person just observes, the Deputy is expected to perform important tasks during an incident.
+A Deputy is a direct support role for the Incident Commander. This is not a shadow where the person just observes. The Deputy is expected to perform important tasks during an incident.
 
 ### Why have one?
-It's important for the IC to focus on the problem at hand, rather than worrying about documenting the steps or monitoring timers. The deputy helps to support the IC and keep them focussed on the incident.
+It's important for the IC to focus on the problem at hand rather than worrying about documenting the steps or monitoring timers. The deputy helps to support the IC and keep them focussed on the incident.
 
 ### What are the responsibilities?
 The Deputy is expected to:
 
 1. Bring up issues to the Incident Commander that may otherwise not be addressed (keeping an eye on timers that have been started, circling back around to missed items from a roll call, etc).
 1. Be a "hot standby" Incident Commander, should the primary need to either transition to a SME, or otherwise have to step away from the IC role.
-1. Manage the incident call, and be prepared to remove people from the call if instructed by the Incident Commander.
+1. Manage the incident call and be prepared to remove people from the call if instructed by the Incident Commander.
 
 ### Who are they?
-Any Incident Commander can act as a deputy. Deputies need to be trained as an Incident Commander as they may be required to take over command.
+Any Incident Commander can act as a Deputy. Deputies need to be trained as an Incident Commander as they may be required to take over command.
 
 ### How can I become one?
 Take a look at our [Deputy training guide](/training/deputy.md). Deputies also need to be [trained as an Incident Commander](/training/incident_commander.md).
@@ -73,10 +73,10 @@ Take a look at our [Deputy training guide](/training/deputy.md). Deputies also n
 ## Scribe
 
 ### What is it?
-A Scribe documents the timeline of an incident as it progresses, and makes sure all important decisions and data are captured for later review.
+A Scribe documents the timeline of an incident as it progresses and makes sure all important decisions and data are captured for later review.
 
 ### Why have one?
-The incident commander will need to focus on the problem at hand, and the subject matter experts will need to focus on resolving the incident. It is important to capture a timeline of events as they happen so that they can be reviewed during the post-mortem to determine how well we performed, and so we can accurately determine any additional impact that we might not have noticed at the time.
+The incident commander will need to focus on the problem at hand and the subject matter experts will need to focus on resolving the incident. It is important to capture a timeline of events as they happen so that they can be reviewed during the postmortem to determine how well we performed, and so we can accurately determine any additional impact that we might not have noticed at the time.
 
 ### What are the responsibilities?
 The Scribe is expected to:
@@ -130,7 +130,7 @@ All of the other roles will be actively working on identifying the cause and res
 ### What are the responsibilities?
 1. Post any publicly facing messages regarding the incident (Twitter, StatusPage, etc).
 1. Notify the IC of any customers reporting that they are affected by the incident.
-1. Provide customers with the external message from the post-mortem once it is completed.
+1. Provide customers with the external message from the postmortem once it is completed.
 
 ### Who are they?
 Any member of the Support Team can act as a customer liaison.
@@ -146,11 +146,11 @@ Follow our [Customer Liaison training guide](/training/customer_liaison.md), and
 A person responsible for interacting with internal stakeholders. Whether it's notifying an internal team of the incident, or mobilizing additional responders within the organization.
 
 ### Why have one?
-For larger incidents, we may have multiple teams across the organization involved. Having a dedicated liaison to mobilize those teams and bring them up to speed free's up the rest of the responders to handle the incident.
+For larger incidents, we may have multiple teams across the organization involved. Having a dedicated liaison to mobilize those teams and bring them up to speed frees up the rest of the responders to handle the incident.
 
 ### What are the responsibilities?
 1. Page SME's or other on-call engineers as instructed by the Incident Commander.
-1. Notify other teams within the organization (e.g. Finance, Legal, Marketing), as instructed by the Incident Commander.
+1. Notify other teams within the organization (e.g. Finance, Legal, Marketing) as instructed by the Incident Commander.
 1. Liaise with stakeholders and provide status updates as necessary.
 1. Interact with internal stakeholders to answer their questions, to keep the primary call distraction free.
 
