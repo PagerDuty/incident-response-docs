@@ -17,7 +17,7 @@ Perhaps multiple issues are happening at once, or an existing incident escalated
 1. The incident calls "feels crowded." This is a rather fuzzy metric, but most people can generally get a feeling when there's too many responders on the call.
 
 ## Sub-Teams
-When it is identified that we have a complex incident, the incident commander will spin off sub-teams to work on each individual problem. We have three predefined sub-teams, which the Incident Commander may assign you to: Alpha, Bravo, and Charlie. Each team has its own Slack room and conference call bridge already set up and ready for use.
+When it is identified that we have a complex incident, the Incident Commander will spin off sub-teams to work on each individual problem. We have three predefined sub-teams, which the Incident Commander may assign you to: Alpha, Bravo, and Charlie. Each team has its own Slack room and conference call bridge already set up and ready for use.
 
 !!! note "Team Names"
     We chose the phonetic alphabet for our teams. We did not use colors as "Red Team" and "Blue Team" have other definitions within security incident response, and we wanted to prevent confusion.
@@ -39,11 +39,11 @@ How do sub-teams fit into the role structure for our incident response? The team
 
 1. The IC will assign a leader to each team who will report to them directly. All other team members will report to their team leader.
     * When assigning a team leader, the IC will also designate which team name they fall under (Alpha, Bravo, or Charlie).
-    * _Team leaders do not have to be trained as incident commanders; however, some leadership experience would be prudent._
+    * _Team leaders do not have to be trained as Incident Commanders; however, some leadership experience would be prudent._
 
 1. Each team will be given a specific task to complete and will be time-boxed as they normally would for an individual responder.
 
-How teams are split is at the discretion of the incident commander. Potential structures include:
+How teams are split is at the discretion of the Incident Commander. Potential structures include:
 
 * Cross-functional groups to address one entire problem domain per group.
 * Groups of Subject Matter Experts to focus on one specific element of a larger problem.
