@@ -16,7 +16,7 @@ Which engineering teams are involved in which responses varies with a company’
 
 ## Customer Support / Customer Success
 
-Support is the voice of the customer during incident response. A member of the Customer Support team is the default [customer liaison](../training/customer_liaison) within the response team, updating customers and stakeholders about incident status through Twitter, an internal Slack channel, and other channels as needed. They may also serve as an internal liaison to keep stakeholders within the company up to date.
+Support is the voice of the customer during incident response. A member of the Customer Support team is the default [Customer Liaison](../training/customer_liaison) within the response team, updating customers and stakeholders about incident status through Twitter, an internal Slack channel, and other channels as needed. They may also serve as an internal liaison to keep stakeholders within the company up to date.
 
 ## Marketing
 
