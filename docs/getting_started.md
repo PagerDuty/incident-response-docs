@@ -46,7 +46,7 @@ Adding more detailed fields and information can come later.
 
 !!! tip "Naming Doesn't Matter"
 
-You don't need to call them "postmortem"'s. After-action review, learning review, retrospective, etc. are all valid names. The point is that you review what happened and learn from it. The name you give to the process doesn't really matter.
+You don't need to call them "Postmortem's." After-action review, learning review, retrospective, etc. are all valid names. The point is that you review what happened and learn from it. The name you give to the process doesn't really matter.
 
 ## Practice
 
