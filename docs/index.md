@@ -51,8 +51,8 @@ So you want to learn about incident response? You've come to the right place.
 ### Training Guides
 
 * [Incident Commander Training](training/incident_commander.md) - _A guide to becoming an Incident Commander._
-* [Deputy Training](training/deputy.md) - _How to be a deputy and back up the Incident Commander._
-* [Scribe Training](training/scribe.md) - _A guide to scribing._
+* [Deputy Training](training/deputy.md) - _How to be a Deputy and back up the Incident Commander._
+* [Scribe Training](training/scribe.md) - _A guide to Sribing._
 * [Subject Matter Expert Training](training/subject_matter_expert.md) - _A guide on responsibilities and behavior for all participants in a major incident._
 * [Customer Liaison Training](training/customer_liaison.md) - _A guide on how to act as our public representative during an incident._
 * [Internal Liaison Training](training/internal_liaison.md) - _A guide on how to liaise with internal teams during an incident._
