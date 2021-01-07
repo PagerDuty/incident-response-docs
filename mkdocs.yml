@@ -27,6 +27,9 @@ extra:
     github: 'PagerDuty'
     twitter: 'PagerDuty'
 
+# Dev URL
+dev_addr: '0.0.0.0:8080'
+
 # Contents
 pages:
   - Home: 'index.md'
