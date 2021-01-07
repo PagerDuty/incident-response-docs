@@ -5,10 +5,10 @@ description: So you want to be a scribe? You've come to the right place! You don
 ![Scribe](../assets/img/headers/fountain_pen.jpg)
 *Credit: [John-Mark Smith](https://www.pexels.com/photo/person-holding-fountain-pen-211291/)*
 
-So you want to be a scribe? You've come to the right place! You don't need to be a senior team member to become a deputy or scribe, anyone can do it providing you have the requisite knowledge!
+So you want to be a Scribe? You've come to the right place! You don't need to be a senior team member to become a Deputy or Scribe, anyone can do it providing you have the requisite knowledge!
 
 ## Purpose
-The purpose of the Scribe is to maintain a timeline of key events during an incident. Documenting actions, and keeping track of any followup items that will need to be addressed.
+The purpose of the Scribe is to maintain a timeline of key events during an incident. Documenting actions, and keeping track of any follow-up items that will need to be addressed.
 
 It's important for the rest of the command staff to be able to focus on the problem at hand, rather than worrying about documenting the steps.
 
@@ -30,7 +30,7 @@ There is no formal training process for this role, reading this page should be s
 
 * Participate in [Failure Friday](https://www.pagerduty.com/blog/failure-friday-at-pagerduty/) (FF).
     * Shadow a FF to see how it's run.
-    * Be the scribe for multiple FF's.
+    * Be the Scribe for multiple FF's.
 
 ## Scribing
 Scribing is more art than science. The objective is to keep an accurate record of important events that occurred on the call, so that we can look back at the timeline to see what happened. But what exactly is important? There's no overwhelming answer, and it really comes down the judgement and experience. But here are some general things you most definitely want to capture as scribe.
@@ -38,7 +38,7 @@ Scribing is more art than science. The objective is to keep an accurate record o
 * The result of any polling decisions.
     * <span class="bad">&#x2718;</span> This is not "9 people voted yay, 3 voted nay".
     * <span class="good">&#x2713;</span> It is "Polled for if we should do rolling restart. <USER_A> is proceeding with restart."
-* Any followup items that are called out as "We should do this..", "Why didn't this?..", etc.
+* Any follow-up items that are called out as "We should do this..", "Why didn't this?..", etc.
     * <span class="bad">&#x2718;</span> This is not "Why isn't the Support representative on the call?"
     * <span class="good">&#x2713;</span> This is "TODO: Why didn't we get paged for this earlier?"
 
@@ -61,12 +61,12 @@ During a call, you will hear lots of discussion happening, you should not be doc
 
 Some actions might seem important at the time, but end up not being. That's OK. It's better to have more info than not enough, but don't go overboard.
 
-### Note Followup Actions
+### Note Follow-up Actions
 Sometimes during the call, someone will either mention something we "should fix", or the IC will specifically ask you to note a followup item. You can do this in Slack by simply prefixing with "TODO", this will make it easier to search for later.
 
 > TODO: Why did we not get paged for the fall in traffic on [X] cluster?
 
-The post-mortem owner will find these after and raise tasks for them.
+The postmortem owner will find these after and raise tasks for them.
 
 ### End of Call Notification
 When the IC ends the call, you should post a message into Slack to let everyone know the call is over, and that they should continue discussion elsewhere.
