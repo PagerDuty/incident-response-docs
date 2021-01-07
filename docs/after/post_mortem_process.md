@@ -1,8 +1,8 @@
 ---
 cover: assets/img/covers/post-mortem_process.png
-description: For every major incident (SEV-2/1), we need to follow up with a post-mortem. A blame-free, detailed description, of exactly what went wrong in order to cause the incident, along with a list of steps to take in order to prevent a similar incident from occurring again in the future.
+description: For every major incident (SEV-2/1), we need to follow up with a postmortem. A blame-free, detailed description, of exactly what went wrong in order to cause the incident, along with a list of steps to take in order to prevent a similar incident from occurring again in the future.
 ---
-![Post-Mortem](../assets/img/headers/pagerduty_post_mortem.jpg)
+![Postmortem](../assets/img/headers/pagerduty_post_mortem.jpg)
 
 For every major incident (SEV-2/1), we need to follow up with a postmortem. A blame-free, detailed description, of exactly what went wrong in order to cause the incident, along with a list of steps to take in order to prevent a similar incident from occurring again in the future. The incident response process itself should also be included.
 
@@ -48,7 +48,7 @@ Once you've been designated as the owner of a postmortem, you should start creat
         * Identify the Incident Commander and Scribe in this list.
 
 1. Populate the postmortem with more detailed information.
-    * For each item in the timeline, identify a metric, or some third-party page where the data came from. This could be a link to a Datadog graph, a SumoLogic search, a Tweet, etc. Anything which shows the data point you're trying to illustrate in the timeline.
+    * For each item in the timeline, identify a metric, or some third-party page where the data came from. This could be a link to a Datadog graph, a SumoLogic search, a tweet, etc. Anything which shows the data point you're trying to illustrate in the timeline.
     * Add a link to the incident call recording.
 
 1. Perform an analysis of the incident.
@@ -84,16 +84,16 @@ These meetings should generally last 15-30 minutes and are intended to be a wrap
 You should invite the following people to the postmortem meeting,
 
 * Always
-    * The incident commander.
-    * The incident commander shadowee (if there was one).
+    * The Incident Commander.
+    * The Incident Commander Shadowee (if there was one).
     * Service owners involved in the incident.
     * Key engineer(s)/responders involved in the incident.
     * Engineering manager for impacted systems.
     * Product manager for impacted systems. 
 * Optional
-    * Customer liaison. (Only SEV-1 incidents)
+    * Customer Liaison. (Only SEV-1 incidents)
 
-The incident commander will run the meeting, keeping the discussion focused and on track. However the postmortem owner will likely be doing most of the talking as they walk through the postmortem report.
+The Incident Commander will run the meeting, keeping the discussion focused and on track. However the postmortem owner will likely be doing most of the talking as they walk through the postmortem report.
 
 A general agenda for the meeting would be something like,
 
@@ -115,7 +115,7 @@ Here are some examples of postmortems from other companies as a reference,
 * [Heroku](https://status.heroku.com/incidents/151)
 * [Netflix](http://techblog.netflix.com/2012/10/post-mortem-of-october-222012-aws.html)
 * [GOV.UK Rail Accident Investigation](https://www.gov.uk/government/publications/kyle-beck-safety-digest/near-miss-at-kyle-beck-3-august-2016)
-* [A List of Post-mortems!](https://github.com/danluu/post-mortems)
+* [A List of Postmortems!](https://github.com/danluu/post-mortems)
 
 ## Useful Resources
 
