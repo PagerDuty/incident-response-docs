@@ -8,7 +8,7 @@ The first step in any incident response process is to determine what actually [c
      If you are unsure which level an incident is (e.g. not sure if SEV-2 or SEV-1), **treat it as the higher one**. During an incident is not the time to discuss or litigate severities, just assume the highest and review during a postmortem.
 
 !!! question "Can a SEV-3 be a major incident?"
-     All SEV-2's are major incidents, but not all major incidents need to be SEV-2's. If you require coordinated response, even for lower severity issues, trigger our incident response process. The IC can make a determination on whether full incident response is necessary.
+     All SEV-2's are major incidents, but not all major incidents need to be SEV-2's. If you require coordinated response, even for lower severity issues, trigger our incident response process. The Incident Commander can make a determination on whether full incident response is necessary.
 
 <table class="custom-table">
   <thead>
