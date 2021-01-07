@@ -34,7 +34,7 @@ As any software system grows in size and complexity, things break and cause inci
     * Collect proposed repair actions and then recommend repair actions to be taken.
     * Delegate all repair actions, the Incident Commander is NOT a resolver.
     * Be the single authority on system status
-1. Post Mortem,
+1. Postmortem,
     * Creating the initial template right after the incident so people can put in their thoughts while fresh.
     * Assigning the postmortem after the event is over, this can be done after the call.
     * Work with Team Leads/Managers on scheduling preventive actions.
@@ -53,7 +53,7 @@ Take a look at our [Incident Commander training guide](/training/incident_comman
 A Deputy is a direct support role for the Incident Commander. This is not a shadow where the person just observes. The Deputy is expected to perform important tasks during an incident.
 
 ### Why have one?
-It's important for the IC to focus on the problem at hand rather than worrying about documenting the steps or monitoring timers. The deputy helps to support the IC and keep them focussed on the incident.
+It's important for the IC to focus on the problem at hand rather than worrying about documenting the steps or monitoring timers. The Deputy helps to support the IC and keep them focussed on the incident.
 
 ### What are the responsibilities?
 The Deputy is expected to:
@@ -76,7 +76,7 @@ Take a look at our [Deputy training guide](/training/deputy.md). Deputies also n
 A Scribe documents the timeline of an incident as it progresses and makes sure all important decisions and data are captured for later review.
 
 ### Why have one?
-The incident commander will need to focus on the problem at hand and the subject matter experts will need to focus on resolving the incident. It is important to capture a timeline of events as they happen so that they can be reviewed during the postmortem to determine how well we performed, and so we can accurately determine any additional impact that we might not have noticed at the time.
+The Incident Commander will need to focus on the problem at hand and the subject matter experts will need to focus on resolving the incident. It is important to capture a timeline of events as they happen so that they can be reviewed during the postmortem to determine how well we performed, and so we can accurately determine any additional impact that we might not have noticed at the time.
 
 ### What are the responsibilities?
 The Scribe is expected to:
