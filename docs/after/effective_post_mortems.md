@@ -2,7 +2,7 @@
 cover: assets/img/covers/blameless.png
 description: Writing an effective postmortem allows us to learn quickly from our mistakes and improve our systems and processes for everyone. We want to be sure we're writing detailed and accurate postmortems in order to get the most benefit out of them. This guide lists some of the things we can do to make sure our post-mortems are effective.
 ---
-Writing an effective postmortem allows us to learn quickly from our mistakes and improve our systems and processes for everyone. We want to be sure we're writing detailed and accurate postmortems in order to get the most benefit out of them. This guide lists some of the things we can do to make sure our post-mortems are effective.
+Writing an effective postmortem allows us to learn quickly from our mistakes and improve our systems and processes for everyone. We want to be sure we're writing detailed and accurate postmortems in order to get the most benefit out of them. This guide lists some of the things we can do to make sure our postmortems are effective.
 
 ## Dos
 
