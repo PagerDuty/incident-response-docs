@@ -57,7 +57,7 @@ Resolve the incident as quickly and as safely as possible, use the Deputy to ass
     * **Data Center Outage:** Validate automation has removed bad data center. Force it to do so if not.
     * **Degraded Service Behavior without load:** Gather forensic data (heap dumps, etc), and consider doing a rolling restart.
 
-1. Listen for prompts from your Deputy regarding severity escalations, decide whether we need to announce publicly, and instruct customer liaison accordingly.
+1. Listen for prompts from your Deputy regarding severity escalations, decide whether we need to announce publicly, and instruct Customer Liaison accordingly.
     * Announcing publicly is at your discretion as IC. If you are unsure, then announce publicly ("If in doubt, tweet it out").
 
 1. Keep track of your [span of control](/training/glossary.md#span-of-control). If the response starts to become larger, or the incident increases in complexity, consider [splitting off sub-teams](/before/complex_incidents.md#spinning-off-sub-teams) in order to get a more effective response.
@@ -103,9 +103,9 @@ You are there to support the incident commander in identifying the cause of the 
 1. Investigate the incident by analyzing any graphs or logs at your disposal. Announce all findings to the incident commander.
     * If you are unsure of the cause that's fine. Simply state that you are investigating and provide regular updates to the IC.
 
-1. Announce all suggestions for resolution to the incident commander, it is their decision on how to proceed, do not follow any actions unless told to do so!
+1. Announce all suggestions for resolution to the Incident Commander, it is their decision on how to proceed, do not follow any actions unless told to do so!
 
-1. Follow instructions from the incident commander.
+1. Follow instructions from the Incident Commander.
 
 1. Once the call is over, you can start to follow the steps from [After an Incident](/after/after_an_incident.md).
 
