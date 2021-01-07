@@ -12,7 +12,7 @@ Any unplanned disruption or degradation of service that is actively affecting cu
 ## What is a major incident?
 Any incident that requires a coordinated response between multiple teams.
 
-## What is Incident Response?
+## What is incident response?
 An organized approach to addressing and managing an incident. The goal isn't just to solve the incident, but to handle the situation in a way that limits damage and reduces recovery time and costs.
 
 ## What triggers our incident response process?
@@ -31,7 +31,7 @@ Automatic monitoring is only part of the process. We may have parts of our funct
 We trigger on any unplanned disruption or degradation of service to which any PagerDuty employee deems necessary of requiring coordinated incident response.
 
 !!! question "Is a response required?"
-    If you are unsure of whether response is required, trigger our incident response process. All you need to do to start the process is page an IC in Slack with `!ic page`.
+    If you are unsure of whether response is required, trigger our incident response process. All you need to do to start the process is page an Incident Commander in Slack with `!ic page`.
 
 ## Incident Severity
 Our [severity definitions](/before/severity_levels.md) determine how severe we _think_ an incident is based on some predefined guidelines. The intent is to guide responders on the type of response they can provide. For example, the higher the severity, the riskier the decisions you can take to return the system to normal.
