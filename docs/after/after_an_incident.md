@@ -18,7 +18,7 @@ In addition to any direct follow-up items generated from an incident, each of ou
 
 1. Send out an internal email to the relevant stakeholders explaining that we had an incident, provide a link to the postmortem.
 
-1. Occasionally check on the progress of the post-mortem to ensure that it is completed within the desired time frame.
+1. Occasionally check on the progress of the postmortem to ensure that it is completed within the desired time frame.
 
 ### Steps for Deputy
 There are no additional steps after an incident is resolved. However, the IC may ask for your help with their steps.
@@ -27,11 +27,11 @@ There are no additional steps after an incident is resolved. However, the IC may
 
 1. Review the chat communications and extract any relevant items from key events.
 
-1. Collect all `TODO` items and add them to the post-mortem.
+1. Collect all `TODO` items and add them to the postmortem.
 
-### Steps for Subject Matter Experts
+### Steps for Subject Matter Experts 
 
-1. Add any notes you think are relevant to the post-mortem.
+1. Add any notes you think are relevant to the postmortem.
 
 ### Steps for Customer Liaison
 
@@ -50,6 +50,6 @@ You can read all about our [postmortem process](post_mortem_process.md), which g
 ## Reviewing the Process
 As well as reviewing the incident, it's important to review our process. Did we handle the incident well, or are there things we could have done better?
 
-This review isn't very formal yet, and typically involves a few of the incident commanders getting together to discuss how we might have done things differently, or if there are any tweaks we can make to our incident response process.
+This review isn't very formal yet, and typically involves a few of the Incident Commanders getting together to discuss how we might have done things differently, or if there are any tweaks we can make to our incident response process.
 
-If you're interested in joining these meetings, just let one of the incident commanders know and we'll be sure to invite you.
+If you're interested in joining these meetings, just let one of the Incident Commanders know and we'll be sure to invite you.
