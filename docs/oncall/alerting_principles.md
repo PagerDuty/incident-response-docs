@@ -2,7 +2,7 @@
 cover: assets/img/covers/alerting_principles.png
 description: We manage how we get alerted based on a simple principle, an alert is something which requires a human to perform an action. Anything else is a notification, which is something that we cannot control, and for which we cannot make any action to affect it. Notifications are useful, but they shouldn't be waking people up under any circumstance.
 ---
-We manage how we get alerted based on a simple principle, **an alert is something which requires a human to perform an action**. Anything else is a notification, which is something that we cannot control, and for which we cannot make any action to affect it. Notifications are useful, but they shouldn't be waking people up under any circumstance.
+We manage how we get alerted based on a simple principle. **An alert is something which requires a human to perform an action**. Anything else is a notification, which is something that we cannot control, and for which we cannot make any action to affect it. Notifications are useful, but they shouldn't be waking people up under any circumstance.
 
 ## Alert Priority
 
@@ -65,9 +65,9 @@ We should ensure that alerts contain enough useful context to quickly identify t
 ## Testing Your Alerts
 
 !!! info "Testing is Critical"
-    An alert you haven't tested is equivalent to not having an alert at all. You cannot be sure it will alert you when the time comes. Testing that your alerting actually works is critical to proper service health, and should be included in any release planning / deployment efforts.
+An alert you haven't tested is equivalent to not having an alert at all. You cannot be sure it will alert you when the time comes. Testing that your alerting actually works is critical to proper service health and should be included in any release planning / deployment efforts.
 
-Make sure to test all alerts that are added. This is usually covered as part of [Failure Friday](https://www.pagerduty.com/blog/failure-friday-at-pagerduty/) for any new service, however you should manually test them if you need it more quickly. Some things to test,
+Make sure to test all alerts that are added. This is usually covered as part of [Failure Friday](https://www.pagerduty.com/blog/failure-friday-at-pagerduty/) for any new service; however, you should manually test them if you need it more quickly. Some things to test:
 
 * Test that the threshold is set appropriately. We don't want noisy alerts.
 * Test that you get alerted for the "No Data" condition if applicable. Generally, receiving no data is the same as breaking your threshold.
