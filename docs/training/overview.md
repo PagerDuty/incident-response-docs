@@ -28,7 +28,7 @@ This recorded call is a reenactment of an actual major incident that occurred at
 ## National Incident Management System (NIMS)
 Our incident response process is loosely based on the [US National Incident Management System (NIMS)](https://www.fema.gov/national-incident-management-system), which is described as,
 
-  _A systematic, proactive approach to guide departments and agencies at all levels of government, nongovernmental organizations, and the private sector to work together seamlessly and manage incidents involving all threats and hazards—regardless of cause, size, location, or complexity—in order to reduce loss of life, property and harm to the environment._
+  _A systematic, proactive approach to guide departments and agencies at all levels of government, nongovernmental organizations, and the private sector to work together seamlessly and manage incidents involving all threats and hazards—regardless of cause, size, location, or complexity—in order to reduce loss of life, property, and harm to the environment._
 
 While it might not initially seem that this would be applicable to an IT operations environment, we've found that many of the lessons learned from major incidents in these situations can be directly applied to our industry too. The principles are the same and span many different environments.
 
