@@ -1,19 +1,19 @@
 ---
 cover: assets/img/covers/post-mortem_template.png
-description: This is a standard template we use for post-mortems at PagerDuty. Each section describes the type of information you will want to put in that section.
+description: This is a standard template we use for postmortems at PagerDuty. Each section describes the type of information you will want to put in that section.
 ---
-This is a standard template we use for post-mortems at PagerDuty. Each section describes the type of information you will want to put in that section.
+This is a standard template we use for postmortems at PagerDuty. Each section describes the type of information you will want to put in that section.
 
 ---
 
 !!! note "Guidelines"
-    This page is intended to be reviewed during a post-mortem meeting that should be scheduled within 5 business days of any event.
-    Your first step should be to schedule the post-mortem meeting in the shared calendar for within 5 business days after the incident.
-    Don't wait until you've filled in the info to schedule the meeting, however make sure the page is completed by the meeting.
+    This page is intended to be reviewed during a postmortem meeting that should be scheduled within 5 business days of any event.
+    Your first step should be to schedule the postmortem meeting in the shared calendar for within 5 business days after the incident.
+    Don't wait until you've filled in the info to schedule the meeting. Make sure the page is completed by the meeting.
 
-** Post-Mortem Owner:** _Your name goes here._
+** Postmortem Owner:** _Your name goes here._
 
-** Meeting Scheduled For:** _Schedule the meeting on the "Incident Post-Mortem Meetings" shared calendar, for within 5 business days after the incident. Put the date/time here._
+** Meeting Scheduled For:** _Schedule the meeting on the "Incident Postmortem Meetings" shared calendar, for within 5 business days after the incident. Put the date/time here._
 
 ** Call Recording:** _Link to the incident call recording._
 
@@ -27,10 +27,10 @@ _Include a short description of what happened._
 _Include a description of any conditions that contributed to the issue. If there were any actions taken that exacerbated the issue, also include them here with the intention of learning from any mistakes made during the resolution process._
 
 ## Resolution
-_Include a description what solved the problem. If there was a temporary fix in place, describe that along with the long-term solution._
+_Include a description of what solved the problem. If there was a temporary fix in place, describe that along with the long-term solution._
 
 ## Impact
-_Be very specific here, include exact numbers._
+_Be very specific here and include exact numbers._
 
 | | |
 |-|-|
@@ -65,14 +65,14 @@ _Some important times to include: (1) time the contributing factor began, (2) ti
 * _List anything you think we didn't do very well. The intent is that we should follow up on all points here to improve our processes._
 
 ## Action Items
-_Each action item should be in the form of a JIRA ticket, and each ticket should have the same set of two tags:  “sev1_YYYYMMDD” (such as sev1_20150911) and simply “sev1”. Include action items such as: (1) any fixes required to prevent the contributing factor in the future, (2) any preparedness tasks that could help mitigate the problem if it came up again, (3) remaining post-mortem steps, such as the internal email, as well as the status-page public post, (4) any improvements to our incident response process._
+_Each action item should be in the form of a JIRA ticket, and each ticket should have the same set of two tags:  “sev1_YYYYMMDD” (such as sev1_20150911) and simply “sev1”. Include action items such as: (1) any fixes required to prevent the contributing factor in the future, (2) any preparedness tasks that could help mitigate the problem if it came up again, (3) remaining postmortem steps, such as the internal email, as well as the status-page public post, (4) any improvements to our incident response process._
 
 ## Messaging
 
 ### Internal Email
-_This is a follow-up for employees. It should be sent out right after the post-mortem meeting is over. It only needs a short paragraph summarizing the incident and a link to this wiki page._
+_This is a follow-up for employees. It should be sent out right after the postmortem meeting is over. It only needs a short paragraph summarizing the incident and a link to this wiki page._
 
-> Briefly summarize what happened and where the post-mortem page (this page) can be found.
+> Briefly summarize what happened and where the postmortem page (this page) can be found.
 
 ### External Message
 _This is what will be included on the status.pagerduty.com website regarding this incident. What are we telling customers, including an apology? (The apology should be genuine, not rote.)_
