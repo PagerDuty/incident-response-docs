@@ -21,7 +21,7 @@ Incident response is something you hope to never need, but when you do, you want
 
 ## What is covered?
 
-Anything from preparing to [go on-call](/oncall/being_oncall.md), definitions of [severities](/before/severity_levels.md), incident [call etiquette](/before/call_etiquette.md), all the way to how to run a [post-mortem](/after/post_mortem_process.md), and providing our [post-mortem template](/after/post_mortem_template.md). We even include our [security incident response process](/during/security_incident_response.md).
+Anything from preparing to [go on-call](/oncall/being_oncall.md), definitions of [severities](/before/severity_levels.md), incident [call etiquette](/before/call_etiquette.md), all the way to how to run a [postmortem](/after/post_mortem_process.md), and providing our [postmortem template](/after/post_mortem_template.md). We even include our [security incident response process](/during/security_incident_response.md).
 
 ## What is missing?
 
