@@ -1,6 +1,6 @@
 ---
 cover: assets/img/covers/scribe.png
-description: So you want to be a scribe? You've come to the right place! You don't need to be a senior team member to become a deputy or scribe, anyone can do it providing you have the requisite knowledge!
+description: So you want to be a scribe? You've come to the right place! You don't need to be a senior team member to become a Deputy or Scribe, anyone can do it providing you have the requisite knowledge!
 ---
 ![Scribe](../assets/img/headers/fountain_pen.jpg)
 *Credit: [John-Mark Smith](https://www.pexels.com/photo/person-holding-fountain-pen-211291/)*
@@ -33,7 +33,7 @@ There is no formal training process for this role, reading this page should be s
     * Be the Scribe for multiple FF's.
 
 ## Scribing
-Scribing is more art than science. The objective is to keep an accurate record of important events that occurred on the call, so that we can look back at the timeline to see what happened. But what exactly is important? There's no overwhelming answer, and it really comes down the judgement and experience. But here are some general things you most definitely want to capture as scribe.
+Scribing is more art than science. The objective is to keep an accurate record of important events that occurred on the call, so that we can look back at the timeline to see what happened. But what exactly is important? There's no overwhelming answer, and it really comes down the judgement and experience. But here are some general things you most definitely want to capture as Scribe.
 
 * The result of any polling decisions.
     * <span class="bad">&#x2718;</span> This is not "9 people voted yay, 3 voted nay".
