@@ -98,7 +98,7 @@ You are there to document the key information from the incident in Slack.
 1. Once the call is over, you can start to follow the steps from [After an Incident](/after/after_an_incident.md).
 
 ## Steps for Subject Matter Experts
-You are there to support the incident commander in identifying the cause of the incident, suggesting and evaluation repair actions, and following through on the repair actions.
+You are there to support the Incident Commander in identifying the cause of the incident, suggesting and evaluation repair actions, and following through on the repair actions.
 
 1. Investigate the incident by analyzing any graphs or logs at your disposal. Announce all findings to the incident commander.
     * If you are unsure of the cause that's fine. Simply state that you are investigating and provide regular updates to the IC.
