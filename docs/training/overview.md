@@ -10,7 +10,7 @@ Our training guides are split up by role, however you are encouraged to read thr
 
 * [Incident Commander Training](/training/incident_commander.md) - The "IC" is the person who drives a major incident to resolution. They're the person who will be directing everyone else.
 * [Deputy Training](/training/deputy.md) - The Deputy is someone who supports the Incident Commander and can take over for them if necessary.
-* [Scribe Training](/training/scribe.md) - This is intended for individuals who will be acting as a scribe during an incident.
+* [Scribe Training](/training/scribe.md) - This is intended for individuals who will be acting as a Scribe during an incident.
 * [SME / Resolver Training](/training/subject_matter_expert.md) - This is relevant to everyone at PagerDuty who are on-call for any team.
 * [Customer Liaison Training](/training/customer_liaison.md) - This is for individuals who will be publicly representing us and interacting with customers.
 * [Internal Liaison Training](/training/internal_liaison.md) - This is relevant for anyone who might be called upon to work with teams internal during an incident.
