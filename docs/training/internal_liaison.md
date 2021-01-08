@@ -4,7 +4,7 @@ description: So you want to be an internal liaison? You've come to the right pla
 ---
 ![Internal Liaison](../assets/img/headers/internal_liaison.jpg)
 
-So you want to be an internal liaison? You've come to the right place!
+So you want to be an Internal Liaison? You've come to the right place!
 
 ## Purpose
 The purpose of the Internal Liaison is to be the primary individual in charge of notifying internal stakeholders of the current conditions, and informing the Incident Commander of any relevant feedback from stakeholders as the incident progresses. They are also responsible for mobilizing additional responders during an incident if requested by the incident commander.
