@@ -5,13 +5,13 @@ description: Ever wonder what all of those strange words you sometimes see in ou
 Ever wonder what all of those strange words you sometimes see in our documentation mean? This page is here to help.
 
 ### Incident Commander / IC
-The incident commander is the person responsible for bringing any major incident to resolution. They are the highest ranking individual on any major incident call, regardless of their day-to-day rank. Their decisions made as commander are final. [More info](../before/different_roles.md).
+The Incident Commander is the person responsible for bringing any major incident to resolution. They are the highest ranking individual on any major incident call, regardless of their day-to-day rank. Their decisions made as Incident Commander are final. [More info](../before/different_roles.md).
 
 ### Deputy
 Typically the backup IC. The deputy's job is to support the IC during the call, providing them with any help they need. [More info](../before/different_roles.md).
 
 ### Scribe
-The scribe's job is to keep a log of all activities performed during the call in a written chat log on Slack. [More info](../before/different_roles.md).
+The Scribe's job is to keep a log of all activities performed during the call in a written chat log on Slack. [More info](../before/different_roles.md).
 
 ### Resolver
 A person on the incident call who is able to help resolve issues within a particular system. Also referred to as an SME (see below). [More info](../before/different_roles.md).

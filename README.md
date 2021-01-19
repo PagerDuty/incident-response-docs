@@ -15,6 +15,12 @@ We use [MkDocs](http://www.mkdocs.org/) to create a static site from this reposi
 1. Install v6.2.1 of [MkDocs PyMdown Extensions](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/). `pip install pymdown-extensions==6.2.1`
 1. To test locally, run `mkdocs serve` from the project directory.
 
+### Docker Option
+From the root directory of this repo...
+1. `docker build -t mkdocs .`
+1. ``docker run -v `pwd`:/docs/ -p 8080:8080 mkdocs``
+1. Open `http://localhost:8080` to see changes in your browser
+
 ## Deploying
 1. Run `mkdocs build --clean` to produce the static site for upload.
 1. Upload the `site` directory to S3 (or wherever you would like it to be hosted).

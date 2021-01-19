@@ -34,8 +34,8 @@ Information on what to do during a major incident. See our [severity level descr
     * Anyone is free to join the call or chat to observe and follow along with the incident.
     * If you wish to participate however, you should join both. If you can't join the call for some reason, you should have a dedicated proxy for the call. Disjointed discussions in the chat room are ultimately distracting.
 
-1. Follow along with the call/chat, add any comments you feel are appropriate, but keep the discussion relevant to the problem at hand.
-    * If you are not an SME, try to filter any discussion through the primary SME for your service. Too many people discussing at once get become overwhelming, so we should try to maintain a hierarchical structure to the call if possible.
+1. Follow along with the call/chat and add any comments you feel are appropriate, but keep the discussion relevant to the problem at hand.
+    * If you are not an SME, try to filter any discussion through the primary SME for your service. Too many people discussing at once can become overwhelming, so we should try to maintain a hierarchical structure to the call if possible.
 
 1. Follow instructions from the Incident Commander.
     * **Is there no IC on the call?**
@@ -57,12 +57,12 @@ Resolve the incident as quickly and as safely as possible, use the Deputy to ass
     * **Data Center Outage:** Validate automation has removed bad data center. Force it to do so if not.
     * **Degraded Service Behavior without load:** Gather forensic data (heap dumps, etc), and consider doing a rolling restart.
 
-1. Listen for prompts from your Deputy regarding severity escalations, decide whether we need to announce publicly, and instruct customer liaison accordingly.
+1. Listen for prompts from your Deputy regarding severity escalations, decide whether we need to announce publicly, and instruct Customer Liaison accordingly.
     * Announcing publicly is at your discretion as IC. If you are unsure, then announce publicly ("If in doubt, tweet it out").
 
 1. Keep track of your [span of control](/training/glossary.md#span-of-control). If the response starts to become larger, or the incident increases in complexity, consider [splitting off sub-teams](/before/complex_incidents.md#spinning-off-sub-teams) in order to get a more effective response.
 
-1. Once incident has recovered or is actively recovering, you can announce that the incident is over and that the call is ending. This usually indicates there's no more productive work to be done for the incident right now.
+1. Once the incident has recovered or is actively recovering, you can announce that the incident is over and that the call is ending. This usually indicates there's no more productive work to be done for the incident right now.
     * Move the remaining, non-time-critical discussion to Slack.
     * Follow up to ensure the customer liaison wraps up the incident publicly.
     * Identify any post-incident clean-up work.
@@ -98,32 +98,32 @@ You are there to document the key information from the incident in Slack.
 1. Once the call is over, you can start to follow the steps from [After an Incident](/after/after_an_incident.md).
 
 ## Steps for Subject Matter Experts
-You are there to support the incident commander in identifying the cause of the incident, suggesting and evaluation repair actions, and following through on the repair actions.
+You are there to support the Incident Commander in identifying the cause of the incident, suggesting and evaluation repair actions, and following through on the repair actions.
 
 1. Investigate the incident by analyzing any graphs or logs at your disposal. Announce all findings to the incident commander.
-    * If you are unsure of the cause, that's fine, state that you are investigating and provide regular updates to the IC.
+    * If you are unsure of the cause that's fine. Simply state that you are investigating and provide regular updates to the IC.
 
-1. Announce all suggestions for resolution to the incident commander, it is their decision on how to proceed, do not follow any actions unless told to do so!
+1. Announce all suggestions for resolution to the Incident Commander, it is their decision on how to proceed, do not follow any actions unless told to do so!
 
-1. Follow instructions from the incident commander.
+1. Follow instructions from the Incident Commander.
 
 1. Once the call is over, you can start to follow the steps from [After an Incident](/after/after_an_incident.md).
 
 ## Steps for Customer Liaison
-Be on stand-by to post public facing messages regarding the incident.
+Be on stand-by to post public-facing messages regarding the incident.
 
-1. You will typically be required to update the status page and to send Tweets from our various accounts at certain times during the call.
+1. You will typically be required to update the status page and to send tweets from our various accounts at certain times during the call.
 
 1. Follow instructions from the Incident Commander.
 
 1. Once the call is over, you can start to follow the steps from [After an Incident](/after/after_an_incident.md).
 
 ## Steps for Internal Liaison
-You are there to provide updates to internal stakeholders, and to mobilize additional internal responders as necessary.
+You are there to provide updates to internal stakeholders and to mobilize additional internal responders as necessary.
 
 1. Be prepared to page other people as directed by the Incident Commander.
 
-1. Notify internal stakeholders as necessary, adding subscribers to the PagerDuty incident. We have pre-defined teams called "SEV-1 Stakeholders" and "SEV-2 Stakeholders" which can be used.
+1. Notify internal stakeholders as necessary, adding subscribers to the PagerDuty incident. We have predefined teams called "SEV-1 Stakeholders" and "SEV-2 Stakeholders" which can be used.
 
 1. Provide regular status updates in Slack (roughly every 30mins) to the executive team, giving an executive summary of the current status. Keep it short and to the point, and use `@here`.
 
