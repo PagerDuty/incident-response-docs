@@ -38,7 +38,7 @@ Once you've been designated as the owner of a postmortem, you should start creat
 
 1. (If not already done by the IC) Create a new postmortem for the incident.
 
-1. Schedule a post-mortem meeting for within **3 calendar days** for a SEV-1 and **5 business days** for a SEV-2. You should schedule this before filling in the postmortem, just so it's on the calendar.
+1. Schedule a postmortem meeting for within **3 calendar days** for a SEV-1 and **5 business days** for a SEV-2. You should schedule this before filling in the postmortem, just so it's on the calendar.
     * Create the meeting on the "Incident Postmortem Meetings" shared calendar.
 
 1. Begin populating the page with all of the information you have.
