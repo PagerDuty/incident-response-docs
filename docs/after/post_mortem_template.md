@@ -11,11 +11,11 @@ This is a standard template we use for postmortems at PagerDuty. Each section de
     Your first step should be to schedule the postmortem meeting in the shared calendar for within 5 business days after the incident.
     Don't wait until you've filled in the info to schedule the meeting. Make sure the page is completed by the meeting.
 
-** Postmortem Owner:** _Your name goes here._
+**Postmortem Owner:** _Your name goes here._
 
-** Meeting Scheduled For:** _Schedule the meeting on the "Incident Postmortem Meetings" shared calendar, for within 5 business days after the incident. Put the date/time here._
+**Meeting Scheduled For:** _Schedule the meeting on the "Incident Postmortem Meetings" shared calendar, for within 5 business days after the incident. Put the date/time here._
 
-** Call Recording:** _Link to the incident call recording._
+**Call Recording:** _Link to the incident call recording._
 
 ## Overview
 _Include a **short** sentence or two summarizing the contributing factors, timeline summary, and the impact. E.g. "On the morning of August 99th, we suffered a 1 minute SEV-1 due to a runaway process on our primary database machine. This slowness caused roughly 0.024% of alerts that had begun during this time to be delivered out of SLA."_
