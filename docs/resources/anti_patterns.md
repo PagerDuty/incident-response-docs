@@ -58,7 +58,7 @@ There are occasions where responders don't agree with the incident response poli
 
 It's tempting once an incident is resolved to not bother with the postmortem. Either you feel like the cause is well known, or you don't feel that it's worth it. Don't fall into this trap! A postmortem is always worthwhile. People were mobilized to respond to an incident, which had a cost associated with it. We want to be sure that we understand why that happened, so we can avoid that cost in future.
 
-Don't make the mistake of neglecting a post-mortem after an incident. Without a postmortem you fail to recognize what you're doing right, where you could improve, and most importantly, how to avoid making the same exact mistakes next time around. A well-designed, blameless postmortem allows teams to continuously learn, and serves as a way to iteratively improve your infrastructure and incident response process.
+Don't make the mistake of neglecting a postmortem after an incident. Without a postmortem you fail to recognize what you're doing right, where you could improve, and most importantly, how to avoid making the same exact mistakes next time around. A well-designed, blameless postmortem allows teams to continuously learn, and serves as a way to iteratively improve your infrastructure and incident response process.
 
 If you mobilize responders and determine it's not a "real" incident, you should still conduct a post-mortem. Because the next time you're going to mobilize responders again and waste time. Find out why incident response was triggered when it may not have been needed, and fix that problem.
 
