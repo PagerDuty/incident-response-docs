@@ -757,7 +757,7 @@ Don't litigate severities during an incident. It's a waste of time.
 <input type="checkbox" id="057" /><label for="057">![057](/assets/slides/incident_response/incident_response.057.jpeg)</label>
 _057. We're treating this as a SEV-1. [Docs Reference](/training/incident_commander/#executive-swoop-questioning-severity)_
 
-So the IC will need to make it clear we don’t discuss, and that we’re treating it as a `SEV-1`. It may turn out to be a `SEV-4`, who knows, it doesn’t matter. That's a discussion for the post-mortem.
+So the IC will need to make it clear we don’t discuss, and that we’re treating it as a `SEV-1`. It may turn out to be a `SEV-4`, who knows, it doesn’t matter. That's a discussion for the postmortem.
 
 > We do not discuss incident severity during the call. We're treating this as a SEV-1.
 
@@ -942,7 +942,7 @@ You cannot take on another role at the same time as being an Incident Commander.
 <input type="checkbox" id="071" /><label for="071">![071](/assets/slides/incident_response/incident_response.071.jpeg)</label>
 _071. Litigating policy during an incident. [Docs Reference](/resources/anti_patterns/#discussing-process-and-policy-decisions-during-the-incident-call)_
 
-Just like with severities, policy and processes should not be discussed during an incident. The current process should be followed, and any concerns should be raised afterwards, either during a post-mortem or directly to the team managing the incident response process.
+Just like with severities, policy and processes should not be discussed during an incident. The current process should be followed, and any concerns should be raised afterwards, either during a postmortem or directly to the team managing the incident response process.
 
 Trying to change the process during an incident is only going to prolong the current incident. That's not the time to have that discussion.
 
@@ -968,25 +968,25 @@ Well, not quite yet. There's still one more thing we need to do.
 
 ---
 
-### Don't Neglect The Post-Mortem
+### Don't Neglect The Postmortem
 
 <input type="checkbox" id="074" /><label for="074">![074](/assets/slides/incident_response/incident_response.074.jpeg)</label>
-_074. Don't neglect the post-mortem. [Docs Reference](/resources/anti_patterns/#neglecting-the-post-mortem-and-followup-activities)_
+_074. Don't neglect the postmortem. [Docs Reference](/resources/anti_patterns/#neglecting-the-post-mortem-and-followup-activities)_
 
-We need to do a [post-mortem](/after/post_mortem_process/). Or after-action review, learning review, retrospective, incident report, etc. Whatever you want to call it, the name doesn't matter as much as actually doing one!
+We need to do a [postmortem](/after/post_mortem_process/). Or after-action review, learning review, retrospective, incident report, etc. Whatever you want to call it, the name doesn't matter as much as actually doing one!
 
-Don't make the mistake of neglecting a post-mortem after an incident. Without a post-mortem you fail to recognize what you're doing right, where you could improve, and most importantly, how to avoid making the same exact mistakes next time around. A well-designed, blameless post-mortem allows teams to continuously learn, and serves as a way to iteratively improve your infrastructure and incident response process.
+Don't make the mistake of neglecting a postmortem after an incident. Without a postmortem you fail to recognize what you're doing right, where you could improve, and most importantly, how to avoid making the same exact mistakes next time around. A well-designed, blameless postmortem allows teams to continuously learn, and serves as a way to iteratively improve your infrastructure and incident response process.
 
-Post-mortems are an important followup action and should never be missed. Even if you triggered an incident and then decided it was a false alarm, you should still do a brief post-mortem. You just mobilized a response when you didn't need to, so you want to identify how you can make sure that doesn't happen again.
+Postmortems are an important followup action and should never be missed. Even if you triggered an incident and then decided it was a false alarm, you should still do a brief postmortem. You just mobilized a response when you didn't need to, so you want to identify how you can make sure that doesn't happen again.
 
 ---
 
-### Create the Post-Mortem
+### Create the Postmortem
 
 <input type="checkbox" id="075" /><label for="075">![075](/assets/slides/incident_response/incident_response.075.jpeg)</label>
-_075. Create the post-mortem. [Docs Reference](/after/post_mortem_template/)_
+_075. Create the postmortem. [Docs Reference](/after/post_mortem_template/)_
 
-The first step is to create the post-mortem itself. This is the job of the Incident Commander. I don't mean they're going to write the entire post-mortem, they're just going to create the [initial template](/after/post_mortem_template/). We want to make sure that a link exists so that when people ask "When will we know what went wrong?" you have something to give them.
+The first step is to create the postmortem itself. This is the job of the Incident Commander. I don't mean they're going to write the entire postmortem, they're just going to create the [initial template](/after/post_mortem_template/). We want to make sure that a link exists so that when people ask "When will we know what went wrong?" you have something to give them.
 
 ---
 
@@ -995,11 +995,11 @@ The first step is to create the post-mortem itself. This is the job of the Incid
 <input type="checkbox" id="076" /><label for="076">![076](/assets/slides/incident_response/incident_response.076.jpeg)</label>
 _076. Pick an owner._
 
-Then the IC needs to assign an owner. Remember how we assigned tasks to specific individuals? It’s no different with a post-mortem. Make sure there’s a clear owner, and that it's an **individual** and not a team. The most surefire way to make sure a post-mortem doesn't get completed is to assign it to a team instead of a specific person.
+Then the IC needs to assign an owner. Remember how we assigned tasks to specific individuals? It’s no different with a postmortem. Make sure there’s a clear owner, and that it's an **individual** and not a team. The most surefire way to make sure a postmortem doesn't get completed is to assign it to a team instead of a specific person.
 
-The person you assign is responsible for completing the post-mortem, but they don't have to do it all themselves. They can delegate out sections as they see fit. But you need someone on the hook for making sure it gets finished.
+The person you assign is responsible for completing the postmortem, but they don't have to do it all themselves. They can delegate out sections as they see fit. But you need someone on the hook for making sure it gets finished.
 
-As with assigning other tasks, you also want to give them a deadline, and make sure they've understood that they're responsible for completing the post-mortem.
+As with assigning other tasks, you also want to give them a deadline, and make sure they've understood that they're responsible for completing the postmortem.
 
 ---
 
@@ -1008,11 +1008,11 @@ As with assigning other tasks, you also want to give them a deadline, and make s
 <input type="checkbox" id="077" /><label for="077">![077](/assets/slides/incident_response/incident_response.077.jpeg)</label>
 _077. Blameless._
 
-Importantly, post-mortems need to be **blameless**. If someone made a mistake, you just spent lots of money training them to never do it again. **You can’t fire your way to reliability.**
+Importantly, postmortems need to be **blameless**. If someone made a mistake, you just spent lots of money training them to never do it again. **You can’t fire your way to reliability.**
 
-Let's say Bob ran a command which deleted your entire database. Your post-mortem shouldn't be "Bob made a mistake and should be fired or have his access revoked!". The post-mortem should be "Why is our system configured in a way which  allowed a single user to delete the entire database?".
+Let's say Bob ran a command which deleted your entire database. Your postmortem shouldn't be "Bob made a mistake and should be fired or have his access revoked!". The postmortem should be "Why is our system configured in a way which  allowed a single user to delete the entire database?".
 
-If you name and shame people in a post-mortem, it demotivates everyone. Next time someone makes a mistake, they're not going to own up to it, because they'll be afraid of getting shamed too. You want people to bring up problems, because then you get to fix them quickly.
+If you name and shame people in a postmortem, it demotivates everyone. Next time someone makes a mistake, they're not going to own up to it, because they'll be afraid of getting shamed too. You want people to bring up problems, because then you get to fix them quickly.
 
 ---
 
@@ -1021,7 +1021,7 @@ If you name and shame people in a post-mortem, it demotivates everyone. Next tim
 <input type="checkbox" id="078" /><label for="078">![078](/assets/slides/incident_response/incident_response.078.jpeg)</label>
 _078. Review the process too!_
 
-Don’t forget to also review the process as part of the post-mortem. How can you change the process to make it better? What isn’t working out well? Just as it’s important to learn from and fix mistakes in your software, you want to do the same for your incident response process.
+Don’t forget to also review the process as part of the postmortem. How can you change the process to make it better? What isn’t working out well? Just as it’s important to learn from and fix mistakes in your software, you want to do the same for your incident response process.
 
 ---
 
