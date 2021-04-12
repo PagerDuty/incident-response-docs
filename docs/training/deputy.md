@@ -1,10 +1,11 @@
 ---
 cover: assets/img/covers/deputy.png
 description: So you want to be a Deputy? You've come to the right place!
+hero: assets/img/headers/incident_command_support.jpg
+hero_alt_text: Deputy
+hero_credit_url: https://www.flickr.com/photos/oregondot/8743801731/in/album-72157633494644719/
+hero_credit_url_text: oregondot @ Flickr
 ---
-![Deputy](../assets/img/headers/incident_command_support.jpg)
-*Credit: [oregondot @ Flickr](https://www.flickr.com/photos/oregondot/8743801731/in/album-72157633494644719/)*
-
 So you want to be a Deputy? You've come to the right place!
 
 ## Purpose

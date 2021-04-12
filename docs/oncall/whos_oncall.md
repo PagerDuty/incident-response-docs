@@ -1,9 +1,9 @@
 ---
 cover: assets/img/covers/whos_on-call.png
 description: Organizational structures vary, but these are general guidelines about the way different functions in a business relate to incident response.
+hero: assets/img/headers/who_oncall.png
+hero_alt_text: Who's On-Call?
 ---
-![Who's On-Call?](../assets/img/headers/who_oncall.png)
-
 Organizational structures vary, but these are general guidelines about the way different functions in a business relate to incident response.
 
 Generally speaking, every department should have a primary point of contact, on-call rotation, and clear escalation path. Organizations should always strive to minimize dependencies and empower response teams as much as possible. But, in novel situations, you do not know who you will need to help out. A clear system for recruiting responders from all parts of the business ensures that when the unexpected happens, responders don’t waste time on manual processes or ambiguous points of contact.

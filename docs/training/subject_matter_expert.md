@@ -1,10 +1,11 @@
 ---
 cover: assets/img/covers/sme.png
 description: If you are on-call for any team at PagerDuty, you may be paged for a major incident and will be expected to respond as a subject matter expert (SME) for your service. This page details everything you need to know in order to be prepared for that responsibility.
+hero: assets/img/headers/incident_response.jpg
+hero_alt_text: Incident Response
+hero_credit_url: https://www.flickr.com/photos/oregondot/8743809853/in/album-72157633494644719/
+hero_credit_url_text: oregondot @ Flickr
 ---
-![Incident Response](../assets/img/headers/incident_response.jpg)
-*Credit: [oregondot @ Flickr](https://www.flickr.com/photos/oregondot/8743809853/in/album-72157633494644719/)*
-
 If you are on-call for any team at PagerDuty, you may be paged for a major incident and will be expected to respond as a subject matter expert (SME) for your service. This page details everything you need to know in order to be prepared for that responsibility. If you are interested in becoming an Incident Commander, take a look at the [Incident Commander Training page](/training/incident_commander.md).
 
 ## On-Call Expectations

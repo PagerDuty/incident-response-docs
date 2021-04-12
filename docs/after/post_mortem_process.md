@@ -1,9 +1,9 @@
 ---
 cover: assets/img/covers/post-mortem_process.png
 description: For every major incident (SEV-2/1), we need to follow up with a postmortem. A blame-free, detailed description, of exactly what went wrong in order to cause the incident, along with a list of steps to take in order to prevent a similar incident from occurring again in the future.
+hero: assets/img/headers/pagerduty_post_mortem.jpg
+hero_alt_text: Postmortem
 ---
-![Postmortem](../assets/img/headers/pagerduty_post_mortem.jpg)
-
 For every major incident (SEV-2/1), we need to follow up with a postmortem. A blame-free, detailed description, of exactly what went wrong in order to cause the incident, along with a list of steps to take in order to prevent a similar incident from occurring again in the future. The incident response process itself should also be included.
 
 !!! warning "Don't Neglect the Postmortem"
@@ -89,7 +89,7 @@ You should invite the following people to the postmortem meeting,
     * Service owners involved in the incident.
     * Key engineer(s)/responders involved in the incident.
     * Engineering manager for impacted systems.
-    * Product manager for impacted systems. 
+    * Product manager for impacted systems.
 * Optional
     * Customer Liaison. (Only SEV-1 incidents)
 

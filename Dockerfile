@@ -1,14 +1,25 @@
-FROM circleci/python:2.7.14
+# https://circleci.com/docs/2.0/circleci-images/#python
+# We may as well use the same image we use for actually deploying our sites.
+FROM circleci/python:3.9.2
 
-COPY ./ /docs/
+# Dependencies
+RUN sudo pip install mkdocs
+RUN sudo pip install pymdown-extensions
+RUN sudo pip install pygments
 
-WORKDIR /docs/
+# Install the PagerDuty theme.
+WORKDIR /tmp
+RUN git clone https://github.com/pagerduty/mkdocs-theme-pagerduty
+RUN cd mkdocs-theme-pagerduty && sudo python3 setup.py install
 
-RUN sudo pip install mkdocs-bootswatch==0.1.0
-RUN sudo pip install mkdocs-bootstrap==0.1.1
-RUN sudo pip install mkdocs==0.15.3
-RUN sudo pip install mkdocs-material==0.2.4
-RUN sudo pip install pymdown-extensions==6.2.1
-EXPOSE 8080
+# Set our working directory and user
+WORKDIR /docs
+RUN sudo useradd -m --uid 1000 mkdocs
+USER mkdocs
 
-CMD ["mkdocs", "serve"]
+# Expose MkDocs server
+EXPOSE 8000
+
+# Start the local MkDocs server.
+ENTRYPOINT ["mkdocs"]
+CMD ["serve", "--dev-addr=0.0.0.0:8000"]
