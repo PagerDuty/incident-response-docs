@@ -40,3 +40,4 @@ This is a collection of additional reading on the topic of incident response tha
 ## Other Useful Resources
 
 * [Informed's NIMS Incident Command System Field Guide](https://www.amazon.com/gp/product/1284038408) (Michael J. Ward)
+* [Linkedin's School Of SRE](https://linkedin.github.io/school-of-sre/)
