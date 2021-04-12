@@ -1,9 +1,9 @@
 ---
 cover: assets/img/covers/being_on-call.png
 description: A summary of the expectations and responsibilities of being on-call at PagerDuty, along with some best practice and etiquette recommendations.
+hero: assets/img/headers/alert_fatigue.png
+hero_alt_text: Alert Fatigue
 ---
-![Alert Fatigue](../assets/img/headers/alert_fatigue.png)
-
 A summary of expectations and helpful information for being on-call.
 
 ## What is On-Call?

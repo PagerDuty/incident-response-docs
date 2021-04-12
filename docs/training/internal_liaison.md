@@ -1,9 +1,9 @@
 ---
 cover: assets/img/covers/internal_liaison.png
 description: So you want to be an internal liaison? You've come to the right place!
+hero: assets/img/headers/internal_liaison.jpg
+hero_alt_text: Internal Liaison
 ---
-![Internal Liaison](../assets/img/headers/internal_liaison.jpg)
-
 So you want to be an Internal Liaison? You've come to the right place!
 
 ## Purpose

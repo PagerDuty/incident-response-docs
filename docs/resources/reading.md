@@ -1,9 +1,11 @@
 ---
 cover: assets/img/covers/reading.png
 description: This is a collection of additional reading on the topic of incident response that we've found useful.
+hero: assets/img/headers/resources.jpg
+hero_alt_text: Looking up information
+hero_credit_url: http://www.publicdomainpictures.net/view-image.php?image=151506&picture=young-woman-my-computer
+hero_credit_url_text: Axelle B
 ---
-![Looking up information](../assets/img/headers/resources.jpg)
-*Credit: [Axelle B](http://www.publicdomainpictures.net/view-image.php?image=151506&picture=young-woman-my-computer)*
 
 This is a collection of additional reading on the topic of incident response that we've found useful.
 

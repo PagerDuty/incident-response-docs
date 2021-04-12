@@ -1,9 +1,9 @@
 ---
 cover: assets/img/covers/customer_liaison.png
 description: So you want to be a customer liaison? You've come to the right place!
+hero: assets/img/headers/status_page.jpg
+hero_alt_text: PagerDuty Status Page
 ---
-![PagerDuty Status Page](../assets/img/headers/status_page.jpg)
-
 So you want to be a Customer Liaison? You've come to the right place!
 
 ## Purpose
@@ -41,9 +41,9 @@ The objective of a Customer Liaison is to keep our customers informed during an 
 * Be clear about how the incident is affecting customers. This is the primary piece of information customers will care about.
     * Are notifications delayed? Is the website loading slowly but still working?
 * Provide any workarounds customers can use until the incident is resolved.
-* <span class="bad">&#x2718;</span> Don't estimate resolution times.
+* <span class="icon bad"></span>  Don't estimate resolution times.
     * Never say something like _"We expect this incident to be resolved in 10 minutes"_. Something else could happen, and customers get angry when you set an expectation you can't keep.
-* <span class="bad">&#x2718;</span> Don't provide **too much** detail.
+* <span class="icon bad"></span>  Don't provide **too much** detail.
     * Customers don't care if `application-server-123` is having issues, they care that they are not getting notifications. Make sure the information you provide is relevant and not just noise.
 
 ## Incident Call Procedures and Lingo

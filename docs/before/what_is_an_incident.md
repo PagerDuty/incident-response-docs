@@ -1,9 +1,9 @@
 ---
 cover: assets/img/covers/incident.png
 description: Before defining an incident response process, we should first define what an incident (and a major incident) is, along with how we should trigger the response for such incidents.
+hero: assets/img/headers/server_incident.png
+hero_alt_text: Incident
 ---
-![Incident](../assets/img/headers/server_incident.png)
-
 Before we can define our incident response process, we should first define what an incident (and a major incident) is.
 
 ## What is an incident?

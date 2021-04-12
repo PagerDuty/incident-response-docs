@@ -1,10 +1,12 @@
 ---
 cover: assets/img/covers/getting_started.png
 description: This 'Getting Started' guide will help you to navigate the most important parts of our process, and provide some guidelines about which bits we think you should start with. If you're just starting out with your own incident response process, this is a great way to know what order we think you should do things in.
+hero: assets/img/headers/getting_started.jpg
+hero_alt_text: Getting Started
+hero_credit_url: https://www.pexels.com/photo/young-game-match-kids-2923/
+hero_credit_url_text: Pexels
+hero_credit_text: Breakingpic
 ---
-![Getting Started](../assets/img/headers/getting_started.jpg)
-*Credit: [Breakingpic @ Pexels](https://www.pexels.com/photo/young-game-match-kids-2923/)*
-
 If you don't yet have a process in your own organization, or if you're just starting out, you may find the sheer quantity of information in this documentation overwhelming. It's important to remember that this **isn't something you'll be able to implement overnight**. This is a process that should be built up over time. While it took us years to get to this point, our hope is that you can make use of this documentation to skip some of the awkward growing pains we went through and reach a more mature incident response process in the most efficient way possible.
 
 To that end, we've put together this "Getting Started" guide to help you navigate the most important parts of our process and provide some guidelines about which bits we think you should start with. If you're just starting out with your own incident response - process, this is a great way to know what order we think you should do things in.
@@ -36,21 +38,20 @@ Finally, you want to make sure your [alerts are actionable](/oncall/alerting_pri
 You will only care about the [Incident Commander](/before/different_roles#incident-commander-ic) role to begin with. If you have enough people, you can also have a [Scribe](/before/different_roles#scribe). But to start, just have an Incident Commander and your responders. The Incident Commander shouldn't be taking any remediation actions at all, they should just be leading the response and making the decisions. You don't need to follow the entire [training guide](/training/incident_commander.md) to begin with; just the basics of asking questions and assigning tasks are enough to get you started.
 
 ## Create a postmortem template.
-You can use [our template](/after/post_mortem_template.md) to get started or come up with your own version. Just make sure that you have a structured template so that it makes it easier to compare incidents to each other. It can be as simple as three headings to begin with: 
+You can use [our template](/after/post_mortem_template.md) to get started or come up with your own version. Just make sure that you have a structured template so that it makes it easier to compare incidents to each other. It can be as simple as three headings to begin with:
 
 1. What happened?
-2. Why did it happen?
-3. How are we going to make sure it doesn't happen again?. 
+1. Why did it happen?
+1. How are we going to make sure it doesn't happen again?.
 
 Adding more detailed fields and information can come later.
 
 !!! tip "Naming Doesn't Matter"
-
-You don't need to call them "Postmortem's." After-action review, learning review, retrospective, etc. are all valid names. The point is that you review what happened and learn from it. The name you give to the process doesn't really matter.
+    You don't need to call them "Postmortem's." After-action review, learning review, retrospective, etc. are all valid names. The point is that you review what happened and learn from it. The name you give to the process doesn't really matter.
 
 ## Practice
 
-Run a fake incident, mobilize your responders, and have someone act as the Incident Commander. Get used to the switch from normal day-to-day operations and the emergency operations of an incident. Switching to having an Incident Commander running the show can be jarring at first, so it helps to practice it in a low-risk situation to begin with. 
+Run a fake incident, mobilize your responders, and have someone act as the Incident Commander. Get used to the switch from normal day-to-day operations and the emergency operations of an incident. Switching to having an Incident Commander running the show can be jarring at first, so it helps to practice it in a low-risk situation to begin with.
 
 Playing a game of "[Keep Talking and Nobody Explodes](http://www.keeptalkinggame.com/)" is a light-hearted way of practicing the skills required for incident response. You can also run your own version of [Failure Friday](https://www.pagerduty.com/blog/failure-fridays-four-years/), where you manually inject some failure into your system and treat it as a major incident.
 

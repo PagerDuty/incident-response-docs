@@ -1,10 +1,11 @@
 ---
 cover: assets/img/covers/scribe.png
 description: So you want to be a scribe? You've come to the right place! You don't need to be a senior team member to become a Deputy or Scribe, anyone can do it providing you have the requisite knowledge!
+hero: assets/img/headers/fountain_pen.jpg
+hero_alt_text: Scribe
+hero_credit_url: https://www.pexels.com/photo/person-holding-fountain-pen-211291/
+hero_credit_url_text: John-Mark Smith
 ---
-![Scribe](../assets/img/headers/fountain_pen.jpg)
-*Credit: [John-Mark Smith](https://www.pexels.com/photo/person-holding-fountain-pen-211291/)*
-
 So you want to be a Scribe? You've come to the right place! You don't need to be a senior team member to become a Deputy or Scribe, anyone can do it providing you have the requisite knowledge!
 
 ## Purpose
@@ -36,11 +37,11 @@ There is no formal training process for this role, reading this page should be s
 Scribing is more art than science. The objective is to keep an accurate record of important events that occurred on the call, so that we can look back at the timeline to see what happened. But what exactly is important? There's no overwhelming answer, and it really comes down the judgement and experience. But here are some general things you most definitely want to capture as Scribe.
 
 * The result of any polling decisions.
-    * <span class="bad">&#x2718;</span> This is not "9 people voted yay, 3 voted nay".
-    * <span class="good">&#x2713;</span> It is "Polled for if we should do rolling restart. <USER_A> is proceeding with restart."
+    * <span class="icon bad"></span>  This is not "9 people voted yay, 3 voted nay".
+    * <span class="icon good"></span>  It is "Polled for if we should do rolling restart. <USER_A> is proceeding with restart."
 * Any follow-up items that are called out as "We should do this..", "Why didn't this?..", etc.
-    * <span class="bad">&#x2718;</span> This is not "Why isn't the Support representative on the call?"
-    * <span class="good">&#x2713;</span> This is "TODO: Why didn't we get paged for this earlier?"
+    * <span class="icon bad"></span>  This is not "Why isn't the Support representative on the call?"
+    * <span class="icon good"></span>  This is "TODO: Why didn't we get paged for this earlier?"
 
 ## Incident Call Procedures and Lingo
 The [Steps for Scribe](/during/during_an_incident.md) provide a detailed description of what you should be doing during an incident.

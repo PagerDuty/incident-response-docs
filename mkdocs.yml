@@ -2,8 +2,7 @@
 site_name: PagerDuty Incident Response Documentation
 site_description: A collection of information about the PagerDuty incident response process. Not only how to prepare new employees for on-call responsibilities, but also how to handle major incidents, both in preparation and after-work.
 site_author: PagerDuty, Inc.
-site_favicon: 'assets/img/favicon.png'
-site_url: https://response.pagerduty.com
+site_url: https://response.pagerduty.com/
 
 # Repository
 repo_url: https://github.com/pagerduty/incident-response-docs
@@ -12,26 +11,19 @@ repo_url: https://github.com/pagerduty/incident-response-docs
 copyright: 'Copyright &copy; PagerDuty, Inc.'
 
 # Theme
-theme: 'material'
-theme_dir: 'theme'
-extra_css: ['assets/css/pagerduty.css','assets/css/custom.css']
-extra_javascript: ['js/github_forks.js']
-extra:
-  favicon: 'assets/img/favicon.png'
-  logo: 'assets/img/icon.png'
-  cover: 'assets/img/covers/default.png'
-  palette:
-    primary: 'green'
-    accent: 'blue grey'
-  author:
-    github: 'PagerDuty'
-    twitter: 'PagerDuty'
+theme:
+  name: 'pagerduty'
+  title: 'Incident Response'
 
-# Dev URL
-dev_addr: '0.0.0.0:8080'
+# Set default cover image
+extra:
+  cover: assets/img/covers/default.png
+
+# Theme overrides and customizations for this specific site.
+extra_css: ['assets/css/custom.css']
 
 # Contents
-pages:
+nav:
   - Home: 'index.md'
   - Getting Started: 'getting_started.md'
   - On-Call:
@@ -83,3 +75,9 @@ markdown_extensions:
   - pymdownx.extra:
   - pymdownx.mark:
   - pymdownx.tilde:
+  - pymdownx.highlight:
+  - pymdownx.superfences:
+  - pymdownx.tabbed:
+
+# Development URL, bind to local only.
+dev_addr: '127.0.0.1:8000'

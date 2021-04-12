@@ -1,10 +1,5 @@
 /* CSS alterations for this particular site only. */
 
-/* Heading when printing */
-.article h1:before {
-  content: 'Incident Response';
-}
-
 /* Super horrible hack to get the training PDF images correct */
 #national-incident-management-system-nims ~ p img {
   display: inline;
@@ -66,6 +61,10 @@ table.custom-table td.centered {
   margin-bottom: -2em;
   background: #fff;
   color: #000;
+}
+
+#contact-summary tr:last-of-type td {
+  border-bottom: none;
 }
 
 /* Reviewed dates */
