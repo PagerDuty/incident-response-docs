@@ -13,7 +13,7 @@ For local development on your native device,
 
 1. Install [MkDocs](http://www.mkdocs.org/#installation). `pip install mkdocs`
 1. Install [MkDocs PyMdown Extensions](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/). `pip install pymdown-extensions`
-1. Install [Pygments](https://pygments.org/) if you want syntax highlighting for any code examples. `pip install pygments`\
+1. Install [Pygments](https://pygments.org/) if you want syntax highlighting for any code examples. `pip install pygments`
 1. Install the [PagerDuty MkDocs Theme](https://github.com/pagerduty/mkdocs-theme-pagerduty).
     1. `git clone https://github.com/pagerduty/mkdocs-theme-pagerduty`
     1. `cd mkdocs-theme-pagerduty & python3 setup.py install`
