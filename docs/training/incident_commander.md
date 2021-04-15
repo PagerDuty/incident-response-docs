@@ -33,7 +33,7 @@ Before you can be an Incident Commander, it is expected that you meet the follow
     [Incident Commanders do not require deep technical knowledge of our systems](../resources/anti_patterns.md#requiring-incident-commanders-to-have-deep-technical-knowledge). Your job as Incident Commander is to coordinate the response, not make technical changes. Don’t think you can’t be an Incident Commander just because you’re not in the engineering department!
 
 ## Responsibilities
-Read up on our [Different Roles for Incidents](/before/different_roles.md) to see what is expected from an Incident Commander, as well as what we expect from the other roles you'll be interacting with.
+Read up on our [Different Roles for Incidents](../before/different_roles.md) to see what is expected from an Incident Commander, as well as what we expect from the other roles you'll be interacting with.
 
 ## Training Process
 The process is fairly loose for now. Here's a list of things you can do to train though,
@@ -64,7 +64,7 @@ Also, don't forget to announce yourself in the IC Slack channel, and get yoursel
 ## Handling Incidents
 Every incident is different (we're hopefully not repeating the same issue multiple times!), but there's a common process you can apply to each one. The language used in each step is discussed in more detail in the "Procedures and Lingo" section below.
 
-![Handling Incidents](/assets/img/misc/handling_incidents.png)
+![Handling Incidents](../assets/img/misc/handling_incidents.png)
 
 ### Size-Up
 _Sizing-up involves getting an idea of what's going on, and how much impact it's having. This is an information gathering step that will allow you to make good decisions later._
@@ -130,9 +130,9 @@ After an incident, you should communicate with other training Incident Commander
     Remember that clear communication is better than concise communication. It can be tempting to try and abbreviate or rush speech in order to speed up the response. This can lead to confusion and misunderstandings which will ultimate increase the response time. Always favour clear communication, even if takes a little bit longer.
 
 ## Incident Call Procedures and Lingo
-The [Steps for Incident Commander](/during/during_an_incident.md) provide a detailed description of what you should be doing during an incident.
+The [Steps for Incident Commander](../during/during_an_incident.md) provide a detailed description of what you should be doing during an incident.
 
-Additionally, aside from following the [usual incident call etiquette](/before/call_etiquette.md), there a few extra etiquette guidelines you should follow as IC:
+Additionally, aside from following the [usual incident call etiquette](../before/call_etiquette.md), there a few extra etiquette guidelines you should follow as IC:
 
 * Always announce when you join the call if you are the on-call IC.
 * Don't let discussions get out of hand. Keep conversations short.
@@ -215,7 +215,7 @@ Once you've identified the cause of an incident, you can take some time to reduc
 There's no need to forcibly remove anyone from the call, leave the choice open. Sometimes responders prefer to remain to see how the incident eventually resolves, since they're already awake anyway.
 
 ### Spinning Off Sub-Teams
-When handling [complex incidents](/before/complex_incidents.md), it will sometimes be necessary to spin off a sub-team (or multiple sub-teams) to investigate specific issues in more detail before reporting back. This is to ensure that you can maintain an effective span of control. To do this, you should assign a team leader, give them a specific task (time-boxed in the usual way), and re-affirm that they are your primary contact and that all communication from their team should come via the leader. Use our pre-defined team names of Alpha, Bravo, and Charlie to avoid confusion when creating the teams.
+When handling [complex incidents](../before/complex_incidents.md), it will sometimes be necessary to spin off a sub-team (or multiple sub-teams) to investigate specific issues in more detail before reporting back. This is to ensure that you can maintain an effective span of control. To do this, you should assign a team leader, give them a specific task (time-boxed in the usual way), and re-affirm that they are your primary contact and that all communication from their team should come via the leader. Use our pre-defined team names of Alpha, Bravo, and Charlie to avoid confusion when creating the teams.
 
 > IC: Anne, I'd like you to lead a sub-team to investigate the ongoing latency in the web-tier. Please gather your desired team and investigate, get back to me in 20 minutes. All communication from your team should be filtered through you. Use the Alpha team rooms and phone bridge.
 

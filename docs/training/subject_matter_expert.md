@@ -6,7 +6,7 @@ hero_alt_text: Incident Response
 hero_credit_url: https://www.flickr.com/photos/oregondot/8743809853/in/album-72157633494644719/
 hero_credit_url_text: oregondot @ Flickr
 ---
-If you are on-call for any team at PagerDuty, you may be paged for a major incident and will be expected to respond as a subject matter expert (SME) for your service. This page details everything you need to know in order to be prepared for that responsibility. If you are interested in becoming an Incident Commander, take a look at the [Incident Commander Training page](/training/incident_commander.md).
+If you are on-call for any team at PagerDuty, you may be paged for a major incident and will be expected to respond as a subject matter expert (SME) for your service. This page details everything you need to know in order to be prepared for that responsibility. If you are interested in becoming an Incident Commander, take a look at the [Incident Commander Training page](../training/incident_commander.md).
 
 ## On-Call Expectations
 If you are on-call for your team, there are certain expectations of you as that on-call. This applies to both the primary and secondary on-calls. Getting paged about a SEV-3 or SEV-4 in your system comes with different expectations than getting paged with a major SEV-2.
@@ -14,10 +14,10 @@ If you are on-call for your team, there are certain expectations of you as that 
 ### Before Going On-Call
 
 1. Be prepared, by having already familiarized yourself with our incident response policies and procedures. In particular,
-    1. [Different Roles for Incidents](/before/different_roles.md) - You will be acting as a "Resolver" or "SME". But you should familiarize yourself with the other roles and what they will be doing.
-    1. [Incident Call Etiquette](/before/call_etiquette.md) - How to behave during an incident call.
-    1. [During an Incident](/during/during_an_incident.md) - What to do during an incident. You are specifically interested in the "Resolver" steps, but you should familiarize yourself with the entire document.
-    1. [Glossary](/training/glossary.md) - Familiarize yourself with the terminology that may be used during the call.
+    1. [Different Roles for Incidents](../before/different_roles.md) - You will be acting as a "Resolver" or "SME". But you should familiarize yourself with the other roles and what they will be doing.
+    1. [Incident Call Etiquette](../before/call_etiquette.md) - How to behave during an incident call.
+    1. [During an Incident](../during/during_an_incident.md) - What to do during an incident. You are specifically interested in the "Resolver" steps, but you should familiarize yourself with the entire document.
+    1. [Glossary](../training/glossary.md) - Familiarize yourself with the terminology that may be used during the call.
 1. Make sure you have set up your alerting methods, and that PagerDuty can [bypass your "Do Not Disturb" settings](https://support.pagerduty.com/docs/notification-phone-numbers).
 1. Check you can join the incident call. You may need to install a browser plugin. You don't want to be doing that the first time you get paged.
 1. Be aware of your upcoming on-call time and arrange swaps around travel, vacations, appointments, etc.

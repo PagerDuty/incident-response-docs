@@ -20,19 +20,19 @@ As a Deputy, you will be expected to take over command from the IC if they reque
 ## Prerequisites
 Before you can be a Deputy, it is expected that you meet the following criteria. Don't worry if you don't meet them all yet, you can still continue with training!
 
-* Be trained as an [Incident Commander](/training/incident_commander.md).
+* Be trained as an [Incident Commander](../training/incident_commander.md).
 
 ## Responsibilities
-Read up on our [Different Roles for Incidents](/before/different_roles.md) to see what is expected from a Deputy, as well as what we expect from the other roles you'll be interacting with.
+Read up on our [Different Roles for Incidents](../before/different_roles.md) to see what is expected from a Deputy, as well as what we expect from the other roles you'll be interacting with.
 
 ## Training Process
 The training process for a Deputy is quite simple.
 
-* Follow our [Incident Commander Training](/training/incident_commander.md).
+* Follow our [Incident Commander Training](../training/incident_commander.md).
 * Read this page.
 
 ## Incident Call Procedures and Lingo
-The [Steps for Deputy](/during/during_an_incident.md) provide a detailed description of what you should be doing during an incident.
+The [Steps for Deputy](../during/during_an_incident.md) provide a detailed description of what you should be doing during an incident.
 
 Here are some examples of phrases and patterns you should use during incident calls.
 

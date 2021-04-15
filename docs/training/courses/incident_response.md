@@ -17,7 +17,7 @@ pdf: /assets/pdf/pagerduty_incident_response_training_public.pdf
 
 ### Introduction
 
-<input type="checkbox" id="001" /><label for="001">![001](/assets/slides/incident_response/incident_response.001.jpeg)</label>
+<input type="checkbox" id="001" /><label for="001">![001](../../assets/slides/incident_response/incident_response.001.jpeg)</label>
 _001. "Incident Response Training"._
 
 Hi, I'm Rich, and welcome to "Incident Response Training". This is a shorter version of our internal training at PagerDuty, which we use to train up our new Incident Commanders. It's been slightly adapted for a wider audience, but the majority is exactly what we run ourselves. We're not going to be able to cover everything, otherwise we'd be here for a few days, but I'll cover some of the most important parts of our process. I'll try to keep this as short as I can.
@@ -28,7 +28,7 @@ Actually, how long do we have? Can someone keep track of time for me? That would
 
 ### Learn How to Effectively Manage Incidents
 
-<input type="checkbox" id="002" /><label for="002">![002](/assets/slides/incident_response/incident_response.002.jpeg)</label>
+<input type="checkbox" id="002" /><label for="002">![002](../../assets/slides/incident_response/incident_response.002.jpeg)</label>
 _002. Learn how to effectively manage incidents._
 
 The goal of this session is to give you an understanding of how to effectively manage incidents within your organization. I'll describe the process we use at PagerDuty for managing critical incidents, and talk in more detail about a specific role called the "Incident Commander".
@@ -39,7 +39,7 @@ This isn't a sales pitch. I'm not on our sales team, and this isn't a talk about
 
 ### Replace Chaos with Calm
 
-<input type="checkbox" id="003" /><label for="003">![003](/assets/slides/incident_response/incident_response.003.jpeg)</label>
+<input type="checkbox" id="003" /><label for="003">![003](../../assets/slides/incident_response/incident_response.003.jpeg)</label>
 _003. Replace chaos with calm._
 
 Let's start with a quick question. How does incident response usually go in your organization today? Is it a smooth and streamlined process, or is it a lot of people talking over one another? For most of you it's probably going to be somewhere in the middle.
@@ -50,8 +50,8 @@ We want less of the latter, and more of the former. We want to replace chaos wit
 
 ### What is Incident Response?
 
-<input type="checkbox" id="004" /><label for="004">![004](/assets/slides/incident_response/incident_response.004.jpeg)</label>
-_004. What is incident response? [Docs Reference](/before/what_is_an_incident/#what-is-incident-response)_
+<input type="checkbox" id="004" /><label for="004">![004](../../assets/slides/incident_response/incident_response.004.jpeg)</label>
+_004. What is incident response? [Docs Reference](../../before/what_is_an_incident/#what-is-incident-response)_
 
 So when we talk about incident response, what we're really talking about is an organized approach to addressing and managing an incident. This is how we define incident response at PagerDuty. They key here is on the word _organized_. We don't want to be running around in a panic anytime an alert goes off. We want our response to be almost routine, and for everyone to work together like a well-oiled machine.
 
@@ -63,8 +63,8 @@ There's a quote I really like from an excellent book called [Incident Management
 
 ### Goal of Incident Response
 
-<input type="checkbox" id="005" /><label for="005">![005](/assets/slides/incident_response/incident_response.005.jpeg)</label>
-_005. Goal of incident response. [Docs Reference](/before/what_is_an_incident/#what-is-incident-response)_
+<input type="checkbox" id="005" /><label for="005">![005](../../assets/slides/incident_response/incident_response.005.jpeg)</label>
+_005. Goal of incident response. [Docs Reference](../../before/what_is_an_incident.md#what-is-incident-response)_
 
 It may surprise you to learn the goal of incident response isn’t just about solving the problem. Give a thousand monkeys a keyboard and enough time and they can probably solve your problem. That's not good incident response. We want to solve the problem in a way which limits the damage caused, and reduces the recovery time and costs. I don’t just mean _financial_ cost either, there’s a cost associated with engineer health too. Constantly waking people up at 3am can have a dramatic negative effect on their health and happiness.
 
@@ -74,10 +74,10 @@ If financial impact is all you care about though, let's not forget that **people
 
 ### What is an Incident?
 
-<input type="checkbox" id="006" /><label for="006">![006](/assets/slides/incident_response/incident_response.006.jpeg)</label>
-_006. What is an incident? [Docs Reference](/before/what_is_an_incident/#what-is-an-incident)_
+<input type="checkbox" id="006" /><label for="006">![006](../../assets/slides/incident_response/incident_response.006.jpeg)</label>
+_006. What is an incident? [Docs Reference](../../before/what_is_an_incident.md#what-is-an-incident)_
 
-Before we can respond to an incident though, we need to [define what an incident actually is](/before/what_is_an_incident/). It sounds silly, but if you’re not sure whether something’s an incident, you don’t know whether to respond to it.
+Before we can respond to an incident though, we need to [define what an incident actually is](../../before/what_is_an_incident.md). It sounds silly, but if you’re not sure whether something’s an incident, you don’t know whether to respond to it.
 
 Here is PagerDuty’s definition of an incident,
 
@@ -93,8 +93,8 @@ You may notice that this is quite a broad definition though. A typo technically 
 
 ### What is a Major Incident?
 
-<input type="checkbox" id="007" /><label for="007">![007](/assets/slides/incident_response/incident_response.007.jpeg)</label>
-_007. What is a major incident? [Docs Reference](/before/what_is_an_incident/#what-is-a-major-incident)_
+<input type="checkbox" id="007" /><label for="007">![007](../../assets/slides/incident_response/incident_response.007.jpeg)</label>
+_007. What is a major incident? [Docs Reference](../../before/what_is_an_incident.md#what-is-a-major-incident)_
 
 We also have something we call a **major incident**. This is any incident where we require a coordinated response between teams. Again, this is just our definition at PagerDuty, feel free to use your own.
 
@@ -106,10 +106,10 @@ But this still covers quite a range of potential incidents. We can get more gran
 
 ### Severity Levels
 
-<input type="checkbox" id="008" /><label for="008">![008](/assets/slides/incident_response/incident_response.008.jpeg)</label>
-_008. Severity levels. [Docs Reference](/before/severity_levels/)_
+<input type="checkbox" id="008" /><label for="008">![008](../../assets/slides/incident_response/incident_response.008.jpeg)</label>
+_008. Severity levels. [Docs Reference](../../before/severity_levels.md)_
 
-We also use [severity levels](/before/severity_levels/) to determine how severe an incident is, and what type of response it gets. We use `SEV-5` through `SEV-1` for our levels, but you may use a different scheme, `P0` through `P5`, or maybe even emoji, 🔥 through 💩, etc.
+We also use [severity levels](../../before/severity_levels.md) to determine how severe an incident is, and what type of response it gets. We use `SEV-5` through `SEV-1` for our levels, but you may use a different scheme, `P0` through `P5`, or maybe even emoji, 🔥 through 💩, etc.
 
 Let's imagine you're looking at a graph of traffic to your website. You can typically determine severity based on how drastically your metrics are affected. So as your website traffic drops, the severity increases.
 
@@ -128,7 +128,7 @@ Having pre-defined thresholds and metrics can allow you to have automatic trigge
 
 ### Anyone Can Trigger Incident Response
 
-_<input type="checkbox" id="009" /><label for="009">![009](/assets/slides/incident_response/incident_response.009.jpeg)</label>_
+_<input type="checkbox" id="009" /><label for="009">![009](../../assets/slides/incident_response/incident_response.009.jpeg)</label>_
 _009. Anyone can trigger incident response at any time._
 
 But sometimes you won't know the impact straight away. Or maybe your metric hasn't reached the predefined threshold yet. We still need a way for a human to jump in and call something a major incident.
@@ -143,10 +143,10 @@ We were initially hesitant to introduce this, as we feared it would lead to lots
 
 ### Triggering Incidents via Chat
 
-<input type="checkbox" id="010" /><label for="010">![010](/assets/slides/incident_response/incident_response.010.jpeg)</label>
-_010. Triggering incidents via chat. [Docs Reference](/resources/chatops/#ic-page)_
+<input type="checkbox" id="010" /><label for="010">![010](../../assets/slides/incident_response/incident_response.010.jpeg)</label>
+_010. Triggering incidents via chat. [Docs Reference](../../resources/chatops.md#ic-page)_
 
-So how do we let humans trigger the process? We do it with a [chat command](/resources/chatops/), but don’t feel like that’s the only right way. I just wanted to demonstrate how we do it to give you an idea. You can do it however your want. Air horn, flashing light in the office, hire a mariachi band, etc.
+So how do we let humans trigger the process? We do it with a [chat command](../../resources/chatops.md), but don’t feel like that’s the only right way. I just wanted to demonstrate how we do it to give you an idea. You can do it however your want. Air horn, flashing light in the office, hire a mariachi band, etc.
 
 The point is you want a way to trigger your response that's fast, easy, and available to everyone.
 
@@ -154,10 +154,10 @@ The point is you want a way to trigger your response that's fast, easy, and avai
 
 ### Peacetime vs Wartime
 
-<input type="checkbox" id="011" /><label for="011">![011](/assets/slides/incident_response/incident_response.011.jpeg)</label>
-_011. Peacetime vs Wartime. [Docs Reference](/before/what_is_an_incident/#mentality-shift)_
+<input type="checkbox" id="011" /><label for="011">![011](../../assets/slides/incident_response/incident_response.011.jpeg)</label>
+_011. Peacetime vs Wartime. [Docs Reference](../../before/what_is_an_incident.md#mentality-shift)_
 
-Once an incident is triggered, we need to switch our mode of thinking. We need a [mentality shift](/before/what_is_an_incident/#mentality-shift). We want a distinction between “normal operations” and “there’s an incident in progress”. We need to switch decision making from peacetime to wartime. From day-to-day operations, to defending the business.
+Once an incident is triggered, we need to switch our mode of thinking. We need a [mentality shift](../../before/what_is_an_incident.md#mentality-shift). We want a distinction between “normal operations” and “there’s an incident in progress”. We need to switch decision making from peacetime to wartime. From day-to-day operations, to defending the business.
 
 Something that would be considered completely unacceptable during normal operations, such as deploying code without running any tests, might be perfectly acceptable during a major incident when you need to restore service quickly.
 
@@ -167,8 +167,8 @@ The way you operate, your role hierarchy, and the level of risk you’re willing
 
 ### Normal vs Emergency
 
-<input type="checkbox" id="012" /><label for="012">![012](/assets/slides/incident_response/incident_response.012.jpeg)</label>
-_012. Normal vs Emergency. [Docs Reference](/before/what_is_an_incident/#mentality-shift)_
+<input type="checkbox" id="012" /><label for="012">![012](../../assets/slides/incident_response/incident_response.012.jpeg)</label>
+_012. Normal vs Emergency. [Docs Reference](../../before/what_is_an_incident.md#mentality-shift)_
 
 Some people don’t like the peacetime/wartime analogy, so you can call it what you want. Normal/Emergency.
 
@@ -176,8 +176,8 @@ Some people don’t like the peacetime/wartime analogy, so you can call it what 
 
 ### OK vs Not OK
 
-<input type="checkbox" id="013" /><label for="013">![013](/assets/slides/incident_response/incident_response.013.jpeg)</label>
-_013. OK vs Not OK. [Docs Reference](/before/what_is_an_incident/#mentality-shift)_
+<input type="checkbox" id="013" /><label for="013">![013](../../assets/slides/incident_response/incident_response.013.jpeg)</label>
+_013. OK vs Not OK. [Docs Reference](../../before/what_is_an_incident.md#mentality-shift)_
 
 Or OK/NOT OK. What you call it isn't as important as being able to make the mental shift.
 
@@ -185,8 +185,8 @@ Or OK/NOT OK. What you call it isn't as important as being able to make the ment
 
 ### Incident Command System
 
-<input type="checkbox" id="014" /><label for="014">![014](/assets/slides/incident_response/incident_response.014.jpeg)</label>
-_014. Incident Command System (ICS). [Docs Reference](/training/overview/#national-incident-management-system-nims)_
+<input type="checkbox" id="014" /><label for="014">![014](../../assets/slides/incident_response/incident_response.014.jpeg)</label>
+_014. Incident Command System (ICS). [Docs Reference](../../training/overview.md#national-incident-management-system-nims)_
 
 So let’s talk about our process a bit more. The way we do incident response at PagerDuty isn’t something we invented ourselves, it is heavily based on the [Incident Command System](https://en.wikipedia.org/wiki/Incident_Command_System), usually abbreviated to ICS.
 
@@ -204,8 +204,8 @@ NIMS and ICS are the basis of the process we use at PagerDuty, however we have h
 
 ### Incident Response Around The World
 
-<input type="checkbox" id="015" /><label for="015">![015](/assets/slides/incident_response/incident_response.015.jpeg)</label>
-_015. Incident response around the world. [Docs Reference](/training/overview/#incident-response-around-the-world)_
+<input type="checkbox" id="015" /><label for="015">![015](../../assets/slides/incident_response/incident_response.015.jpeg)</label>
+_015. Incident response around the world. [Docs Reference](../../training/overview.md#incident-response-around-the-world)_
 
 It's worth noting that even though our process is based on the US systems, NIMS and ICS, there are many similar systems in use all over the world. While many are also based on ICS, some were developed separately, yet offer many of the same features.
 
@@ -214,7 +214,7 @@ I particularly like [the UK system](https://en.wikipedia.org/wiki/Gold%E2%80%93s
 When developing our process at PagerDuty, we looked at a few of the other systems in use around the world, and chose the bits we liked the most to add to our own.
 
 ???+ aside hide-arrow "Emergency Management Around the World"
-    If you're interested in learning more about the systems in use by other countries, we have [links to some official resources](/resources/reading/#official-resources).
+    If you're interested in learning more about the systems in use by other countries, we have [links to some official resources](../../resources/reading.md#official-resources).
 
     There's also a book available from the US FEMA website, called "[Comparative Emergency Management: Understanding Disaster Policies, Organizations, and Initiatives from Around the World](https://training.fema.gov/hiedu/aemrc/booksdownload/compemmgmtbookproject/)" where it compares the systems used by about 30 different countries.
 
@@ -222,10 +222,10 @@ When developing our process at PagerDuty, we looked at a few of the other system
 
 ### Roles
 
-_<input type="checkbox" id="016" /><label for="016">![016](/assets/slides/incident_response/incident_response.016.jpeg)</label>_
+_<input type="checkbox" id="016" /><label for="016">![016](../../assets/slides/incident_response/incident_response.016.jpeg)</label>_
 _016. Roles of incident response._
 
-So let's talk about the [roles involved in our process](/before/different_roles/). I'm going to introduce the roles one by one, but I don't want you to get scared by the number that will be on the slide by the end. We didn't start with this many roles, and we don't have people filling all the roles in every incident. This is just showing the available roles, and defining what they are. The process and roles will grow and shrink to fit the size of the incident at hand.
+So let's talk about the [roles involved in our process](../../before/different_roles.md). I'm going to introduce the roles one by one, but I don't want you to get scared by the number that will be on the slide by the end. We didn't start with this many roles, and we don't have people filling all the roles in every incident. This is just showing the available roles, and defining what they are. The process and roles will grow and shrink to fit the size of the incident at hand.
 
 While we don’t use exactly the same roles as ICS, we picked out the ones that matter for us in order to get our role structure.
 
@@ -251,8 +251,8 @@ Today, I’m going to focus on one role in particular, that of the Incident Comm
 
 ### Incident Commander
 
-<input type="checkbox" id="017" /><label for="017">![017](/assets/slides/incident_response/incident_response.017.jpeg)</label>
-_017. Incident commander. [Docs Reference](/training/incident_commander/)_
+<input type="checkbox" id="017" /><label for="017">![017](../../assets/slides/incident_response/incident_response.017.jpeg)</label>
+_017. Incident commander. [Docs Reference](../../training/incident_commander.md)_
 
 The incident commander is one of the most important roles you can have. Even if you don’t have deputy, scribe, customer liaison, etc. The Incident Commander is one you should get first (well, after the SME’s of course, you probably need someone to solve your problem before you need someone to coordinate the response).
 
@@ -260,7 +260,7 @@ The incident commander is one of the most important roles you can have. Even if 
 
 ### Single Source of Truth
 
-<input type="checkbox" id="018" /><label for="018">![018](/assets/slides/incident_response/incident_response.018.jpeg)</label>
+<input type="checkbox" id="018" /><label for="018">![018](../../assets/slides/incident_response/incident_response.018.jpeg)</label>
 _018. Single source of truth._
 
 They’re the single source of truth during an incident, and are the ones in charge. The big cheese. They make all decisions, and no action should be performed unless the IC has said so.
@@ -269,7 +269,7 @@ They’re the single source of truth during an incident, and are the ones in cha
 
 ### Highest Ranking Person
 
-<input type="checkbox" id="019" /><label for="019">![019](/assets/slides/incident_response/incident_response.019.jpeg)</label>
+<input type="checkbox" id="019" /><label for="019">![019](../../assets/slides/incident_response/incident_response.019.jpeg)</label>
 _019. Highest ranking person._
 
 No matter their day-to-day role, and IC is always becomes the highest ranking person on the response. They're running the show. Remember what we talked about earlier with the mentality shift? Well, this is one of the things that will change during an incident.
@@ -281,7 +281,7 @@ No matter their day-to-day role, and IC is always becomes the highest ranking pe
 
 ### Higher than the CEO
 
-<input type="checkbox" id="020" /><label for="020">![020](/assets/slides/incident_response/incident_response.020.jpeg)</label>
+<input type="checkbox" id="020" /><label for="020">![020](../../assets/slides/incident_response/incident_response.020.jpeg)</label>
 _020. Higher than the CEO._
 
 Even if the CEO joins the response, the IC still outranks them in an incident response situation. **This is absolutely critical for successful incident response, but it does require buy-in from your executives.** Please don't surprise your CEO with this, it will not go well for you.
@@ -292,7 +292,7 @@ Whether this works for you will depend on your organization. This is how we do i
 
 ### Not a Resolver
 
-<input type="checkbox" id="021" /><label for="021">![021](/assets/slides/incident_response/incident_response.021.jpeg)</label>
+<input type="checkbox" id="021" /><label for="021">![021](../../assets/slides/incident_response/incident_response.021.jpeg)</label>
 _021. Not a resolver._
 
 Importantly, the IC doesn't resolve the incident, they coordinate and delegate all tasks. They're the conductor of the orchestra, they're not playing an instrument. They're not acting as a resolver, and shouldn't be looking at graphs, or logging into servers.
@@ -303,7 +303,7 @@ This can be especially hard sometimes if the IC is an engineer in their day-to-d
 
 ### BSOD
 
-_<input type="checkbox" id="022" /><label for="022">![022](/assets/slides/incident_response/incident_response.022.jpeg)</label>_
+_<input type="checkbox" id="022" /><label for="022">![022](../../assets/slides/incident_response/incident_response.022.jpeg)</label>_
 _022. Uh oh!_
 
 Oh dear, that’s not good. Did something go wrong? Seems we have ourselves an incident!
@@ -316,7 +316,7 @@ It turns out that the first step in any incident response is always the same, wh
 
 ### Don't Panic
 
-<input type="checkbox" id="023" /><label for="023">![023](/assets/slides/incident_response/incident_response.023.jpeg)</label>
+<input type="checkbox" id="023" /><label for="023">![023](../../assets/slides/incident_response/incident_response.023.jpeg)</label>
 _023. Don't panic._
 
 **Don’t panic.** It elevates stress, and causes others to panic. It’ll end up hurting your incident response a lot more.
@@ -329,8 +329,8 @@ Those with experience will stay calm, and that can make the difference between a
 
 ### IC Introduction
 
-<input type="checkbox" id="024" /><label for="024">![024](/assets/slides/incident_response/incident_response.024.jpeg)</label>
-_024. "Hi, I'm Rich, I'm the Incident Commander". [Docs Reference](/training/incident_commander/#start-of-call-announcement)_
+<input type="checkbox" id="024" /><label for="024">![024](../../assets/slides/incident_response/incident_response.024.jpeg)</label>
+_024. "Hi, I'm Rich, I'm the Incident Commander". [Docs Reference](../../training/incident_commander.md#start-of-call-announcement)_
 
 But today we're lucky to have an IC here.
 
@@ -351,7 +351,7 @@ There are a few important things here with the way I phrased this.
 
 ### Introduce Yourself
 
-<input type="checkbox" id="025" /><label for="025">![025](/assets/slides/incident_response/incident_response.025.jpeg)</label>
+<input type="checkbox" id="025" /><label for="025">![025](../../assets/slides/incident_response/incident_response.025.jpeg)</label>
 _025. Introduce yourself._
 
 Firstly, I introduced myself by name. I didn't just say "Hi, I'm the IC". I'm not an emotionless robot.
@@ -364,7 +364,7 @@ You’ll find soon that a lot of the job of an IC involves psychology and phrasi
 
 ### Say Incident Commander
 
-<input type="checkbox" id="026" /><label for="026">![026](/assets/slides/incident_response/incident_response.026.jpeg)</label>
+<input type="checkbox" id="026" /><label for="026">![026](../../assets/slides/incident_response/incident_response.026.jpeg)</label>
 _026. Say "Incident Commander"._
 
 Then I said that I'm the "Incident Commander". I didn't abbreviate to IC, since new people might not understand the lingo yet. Stating it that way made it very clear. We want to make sure we **always use clear language**. Additionally, saying the word "Commander" here will subconsciously instill in people that you're in charge.
@@ -373,7 +373,7 @@ Then I said that I'm the "Incident Commander". I didn't abbreviate to IC, since 
 
 ### Good Communication
 
-<input type="checkbox" id="027" /><label for="027">![027](/assets/slides/incident_response/incident_response.027.jpeg)</label>
+<input type="checkbox" id="027" /><label for="027">![027](../../assets/slides/incident_response/incident_response.027.jpeg)</label>
 _027. Good communication is essential._
 
 Good communication is essential. A breakdown in communication can hamper the entire response process. One of your jobs as an IC is to keep the lines of communication clear and maintain discipline. Don’t throw weird or unfamiliar acronyms into the discussion.
@@ -382,7 +382,7 @@ Good communication is essential. A breakdown in communication can hamper the ent
 
 ### Acronym Overload
 
-<input type="checkbox" id="028" /><label for="028">![028](/assets/slides/incident_response/incident_response.028.jpeg)</label>
+<input type="checkbox" id="028" /><label for="028">![028](../../assets/slides/incident_response/incident_response.028.jpeg)</label>
 _028. Acronym overload._
 
 Too many acronyms and internal lingo will upset newcomers and adds cognitive overhead. As shown in this completely realistic example.
@@ -393,8 +393,8 @@ It takes much longer to say "Let's get the Incident Commander on the response ca
 
 ### Clear is Better Than Concise
 
-<input type="checkbox" id="029" /><label for="029">![029](/assets/slides/incident_response/incident_response.029.jpeg)</label>
-_029. Clear is better than concise. [Docs Reference](/before/call_etiquette/#lingo)_
+<input type="checkbox" id="029" /><label for="029">![029](../../assets/slides/incident_response/incident_response.029.jpeg)</label>
+_029. Clear is better than concise. [Docs Reference](../../before/call_etiquette.md#lingo)_
 
 Clear instructions are more important than concise instructions. You want to **favor explicit and clear communication over all else**. If you have the choice between taking 5 seconds and abbreviating, or taking 30 seconds and making it clear, take 30 seconds. Don’t give a long essay, but make sure the instructions are unambiguous.
 
@@ -404,21 +404,21 @@ There's a tendency to want to rush through an incident, that every second counts
 
 ### What's Wrong?
 
-<input type="checkbox" id="030" /><label for="030">![030](/assets/slides/incident_response/incident_response.030.jpeg)</label>
-_030. What's wrong? [Docs Reference](/training/incident_commander/#size-up)_
+<input type="checkbox" id="030" /><label for="030">![030](../../assets/slides/incident_response/incident_response.030.jpeg)</label>
+_030. What's wrong? [Docs Reference](../../training/incident_commander.md#size-up)_
 
 OK, so how do we actually start solving our problem?
 
 The first step is to collect information from your Subject Matter Experts (SME) for their services/area of ownership. Ask what's wrong, and gather the symptoms of the incident. Is it only affecting one system? Is it affecting everything? Was there a specific metric that triggered an alarm?
 
-We call this “[sizing up](/training/incident_commander/#size-up)”. We're trying to get an idea of the scope of the incident.
+We call this “[sizing up](../../training/incident_commander.md#size-up)”. We're trying to get an idea of the scope of the incident.
 
 ---
 
 ### What Actions Can We Take?
 
-<input type="checkbox" id="031" /><label for="031">![031](/assets/slides/incident_response/incident_response.031.jpeg)</label>
-_031. What actions can we take? [Docs Reference](/training/incident_commander/#stabilize)_
+<input type="checkbox" id="031" /><label for="031">![031](../../assets/slides/incident_response/incident_response.031.jpeg)</label>
+_031. What actions can we take? [Docs Reference](../../training/incident_commander.md#stabilize)_
 
 Next we want to ask our experts what they want to do to fix their systems. Remember, the IC isn't coming up with solutions, we want to ask the people who are the experts for their services what they want to do to. They will have a much better idea of the actions that can be taken. We want to collect proposed repair actions.
 
@@ -426,7 +426,7 @@ Next we want to ask our experts what they want to do to fix their systems. Remem
 
 ### What Risks Are Involved?
 
-<input type="checkbox" id="032" /><label for="032">![032](/assets/slides/incident_response/incident_response.032.jpeg)</label>
+<input type="checkbox" id="032" /><label for="032">![032](../../assets/slides/incident_response/incident_response.032.jpeg)</label>
 _032. What are the risks involved?_
 
 Importantly, we also want to make sure we ask what risks are involved with the proposed actions. "What impact will that have?", "What are the risks involved?", "How confident are you it will work?".
@@ -439,7 +439,7 @@ But, if we ask for the risks involved, we'll learn that the first option will ca
 
 ### Make a Decision
 
-<input type="checkbox" id="033" /><label for="033">![033](/assets/slides/incident_response/incident_response.033.jpeg)</label>
+<input type="checkbox" id="033" /><label for="033">![033](../../assets/slides/incident_response/incident_response.033.jpeg)</label>
 _033. Make a decision._
 
 Once we have a collection of actions and their associated risks, it's time to make a decision. Sometimes there's an obvious path forward, with one option being clearly better. But sometimes you're presented with two equally bad options.
@@ -455,7 +455,7 @@ A wrong decision gives you more useful information, making no decision gives you
 
 ### Gain Consensus
 
-<input type="checkbox" id="034" /><label for="034">![034](/assets/slides/incident_response/incident_response.034.jpeg)</label>
+<input type="checkbox" id="034" /><label for="034">![034](../../assets/slides/incident_response/incident_response.034.jpeg)</label>
 _034. Gain consensus._
 
 Once we've made a decision, we need to gain consensus for our plan. But wait, why? Didn't I say earlier that the IC is basically a dictator and everyone should follow their instructions? While technically true, we want to be sure we give a chance to listen to any potential problems our experts may have with the plan. We don't want people to come back later and say things like "I knew that wouldn't work". We want to make sure we stop the [hindsight 20/20 problem](https://en.wikipedia.org/wiki/Hindsight_bias). It demotivates responders, and wastes time.
@@ -466,7 +466,7 @@ But gaining consensus amongst a large group of people can be a bit difficult.
 
 ### Blue Background
 
-<input type="checkbox" id="035" /><label for="035">![035](/assets/slides/incident_response/incident_response.035.jpeg)</label>
+<input type="checkbox" id="035" /><label for="035">![035](../../assets/slides/incident_response/incident_response.035.jpeg)</label>
 _035. This background is blue._
 
 Let's look at a quick example to show what I mean,
@@ -486,8 +486,8 @@ Let's try it a different way,
 
 ### Any Strong Objections?
 
-<input type="checkbox" id="036" /><label for="036">![036](/assets/slides/incident_response/incident_response.036.jpeg)</label>
-_036. Are there any strong objections? [Docs Reference](/training/incident_commander/#gaining-consensus-polling-during-a-decision)_
+<input type="checkbox" id="036" /><label for="036">![036](../../assets/slides/incident_response/incident_response.036.jpeg)</label>
+_036. Are there any strong objections? [Docs Reference](../../training/incident_commander.md#gaining-consensus-polling-during-a-decision)_
 
 See how much faster that was? I **implicitly got the consensus of everyone in the room**, so none of you could come back later and say you didn't think the background was blue, because I gave you all a chance to object.
 
@@ -497,7 +497,7 @@ Doing it this way optimizes for the 99% case. Most of the time there won’t be 
 
 ### Strong
 
-<input type="checkbox" id="037" /><label for="037">![037](/assets/slides/incident_response/incident_response.037.jpeg)</label>
+<input type="checkbox" id="037" /><label for="037">![037](../../assets/slides/incident_response/incident_response.037.jpeg)</label>
 _037. STRONG objections._
 
 This is one of the most useful phrases in your toolkit as an IC as it allows you to get consensus on a decision very quickly, and prevents the hindsight problem from popping up later. The way we phrased it though is important, the word "**strong**" subconsciously instills in people that we're still in an incident situation, and normal concerns might not apply.
@@ -510,7 +510,7 @@ So now that we have consensus, we need to execute the plan, that means assigning
 
 ### How Long Have I Been Talking?
 
-<input type="checkbox" id="038" /><label for="038">![038](/assets/slides/incident_response/incident_response.038.jpeg)</label>
+<input type="checkbox" id="038" /><label for="038">![038](../../assets/slides/incident_response/incident_response.038.jpeg)</label>
 _038. How long have I been talking?_
 
 At the start, I asked if someone could keep track of the time for me. Did anyone actually do that? Can anyone tell me exactly how long I've been talking?
@@ -523,7 +523,7 @@ It's likely because of how I phrased the question.
 
 ### Bystander Effect
 
-<input type="checkbox" id="039" /><label for="039">![039](/assets/slides/incident_response/incident_response.039.jpeg)</label>
+<input type="checkbox" id="039" /><label for="039">![039](../../assets/slides/incident_response/incident_response.039.jpeg)</label>
 _039. Bystander effect._
 
 I said "Can someone...". This is called the [bystander effect](https://en.wikipedia.org/wiki/Bystander_effect). Everyone assumed someone else was doing it, so no one ended up doing it. If by some chance, someone actually did do it, you won't know who it is anyway, or if they've even started.
@@ -543,8 +543,8 @@ See how different that was?
 
 ### Assigning Tasks
 
-<input type="checkbox" id="040" /><label for="040">![040](/assets/slides/incident_response/incident_response.040.jpeg)</label>
-_040. Assigning tasks. [Docs Reference](/training/incident_commander/#assigning-tasks)_
+<input type="checkbox" id="040" /><label for="040">![040](../../assets/slides/incident_response/incident_response.040.jpeg)</label>
+_040. Assigning tasks. [Docs Reference](../../training/incident_commander.md#assigning-tasks)_
 
 In the context of an incident, that might look like this. It's a little more verbose than "Can someone investigate the cause?", but it's a lot clearer what I want to happen. Brings us back to clear is better than concise from earlier.
 
@@ -554,7 +554,7 @@ Several important things happened in this exchange as I was assigning the task.
 
 ### Assign Specific People
 
-<input type="checkbox" id="041" /><label for="041">![041](/assets/slides/incident_response/incident_response.041.jpeg)</label>
+<input type="checkbox" id="041" /><label for="041">![041](../../assets/slides/incident_response/incident_response.041.jpeg)</label>
 _041. Assign tasks to a specific person._
 
 First, the task was assigned **directly to a specific person**. It’s ok to assign it to a role to “DBA on-call…”, etc. But it must be a single individual. Don't assign things to a group, because they won't get done.
@@ -563,7 +563,7 @@ First, the task was assigned **directly to a specific person**. It’s ok to ass
 
 ### Time Limit
 
-<input type="checkbox" id="042" /><label for="042">![042](/assets/slides/incident_response/incident_response.042.jpeg)</label>
+<input type="checkbox" id="042" /><label for="042">![042](../../assets/slides/incident_response/incident_response.042.jpeg)</label>
 _042. Time-box all tasks._
 
 Second, the task was given a time-limit. This means the SME knows exactly how long until I come back to them for an answer, so they won’t be surprised or caught off guard. It sets the expectations.
@@ -572,7 +572,7 @@ Second, the task was given a time-limit. This means the SME knows exactly how lo
 
 ### Acknowledgement
 
-<input type="checkbox" id="043" /><label for="043">![043](/assets/slides/incident_response/incident_response.043.jpeg)</label>
+<input type="checkbox" id="043" /><label for="043">![043](../../assets/slides/incident_response/incident_response.043.jpeg)</label>
 _043. Get acknowledgement._
 
 Finally, I confirmed that they had understood the instructions and are going to carry them out. So I don’t come back in 5 minutes and find they never started, or have additional questions.
@@ -581,7 +581,7 @@ Finally, I confirmed that they had understood the instructions and are going to 
 
 ### Followup
 
-<input type="checkbox" id="044" /><label for="044">![044](/assets/slides/incident_response/incident_response.044.jpeg)</label>
+<input type="checkbox" id="044" /><label for="044">![044](../../assets/slides/incident_response/incident_response.044.jpeg)</label>
 _044. Followup._
 
 Then after the time is up, we can simply ask for the results of their task. Of course they will always have the right answer the first time and will never need any additional time to investigate, right?
@@ -590,7 +590,7 @@ Then after the time is up, we can simply ask for the results of their task. Of c
 
 ### Need More Time?
 
-<input type="checkbox" id="045" /><label for="045">![045](/assets/slides/incident_response/incident_response.045.jpeg)</label>
+<input type="checkbox" id="045" /><label for="045">![045](../../assets/slides/incident_response/incident_response.045.jpeg)</label>
 _045. What if they need more time?_
 
 It's not always going to be the case that things get done within the timeframe. So what do you do if, after 5 minutes, they need more time?
@@ -601,7 +601,7 @@ Don’t just give them another arbitrary time limit, because they’ll keep comi
 
 ### More Time
 
-<input type="checkbox" id="046" /><label for="046">![046](/assets/slides/incident_response/incident_response.046.jpeg)</label>
+<input type="checkbox" id="046" /><label for="046">![046](../../assets/slides/incident_response/incident_response.046.jpeg)</label>
 _046. More time._
 
 This isn't going to be like in the movies, where you ask how long someone needs, they say two hours and you slam you fist on a table and say "You've got one!". You need to **trust in your experts** to give you accurate estimates, and give them the time they need. Putting people under unreasonable pressure is only going to lead to mistakes being made.
@@ -613,7 +613,7 @@ This isn't going to be like in the movies, where you ask how long someone needs,
 
 ### Solving Incidents (1)
 
-<input type="checkbox" id="047" /><label for="047">![047](/assets/slides/incident_response/incident_response.047.jpeg)</label>
+<input type="checkbox" id="047" /><label for="047">![047](../../assets/slides/incident_response/incident_response.047.jpeg)</label>
 _047. Flow chart for solving incidents._
 
 And we just keep following this pattern until the incident is resolved.
@@ -627,16 +627,16 @@ And we just keep following this pattern until the incident is resolved.
 
 ### Solving Incidents (2)
 
-<input type="checkbox" id="048" /><label for="048">![048](/assets/slides/incident_response/incident_response.048.jpeg)</label>
+<input type="checkbox" id="048" /><label for="048">![048](../../assets/slides/incident_response/incident_response.048.jpeg)</label>
 _048. Another flow chart for solving incidents.._
 
-More generally, we’re following [this cycle](/training/incident_commander/#handling-incidents) for each incident. We size-up the situation, stabilize things (that's the loop we just showed), keep everyone updated as to what's going on, then verify the situation is fixed before ending the response. If it's not fixed, we start again.
+More generally, we’re following [this cycle](../../training/incident_commander.md#handling-incidents) for each incident. We size-up the situation, stabilize things (that's the loop we just showed), keep everyone updated as to what's going on, then verify the situation is fixed before ending the response. If it's not fixed, we start again.
 
 ---
 
 ### Ignore the IC
 
-_<input type="checkbox" id="049" /><label for="049">![049](/assets/slides/incident_response/incident_response.049.jpeg)</label>_
+_<input type="checkbox" id="049" /><label for="049">![049](../../assets/slides/incident_response/incident_response.049.jpeg)</label>_
 _049. "Ignore the IC, do what I say!"_
 
 Uh oh, an executive has joined the response and is trying to override the IC’s decisions. That’s not great.
@@ -649,8 +649,8 @@ We have a top tip here, a great question to keep in your tool belt as an inciden
 
 ### Do You Wish To Take Command?
 
-<input type="checkbox" id="050" /><label for="050">![050](/assets/slides/incident_response/incident_response.050.jpeg)</label>
-_050. Do you wish to take command? [Docs Reference](/training/incident_commander/#executive-swoop-overriding-the-incident-commander)_
+<input type="checkbox" id="050" /><label for="050">![050](../../assets/slides/incident_response/incident_response.050.jpeg)</label>
+_050. Do you wish to take command? [Docs Reference](../../training/incident_commander.md#executive-swoop-overriding-the-incident-commander)_
 
 > Do you wish to take command?
 
@@ -670,7 +670,7 @@ But "Do you wish to take command?" is the most useful phrase for dealing with th
 
 ### Executive Swoop
 
-<input type="checkbox" id="051" /><label for="051">![051](/assets/slides/incident_response/incident_response.051.jpeg)</label>
+<input type="checkbox" id="051" /><label for="051">![051](../../assets/slides/incident_response/incident_response.051.jpeg)</label>
 _051. Executive swoop._
 
 This is a class of problem we call Executive Swoop. Well, actually it's "Executive Swoop and Poop", but I was asked not to put that on the slide.
@@ -683,7 +683,7 @@ We're going to look at some more common examples of executive swoop next, but it
 
 ### Let's Resolve This in 10 Minutes
 
-<input type="checkbox" id="052" /><label for="052">![052](/assets/slides/incident_response/incident_response.052.jpeg)</label>
+<input type="checkbox" id="052" /><label for="052">![052](../../assets/slides/incident_response/incident_response.052.jpeg)</label>
 _052. Let's try and resolve this in 10 minutes._
 
 > Let's try and resolve this in 10 minutes please!
@@ -700,8 +700,8 @@ Your job as IC is to nip this in the bud and keep things on track.
 
 ### Keep Comments Until The End
 
-<input type="checkbox" id="053" /><label for="053">![053](/assets/slides/incident_response/incident_response.053.jpeg)</label>
-_053. Keep your comments until the end. [Docs Reference](/training/incident_commander/#executive-swoop-anti-motivation)_
+<input type="checkbox" id="053" /><label for="053">![053](../../assets/slides/incident_response/incident_response.053.jpeg)</label>
+_053. Keep your comments until the end. [Docs Reference](../../training/incident_commander.md#executive-swoop-anti-motivation)_
 
 To keep things moving, you need to remind the executive of what's going on, and direct questions to be handled at a later time. It may come across slightly abrupt, but it gets the point across quickly and allows you to keep moving. Most people will pick up on the subtext here.
 
@@ -713,7 +713,7 @@ Remember, **don't be mean**, just state the facts and keep things flowing. We're
 
 ### Spreadsheet of Affected Customers
 
-<input type="checkbox" id="054" /><label for="054">![054](/assets/slides/incident_response/incident_response.054.jpeg)</label>
+<input type="checkbox" id="054" /><label for="054">![054](../../assets/slides/incident_response/incident_response.054.jpeg)</label>
 _054. Can I get a spreadsheet of affected customers?_
 
 > Can I get a spreadsheet of all affected customers?
@@ -726,8 +726,8 @@ An exec joins the call and wants to get a list of impacted customers. The proble
 
 ### The Incident Takes Priority
 
-<input type="checkbox" id="055" /><label for="055">![055](/assets/slides/incident_response/incident_response.055.jpeg)</label>
-_055. The incident takes priority. [Docs Reference](/training/incident_commander/#executive-swoop-wants-information)_
+<input type="checkbox" id="055" /><label for="055">![055](../../assets/slides/incident_response/incident_response.055.jpeg)</label>
+_055. The incident takes priority. [Docs Reference](../../training/incident_commander.md#executive-swoop-wants-information)_
 
 > We can either get you that list, or fix the incident. Not both. The incident takes priority.
 
@@ -739,7 +739,7 @@ Remember that the IC is still in charge, you don't want to cede decision making 
 
 ### Really a SEV-1?
 
-<input type="checkbox" id="056" /><label for="056">![056](/assets/slides/incident_response/incident_response.056.jpeg)</label>
+<input type="checkbox" id="056" /><label for="056">![056](../../assets/slides/incident_response/incident_response.056.jpeg)</label>
 _056. Is this really a SEV-1?_
 
 > Is this really a SEV-1?
@@ -754,8 +754,8 @@ Don't litigate severities during an incident. It's a waste of time.
 
 ### Treating as a SEV-1
 
-<input type="checkbox" id="057" /><label for="057">![057](/assets/slides/incident_response/incident_response.057.jpeg)</label>
-_057. We're treating this as a SEV-1. [Docs Reference](/training/incident_commander/#executive-swoop-questioning-severity)_
+<input type="checkbox" id="057" /><label for="057">![057](../../assets/slides/incident_response/incident_response.057.jpeg)</label>
+_057. We're treating this as a SEV-1. [Docs Reference](../../training/incident_commander.md#executive-swoop-questioning-severity)_
 
 So the IC will need to make it clear we don’t discuss, and that we’re treating it as a `SEV-1`. It may turn out to be a `SEV-4`, who knows, it doesn’t matter. That's a discussion for the postmortem.
 
@@ -767,7 +767,7 @@ Once you’ve spun up the gears of incident response, you may as well finish the
 
 ### Notify Stakeholders
 
-<input type="checkbox" id="058" /><label for="058">![058](/assets/slides/incident_response/incident_response.058.jpeg)</label>
+<input type="checkbox" id="058" /><label for="058">![058](../../assets/slides/incident_response/incident_response.058.jpeg)</label>
 _058. Notify stakeholders._
 
 Pretty much all of these examples of executive swoop can be pre-empted by **involving stakeholders in the process**, giving them a way to stay up to date.
@@ -781,7 +781,7 @@ Stakeholders are not allowed to talk on our response call, or in our main incide
 
 ### Belligerent Responder
 
-<input type="checkbox" id="059" /><label for="059">![059](/assets/slides/incident_response/incident_response.059.jpeg)</label>
+<input type="checkbox" id="059" /><label for="059">![059](../../assets/slides/incident_response/incident_response.059.jpeg)</label>
 _059. The belligerent responder._
 
 There are other things than can hinder your response though that don't fall under the category of executive swoop. This one we call the belligerent responder. It was originally called _The Drunk Engineer_, but again, I was asked not to put that in the slide.
@@ -794,8 +794,8 @@ You need to be firm, and let them know what will happen if they continue.
 
 ### Disruptive
 
-<input type="checkbox" id="060" /><label for="060">![060](/assets/slides/incident_response/incident_response.060.jpeg)</label>
-_060. You're being disruptive. [Docs Reference](/training/incident_commander/#the-belligerent-responder)_
+<input type="checkbox" id="060" /><label for="060">![060](../../assets/slides/incident_response/incident_response.060.jpeg)</label>
+_060. You're being disruptive. [Docs Reference](../../training/incident_commander.md#the-belligerent-responder)_
 
 > You're being disruptive. Please stop, or I will have to remove you from the call.
 
@@ -807,7 +807,7 @@ Again, we've phrased this in a particular way. We said "I will have to remove yo
 
 ### Do Responders Get Tired?
 
-<input type="checkbox" id="061" /><label for="061">![061](/assets/slides/incident_response/incident_response.061.jpeg)</label>
+<input type="checkbox" id="061" /><label for="061">![061](../../assets/slides/incident_response/incident_response.061.jpeg)</label>
 _061. Do responders get tired?_
 
 Another problem that can pop up during a response is when we have long running incidents.
@@ -820,7 +820,7 @@ All of the roles in the response process can be mentally fatiguing. When you get
 
 ### Handovers Are Encouraged
 
-<input type="checkbox" id="062" /><label for="062">![062](/assets/slides/incident_response/incident_response.062.jpeg)</label>
+<input type="checkbox" id="062" /><label for="062">![062](../../assets/slides/incident_response/incident_response.062.jpeg)</label>
 _062. Handovers are encouraged._
 
 For this reason, we **actively encourage handovers** in our process. Usually every hour or so is what we recommend, but it's at the discretion of the people involved. 3 hours would be the absolute upper limit where we would start requiring a handover.
@@ -838,8 +838,8 @@ Then you handover.
 
 ### Handover
 
-<input type="checkbox" id="063" /><label for="063">![063](/assets/slides/incident_response/incident_response.063.jpeg)</label>
-_063. Handover. [Docs Reference](/training/incident_commander/#transfer-of-command)_
+<input type="checkbox" id="063" /><label for="063">![063](../../assets/slides/incident_response/incident_response.063.jpeg)</label>
+_063. Handover. [Docs Reference](../../training/incident_commander.md#transfer-of-command)_
 
 State that you are handing over command, and then the new IC begins as if it were a new call. Simple!
 
@@ -852,21 +852,21 @@ Since we want to be able to handover, it's important to have as many trained IC'
 
 ### Anti-Patterns
 
-_<input type="checkbox" id="064" /><label for="064">![064](/assets/slides/incident_response/incident_response.064.jpeg)</label>_
-_064. Anti-Patterns. [Docs Reference](/resources/anti_patterns/)_
+_<input type="checkbox" id="064" /><label for="064">![064](../../assets/slides/incident_response/incident_response.064.jpeg)</label>_
+_064. Anti-Patterns. [Docs Reference](../../resources/anti_patterns.md)_
 
-Let’s talk about some [anti-patterns](/resources/anti_patterns/). Things which seem like they would help incident response, but really don’t. Knowing these now will save you the headaches and growing pains we went through.
+Let’s talk about some [anti-patterns](../../resources/anti_patterns.md). Things which seem like they would help incident response, but really don’t. Knowing these now will save you the headaches and growing pains we went through.
 
 ---
 
 ### Getting Everyone on the Call
 
-<input type="checkbox" id="065" /><label for="065">![065](/assets/slides/incident_response/incident_response.065.jpeg)</label>
-_065. Getting everyone on the call. [Docs Reference](/resources/anti_patterns/#getting-everyone-on-the-call)_
+<input type="checkbox" id="065" /><label for="065">![065](../../assets/slides/incident_response/incident_response.065.jpeg)</label>
+_065. Getting everyone on the call. [Docs Reference](../../resources/anti_patterns.md#getting-everyone-on-the-call)_
 
 Believe it or not, we used to page every single engineer at PagerDuty whenever we had a `SEV-2`. I'm not joking. It was horrible. It worked great when we only had 5 engineers, less so when we had 50.
 
-It's important to **maintain an effective [span of control](/training/glossary/#span-of-control)** during an incident. No one person should have more than ~7 people reporting to them. Any more than that and you have too many cooks in the kitchen.
+It's important to **maintain an effective [span of control](../../training/glossary.md#span-of-control)** during an incident. No one person should have more than ~7 people reporting to them. Any more than that and you have too many cooks in the kitchen.
 
 Waking up 30 engineers at 3am causes untold damage. Please don't do it.
 
@@ -874,8 +874,8 @@ Waking up 30 engineers at 3am causes untold damage. Please don't do it.
 
 ### Not Letting Responders Leave
 
-<input type="checkbox" id="066" /><label for="066">![066](/assets/slides/incident_response/incident_response.066.jpeg)</label>
-_066. Not letting responders leave. [Docs Reference](/resources/anti_patterns/#forcing-everyone-to-stay-on-the-call)_
+<input type="checkbox" id="066" /><label for="066">![066](../../assets/slides/incident_response/incident_response.066.jpeg)</label>
+_066. Not letting responders leave. [Docs Reference](../../resources/anti_patterns.md#forcing-everyone-to-stay-on-the-call)_
 
 Remember I mentioned at the beginning that one of our goals is to reduce the cost associated with an incident? That includes the human cost. Waking people up at 3am is costly. But keeping those people on a call in which they can’t do anything is even worse.
 
@@ -889,8 +889,8 @@ I would recommend you not list everyone you want to leave the call, since you mi
 
 ### Too Frequent Status Updates
 
-<input type="checkbox" id="067" /><label for="067">![067](/assets/slides/incident_response/incident_response.067.jpeg)</label>
-_067. Too frequent status updates. [Docs Reference](/resources/anti_patterns/#too-frequent-status-updates)_
+<input type="checkbox" id="067" /><label for="067">![067](../../assets/slides/incident_response/incident_response.067.jpeg)</label>
+_067. Too frequent status updates. [Docs Reference](../../resources/anti_patterns.md#too-frequent-status-updates)_
 
 Executives especially love frequent status updates. But providing them too frequently can cause things to get out of hand. If it takes 5 minutes to write an update, and they want an update every 5 minutes, you can start to see how long it's going to take to solve the incident.
 
@@ -900,8 +900,8 @@ At PagerDuty, we keep our internal updates to about once every 20-30 minutes. Wr
 
 ### Being Overly Focussed On An Issue
 
-<input type="checkbox" id="068" /><label for="068">![068](/assets/slides/incident_response/incident_response.068.jpeg)</label>
-_068. Being overly focussed on an issue. [Docs Reference](/resources/anti_patterns/#being-too-focussed-on-the-problem-in-front-of-you)_
+<input type="checkbox" id="068" /><label for="068">![068](../../assets/slides/incident_response/incident_response.068.jpeg)</label>
+_068. Being overly focussed on an issue. [Docs Reference](../../resources/anti_patterns.md#being-too-focussed-on-the-problem-in-front-of-you)_
 
 The IC is generally the person who has the bigger picture of what's going on. But there can be a tendency for responders to become too focussed on the problem they see in front of them, rather than taking the bigger picture into account.
 
@@ -913,8 +913,8 @@ Try not to get tunnel vision or chase red herrings. Always keep the bigger pictu
 
 ### Requiring Deeply Technical ICs
 
-<input type="checkbox" id="069" /><label for="069">![069](/assets/slides/incident_response/incident_response.069.jpeg)</label>
-_069. Requiring deeply technical incident commanders. [Docs Reference](/resources/anti_patterns/#requiring-incident-commanders-to-have-deep-technical-knowledge)_
+<input type="checkbox" id="069" /><label for="069">![069](../../assets/slides/incident_response/incident_response.069.jpeg)</label>
+_069. Requiring deeply technical incident commanders. [Docs Reference](../../resources/anti_patterns.md#requiring-incident-commanders-to-have-deep-technical-knowledge)_
 
 We used to require that all of our Incident Commanders be experienced engineers with deep technical knowledge of all PagerDuty systems. **This was one of our bigger mistakes.** Remember that IC's aren't responders, they aren't the ones actually fixing the problem, so they don't need deep technical knowledge. IC's are experts at coordinating the response, not at solving technical issues. You should be relying on your SMEs for that.
 
@@ -926,8 +926,8 @@ It's already hard enough to get people to want to be an IC, so don't add further
 
 ### Taking on Multiple Roles
 
-<input type="checkbox" id="070" /><label for="070">![070](/assets/slides/incident_response/incident_response.070.jpeg)</label>
-_070. Taking on multiple roles. [Docs Reference](/resources/anti_patterns/#trying-to-take-on-multiple-roles)_
+<input type="checkbox" id="070" /><label for="070">![070](../../assets/slides/incident_response/incident_response.070.jpeg)</label>
+_070. Taking on multiple roles. [Docs Reference](../../resources/anti_patterns.md#trying-to-take-on-multiple-roles)_
 
 In past PagerDuty incidents, we've had instances where the Incident Commander has started to assume the Subject Matter Expert role and attempted to solve the problem themselves. This typically happens when an engineer is the IC, and the incident is something to do with a system they helped to build. It's very tempting to say "I know how to fix this!" and jump in and solve the problem yourself. But you cannot do that as an IC.
 
@@ -939,8 +939,8 @@ You cannot take on another role at the same time as being an Incident Commander.
 
 ### Litigating Policy
 
-<input type="checkbox" id="071" /><label for="071">![071](/assets/slides/incident_response/incident_response.071.jpeg)</label>
-_071. Litigating policy during an incident. [Docs Reference](/resources/anti_patterns/#discussing-process-and-policy-decisions-during-the-incident-call)_
+<input type="checkbox" id="071" /><label for="071">![071](../../assets/slides/incident_response/incident_response.071.jpeg)</label>
+_071. Litigating policy during an incident. [Docs Reference](../../resources/anti_patterns.md#discussing-process-and-policy-decisions-during-the-incident-call)_
 
 Just like with severities, policy and processes should not be discussed during an incident. The current process should be followed, and any concerns should be raised afterwards, either during a postmortem or directly to the team managing the incident response process.
 
@@ -950,8 +950,8 @@ Trying to change the process during an incident is only going to prolong the cur
 
 ### Averse to Process Changes
 
-<input type="checkbox" id="072" /><label for="072">![072](/assets/slides/incident_response/incident_response.072.jpeg)</label>
-_072. Being averse to process changes. [Docs Reference](/resources/anti_patterns/#being-averse-to-policy-and-process-changes)_
+<input type="checkbox" id="072" /><label for="072">![072](../../assets/slides/incident_response/incident_response.072.jpeg)</label>
+_072. Being averse to process changes. [Docs Reference](../../resources/anti_patterns.md#being-averse-to-policy-and-process-changes)_
 
 Finally, once a stable process is in place and incidents are getting resolved, there can be lots of hesitation and resistance to changing that process. "If it ain't broke don't fix it". As your company grows, your response will need to change. Holding on to your old processes and practices for too long can hinder your incident response going forward. Don't be reckless, of course, but try to introduce sensible changes and don't be afraid to make changes which might slow things down in the short-term, but will make things faster in the long-run. These are the hardest changes to make, but ultimately the most worthwhile.
 
@@ -959,7 +959,7 @@ Finally, once a stable process is in place and incidents are getting resolved, t
 
 ### Resolved
 
-_<input type="checkbox" id="073" /><label for="073">![073](/assets/slides/incident_response/incident_response.073.jpeg)</label>_
+_<input type="checkbox" id="073" /><label for="073">![073](../../assets/slides/incident_response/incident_response.073.jpeg)</label>_
 _073. Resolved._
 
 OK, so if all goes well, you're incident will get resolved. That means we're all done and we can go home, right?!
@@ -970,10 +970,10 @@ Well, not quite yet. There's still one more thing we need to do.
 
 ### Don't Neglect The Postmortem
 
-<input type="checkbox" id="074" /><label for="074">![074](/assets/slides/incident_response/incident_response.074.jpeg)</label>
-_074. Don't neglect the postmortem. [Docs Reference](/resources/anti_patterns/#neglecting-the-post-mortem-and-followup-activities)_
+<input type="checkbox" id="074" /><label for="074">![074](../../assets/slides/incident_response/incident_response.074.jpeg)</label>
+_074. Don't neglect the postmortem. [Docs Reference](../../resources/anti_patterns.md#neglecting-the-post-mortem-and-followup-activities)_
 
-We need to do a [postmortem](/after/post_mortem_process/). Or after-action review, learning review, retrospective, incident report, etc. Whatever you want to call it, the name doesn't matter as much as actually doing one!
+We need to do a [postmortem](../../after/post_mortem_process.md). Or after-action review, learning review, retrospective, incident report, etc. Whatever you want to call it, the name doesn't matter as much as actually doing one!
 
 Don't make the mistake of neglecting a postmortem after an incident. Without a postmortem you fail to recognize what you're doing right, where you could improve, and most importantly, how to avoid making the same exact mistakes next time around. A well-designed, blameless postmortem allows teams to continuously learn, and serves as a way to iteratively improve your infrastructure and incident response process.
 
@@ -983,16 +983,16 @@ Postmortems are an important followup action and should never be missed. Even if
 
 ### Create the Postmortem
 
-<input type="checkbox" id="075" /><label for="075">![075](/assets/slides/incident_response/incident_response.075.jpeg)</label>
-_075. Create the postmortem. [Docs Reference](/after/post_mortem_template/)_
+<input type="checkbox" id="075" /><label for="075">![075](../../assets/slides/incident_response/incident_response.075.jpeg)</label>
+_075. Create the postmortem. [Docs Reference](../../after/post_mortem_template.md)_
 
-The first step is to create the postmortem itself. This is the job of the Incident Commander. I don't mean they're going to write the entire postmortem, they're just going to create the [initial template](/after/post_mortem_template/). We want to make sure that a link exists so that when people ask "When will we know what went wrong?" you have something to give them.
+The first step is to create the postmortem itself. This is the job of the Incident Commander. I don't mean they're going to write the entire postmortem, they're just going to create the [initial template](../../after/post_mortem_template.md). We want to make sure that a link exists so that when people ask "When will we know what went wrong?" you have something to give them.
 
 ---
 
 ### Pick an Owner
 
-<input type="checkbox" id="076" /><label for="076">![076](/assets/slides/incident_response/incident_response.076.jpeg)</label>
+<input type="checkbox" id="076" /><label for="076">![076](../../assets/slides/incident_response/incident_response.076.jpeg)</label>
 _076. Pick an owner._
 
 Then the IC needs to assign an owner. Remember how we assigned tasks to specific individuals? It’s no different with a postmortem. Make sure there’s a clear owner, and that it's an **individual** and not a team. The most surefire way to make sure a postmortem doesn't get completed is to assign it to a team instead of a specific person.
@@ -1005,7 +1005,7 @@ As with assigning other tasks, you also want to give them a deadline, and make s
 
 ### Blameless
 
-<input type="checkbox" id="077" /><label for="077">![077](/assets/slides/incident_response/incident_response.077.jpeg)</label>
+<input type="checkbox" id="077" /><label for="077">![077](../../assets/slides/incident_response/incident_response.077.jpeg)</label>
 _077. Blameless._
 
 Importantly, postmortems need to be **blameless**. If someone made a mistake, you just spent lots of money training them to never do it again. **You can’t fire your way to reliability.**
@@ -1018,7 +1018,7 @@ If you name and shame people in a postmortem, it demotivates everyone. Next time
 
 ### Review the Process
 
-<input type="checkbox" id="078" /><label for="078">![078](/assets/slides/incident_response/incident_response.078.jpeg)</label>
+<input type="checkbox" id="078" /><label for="078">![078](../../assets/slides/incident_response/incident_response.078.jpeg)</label>
 _078. Review the process too!_
 
 Don’t forget to also review the process as part of the postmortem. How can you change the process to make it better? What isn’t working out well? Just as it’s important to learn from and fix mistakes in your software, you want to do the same for your incident response process.
@@ -1027,7 +1027,7 @@ Don’t forget to also review the process as part of the postmortem. How can you
 
 ### Practice
 
-_<input type="checkbox" id="079" /><label for="079">![079](/assets/slides/incident_response/incident_response.079.jpeg)</label>_
+_<input type="checkbox" id="079" /><label for="079">![079](../../assets/slides/incident_response/incident_response.079.jpeg)</label>_
 _079. Practice makes perfect._
 
 Finally, you want to practice your incident response process as much as you can. **You don't want to be doing it for the first time during a real incident.** Reading about it is one thing, but going through the motions is very different.
@@ -1044,20 +1044,20 @@ The bottom line is to practice as much as you can, so that when you do have the 
 
 ### Open-Source Response Docs
 
-<input type="checkbox" id="080" /><label for="080">![080](/assets/slides/incident_response/incident_response.080.jpeg)</label>
+<input type="checkbox" id="080" /><label for="080">![080](../../assets/slides/incident_response/incident_response.080.jpeg)</label>
 _080. Our open-source incident response documentation._
 
 This was just a brief taste of the training we run at PagerDuty for our own Incident Commanders. We had nowhere near enough time to cover everything.
 
 Good news though! We have published our entire incident response process online. It is an exact copy of our internal documentation only with things like phone numbers removed. It's complete free to use, and is open-sourced under an Apache 2 license so you can use it in your own organizations. [It's on GitHub](https://github.com/PagerDuty/incident-response-docs) and we do accept pull requests if you spot any mistakes or have improvement suggestions.
 
-Everything I've talked about today can be found in the documentation, and there's lots of great [additional reading material](/resources/reading/) if you want to learn more.
+Everything I've talked about today can be found in the documentation, and there's lots of great [additional reading material](../../resources/reading.md) if you want to learn more.
 
 ---
 
 ### Response Docs Image
 
-<input type="checkbox" id="081" /><label for="081">![081](/assets/slides/incident_response/incident_response.081.jpeg)</label>
+<input type="checkbox" id="081" /><label for="081">![081](../../assets/slides/incident_response/incident_response.081.jpeg)</label>
 _081. Response docs screenshot._
 
 It looks pretty too.
@@ -1066,7 +1066,7 @@ It looks pretty too.
 
 ### Summary
 
-<input type="checkbox" id="082" /><label for="082">![082](/assets/slides/incident_response/incident_response.082.jpeg)</label>
+<input type="checkbox" id="082" /><label for="082">![082](../../assets/slides/incident_response/incident_response.082.jpeg)</label>
 _082. Summary._
 
 Incident command training is useful in so many situations outside of a server exploding in the night. It can be applicable to many different things in your life, whether it's staying calm after a fender bender on the highway, or jumping into action to help during a major natural disaster. You'd be surprised at how useful it can be in everyday life.
@@ -1082,7 +1082,7 @@ Anyway, with that, I'll leave you with a quick summary of the main things we dis
 
 ### Image Credits
 
-<input type="checkbox" id="083" /><label for="083">![083](/assets/slides/incident_response/incident_response.083.jpeg)</label>
+<input type="checkbox" id="083" /><label for="083">![083](../../assets/slides/incident_response/incident_response.083.jpeg)</label>
 _083. Image credits._
 
 ???+ aside hide-arrow "Image Credits"
@@ -1092,7 +1092,7 @@ _083. Image credits._
 
 ### PagerDuty University
 
-<input type="checkbox" id="084" /><label for="084">![084](/assets/slides/incident_response/incident_response.084.jpeg)</label>
+<input type="checkbox" id="084" /><label for="084">![084](../../assets/slides/incident_response/incident_response.084.jpeg)</label>
 _084. PagerDuty University._
 
 ???+ aside hide-arrow "PagerDuty University"
