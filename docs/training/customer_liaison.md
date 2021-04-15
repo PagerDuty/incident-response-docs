@@ -20,7 +20,7 @@ Before you can be a Customer Liaison, it is expected that you meet the following
 * Be a member of the **Customer Support team**, or have had customer support training.
 
 ## Responsibilities
-Read up on our [Different Roles for Incidents](/before/different_roles.md) to see what is expected from a Customer Liaison, as well as what we expect from the other roles you'll be interacting with.
+Read up on our [Different Roles for Incidents](../before/different_roles.md) to see what is expected from a Customer Liaison, as well as what we expect from the other roles you'll be interacting with.
 
 ## Training Process
 There is no formal training process for this role, you should feel free to contact our Customer Support team to learn more.
@@ -47,7 +47,7 @@ The objective of a Customer Liaison is to keep our customers informed during an 
     * Customers don't care if `application-server-123` is having issues, they care that they are not getting notifications. Make sure the information you provide is relevant and not just noise.
 
 ## Incident Call Procedures and Lingo
-The [Steps for Customer Liaison](/during/during_an_incident.md) provide a detailed description of what you should be doing during an incident.
+The [Steps for Customer Liaison](../during/during_an_incident.md) provide a detailed description of what you should be doing during an incident.
 
 Here are some examples of phrases and patterns you should use during incident calls.
 

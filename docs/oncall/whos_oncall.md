@@ -10,13 +10,13 @@ Generally speaking, every department should have a primary point of contact, on-
 
 ## Engineering
 
-Engineers are typically the primary responders and [subject matter experts](../before/different_roles) during incident response.
+Engineers are typically the primary responders and [subject matter experts](../before/different_roles.md) during incident response.
 
 Which engineering teams are involved in which responses varies with a company’s operational model. In some organizations, a designated “Operations” or “Site Reliability Engineering” team may have initial responsibility for triage and assessment of new issues. At PagerDuty, the on-call engineer for an affected service has initial triage and assessment responsibility.
 
 ## Customer Support / Customer Success
 
-Support is the voice of the customer during incident response. A member of the Customer Support team is the default [Customer Liaison](../training/customer_liaison) within the response team, updating customers and stakeholders about incident status through Twitter, an internal Slack channel, and other channels as needed. They may also serve as an internal liaison to keep stakeholders within the company up to date.
+Support is the voice of the customer during incident response. A member of the Customer Support team is the default [Customer Liaison](../training/customer_liaison.md) within the response team, updating customers and stakeholders about incident status through Twitter, an internal Slack channel, and other channels as needed. They may also serve as an internal liaison to keep stakeholders within the company up to date.
 
 ## Marketing
 
@@ -28,11 +28,11 @@ Additionally, Marketing or Public Relations should be engaged in any incident of
 
 Product Managers and Designers are often on the hook for helping response teams make decisions when product functionality is impacted across multiple services or products. For example, if the response team has to decide which service to bring back up first, a Product Manager can help decide which one is more customer impacting.
 
-Product will also be involved in the [postmortem process](../after/post_mortem_process), for both scheduling follow-up action against other work, as well as advising on any required product changes due to the issue.
+Product will also be involved in the [postmortem process](../after/post_mortem_process.md), for both scheduling follow-up action against other work, as well as advising on any required product changes due to the issue.
 
 ## Executive Team
 
-Clear processes for updating the executive team during a major incident response helps ensure organizational leadership has the context and information they need and prevents [executive swoops](../training/glossary/#executive-swoop). Additionally, while the Incident Commander has final authority during response, occasionally a major incident may require action at the highest levels of a company. For example, a senior executive may want to reach out to an impacted customer or partner to manage their relationship and help assure them the issue is getting the attention it needs.
+Clear processes for updating the executive team during a major incident response helps ensure organizational leadership has the context and information they need and prevents [executive swoops](../training/glossary.md#executive-swoop). Additionally, while the Incident Commander has final authority during response, occasionally a major incident may require action at the highest levels of a company. For example, a senior executive may want to reach out to an impacted customer or partner to manage their relationship and help assure them the issue is getting the attention it needs.
 
 ## Sales
 

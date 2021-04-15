@@ -8,7 +8,7 @@ Here is a rough outline of our role hierarchy with each role discussed in more d
 
 ![Incident Response Structure](../assets/img/misc/incident_response_roles.png)
 
-During larger complex incidents, the role structure may be adjusted to account for the creation of sub-teams. Read about how we handle [complex incidents](/before/complex_incidents.md) for more information.
+During larger complex incidents, the role structure may be adjusted to account for the creation of sub-teams. Read about how we handle [complex incidents](../before/complex_incidents.md) for more information.
 
 !!! tip "Flexible Structure"
      It is not intended that every role be filled by a different person for every incident. For example, if the incident is small enough in scope, the Deputy might also take on the responsibilities of the Scribe and Internal Liaison for that specific incident. The structure should be flexible and scale based on the size and scope of the incident.
@@ -43,7 +43,7 @@ As any software system grows in size and complexity, things break and cause inci
 Anyone on the Incident Commander on-call schedule. Trainees are typically on the Incident Commander Shadow schedule.
 
 ### How can I become one?
-Take a look at our [Incident Commander training guide](/training/incident_commander.md).
+Take a look at our [Incident Commander training guide](../training/incident_commander.md).
 
 ---
 
@@ -66,7 +66,7 @@ The Deputy is expected to:
 Any Incident Commander can act as a Deputy. Deputies need to be trained as an Incident Commander as they may be required to take over command.
 
 ### How can I become one?
-Take a look at our [Deputy training guide](/training/deputy.md). Deputies also need to be [trained as an Incident Commander](/training/incident_commander.md).
+Take a look at our [Deputy training guide](../training/deputy.md). Deputies also need to be [trained as an Incident Commander](../training/incident_commander.md).
 
 ---
 
@@ -91,7 +91,7 @@ The Scribe is expected to:
 Anyone can act as a Scribe during an incident, and are chosen by the Incident Commander at the start of the call. Typically the Deputy will act as the Scribe, but that doesn't necessarily need to happen, and for larger incidents may not be possible.
 
 ### How can I become one?
-Follow our [Scribe training guide](/training/scribe.md), and then notify the Incident Commanders that you would like to be considered for scribing for the next incident.
+Follow our [Scribe training guide](../training/scribe.md), and then notify the Incident Commanders that you would like to be considered for scribing for the next incident.
 
 ---
 
@@ -115,7 +115,7 @@ The IC and Deputy are not all-knowing super beings. When there is a problem with
 Anyone who is considered a "domain expert" can act as a resolver for an incident. Typically the service's primary on-call will act as the SME for that service.
 
 ### How can I become one?
-Take a look at our [Subject Matter Expert training guide](/training/subject_matter_expert.md). You should also discuss with your team and service owner to determine what the requirements are for your particular service.
+Take a look at our [Subject Matter Expert training guide](../training/subject_matter_expert.md). You should also discuss with your team and service owner to determine what the requirements are for your particular service.
 
 ---
 
@@ -136,7 +136,7 @@ All of the other roles will be actively working on identifying the cause and res
 Any member of the Support Team can act as a customer liaison.
 
 ### How can I become one?
-Follow our [Customer Liaison training guide](/training/customer_liaison.md), and discuss with the Support Team about becoming our next Customer Liaison.
+Follow our [Customer Liaison training guide](../training/customer_liaison.md), and discuss with the Support Team about becoming our next Customer Liaison.
 
 ---
 
@@ -158,4 +158,4 @@ For larger incidents, we may have multiple teams across the organization involve
 Anyone designated by the Incident Commander during incident response.
 
 ### How can I become one?
-Follow our [Internal Liaison training](/training/internal_liaison.md).
+Follow our [Internal Liaison training](../training/internal_liaison.md).

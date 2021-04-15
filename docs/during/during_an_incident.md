@@ -2,7 +2,7 @@
 cover: assets/img/covers/dont_panic.png
 description: Information on what to do during a major incident.
 ---
-Information on what to do during a major incident. See our [severity level descriptions](/before/severity_levels.md) for what constitutes a major incident.
+Information on what to do during a major incident. See our [severity level descriptions](../before/severity_levels.md) for what constitutes a major incident.
 
 !!! note "Documentation"
     For your own internal documentation, you should make sure that this page has all of the necessary information prominently displayed. Such as: phone bridge numbers, Slack rooms, important chat commands, etc. Here is an example,
@@ -26,7 +26,7 @@ Information on what to do during a major incident. See our [severity level descr
     </table>
 
 !!! warning "Security Incident?"
-    If this is a security incident, you should follow the [Security Incident Response](/during/security_incident_response.md) process.
+    If this is a security incident, you should follow the [Security Incident Response](../during/security_incident_response.md) process.
 
 ## Don't Panic!
 
@@ -60,7 +60,7 @@ Resolve the incident as quickly and as safely as possible, use the Deputy to ass
 1. Listen for prompts from your Deputy regarding severity escalations, decide whether we need to announce publicly, and instruct Customer Liaison accordingly.
     * Announcing publicly is at your discretion as IC. If you are unsure, then announce publicly ("If in doubt, tweet it out").
 
-1. Keep track of your [span of control](/training/glossary.md#span-of-control). If the response starts to become larger, or the incident increases in complexity, consider [splitting off sub-teams](/before/complex_incidents.md#spinning-off-sub-teams) in order to get a more effective response.
+1. Keep track of your [span of control](../training/glossary.md#span-of-control). If the response starts to become larger, or the incident increases in complexity, consider [splitting off sub-teams](../before/complex_incidents.md#spinning-off-sub-teams) in order to get a more effective response.
 
 1. Once the incident has recovered or is actively recovering, you can announce that the incident is over and that the call is ending. This usually indicates there's no more productive work to be done for the incident right now.
     * Move the remaining, non-time-critical discussion to Slack.
@@ -68,7 +68,7 @@ Resolve the incident as quickly and as safely as possible, use the Deputy to ass
     * Identify any post-incident clean-up work.
     * You may need to perform debriefing/analysis of the underlying contributing factor.
 
-1. Once the call is over, you can start to follow the steps from [After an Incident](/after/after_an_incident.md).
+1. Once the call is over, you can start to follow the steps from [After an Incident](../after/after_an_incident.md).
 
 ## Steps for Deputy
 You are there to support the IC in whatever they need.
@@ -77,7 +77,7 @@ You are there to support the IC in whatever they need.
 
 1. Follow instructions from the Incident Commander.
 
-1. Once the call is over, you can start to follow the steps from [After an Incident](/after/after_an_incident.md).
+1. Once the call is over, you can start to follow the steps from [After an Incident](../after/after_an_incident.md).
 
 ## Steps for Scribe
 You are there to document the key information from the incident in Slack.
@@ -95,7 +95,7 @@ You are there to document the key information from the incident in Slack.
 
 1. Follow instructions from the Incident Commander.
 
-1. Once the call is over, you can start to follow the steps from [After an Incident](/after/after_an_incident.md).
+1. Once the call is over, you can start to follow the steps from [After an Incident](../after/after_an_incident.md).
 
 ## Steps for Subject Matter Experts
 You are there to support the Incident Commander in identifying the cause of the incident, suggesting and evaluation repair actions, and following through on the repair actions.
@@ -107,7 +107,7 @@ You are there to support the Incident Commander in identifying the cause of the 
 
 1. Follow instructions from the Incident Commander.
 
-1. Once the call is over, you can start to follow the steps from [After an Incident](/after/after_an_incident.md).
+1. Once the call is over, you can start to follow the steps from [After an Incident](../after/after_an_incident.md).
 
 ## Steps for Customer Liaison
 Be on stand-by to post public-facing messages regarding the incident.
@@ -116,7 +116,7 @@ Be on stand-by to post public-facing messages regarding the incident.
 
 1. Follow instructions from the Incident Commander.
 
-1. Once the call is over, you can start to follow the steps from [After an Incident](/after/after_an_incident.md).
+1. Once the call is over, you can start to follow the steps from [After an Incident](../after/after_an_incident.md).
 
 ## Steps for Internal Liaison
 You are there to provide updates to internal stakeholders and to mobilize additional internal responders as necessary.
@@ -129,4 +129,4 @@ You are there to provide updates to internal stakeholders and to mobilize additi
 
 1. Follow instructions from the Incident Commander.
 
-1. Once the call is over, you can start to follow the steps from [After an Incident](/after/after_an_incident.md).
+1. Once the call is over, you can start to follow the steps from [After an Incident](../after/after_an_incident.md).

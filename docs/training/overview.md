@@ -8,17 +8,17 @@ Learning about the PagerDuty major incident response process is an important par
 ## Training Guides
 Our training guides are split up by role, however you are encouraged to read through the training guides even for roles you don't belong to, as it can give you some good insight into how those people will be behaving during major incidents.
 
-* [Incident Commander Training](/training/incident_commander.md) - The "IC" is the person who drives a major incident to resolution. They're the person who will be directing everyone else.
-* [Deputy Training](/training/deputy.md) - The Deputy is someone who supports the Incident Commander and can take over for them if necessary.
-* [Scribe Training](/training/scribe.md) - This is intended for individuals who will be acting as a Scribe during an incident.
-* [SME / Resolver Training](/training/subject_matter_expert.md) - This is relevant to everyone at PagerDuty who are on-call for any team.
-* [Customer Liaison Training](/training/customer_liaison.md) - This is for individuals who will be publicly representing us and interacting with customers.
-* [Internal Liaison Training](/training/internal_liaison.md) - This is relevant for anyone who might be called upon to work with teams internal during an incident.
+* [Incident Commander Training](../training/incident_commander.md) - The "IC" is the person who drives a major incident to resolution. They're the person who will be directing everyone else.
+* [Deputy Training](../training/deputy.md) - The Deputy is someone who supports the Incident Commander and can take over for them if necessary.
+* [Scribe Training](../training/scribe.md) - This is intended for individuals who will be acting as a Scribe during an incident.
+* [SME / Resolver Training](../training/subject_matter_expert.md) - This is relevant to everyone at PagerDuty who are on-call for any team.
+* [Customer Liaison Training](../training/customer_liaison.md) - This is for individuals who will be publicly representing us and interacting with customers.
+* [Internal Liaison Training](../training/internal_liaison.md) - This is relevant for anyone who might be called upon to work with teams internal during an incident.
 
 ## Training Courses
 We've also published slides and videos of some of our training courses. Originally used internally at PagerDuty to train our staff, we've since adapted them for a wider audience so you can make use of them in your own organizations.
 
-* [Incident Response Training Course](/training/courses/incident_response.md) - Introductory course on incident response and the role of the Incident Commander.
+* [Incident Response Training Course](../training/courses/incident_response.md) - Introductory course on incident response and the role of the Incident Commander.
 
 ## Example Incident
 This recorded call is a reenactment of an actual major incident that occurred at PagerDuty in [January 2017](https://status.pagerduty.com/incidents/510k1bnvwv6g). Some details have been changed in the interest of brevity and privacy, but the incident remains otherwise largely intact. For more details about the recording, you can read the [PagerDuty blog post](https://www.pagerduty.com/blog/incident-response-reenactment/).
@@ -38,7 +38,7 @@ If you want to learn more about NIMS, we recommend the [ICS-100](https://trainin
 
 If you're based in the US and interested in taking a more active incident response role in your community, we recommend investigating your local [CERT programs](https://www.fema.gov/community-emergency-response-teams) (Community Emergency Response Teams). Many cities offer CERT training, after which you can volunteer as a CERT contributor within your community. Not only is it an opportunity to get real world experience with disaster response, but the skills you learn can be applied to everyday life too.
 
-Also take a look at the [Additional Reading](/resources/reading) page.
+Also take a look at the [Additional Reading](../resources/reading.md) page.
 
 ## Incident Response Around the World
 While NIMS is the US incident response framework, many countries have their own similar frameworks. Some are based on the US system, but many were developed on their own. There's a wealth of additional information to be learned by investigating the methods and frameworks used in countries all over the world.

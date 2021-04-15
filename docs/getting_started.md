@@ -13,7 +13,7 @@ To that end, we've put together this "Getting Started" guide to help you navigat
 
 ## Define what an "Incident" and "Major Incident" are for you.
 
-You don't have to use [our definitions](/before/severity_levels.md), they're just a starting point. Feel free to come up with whatever you want. The point is that the definition should be a short, simple statement that ensures everyone is on the same page. The goal is to remove any discussion around whether something is an incident or not during your response process. If you have a metric to use (e.g. "if errors go above 100/minute it's a major incident"), that's great. If not, don't let that stop you from defining what a major incident is.
+You don't have to use [our definitions](before/severity_levels.md), they're just a starting point. Feel free to come up with whatever you want. The point is that the definition should be a short, simple statement that ensures everyone is on the same page. The goal is to remove any discussion around whether something is an incident or not during your response process. If you have a metric to use (e.g. "if errors go above 100/minute it's a major incident"), that's great. If not, don't let that stop you from defining what a major incident is.
 
 The reason this should be your first step is because you can't respond to an incident until you know what an incident is. If one person considers something an incident but the rest of the organization doesn't, that will create ambiguity and confusion during any sort of incident response. Having a clear definition that's disseminated to your entire organization ensures that everyone has the same understanding and will prevent any confusion.
 
@@ -29,16 +29,16 @@ What is going to trigger your incident response process? Will it be an automated
 
 Make sure to set up a phone bridge and chat room dedicated for incident response. You want to prepare this in advance, and make sure the numbers and connection information are written down and shared with anyone who may need to respond. You don't want to be setting up the call and chat room while trying to respond to an incident. You should make the call and room names static or as easily discoverable as possible.
 
-You also want to [set expectations for your responders](/oncall/being_oncall.md). Make sure they know that they need to join the call and chat room if they get paged and that they shouldn't just jump into solving the problem.
+You also want to [set expectations for your responders](oncall/being_oncall.md). Make sure they know that they need to join the call and chat room if they get paged and that they shouldn't just jump into solving the problem.
 
-Finally, you want to make sure your [alerts are actionable](/oncall/alerting_principles.md). There's nothing worse than waking everyone up for something you cannot control. Make sure anything that is going to trigger your incident response and page people is something that requires **immediate human action** to resolve.
+Finally, you want to make sure your [alerts are actionable](oncall/alerting_principles.md). There's nothing worse than waking everyone up for something you cannot control. Make sure anything that is going to trigger your incident response and page people is something that requires **immediate human action** to resolve.
 
 ## Define the incident response roles.
 
-You will only care about the [Incident Commander](/before/different_roles#incident-commander-ic) role to begin with. If you have enough people, you can also have a [Scribe](/before/different_roles#scribe). But to start, just have an Incident Commander and your responders. The Incident Commander shouldn't be taking any remediation actions at all, they should just be leading the response and making the decisions. You don't need to follow the entire [training guide](/training/incident_commander.md) to begin with; just the basics of asking questions and assigning tasks are enough to get you started.
+You will only care about the [Incident Commander](before/different_roles#incident-commander-ic) role to begin with. If you have enough people, you can also have a [Scribe](before/different_roles#scribe). But to start, just have an Incident Commander and your responders. The Incident Commander shouldn't be taking any remediation actions at all, they should just be leading the response and making the decisions. You don't need to follow the entire [training guide](training/incident_commander.md) to begin with; just the basics of asking questions and assigning tasks are enough to get you started.
 
 ## Create a postmortem template.
-You can use [our template](/after/post_mortem_template.md) to get started or come up with your own version. Just make sure that you have a structured template so that it makes it easier to compare incidents to each other. It can be as simple as three headings to begin with:
+You can use [our template](after/post_mortem_template.md) to get started or come up with your own version. Just make sure that you have a structured template so that it makes it easier to compare incidents to each other. It can be as simple as three headings to begin with:
 
 1. What happened?
 1. Why did it happen?
@@ -65,7 +65,7 @@ You can now start expanding your process and adding some more things. Here are o
 
 ### Add a Scribe if you haven't already.
 
-Keeping an accurate timeline of events becomes really important when you want to go back and review your incidents. A [Scribe](/before/different_roles#scribe) should be the next role you start using.
+Keeping an accurate timeline of events becomes really important when you want to go back and review your incidents. A [Scribe](before/different_roles#scribe) should be the next role you start using.
 
 ### Expand your IC rotation.
 
@@ -73,19 +73,19 @@ You don't want to just have a single IC, you want to have as many as you can get
 
 ### Add in a Deputy as a role.
 
-Once you have a few more IC's, start adding a Deputy to your response. Having a [Deputy](/before/different_roles#deputy) will give you the ability to quickly hand over during longer incidents and also gives the IC some backup for shorter incidents.
+Once you have a few more IC's, start adding a Deputy to your response. Having a [Deputy](before/different_roles#deputy) will give you the ability to quickly hand over during longer incidents and also gives the IC some backup for shorter incidents.
 
 ### Define severity levels.
 
-Once you have the process working well, you can start to add more granularity to your response and incident definitions. Perhaps you don't want to do a "full" response for certain incidents. Define some [severity levels](/before/severity_levels.md) to document the level of response you want.
+Once you have the process working well, you can start to add more granularity to your response and incident definitions. Perhaps you don't want to do a "full" response for certain incidents. Define some [severity levels](before/severity_levels.md) to document the level of response you want.
 
 ### Start adding other roles.
 
-As your process becomes more established, you want to start adding other roles. We recommend a [Customer Liaison](/before/different_roles#customer-liaison) as the next one you include.
+As your process becomes more established, you want to start adding other roles. We recommend a [Customer Liaison](before/different_roles#customer-liaison) as the next one you include.
 
 ### Practice, practice, practice.
 
 It cannot be overstated how much it helps to practice your incident response. If you trigger incident response and realize it's not really an incident, treat it as one anyway. You've already mobilized your responders, so it's essentially free practice.
 
 ### Define a process for larger incidents.
-We call these [complex incidents](/before/complex_incidents.md). You won't use this often, but you'll want the phone bridge numbers and chat rooms prepared ahead of time. You'll also want to make sure your responders are aware of the process.
+We call these [complex incidents](before/complex_incidents.md). You won't use this often, but you'll want the phone bridge numbers and chat rooms prepared ahead of time. You'll also want to make sure your responders are aware of the process.
