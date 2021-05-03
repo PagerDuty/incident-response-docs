@@ -105,7 +105,7 @@ The first step in any incident response process is to determine what actually [c
     <tr>
       <td class="sev-5">SEV-5</td>
       <td>
-        <p class="intent">Cosmetic issues or bugs, not affecting customer ability to use the product.</li>
+        <p class="intent">Cosmetic issues or bugs, not affecting customer ability to use the product.</p>
         <ul>
           <li>Bugs not impacting the immediate ability to use the system.</li>
         </ul>
