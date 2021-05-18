@@ -14,7 +14,7 @@ Perhaps multiple issues are happening at once, or an existing incident escalated
 
 1. A group of SME's are all working on the same analysis.
 
-1. The incident calls "feels crowded." This is a rather fuzzy metric, but most people can generally get a feeling when there's too many responders on the call.
+1. The incident calls "feels crowded." This is a rather fuzzy metric, but most people can generally get a feeling when there are too many responders on the call.
 
 ## Sub-Teams
 When it is identified that we have a complex incident, the Incident Commander will spin off sub-teams to work on each individual problem. We have three predefined sub-teams, which the Incident Commander may assign you to: Alpha, Bravo, and Charlie. Each team has its own Slack room and conference call bridge already set up and ready for use.

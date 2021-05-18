@@ -101,7 +101,7 @@ You are there to document the key information from the incident in Slack.
 You are there to support the Incident Commander in identifying the cause of the incident, suggesting and evaluation repair actions, and following through on the repair actions.
 
 1. Investigate the incident by analyzing any graphs or logs at your disposal. Announce all findings to the incident commander.
-    * If you are unsure of the cause that's fine. Simply state that you are investigating and provide regular updates to the IC.
+    * If you are unsure of the cause, that is fine. Simply state that you are investigating and provide regular updates to the IC.
 
 1. Announce all suggestions for resolution to the Incident Commander, it is their decision on how to proceed, do not follow any actions unless told to do so!
 
