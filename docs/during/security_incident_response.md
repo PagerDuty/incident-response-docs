@@ -163,8 +163,8 @@ Once you have validated all of the information you have is accurate, have a time
 
 ## Additional Reading
 
-* [Computer Security Incident Handling Guide](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf) (NIST)
+* [Computer Security Incident Handling Guide](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf) (NIST)
 * [Incident Handler's Handbook](https://www.sans.org/reading-room/whitepapers/incident/incident-handlers-handbook-33901) (SANS)
-* [Responding to IT Security Incidents](https://technet.microsoft.com/en-us/library/cc700825.aspx) (Microsoft)
-* [Defining Incident Management Processes for CSIRTs: A Work in Progress](http://resources.sei.cmu.edu/library/asset-view.cfm?assetid=7153) (CMU)
+* [Responding to IT Security Incidents](https://docs.microsoft.com/en-us/previous-versions/tn-archive/cc700825(v=technet.10)) (Microsoft)
+* [Defining Incident Management Processes for CSIRTs: A Work in Progress](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=7153) (CMU)
 * [Creating and Managing Computer Security Incident Handling Teams (CSIRTS)](https://www.first.org/conference/2008/papers/killcrece-georgia-slides.pdf) (CERT)

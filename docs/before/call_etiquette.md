@@ -26,7 +26,7 @@ You've just joined an incident call and you've never been on one before. You hav
 
 ![Communication](../assets/img/misc/communicate.png)
 
-Standard radio [voice procedure](https://en.wikipedia.org/wiki/Voice_procedure#Words_in_voice_procedure) does not need to be followed on calls. However, you should familiarize yourself with the terms, as you may hear them on a call (or need to use them yourself). The ones in more active use on major incident calls are,
+Standard radio [voice procedure](https://en.wikipedia.org/wiki/Radiotelephony_procedure#Procedure_words) does not need to be followed on calls. However, you should familiarize yourself with the terms, as you may hear them on a call (or need to use them yourself). The ones in more active use on major incident calls are,
 
 * **Ack/Rog** - "I have received and understood"
 * **Say Again** - "Repeat your last message"

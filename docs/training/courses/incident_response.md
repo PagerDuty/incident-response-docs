@@ -55,7 +55,7 @@ _004. What is incident response? [Docs Reference](../../before/what_is_an_incide
 
 So when we talk about incident response, what we're really talking about is an organized approach to addressing and managing an incident. This is how we define incident response at PagerDuty. They key here is on the word _organized_. We don't want to be running around in a panic anytime an alert goes off. We want our response to be almost routine, and for everyone to work together like a well-oiled machine.
 
-There's a quote I really like from an excellent book called [Incident Management for Operations](http://shop.oreilly.com/product/0636920036159.do) that's appropriate here,
+There's a quote I really like from an excellent book called [Incident Management for Operations](https://learning.oreilly.com/library/view/~/9781491917619/) that's appropriate here,
 
 > Fire is not an emergency to the fire department . . . [Y]ou expect a rapid response from a group of professionals, skilled in the art of solving whatever issues you are having.
 
@@ -1036,7 +1036,7 @@ Start by running mock incidents. Then treat your smaller incidents as if they're
 
 At PagerDuty, we run something called [Failure Friday](https://www.pagerduty.com/blog/failure-friday-at-pagerduty/) where we purposefully inject failure into our systems to test their resilience. We treat this like a major incident, with an incident commander and everything. It allows us to practice while we're not under the stress of a normal incident.
 
-We also play a game called [Keep Talking And Nobody Explodes](http://www.keeptalkinggame.com). Yes, that's right, we play video games at work. But we've found that this game really helps to simulate a lot of the things an incident commander has to deal with, and is a great way to get some stress free practice.
+We also play a game called [Keep Talking And Nobody Explodes](https://www.keeptalkinggame.com). Yes, that's right, we play video games at work. But we've found that this game really helps to simulate a lot of the things an incident commander has to deal with, and is a great way to get some stress free practice.
 
 The bottom line is to practice as much as you can, so that when you do have the inevitable incident, your response is just routine.
 
@@ -1069,9 +1069,7 @@ It looks pretty too.
 <input type="checkbox" id="082" /><label for="082">![082](../../assets/slides/incident_response/incident_response.082.jpeg)</label>
 _082. Summary._
 
-Incident command training is useful in so many situations outside of a server exploding in the night. It can be applicable to many different things in your life, whether it's staying calm after a fender bender on the highway, or jumping into action to help during a major natural disaster. You'd be surprised at how useful it can be in everyday life.
-
-I even wrote a slightly tongue-in-cheek blog post called "[BabyDuty or: How PagerDuty Accidentally Prepared me for Fatherhood](https://www.pagerduty.com/blog/babyduty/)" where I compared childbirth to a major incident, and the role of a parent with that of an Incident Commander. Though the older my daughter gets, the more I'm starting to realize it perhaps wasn't quite as tongue-in-cheek as I first thought.
+Incident command training is useful in so many situations outside of a server exploding in the night. It can be applicable to many different things in your life, whether it's staying calm after a fender bender on the highway, or jumping into action to help during a major natural disaster. In my own life I've regularly compared the role of a parent with that of an Incident Commander. You'd be surprised at how useful it can be in everyday situations.
 
 Anyway, with that, I'll leave you with a quick summary of the main things we discussed today. Thanks!
 
@@ -1096,7 +1094,7 @@ _083. Image credits._
 _084. PagerDuty University._
 
 ???+ aside hide-arrow "PagerDuty University"
-    Shameless plug: If you're interested in our longer courses on this and other topics, including how to use PagerDuty to do it, we offer a variety of different training programs as part of [PagerDuty University](https://www.pagerduty.com/training/) — from private full-day courses at your own offices, to public instructor-led training.
+    Shameless plug: If you're interested in our longer courses on this and other topics, including how to use PagerDuty to do it, we offer a variety of different training programs as part of [PagerDuty University](https://www.pagerduty.com/university/) — from private full-day courses at your own offices, to public instructor-led training.
 
 ---
 

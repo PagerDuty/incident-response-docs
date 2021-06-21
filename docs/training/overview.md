@@ -36,7 +36,7 @@ While it might not initially seem that this would be applicable to an IT operati
 
 If you want to learn more about NIMS, we recommend the [ICS-100](https://training.fema.gov/is/courseoverview.aspx?code=IS-100.b) and [ICS-700](https://training.fema.gov/is/courseoverview.aspx?code=IS-700.a) online training courses, which go over NIMS and the Incident Command System (You can also take an online examination after training in order to get a certificate from FEMA). There is also a wealth of [additional training material and courses from FEMA](https://training.fema.gov/nims/) on NIMS, which I would encourage you to look at.
 
-If you're based in the US and interested in taking a more active incident response role in your community, we recommend investigating your local [CERT programs](https://www.fema.gov/community-emergency-response-teams) (Community Emergency Response Teams). Many cities offer CERT training, after which you can volunteer as a CERT contributor within your community. Not only is it an opportunity to get real world experience with disaster response, but the skills you learn can be applied to everyday life too.
+If you're based in the US and interested in taking a more active incident response role in your community, we recommend investigating your local [CERT programs](https://www.ready.gov/cert) (Community Emergency Response Teams). Many cities offer CERT training, after which you can volunteer as a CERT contributor within your community. Not only is it an opportunity to get real world experience with disaster response, but the skills you learn can be applied to everyday life too.
 
 Also take a look at the [Additional Reading](../resources/reading.md) page.
 
@@ -64,7 +64,7 @@ New Zealand's system is called the [**Coordinated Incident Management System (CI
 
 Here are some useful reading materials if you're interested in learning more:
 
-* [Ministry of Civil Defence & Emergency Management - New Zealand Coordinated Incident Management System (CIMS)](https://www.civildefence.govt.nz/resources/new-zealand-coordinated-incident-management-system-cims-2nd-edition/) ([PDF](https://www.civildefence.govt.nz/assets/Uploads/publications/CIMS-2nd-edition.pdf)).
+* [Ministry of Civil Defence & Emergency Management - New Zealand Coordinated Incident Management System (CIMS)](https://www.civildefence.govt.nz/resources/coordinated-incident-management-system-cims-third-edition/) ([PDF](https://www.civildefence.govt.nz/assets/Uploads/CIMS-3rd-edition-FINAL-Aug-2019.pdf)).
 * [Devereux-Blum Training & Development - Emergency Management Training](https://www.emergencymanagement.co.nz/)
 
 ### Australia
@@ -78,9 +78,9 @@ Here are some useful reading materials if you're interested in learning more:
 
 ### Canada
 
-Canada uses their own [**Incident Command System**](http://www.icscanada.ca/images/upload//ICS%20OPS%20Description2012.pdf) (PDF). The standard for which is maintained by a network of organizations called [ICS Canada](http://www.icscanada.ca/en/home.html). Their website has a collection of information on how you can find local training courses in Canada, depending on your Province.
+Canada uses their own [**Incident Command System**](https://www.icscanada.ca/images/upload/ICS%20OPS%20Description2012.pdf) (PDF). The standard for which is maintained by a network of organizations called [ICS Canada](https://www.icscanada.ca/en/home.html). Their website has a collection of information on how you can find local training courses in Canada, depending on your Province.
 
 Here are some useful reading materials if you're interested in learning more:
 
-* [ICSCanada - I-100 Introduction to Incident Command System](http://www.aema.alberta.ca/documents/studentreferencenote86439.pdf) (PDF).
-* [Canada ICS Forms](http://www.icscanada.ca/en/Forms.html) - _Standard ICS forms that you can download and use in your own incidents ([FEMA has the US equivalents](https://training.fema.gov/icsresource/icsforms.aspx))._
+* [ICSCanada - I-100 Introduction to Incident Command System](https://www.svffa.ca/s/ICS100-Self-Paced-Student-Workbook_2016.pdf) (PDF).
+* [Canada ICS Forms](https://www.icscanada.ca/en/Forms.html) - _Standard ICS forms that you can download and use in your own incidents ([FEMA has the US equivalents](https://training.fema.gov/icsresource/icsforms.aspx))._

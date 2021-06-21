@@ -45,7 +45,7 @@ The process is fairly loose for now. Here's a list of things you can do to train
     * Be the Scribe for multiple FF's.
     * Be the Incident Commander for multiple FF's.
 
-* Play a game of "[Keep Talking and Nobody Explodes](http://www.keeptalkinggame.com/)" with other people in the office.
+* Play a game of "[Keep Talking and Nobody Explodes](https://www.keeptalkinggame.com/)" with other people in the office.
     * For a more realistic experience, play it with someone in a different office over Hangouts.
 
 * Shadow a current Incident Commander for at least a full week shift.
