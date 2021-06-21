@@ -6,12 +6,12 @@ You can view the documentation [directly](docs/index.md) in this repository, or 
 [![PagerDuty Incident Response Documentation](screenshot.png)](https://response.pagerduty.com)
 
 ## Development
-We use [MkDocs](http://www.mkdocs.org/) to create a static site from this repository.
+We use [MkDocs](https://www.mkdocs.org/) to create a static site from this repository.
 
 ### Native
 For local development on your native device,
 
-1. Install [MkDocs](http://www.mkdocs.org/#installation). `pip install mkdocs`
+1. Install [MkDocs](https://www.mkdocs.org/user-guide/installation/). `pip install mkdocs`
 1. Install [MkDocs PyMdown Extensions](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/). `pip install pymdown-extensions`
 1. Install [Pygments](https://pygments.org/) if you want syntax highlighting for any code examples. `pip install pygments`
 1. Install the [PagerDuty MkDocs Theme](https://github.com/pagerduty/mkdocs-theme-pagerduty).
@@ -39,7 +39,7 @@ _Note: If you're using an Apple Silicon device, add `--platform linux/arm64/v8` 
           --delete
 
 ## License
-[Apache 2](http://www.apache.org/licenses/LICENSE-2.0) (See [LICENSE](LICENSE) file)
+[Apache 2](https://www.apache.org/licenses/LICENSE-2.0) (See [LICENSE](LICENSE) file)
 
 ## Contributing
 Thank you for considering contributing! If you have any questions, just ask - or submit your issue or pull request anyway. The worst that can happen is we'll politely ask you to change something. We appreciate all friendly contributions.
