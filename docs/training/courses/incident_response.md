@@ -6,12 +6,12 @@ description: This is an open-source version of PagerDuty's Incident Response tra
 pdf: /assets/pdf/pagerduty_incident_response_training_public.pdf
 ---
 
-!!!info "Incident Response Training Course"
-    This is an open-source version of "Incident Response Training", our PagerDuty training course for incident response and incident command. It started as an internal course to train new Incident Commanders and has since developed into one that we now deliver publicly.
+!!!info "Incident Response Training Course (2018)"
+    This is an open-source version of "Incident Response Training", our PagerDuty training course for incident response and incident command. It started as an internal course to train new Incident Commanders and has since developed into one that we now deliver publicly. This is a snapshot of what the training looked like in 2018. The latest version is now part of our [PagerDuty University](https://university.pagerduty.com/) courses.
 
-    It includes lots of introductory information on our process, and details on the Incident Commander role specifically. All the information is already available as part of our [public documentation](https://response.pagerduty.com) , this is just a different way of presenting it that's hopefully more engaging. Feel free to use this as a base for training in your own organization.
+    It includes lots of introductory information on our process, and details on the Incident Commander role specifically. All the information is already available as part of our [public documentation](https://response.pagerduty.com), this is just a different way of presenting it that's hopefully more engaging. Feel free to use this as a base for training in your own organization.
 
-    The text presented here is a semi-accurate transcription of how the training is usually delivered. You can also watch a [video](#video) of an older version of this course if you prefer.
+    The text presented here is a semi-accurate transcription of how the training was usually delivered. You can also watch a [video](#video) of an even older version of this course if you prefer.
 
 ---
 
@@ -1094,7 +1094,7 @@ _083. Image credits._
 _084. PagerDuty University._
 
 ???+ aside hide-arrow "PagerDuty University"
-    Shameless plug: If you're interested in our longer courses on this and other topics, including how to use PagerDuty to do it, we offer a variety of different training programs as part of [PagerDuty University](https://www.pagerduty.com/university/) — from private full-day courses at your own offices, to public instructor-led training.
+    Shameless plug: If you're interested in our longer courses on this and other topics, including how to use PagerDuty to do it, we offer a variety of different training programs as part of [PagerDuty University](https://university.pagerduty.com/) — from private full-day courses at your own offices, to public instructor-led training.
 
 ---
 
