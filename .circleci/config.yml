@@ -4,7 +4,7 @@ version: 2.1
 executors:
   build_env:
     docker:
-      - image: circleci/python:3.9.2
+      - image: cimg/python:3.9.2
 
 # Defines how to build the docs, and how to deploy them. We'll re-use these bits later.
 commands:
