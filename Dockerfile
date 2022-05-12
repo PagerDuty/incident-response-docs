@@ -3,18 +3,17 @@
 FROM cimg/python:3.9.2
 
 # Dependencies
-RUN sudo pip3 install mkdocs
-RUN sudo pip3 install pymdown-extensions
-RUN sudo pip3 install pygments
+RUN pip3 install mkdocs pymdown-extensions pygments
 
 # Install the PagerDuty theme.
 WORKDIR /tmp
-RUN git clone https://github.com/pagerduty/mkdocs-theme-pagerduty
-RUN cd mkdocs-theme-pagerduty && sudo python3 setup.py install
+RUN git clone https://github.com/pagerduty/mkdocs-theme-pagerduty \
+    && cd mkdocs-theme-pagerduty \
+    && python3 setup.py install
 
 # Set our working directory and user
 WORKDIR /docs
-RUN sudo useradd -m --uid 1000 mkdocs
+RUN useradd -m --uid 1000 mkdocs
 USER mkdocs
 
 # Expose MkDocs server
