@@ -1,11 +1,11 @@
 # https://circleci.com/docs/2.0/circleci-images/#python
 # We may as well use the same image we use for actually deploying our sites.
-FROM circleci/python:3.9.2
+FROM cimg/python:3.9.2
 
 # Dependencies
-RUN sudo pip install mkdocs
-RUN sudo pip install pymdown-extensions
-RUN sudo pip install pygments
+RUN sudo pip3 install mkdocs
+RUN sudo pip3 install pymdown-extensions
+RUN sudo pip3 install pygments
 
 # Install the PagerDuty theme.
 WORKDIR /tmp
