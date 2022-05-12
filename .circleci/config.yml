@@ -14,12 +14,12 @@ commands:
       - run:
           name: Install Dependencies
           command: |
-            sudo pip3 install mkdocs pymdown-extensions pygments
+            pip3 install mkdocs pymdown-extensions pygments
       - run:
           name: Install Theme
           command: |
             git clone https://github.com/pagerduty/mkdocs-theme-pagerduty
-            cd mkdocs-theme-pagerduty && sudo python3 setup.py install
+            cd mkdocs-theme-pagerduty && python3 setup.py install
       - run:
           name: Build Site
           command: |
@@ -30,7 +30,7 @@ commands:
       - run:
           name: Install AWS CLI
           command: |
-            sudo pip3 install awscli
+            pip3 install awscli
       - run:
           name: Deploy to S3
           # Use --delete to remove any old files from bucket too, so we don't keep stale info around.
