@@ -4,7 +4,7 @@ version: 2.1
 executors:
   build_env:
     docker:
-      - image: circleci/python:3.9.2
+      - image: cimg/python:3.9.2
 
 # Defines how to build the docs, and how to deploy them. We'll re-use these bits later.
 commands:
@@ -14,14 +14,12 @@ commands:
       - run:
           name: Install Dependencies
           command: |
-            sudo pip install mkdocs
-            sudo pip install pymdown-extensions
-            sudo pip install pygments
+            pip3 install mkdocs pymdown-extensions pygments
       - run:
           name: Install Theme
           command: |
             git clone https://github.com/pagerduty/mkdocs-theme-pagerduty
-            cd mkdocs-theme-pagerduty && sudo python3 setup.py install
+            cd mkdocs-theme-pagerduty && python3 setup.py install
       - run:
           name: Build Site
           command: |
@@ -32,7 +30,7 @@ commands:
       - run:
           name: Install AWS CLI
           command: |
-            sudo pip install awscli
+            pip3 install awscli
       - run:
           name: Deploy to S3
           # Use --delete to remove any old files from bucket too, so we don't keep stale info around.
