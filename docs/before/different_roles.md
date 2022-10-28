@@ -135,7 +135,7 @@ A person responsible for interacting with customers, either directly, or via our
 All of the other roles will be actively working on identifying the cause and resolving the issue, we need a role which is focused purely on the customer interaction side of things so that it can be done properly, with the due care and attention it needs.
 
 ### What are the responsibilities?
-1. Drafting external communication messages when needed, picking the appropriate template, either when asked by the IC or at own initiative
+1. Drafting [external communication][ecg] messages when needed, picking the appropriate template, either when asked by the IC or at own initiative
 1. Asking for more information / clarification if needed for clear communication
 1. Regularly notify the IC of the number of customers reporting that they are affected by the incident. This can include providing specific customer references or examples for investigation purposes.
 1. Post any publicly facing messages regarding the incident (Twitter, StatusPage, etc) once approved by the IC
@@ -147,6 +147,11 @@ Any member of the Support Team can act as a customer liaison.
 
 ### How can I become one?
 Follow our [Customer Liaison training guide](../training/customer_liaison.md), and discuss with the Support Team about becoming our next Customer Liaison.
+
+### Where can I find out more about external communications?
+Review our [external communication guidelines][ecg].
+
+[ecg]: ../during/external_communication_guidelines.md
 
 ---
 
