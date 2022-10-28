@@ -1,3 +1,10 @@
+---
+cover: assets/img/covers/whos_on-call.png
+description: Information on how to manage external communications
+hero: assets/img/headers/who_oncall.png
+hero_alt_text: External Communication Guidelines
+---
+
 ## External Communication Guidelines
 
 ### When to communicate publicly
