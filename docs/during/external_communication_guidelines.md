@@ -66,3 +66,7 @@ Your final communication should be posted when full recovery of the incident has
 - If there are no lingering impacts, clearly note this in the update. 
 
 Once this is posted, continue to follow the steps for [After an Incident](https://response.pagerduty.com/after/after_an_incident/) and the [Postmortem Process](https://response.pagerduty.com/after/post_mortem_process/). 
+
+### Quick Reference
+
+![Quick reference rubric for external communications spanning from initial investigation communication to resolution.](../assets/img/decision-tree.png)
