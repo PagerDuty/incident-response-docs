@@ -69,4 +69,4 @@ Once this is posted, continue to follow the steps for [After an Incident](https:
 
 ### Quick Reference
 
-![Quick reference rubric for external communications spanning from initial investigation communication to resolution.](../assets/img/decision-tree.png)
+![Quick reference rubric for external communications spanning from initial investigation communication to resolution.](../assets/img/misc/decision-tree.png)
