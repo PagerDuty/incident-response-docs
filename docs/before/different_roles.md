@@ -34,6 +34,13 @@ As any software system grows in size and complexity, things break and cause inci
     * Collect proposed repair actions and then recommend repair actions to be taken.
     * Delegate all repair actions, the Incident Commander is NOT a resolver.
     * Be the single authority on system status
+1. Communication during major incidents,
+    * Timely reminders to Customer Liaison to draft external communication messages when needed. 
+    * Reviewing, giving feedback and approving draft external communication 
+    * Asking Customer Liaison to post the reviewed draft external communication
+    * Asking all responders if there are strong objections to posting the external communication is a good practice but is not mandatory
+    * Approving the removal of an ephemeral investigation message if there has been no customer impact and the major incident turns out to be a false alarm
+    * If Customer Liaison is not available to post on the status page, the IC is responsible for delegating somebody to post publicly in their stead. 
 1. Postmortem,
     * Creating the initial template right after the incident so people can put in their thoughts while fresh.
     * Assigning the postmortem after the event is over, this can be done after the call.
@@ -128,8 +135,11 @@ A person responsible for interacting with customers, either directly, or via our
 All of the other roles will be actively working on identifying the cause and resolving the issue, we need a role which is focused purely on the customer interaction side of things so that it can be done properly, with the due care and attention it needs.
 
 ### What are the responsibilities?
-1. Post any publicly facing messages regarding the incident (Twitter, StatusPage, etc).
-1. Notify the IC of any customers reporting that they are affected by the incident.
+1. Drafting [external communication][ecg] messages when needed, picking the appropriate template, either when asked by the IC or at own initiative
+1. Asking for more information / clarification if needed for clear communication
+1. Regularly notify the IC of the number of customers reporting that they are affected by the incident. This can include providing specific customer references or examples for investigation purposes.
+1. Post any publicly facing messages regarding the incident (Twitter, StatusPage, etc) once approved by the IC
+1. Removing an ephemeral investigation message once approved by the IC
 1. Provide customers with the external message from the postmortem once it is completed.
 
 ### Who are they?
@@ -137,6 +147,11 @@ Any member of the Support Team can act as a customer liaison.
 
 ### How can I become one?
 Follow our [Customer Liaison training guide](../training/customer_liaison.md), and discuss with the Support Team about becoming our next Customer Liaison.
+
+### Where can I find out more about external communications?
+Review our [external communication guidelines][ecg].
+
+[ecg]: ../during/external_communication_guidelines.md
 
 ---
 
