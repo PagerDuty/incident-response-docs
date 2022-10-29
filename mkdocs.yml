@@ -38,6 +38,7 @@ nav:
     - Complex Incidents: 'before/complex_incidents.md'
   - During an Incident:
     - During an Incident: 'during/during_an_incident.md'
+    - External Communication Guidelines: 'during/external_communication_guidelines.md'
     - Security Incident: 'during/security_incident_response.md'
   - After an Incident:
     - After an Incident: 'after/after_an_incident.md'
