@@ -18,7 +18,7 @@ During larger complex incidents, the role structure may be adjusted to account f
 ## Incident Commander (IC)
 
 ### What is it?
-An Incident Commander acts as the single source of truth of what is currently happening and what is going to happen during a major incident. They come in all shapes, sizes, and colors.
+An Incident Commander is the single source of truth of what is currently happening and what is going to happen during a major incident. They come in all shapes, sizes, and colors.
 
 ### Why have one?
 As any software system grows in size and complexity, things break and cause incidents. The Incident Commander is needed to help drive major incidents to resolution.
