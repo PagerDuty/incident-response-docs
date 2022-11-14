@@ -1,8 +1,8 @@
 ---
 cover: assets/img/covers/severity_levels.png
-description: Incidents are typically classified by severity or priority. At PagerDuty we use 'SEV' levels, with lower numbered severities being more urgent. Operational issues can be classified at one of these severity levels, and in general you are able to take more risky moves to resolve a higher severity issue.
+description: Incidents are typically classified by priority. At PagerDuty we use 'SEV' levels, with lower numbered priorities being more urgent. Operational issues can be classified at one of these priority levels, and in general you are able to take more risky moves to resolve a higher priority issue.
 ---
-The first step in any incident response process is to determine what actually [constitutes an incident](../before/what_is_an_incident.md). Incidents can then be classified by severity, usually done by using "SEV" definitions, with the lower numbered severities being more urgent. Operational issues can be classified at one of these severity levels, and in general you are able to take more risky moves to resolve a higher severity issue. Anything above a SEV-3 is automatically considered a "major incident" and gets a more intensive response than a normal incident.
+The first step in any incident response process is to determine what actually [constitutes an incident](../before/what_is_an_incident.md). Incidents can then be classified by priority, usually done by using "SEV" definitions, with the lower numbered priorities being more urgent. Operational issues can be classified at one of these priority levels, and in general you are able to take more risky moves to resolve a higher priority issue. Anything above a SEV-3 is automatically considered a "major incident" and gets a more intensive response than a normal incident.
 
 !!! tip "Always Assume The Worst"
      If you are unsure which level an incident is (e.g. not sure if SEV-2 or SEV-1), **treat it as the higher one**. During an incident is not the time to discuss or litigate severities, just assume the highest and review during a postmortem.
@@ -13,7 +13,7 @@ The first step in any incident response process is to determine what actually [c
 <table class="custom-table">
   <thead>
     <tr>
-      <th class="sev">Severity</th>
+      <th class="sev">Priority</th>
       <th>Description</th>
       <th>Typical Response</th>
     </tr>
@@ -121,4 +121,4 @@ The first step in any incident response process is to determine what actually [c
 </table>
 
 !!! note "Be Specific"
-    These severity descriptions have been changed from the PagerDuty internal definitions to be more generic. For your own documentation, you are encouraged to make your definitions very specific, usually referring to a % of users/accounts affected. You will usually want your severity definitions to be metric driven.
+    These priority descriptions have been changed from the PagerDuty internal definitions to be more generic. For your own documentation, you are encouraged to make your definitions very specific, usually referring to a % of users/accounts affected. You will usually want your severity definitions to be metric driven.
