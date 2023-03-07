@@ -1,0 +1,10 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=31536000 ; includeSubDomains"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "same-origin"
+    Feature-Policy = "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
+    Content-Security-Policy-Report-Only = "default-src 'none'; script-src 'self' ssl.google-analytics.com www.google-analytics.com 'sha256-AzwHtScSzFOoXIoLRz4+vK2rDADGdNC3AXQG5FjKK68=' 'sha256-8IZh+gkrYCTCvcu/zawPN9Vj4RLghgOT4F5rTZXvdkQ='; object-src 'self'; style-src 'self'; img-src 'self' data: ssl.google-analytics.com www.google-analytics.com; media-src 'none'; frame-src www.youtube.com www.youtube-nocookie.com; font-src 'self'; connect-src 'self' ssl.google-analytics.com www.google-analytics.com; base-uri 'none'; form-action 'self'; frame-ancestors 'none'"
