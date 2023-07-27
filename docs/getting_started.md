@@ -35,7 +35,7 @@ Finally, you want to make sure your [alerts are actionable](oncall/alerting_prin
 
 ## Define the incident response roles.
 
-You will only care about the [Incident Commander](before/different_roles#incident-commander-ic) role to begin with. If you have enough people, you can also have a [Scribe](before/different_roles#scribe). But to start, just have an Incident Commander and your responders. The Incident Commander shouldn't be taking any remediation actions at all, they should just be leading the response and making the decisions. You don't need to follow the entire [training guide](training/incident_commander.md) to begin with; just the basics of asking questions and assigning tasks are enough to get you started.
+You will only care about the [Incident Commander](before/different_roles.md#incident-commander-ic) role to begin with. If you have enough people, you can also have a [Scribe](before/different_roles.md#scribe). But to start, just have an Incident Commander and your responders. The Incident Commander shouldn't be taking any remediation actions at all, they should just be leading the response and making the decisions. You don't need to follow the entire [training guide](training/incident_commander.md) to begin with; just the basics of asking questions and assigning tasks are enough to get you started.
 
 ## Create a postmortem template.
 You can use [our template](after/post_mortem_template.md) to get started or come up with your own version. Just make sure that you have a structured template so that it makes it easier to compare incidents to each other. It can be as simple as three headings to begin with:
@@ -65,7 +65,7 @@ You can now start expanding your process and adding some more things. Here are o
 
 ### Add a Scribe if you haven't already.
 
-Keeping an accurate timeline of events becomes really important when you want to go back and review your incidents. A [Scribe](before/different_roles#scribe) should be the next role you start using.
+Keeping an accurate timeline of events becomes really important when you want to go back and review your incidents. A [Scribe](before/different_roles.md#scribe) should be the next role you start using.
 
 ### Expand your IC rotation.
 
@@ -73,7 +73,7 @@ You don't want to just have a single IC, you want to have as many as you can get
 
 ### Add in a Deputy as a role.
 
-Once you have a few more IC's, start adding a Deputy to your response. Having a [Deputy](before/different_roles#deputy) will give you the ability to quickly hand over during longer incidents and also gives the IC some backup for shorter incidents.
+Once you have a few more IC's, start adding a Deputy to your response. Having a [Deputy](before/different_roles.md#deputy) will give you the ability to quickly hand over during longer incidents and also gives the IC some backup for shorter incidents.
 
 ### Define severity levels.
 
@@ -81,7 +81,7 @@ Once you have the process working well, you can start to add more granularity to
 
 ### Start adding other roles.
 
-As your process becomes more established, you want to start adding other roles. We recommend a [Customer Liaison](before/different_roles#customer-liaison) as the next one you include.
+As your process becomes more established, you want to start adding other roles. We recommend a [Customer Liaison](before/different_roles.md#customer-liaison) as the next one you include.
 
 ### Practice, practice, practice.
 
