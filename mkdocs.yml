@@ -45,6 +45,12 @@ nav:
     - Postmortem Process: 'after/post_mortem_process.md'
     - Postmortem Template: 'after/post_mortem_template.md'
     - Effective Postmortems: 'after/effective_post_mortems.md'
+  - Crisis Response:
+    - Terminology: 'crisis/terms.md'
+    - Crisis Leadership: 'crisis/leadership.md'
+    - Crisis Response Operations: 'crisis/operations.md'
+    - Pre-crisis Phase: 'crisis/prework.md'
+    - PagerDuty for CRMOps: 'crisis/pagerduty.md'
   - Training:
     - Overview: 'training/overview.md'
     - Incident Commander: 'training/incident_commander.md'

@@ -41,6 +41,16 @@ Our followup-processes, how we make sure we don't repeat mistakes, and are alway
 * [Postmortem Template](after/post_mortem_template.md) - _The template we use for writing our postmortems for major incidents._
 * [Effective Postmortems](after/effective_post_mortems.md) - _A guide for writing effective postmortems._
 
+## Crisis Response 
+
+Incident response is about more than dealing with technical incidents. A crisis can happen at any time. Are you ready for it? The way you handle your worst day will leave lasting impressions about your brand and its perceived value in the eyes of your current and potential customers.
+
+* [Terminology](crisis/terms.md) - _A list of key terms and concepts used in this guide._
+* [Crisis Leadership](crisis/leadership.md) - _Incorporating basic principles and your values in your response._
+* [Crisis Response Operations](crisis/operations.md) - _Activating your crisis response plans._
+* [Pre-crisis Phase](crisis/prework.md) - _Capitalizing on preparedness activities to keep your teams ready and engaged._
+* [PagerDuty for CRMOps](crisis/pagerduty.md) - _How PagerDuty leverages PagerDuty for crisis response management operations._
+
 ## Training
 
 So you want to learn about incident response? You've come to the right place.
