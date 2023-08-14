@@ -18,6 +18,8 @@ The unpredictable and fluid nature of a crisis requires situational awareness. B
 
 An increasingly important aspect of Crisis Leadership is taking care of yourself and your team. Members of your crisis response team may have been impacted by the events but are still working to resolve it. Some of your team may have been awake for 24 hours needing someone to give them permission to step away. Fatigue may be setting in and so forth. Leveraging the functionality built into the PagerDuty platform to establish on-call rotations, hand-offs and integrate video conferencing technology like Zoom or Teams can help create a safe and healthy [on call culture](https://goingoncall.pagerduty.com/culture/) for your teams while responding to what could be a protracted situation.
 
+![On-call Restrictions by day and hour](../assets/img/crisis/01_oncallrestrictions.png)
+
 ## Do's and Don'ts when Leading A Crisis
 Successful and unsuccessful corporate responses to crises are all around us. In fact, the chances are high that there’s one of each happening in the news at the time you're reading this guide. What’s important is that you learn from the very public mistakes of others and develop your core principles in the form of a do's and don'ts list. Some of them may be obvious but they’re still worth documenting. Here are a few common examples:
 
@@ -86,11 +88,12 @@ Once you’ve built your handful of scenarios, assigning members of your organiz
 
 Using PagerDuty, you can build your [on-call schedule](https://support.pagerduty.com/docs/schedule-basics) right inside the platform providing visibility and accountability about who’s on call for what area of the business if a crisis situation takes place. You can also add backups using an escalation policy that alerts the next person up after a custom time delay.
 
-- **insert image**
+![Set escalation timeouts](../assets/img/crisis/02_escalationtimeout.png)
+
 
 If you want to balance the load for your on-call team, the [round robin scheduling](https://support.pagerduty.com/docs/round-robin-scheduling) can help by alternating who’s the primary team member that’s notified for each crisis notification.
 
-- **insert image**
+![Use round-robin scheduling](../assets/img/crisis/03_roundrobin.png)
 
 ## Succession planning
 As you examine the makeup of your Executive Crisis Leadership Team, Crisis Team Leaders and their backups, you should view it through the lens of succession planning or failover mapping. Depending on the makeup of your organization and geographical concentrations, you may want to further diversify your members to spread the risk. If everyone is positioned close together, an impact to that region will lead to failure and extended MTTRs. You will want your PagerDuty rotations and/or escalation policies to reflect this strategy.

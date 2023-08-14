@@ -10,7 +10,7 @@ Operationalizing your crisis plan begins by making practical changes to ensure y
 
 Once you have these critical resources created, it can be difficult to centralize them and keep track of the most current version. PagerDuty makes this easy with the ability to add your runbooks, playbooks, policies and any other crisis response [documentation links](https://support.pagerduty.com/docs/service-profile#remediate) into your PagerDuty defined service(s).
 
-- **insert image**
+![Ensure that your PagerDuty services have links to their runbooks and documentation](../assets/img/crisis/04_remediationdocs.png)
 
 ## Crisis Classification Scheme
 
@@ -18,11 +18,11 @@ Waking up your Executive Crisis Leadership Team in the middle of the night with 
 
 WIthin PagerDuty, you can add your crisis “material impact levels” using the [incident priority](https://support.pagerduty.com/docs/incident-priority) feature. Remember that not all crises begin as a crisis. It may develop out of an ongoing incident so determining your thresholds for escalation ahead of time (e.g., 90 minutes without HVAC, 24 hours without direct contact, greater than $100k revenue at risk, etc.) is equally as important as the rankings.
 
-- **insert image**
+![Set and define priorities that make sense for your organization](../assets/img/crisis/05_priorities.png)
 
 Once you’ve defined your priorities, you can begin to leverage PagerDuty to automate parts of your crisis response through integrations and [incident workflows](https://support.pagerduty.com/docs/incident-workflows). You can integrate with Slack, Teams or Zoom for creating communications channels. You can auto-publish from templates or use our built-in Generative AI to post on internal status pages. You can auto-initiate stakeholder alerts or [subscriptions](https://support.pagerduty.com/docs/communicate-with-stakeholders#add-subscribers-at-incident-creation), etc. 
 
-- **insert image**
+![Use incident workflows to streamline response.](../assets/img/crisis/06_incidentworkflows.png)
 
 In a crisis situation, time savings are everything. Decreasing the mean time to respond and getting in touch with the right people is the most critical action your team can take at the onset of a crisis.
 
@@ -40,5 +40,5 @@ If you’ve followed along so far, you’ve essentially learned the ins and outs
 
 Given the scope of the [PagerDuty Operations Cloud](https://www.pagerduty.com/operations-cloud/), you’re likely not the only group within your organization running their operations through the platform. Your Customer Service organization may be using the platform alongside your Technical Operations organization. As a result, you’ll want to deploy some tradecraft as you trigger alerts, add notes and publish status pages to maintain the right level of privacy and compliance.
 
-- **insert image**
+![The PagerDuty Operations Cloud](../assets/img/crisis/07_operationscloud.png)
 

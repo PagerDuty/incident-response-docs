@@ -13,11 +13,11 @@ How to set up your Crisis Response Management instance in PagerDuty:
 
 [Contact information](https://support.pagerduty.com/docs/user-profile) - Ask each member to log into the web application and update their profile information including their phone, email and SMS contact information especially if they’ve changed devices.
 
-- **insert image**
+![PagerDuty user contact information settings](../assets/img/crisis/09_usercontactinfo.png)
 
 [Notification rules](https://support.pagerduty.com/docs/user-profile#notification-rules) - Ask each member to set their high urgency, low urgency, handoff and subscriber notification rules under their profile.
 
-- **insert image**
+![Use multiple contact methods for high urgency incidents](../assets/img/crisis/10_highurgencynotifications.png)
 
 [Teams](https://support.pagerduty.com/docs/teams) - create teams for your Executive Crisis Leadership Team, each of your Crisis Team Leaders, and essential support functions like Crisis Communications, IT or Legal
 
@@ -27,21 +27,19 @@ How to set up your Crisis Response Management instance in PagerDuty:
 
 [Escalation policies](https://support.pagerduty.com/docs/escalation-policies#create-an-escalation-policy) - decide who gets notified first and how long before the notification escalates to the next team member and configure round robin scheduling if you wish to alternate per crisis
 
-- **insert image**
+![Escalation policies determine which responders are contacted](../assets/img/crisis/11_escalationpolicy.png)
 
 [Integrations](https://support.pagerduty.com/docs/services-and-integrations#add-integrations-to-an-existing-service) - add your instant messaging, video conferencing tool or create a custom email integration or connections to other systems for triggering alerts
 
 [Schedules](https://support.pagerduty.com/docs/schedule-basics#create-a-schedule) - create your on-call rotations for the teams associated with each crisis service
 
-- **insert image**
+![Using multiple layers in schedules helps teams create full coverage](../assets/img/crisis/12_schedulelayers.png)
 
 [Incident Priority](https://support.pagerduty.com/docs/incident-priority) - add your custom classification scheme for your crisis response escalation levels
 
 [Incident workflows](https://support.pagerduty.com/docs/incident-workflows) - create your workflows for each crisis based on conditions such as priority, status and urgency using system templates or from scratch
 
-- **insert image**
-
-- **insert image**
+![Incident workflows can help with communication and coordination](../assets/img/crisis/13_incidentworkflows.png)
 
 [On-call readiness report](https://support.pagerduty.com/docs/on-call-readiness-reports) - confirm that your teams are on-call ready and properly configured
 
@@ -49,5 +47,5 @@ How to set up your Crisis Response Management instance in PagerDuty:
 
 [Status pages](https://support.pagerduty.com/docs/status-pages) - configure your status page templates for internal stakeholders
 
-- **insert image**
+![Use status updates to communicate with stakeholders](../assets/img/crisis/14_incidentstatusupdates.png)
 

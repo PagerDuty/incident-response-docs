@@ -4,7 +4,7 @@ description: You've just joined an incident call, and you've never been on one b
 hero: assets/img/headers/obama_phone.jpg
 ---
 
-The following list of terms will help you navigate the rest of this document.
+The following list of terms will help you navigate the Crisis Response section of this document. You'll find some terms mirror those used in incident response, while some will have slightly different definitions.
 
 - **Crisis** - an extraordinary event or situation that serves as an existential threat to people, the operational environment, assets or reputation requiring a strategic, adaptive and timely organizational response
 - **Crisis Management** - coordinated activities to lead, direct and control an organization with regards to its response to a crisis

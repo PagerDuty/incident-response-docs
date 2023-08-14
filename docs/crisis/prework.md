@@ -12,6 +12,6 @@ Conducting discussion-based tabletop exercises with your team is an ideal starti
 
 The PagerDuty platform will automatically track the length of the exercise and record any notes or status changes in the timeline which you can then use in your [postmortem](https://postmortems.pagerduty.com/what_is/) (i.e, after action report or hotwash) and in developing further tabletops or simulations. 
 
-- **insert image**
+![Create postmortems or incident reviews for all major incidents](../assets/img/crisis/08_postmortemdraft.png)
 
 A biannual cadence for crisis simulations provides sufficient time for preparation and to review the findings in the postmortem.
