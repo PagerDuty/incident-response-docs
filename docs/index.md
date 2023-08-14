@@ -45,6 +45,7 @@ Our followup-processes, how we make sure we don't repeat mistakes, and are alway
 
 Incident response is about more than dealing with technical incidents. A crisis can happen at any time. Are you ready for it? The way you handle your worst day will leave lasting impressions about your brand and its perceived value in the eyes of your current and potential customers.
 
+* [Introduction](crisis/crisis_intro.md) - _An introduction to crisis response and who this document is intended for._
 * [Terminology](crisis/terms.md) - _A list of key terms and concepts used in this guide._
 * [Crisis Leadership](crisis/leadership.md) - _Incorporating basic principles and your values in your response._
 * [Crisis Response Operations](crisis/operations.md) - _Activating your crisis response plans._
