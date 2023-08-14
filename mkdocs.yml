@@ -46,6 +46,7 @@ nav:
     - Postmortem Template: 'after/post_mortem_template.md'
     - Effective Postmortems: 'after/effective_post_mortems.md'
   - Crisis Response:
+    - Introduction: 'crisis/crisis_intro.md'
     - Terminology: 'crisis/terms.md'
     - Crisis Leadership: 'crisis/leadership.md'
     - Crisis Response Operations: 'crisis/operations.md'
