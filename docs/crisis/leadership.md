@@ -1,7 +1,9 @@
 ---
-cover: assets/img/covers/call_etiquette.png
-description: You've just joined an incident call, and you've never been on one before. You have no idea what's going on, or what you're supposed to be doing. This page will help you through your first time on an incident call, and will provide a reference for future calls you may be a part of.
-hero: assets/img/headers/obama_phone.jpg
+hero: assets/img/crisis/hero_FEMAJocelynAugustino.png
+hero_alt_text: FEMA - 8382 - Photograph by Jocelyn Augustino taken on 09-17-2003 in District of Columbia.
+hero_credit_url: https://upload.wikimedia.org/wikipedia/commons/2/29/FEMA_-_8382_-_Photograph_by_Jocelyn_Augustino_taken_on_09-17-2003_in_District_of_Columbia.jpg
+hero_credit_url_text: Jocelyn Augustino, Public domain, via Wikimedia Commons
+hero_credit_text: Jocelyn Augustino, Public domain, via Wikimedia Commons
 ---
 
 
