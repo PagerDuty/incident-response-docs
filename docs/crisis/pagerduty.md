@@ -1,7 +1,11 @@
 ---
-cover: assets/img/covers/call_etiquette.png
-description: You've just joined an incident call, and you've never been on one before. You have no idea what's going on, or what you're supposed to be doing. This page will help you through your first time on an incident call, and will provide a reference for future calls you may be a part of.
-hero: assets/img/headers/obama_phone.jpg
+cover: assets/img/crisis/cover_crisisresponse.png
+description: PagerDuty's Operations Cloud provides various tools and features that will help your organization manage crises effectively.
+hero: assets/img/crisis/hero_EUEmergencyResponseCoordinationCentreBrussels.png
+hero_alt_text: EU Emergency Response Coordination Centre in Brussels
+hero_credit_url: https://commons.wikimedia.org/wiki/File:EU_Emergency_Response_Coordination_Centre_in_Brussels.jpg
+hero_credit_url_text: EU Emergency Response Coordination Centre in Brussels
+hero_credit_text: Gillmti, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 ---
 
 ## PagerDuty Configuration

@@ -1,9 +1,11 @@
 ---
-hero: assets/img/crisis/hero_FEMAJocelynAugustino.png
-hero_alt_text: FEMA - 8382 - Photograph by Jocelyn Augustino taken on 09-17-2003 in District of Columbia.
-hero_credit_url: https://upload.wikimedia.org/wikipedia/commons/2/29/FEMA_-_8382_-_Photograph_by_Jocelyn_Augustino_taken_on_09-17-2003_in_District_of_Columbia.jpg
-hero_credit_url_text: Jocelyn Augustino, Public domain, via Wikimedia Commons
-hero_credit_text: Jocelyn Augustino, Public domain, via Wikimedia Commons
+cover: assets/img/crisis/cover_crisisresponse.png
+description: Your organization's crisis response plan requires strong leadership. The right kind of crisis leadership is values-driven and maintains the balancing act between carefully and thoughtfully responding to what went wrong and deliberately capturing mindshare or new business based on the effectiveness of your response.
+hero: assets/img/crisis/hero_EUEmergencyResponseCoordinationCentreBrussels.png
+hero_alt_text: EU Emergency Response Coordination Centre in Brussels
+hero_credit_url: https://commons.wikimedia.org/wiki/File:EU_Emergency_Response_Coordination_Centre_in_Brussels.jpg
+hero_credit_url_text: EU Emergency Response Coordination Centre in Brussels
+hero_credit_text: Gillmti, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 ---
 
 

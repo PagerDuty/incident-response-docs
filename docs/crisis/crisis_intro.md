@@ -1,10 +1,14 @@
 ---
-cover: assets/img/covers/call_etiquette.png
-description: You've just joined an incident call, and you've never been on one before. You have no idea what's going on, or what you're supposed to be doing. This page will help you through your first time on an incident call, and will provide a reference for future calls you may be a part of.
-hero: assets/img/headers/obama_phone.jpg
+cover: assets/img/crisis/cover_crisisresponse.png
+description: Your organization's crisis response plan requires strong leadership. The right kind of crisis leadership is values-driven and maintains the balancing act between carefully and thoughtfully responding to what went wrong and deliberately capturing mindshare or new business based on the effectiveness of your response.
+hero: assets/img/crisis/hero_EUEmergencyResponseCoordinationCentreBrussels.png
+hero_alt_text: EU Emergency Response Coordination Centre in Brussels
+hero_credit_url: https://commons.wikimedia.org/wiki/File:EU_Emergency_Response_Coordination_Centre_in_Brussels.jpg
+hero_credit_url_text: EU Emergency Response Coordination Centre in Brussels
+hero_credit_text: Gillmti, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 ---
 
-## Introduction to Crisis Management Operations
+## Introduction to Crisis Response Management Operations
 
 A critical partner in your supply chain just went down. An earthquake just hit your main operations hub. Breaking news about your organization just hit social media. A crisis can happen at any time. Are you ready for it? The way you handle your worst day will leave lasting impressions about your brand and its perceived value in the eyes of your current and potential customers.
 

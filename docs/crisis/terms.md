@@ -1,4 +1,6 @@
 ---
+cover: assets/img/crisis/cover_crisisresponse.png
+description: If crisis response is new to you or your organization, these terms will help you establish a baseline for understanding.
 hero: assets/img/crisis/hero_EUEmergencyResponseCoordinationCentreBrussels.png
 hero_alt_text: EU Emergency Response Coordination Centre in Brussels
 hero_credit_url: https://commons.wikimedia.org/wiki/File:EU_Emergency_Response_Coordination_Centre_in_Brussels.jpg
