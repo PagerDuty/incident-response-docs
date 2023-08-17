@@ -1,11 +1,6 @@
 ---
 cover: assets/img/crisis/cover_crisisresponse.png
 description: If crisis response is new to you or your organization, these terms will help you establish a baseline for understanding.
-hero: assets/img/crisis/hero_EUEmergencyResponseCoordinationCentreBrussels.png
-hero_alt_text: EU Emergency Response Coordination Centre in Brussels
-hero_credit_url: https://commons.wikimedia.org/wiki/File:EU_Emergency_Response_Coordination_Centre_in_Brussels.jpg
-hero_credit_url_text: EU Emergency Response Coordination Centre in Brussels
-hero_credit_text: Gillmti, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 ---
 
 The following list of terms will help you navigate the Crisis Response section of this document. You'll find some terms mirror those used in incident response, while some will have slightly different definitions.

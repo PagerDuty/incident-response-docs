@@ -1,6 +1,6 @@
 ---
 cover: assets/img/covers/incident_response_docs.png
-hero: assets/img/headers/pagerduty_logo.png
+hero: assets/img/headers/iStock-1097331490-3992x2242-e4f3f2d.png
 hero_alt_text: PagerDuty
 ---
 This site documents parts of the PagerDuty Incident Response process. It is a cut-down version of our internal documentation, used at PagerDuty for any major incidents, and to prepare new employees for on-call responsibilities. It provides information not only on preparing for an incident, but also what to do during and after.

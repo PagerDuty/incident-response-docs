@@ -1,11 +1,6 @@
 ---
 cover: assets/img/crisis/cover_crisisresponse.png
 description: Operationalizing your crisis plan begins by making practical changes to ensure you have what you need, in the way you need it, and at the time you need it.
-hero: assets/img/crisis/hero_EUEmergencyResponseCoordinationCentreBrussels.png
-hero_alt_text: EU Emergency Response Coordination Centre in Brussels
-hero_credit_url: https://commons.wikimedia.org/wiki/File:EU_Emergency_Response_Coordination_Centre_in_Brussels.jpg
-hero_credit_url_text: EU Emergency Response Coordination Centre in Brussels
-hero_credit_text: Gillmti, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 ---
 
 ## Operationalizing Your Crisis Plan

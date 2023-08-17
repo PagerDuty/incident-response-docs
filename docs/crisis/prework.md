@@ -1,11 +1,6 @@
 ---
 cover: assets/img/crisis/cover_crisisresponse.png
 description: Take the time to stress test your work before the real world does it for you. Practice and simulations are crucial for flagging any gaps or blindspots you want to be aware of ahead of a crisis. This is also an opportunity to build strong leadership, reduce mean time to respond and develop good habits within your team.
-hero: assets/img/crisis/hero_EUEmergencyResponseCoordinationCentreBrussels.png
-hero_alt_text: EU Emergency Response Coordination Centre in Brussels
-hero_credit_url: https://commons.wikimedia.org/wiki/File:EU_Emergency_Response_Coordination_Centre_in_Brussels.jpg
-hero_credit_url_text: EU Emergency Response Coordination Centre in Brussels
-hero_credit_text: Gillmti, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 ---
 
 ## Pre-crisis
