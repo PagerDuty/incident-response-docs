@@ -20,7 +20,7 @@ Once you have these critical resources created, it can be difficult to centraliz
 
 Waking up your Executive Crisis Leadership Team in the middle of the night with a PagerDuty alert should be a very rare occurrence. Having a [classification scheme](https://support.pagerduty.com/docs/incident-priority#establish-an-incident-classification-scheme) in place to rank the actual or anticipated materiality of an event will help you avoid a cry wolf scenario. A simple scale such as Low, Medium, High or Level 1, 2, 3 can be effective.
 
-WIthin PagerDuty, you can add your crisis “material impact levels” using the [incident priority](https://support.pagerduty.com/docs/incident-priority) feature. Remember that not all crises begin as a crisis. It may develop out of an ongoing incident so determining your thresholds for escalation ahead of time (e.g., 90 minutes without HVAC, 24 hours without direct contact, greater than $100k revenue at risk, etc.) is equally as important as the rankings.
+Within PagerDuty, you can add your crisis “material impact levels” using the [incident priority](https://support.pagerduty.com/docs/incident-priority) feature. Remember that not all crises begin as a crisis. It may develop out of an ongoing incident so determining your thresholds for escalation ahead of time (e.g., 90 minutes without HVAC, 24 hours without direct contact, greater than $100k revenue at risk, etc.) is equally as important as the rankings.
 
 ![Set and define priorities that make sense for your organization](../assets/img/crisis/05_priorities.png)
 
@@ -34,7 +34,7 @@ In a crisis situation, time savings are everything. Decreasing the mean time to 
 
 Does your crisis response team operate the same in a crisis as they do in normal business situations? Your answer should be no. Operating in a “crisis mode” should be distinctive because all actions and decisions are amplified, the tempo is quicker, the need for timely decisions is critical, the complexity of the problems are greater, the risks are higher, etc. 
 
-The Crisis Team Leader needs to clearly and definitively signal that the modes of thinking and processing have shifted. What better way to signal that shift than through a PagerDuty alert. The incident priority feature is an easy way to make that declaration to the necessary stakeholders in a not so public way. Declaring the response as over is also important in transitioning to normal or new ways of doing things, which can be completed by [resolving the alert](https://support.pagerduty.com/docs/alerts#resolve-alerts) created on your crisis service(s) or posting to an internal status page.
+The Crisis Team Leader needs to clearly and definitively signal that the modes of thinking and processing have shifted. What better way to signal that shift than through a PagerDuty alert? The incident priority feature is an easy way to make that declaration to the necessary stakeholders in a not so public way. Declaring the response as over is also important in transitioning to normal or new ways of doing things, which can be completed by [resolving the alert](https://support.pagerduty.com/docs/alerts#resolve-alerts) created on your crisis service(s) or posting to an internal status page.
 
 ## Crisis Response Management Operations
 
