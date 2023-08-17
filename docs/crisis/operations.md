@@ -20,7 +20,7 @@ Once you have these critical resources created, it can be difficult to centraliz
 
 Waking up your Executive Crisis Leadership Team in the middle of the night with a PagerDuty alert should be a very rare occurrence. Having a [classification scheme](https://support.pagerduty.com/docs/incident-priority#establish-an-incident-classification-scheme) in place to rank the actual or anticipated materiality of an event will help you avoid a cry wolf scenario. A simple scale such as Low, Medium, High or Level 1, 2, 3 can be effective.
 
-WIthin PagerDuty, you can add your crisis “material impact levels” using the [incident priority](https://support.pagerduty.com/docs/incident-priority) feature. Remember that not all crises begin as a crisis. It may develop out of an ongoing incident so determining your thresholds for escalation ahead of time (e.g., 90 minutes without HVAC, 24 hours without direct contact, greater than $100k revenue at risk, etc.) is equally as important as the rankings.
+Within PagerDuty, you can add your crisis “material impact levels” using the [incident priority](https://support.pagerduty.com/docs/incident-priority) feature. Remember that not all crises begin as a crisis. It may develop out of an ongoing incident so determining your thresholds for escalation ahead of time (e.g., 90 minutes without HVAC, 24 hours without direct contact, greater than $100k revenue at risk, etc.) is equally as important as the rankings.
 
 ![Set and define priorities that make sense for your organization](../assets/img/crisis/05_priorities.png)
 
