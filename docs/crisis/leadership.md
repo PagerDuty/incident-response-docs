@@ -73,7 +73,7 @@ There’s no one size fits all and you may not need all of these roles in your E
 
 ## Crisis Team Leaders
 
-It’s important to put a face to a crisis. A Crisis Team Leader is the individual responsible for leading the organization through a crisis having overall responsibility based on their area(s) of expertise. They’re similar to an Incident Commander for a crisis situation. However, a Crisis Team Leader may function more as an Area Commander if there are multiple Incident Commanders to oversee in a complex situation. 
+It’s important to put a face and single voice to a crisis. A Crisis Team Leader is the individual responsible for leading the organization through a crisis having overall responsibility based on their area(s) of expertise. They’re similar to an Incident Commander for a crisis situation. However, a Crisis Team Leader may function more as an Area Commander if there are multiple Incident Commanders to oversee in a complex situation. 
 
 Once you’ve built your handful of scenarios, assigning members of your organization as the team leader along with their backup is the next step. See the below table as an example:
 

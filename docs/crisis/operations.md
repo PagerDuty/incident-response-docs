@@ -19,7 +19,7 @@ Within PagerDuty, you can add your crisis “material impact levels” using the
 
 ![Set and define priorities that make sense for your organization](../assets/img/crisis/05_priorities.png)
 
-Once you’ve defined your priorities, you can begin to leverage PagerDuty to automate parts of your crisis response through integrations and [incident workflows](https://support.pagerduty.com/docs/incident-workflows). You can integrate with Slack, Teams or Zoom for creating communications channels. You can auto-publish from templates or use our built-in Generative AI to post on internal status pages. You can auto-initiate stakeholder alerts or [subscriptions](https://support.pagerduty.com/docs/communicate-with-stakeholders#add-subscribers-at-incident-creation), etc. 
+Once you’ve defined your priorities, you can begin to leverage PagerDuty to automate parts of your crisis response through integrations and [incident workflows](https://support.pagerduty.com/docs/incident-workflows). You can integrate with Slack, Teams or Zoom for creating communications channels. You can auto-publish from templates to post on internal status pages. You can auto-initiate stakeholder alerts or [subscriptions](https://support.pagerduty.com/docs/communicate-with-stakeholders#add-subscribers-at-incident-creation), etc. 
 
 ![Use incident workflows to streamline response.](../assets/img/crisis/06_incidentworkflows.png)
 

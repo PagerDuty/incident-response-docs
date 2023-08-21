@@ -42,7 +42,7 @@ How to set up your Crisis Response Management instance in PagerDuty:
 
 [On-call readiness report](https://support.pagerduty.com/docs/on-call-readiness-reports) - Confirm that your teams are on-call ready and properly configured
 
-[Postmortem template](https://support.pagerduty.com/docs/postmortems#customize-the-postmortem-template) - Configure your postmortem template to fit your needs post-crisis or allow AI to auto draft one
+[Postmortem template](https://support.pagerduty.com/docs/postmortems#customize-the-postmortem-template) - Configure your postmortem template to fit your needs post-crisis
 
 [Status pages](https://support.pagerduty.com/docs/status-pages) - Configure your status page templates for internal stakeholders
 
