@@ -1,8 +1,6 @@
 ---
 cover: assets/img/covers/post-mortem_process.png
 description: For every major incident (SEV-2/1), we need to follow up with a postmortem. A blame-free, detailed description, of exactly what went wrong in order to cause the incident, along with a list of steps to take in order to prevent a similar incident from occurring again in the future.
-hero: assets/img/headers/pagerduty_post_mortem.jpg
-hero_alt_text: Postmortem
 ---
 For every major incident (SEV-2/1), we need to follow up with a postmortem. A blame-free, detailed description, of exactly what went wrong in order to cause the incident, along with a list of steps to take in order to prevent a similar incident from occurring again in the future. The incident response process itself should also be included.
 

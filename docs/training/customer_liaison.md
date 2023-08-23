@@ -1,8 +1,6 @@
 ---
 cover: assets/img/covers/customer_liaison.png
 description: So you want to be a customer liaison? You've come to the right place!
-hero: assets/img/headers/status_page.jpg
-hero_alt_text: PagerDuty Status Page
 ---
 So you want to be a Customer Liaison? You've come to the right place!
 

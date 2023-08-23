@@ -1,10 +1,8 @@
 ---
 cover: assets/img/covers/reading.png
 description: This is a collection of additional reading on the topic of incident response that we've found useful.
-hero: assets/img/headers/resources.jpg
-hero_alt_text: Looking up information
-hero_credit_url: https://www.publicdomainpictures.net/en/view-image.php?image=151506&picture=young-woman-my-computer
-hero_credit_url_text: Axelle B
+hero: assets/img/headers/iStock-1097331490-3992x2242-e4f3f2d.png
+hero_alt_text: Incident Response at PagerDuty
 ---
 
 This is a collection of additional reading on the topic of incident response that we've found useful.

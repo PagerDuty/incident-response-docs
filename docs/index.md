@@ -1,6 +1,6 @@
 ---
 cover: assets/img/covers/incident_response_docs.png
-hero: assets/img/headers/pagerduty_ir.jpg
+hero: assets/img/headers/iStock-1097331490-3992x2242-e4f3f2d.png
 hero_alt_text: Incident Response at PagerDuty
 ---
 This documentation covers parts of the PagerDuty Incident Response process. It is a cut-down version of our internal documentation used at PagerDuty for any major incidents and to prepare new employees for on-call responsibilities. It provides information not only on preparing for an incident, but also what to do during and after the incident. It is intended to be used by on-call practitioners and those involved in an operational incident response process (or those wishing to enact a formal incident response process). See the [about page](about.md) for more information on what this documentation is and why it exists.
@@ -40,6 +40,17 @@ Our followup-processes, how we make sure we don't repeat mistakes, and are alway
 * [Postmortem Process](after/post_mortem_process.md) - _Information on our postmortem process, what's involved, and how to write or run a postmortem._
 * [Postmortem Template](after/post_mortem_template.md) - _The template we use for writing our postmortems for major incidents._
 * [Effective Postmortems](after/effective_post_mortems.md) - _A guide for writing effective postmortems._
+
+## Crisis Response 
+
+Incident response is about more than dealing with technical incidents. A crisis can happen at any time. Are you ready for it? The way you handle your worst day will leave lasting impressions about your brand and its perceived value in the eyes of your current and potential customers.
+
+* [Introduction](crisis/crisis_intro.md) - _An introduction to crisis response and who this document is intended for._
+* [Terminology](crisis/terms.md) - _A list of key terms and concepts used in this guide._
+* [Crisis Leadership](crisis/leadership.md) - _Incorporating basic principles and your values in your response._
+* [Crisis Response Operations](crisis/operations.md) - _Activating your crisis response plans._
+* [Pre-crisis Phase](crisis/prework.md) - _Capitalizing on preparedness activities to keep your teams ready and engaged._
+* [PagerDuty for CRMOps](crisis/pagerduty.md) - _How PagerDuty leverages PagerDuty for crisis response management operations._
 
 ## Training
 
