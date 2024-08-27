@@ -7,28 +7,29 @@ hero_alt_text: PagerDuty
 
 重大インシデントに対処するための社内プロセスについて語る企業はほとんどないようです。このような状況を変えたいと思い、私たちのドキュメントをコミュニティに公開することにしました。さらに、他の人が改善を提案する機会を提供することで、結果的にすべての人の助けになるのです。
 
-## What is this?
+## これは何？
 
-A collection of pages detailing how to efficiently deal with any major incidents that might arise, along with information on how to go on-call effectively. It provides lessons learned the hard way, along with training material for getting you up to speed quickly.
+重大なインシデントが発生した際に効率的に対処する方法や、効果的にオンコール体制を取る方法についての詳細を記したページ集です。これには、苦労して得られた教訓や、迅速に状況を把握するためのトレーニング資料が含まれています。
 
-## Who is this for?
+## これは誰のためのもの？
 
-It is intended for on-call practitioners and those involved in an operational incident response process, or those wishing to enact a formal incident response process.
+オンコール実務者や運用上のインシデント対応プロセスに関わる人々、あるいは正式なインシデント対応プロセスを実施したいと考えている人々を対象としています。
 
-## Why do I need it?
+## なぜこれが必要か？
 
-Incident response is something you hope to never need, but when you do, you want it to go smoothly and seamlessly. Normally the knowledge of how to handle incidents within your company will be built up over time, getting better with each incident. While tools such as [PagerDuty's Modern Incidents Response](https://www.pagerduty.com/platform/modern-incident-response/) can help you recover quickly, the process you follow is just as important. This documentation will allow you to learn from the start something which has taken us years to build up. Giving you a head start on how to deal with major incidents in a way which leads to the fastest possible recovery time.
+インシデント対応は、決して必要にならないことを願うものですが、いざ必要となった際には、円滑かつシームレスに進行することが望まれます。通常、企業内でのインシデント対応の知識は時間をかけて蓄積され、インシデントを重ねるごとに改善されていきます。[PagerDutyのIncidents Response](https://www.pagerduty.co.jp/platform/incident-management/)のようなツールが迅速な復旧を支援できますが、従うべきプロセスも同様に重要です。この文書は、私たちが長年かけて構築してきたものを、最初から学ぶ機会を提供します。これにより、最短の復旧時間につながる方法で重大なインシデントに対処する方法について、あなたに先行きの利点を与えます。
 
-## What is covered?
+## どこまでカバーしている？
 
-Anything from preparing to [go on-call](oncall/being_oncall.md), definitions of [severities](before/severity_levels.md), incident [call etiquette](before/call_etiquette.md), all the way to how to run a [postmortem](after/post_mortem_process.md), and providing our [postmortem template](after/post_mortem_template.md). We even include our [security incident response process](during/security_incident_response.md).
+[オンコール](oncall/being_oncall.md)の準備から、[重大度](before/severity_levels.md)の定義、[インシデント通話のエチケット](before/call_etiquette.md)、さらには[ポストモーテム](after/post_mortem_process.md)の実施方法、そして[ポストモーテムテンプレート](after/post_mortem_template.md)の提供に至るまで、あらゆる内容を網羅しています。[セキュリティインシデント対応プロセス](during/security_incident_response.md)も含まれています。
 
-## What is missing?
 
-This isn't an exact clone of our internal documentation, but instead has some information removed. Things such as our phone bridge numbers, names of internal tools and systems which are not (yet) open sourced, images of our dashboards, etc. Basically anything that is specific to PagerDuty or is too sensitive to share.
+## 何が欠けているのか？
 
-## License
+これは私たちの内部文書の完全な複製ではなく、一部の情報が削除されています。たとえば、電話会議の番号、（まだ）オープンソース化されていない内部ツールやシステムの名称、ダッシュボードの画像などです。基本的に、PagerDuty固有の情報や、共有するには機密性が高すぎる情報は除外されています。
 
-This documentation is provided under the Apache License 2.0. In plain English that means you can use and modify this documentation and use it both commercially and for private use. However, you must include any original copyright notices, and the original LICENSE file.
 
-Whether you are a PagerDuty customer or not, we want you to have the ability to use this documentation internally at your own company. You can view the source code for all of this documentation on our GitHub account, feel free to fork the repository and use it as a base for your own internal documentation.
+## ライセンス
+
+この文書はApache License 2.0の下で提供されています。平易な言葉で言えば、この文書を使用および修正し、商業目的でも個人使用でも利用できるということです。ただし、元の著作権表示と元のLICENSEファイルを含める必要があります。
+PagerDutyの顧客であるかどうかにかかわらず、この文書をあなたの会社内で内部的に使用する能力を持っていただきたいと考えています。この文書のソースコードはすべて当社のGitHubアカウントで閲覧できます。リポジトリをフォークして、あなた自身の内部文書の基礎として使用することを歓迎します。
