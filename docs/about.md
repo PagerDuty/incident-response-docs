@@ -3,9 +3,9 @@ cover: assets/img/covers/incident_response_docs.png
 hero: assets/img/headers/iStock-1097331490-3992x2242-e4f3f2d.png
 hero_alt_text: PagerDuty
 ---
-This site documents parts of the PagerDuty Incident Response process. It is a cut-down version of our internal documentation, used at PagerDuty for any major incidents, and to prepare new employees for on-call responsibilities. It provides information not only on preparing for an incident, but also what to do during and after.
+このサイトはPagerDutyのインシデント対応プロセスの一部を文書化したものです。PagerDutyの社内文書の一部を切り取ったもので、PagerDutyでは重大なインシデントの発生時や、新入社員のオンコール対応準備に使用しています。インシデントの準備だけでなく、インシデント発生中や発生後に何をすべきかについての情報も提供しています。
 
-Few companies seem to talk about their internal processes for dealing with major incidents. We would like to change that by opening up our documentation to the community, in the hopes that it proves useful to others who may want to formalize their own processes. Additionally, it provides an opportunity for others to suggest improvements, which ends up helping everyone.
+重大インシデントに対処するための社内プロセスについて語る企業はほとんどないようです。このような状況を変えたいと思い、私たちのドキュメントをコミュニティに公開することにしました。さらに、他の人が改善を提案する機会を提供することで、結果的にすべての人の助けになるのです。
 
 ## What is this?
 
