@@ -70,7 +70,7 @@ nav:
   - About: 'about.md'
 
 # Analytics
-google_analytics: ['UA-8759953-1', 'auto']
+#google_analytics: ['UA-8759953-1', 'auto']
 
 # Extensions
 markdown_extensions:
