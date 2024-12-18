@@ -37,12 +37,12 @@ The process is fairly loose for now. Here's a list of things you can do to train
 
 * Read the rest of this page, particularly the sections below.
 
-* Participate in [Failure Friday](https://www.pagerduty.com/blog/failure-friday-at-pagerduty/) (FF).
+* Participate in [Failure Friday](https://www.pagerduty.com/blog/failure-friday-at-pagerduty/){:target="_blank"}  (FF).
     * Shadow a FF to see how it's run.
     * Be the Scribe for multiple FF's.
     * Be the Incident Commander for multiple FF's.
 
-* Play a game of "[Keep Talking and Nobody Explodes](https://www.keeptalkinggame.com/)" with other people in the office.
+* Play a game of "[Keep Talking and Nobody Explodes](https://www.keeptalkinggame.com/){:target="_blank"}" with other people in the office.
     * For a more realistic experience, play it with someone in a different office over Hangouts.
 
 * Shadow a current Incident Commander for at least a full week shift.
@@ -86,7 +86,7 @@ _Next step is to stabilize the incident. We need to determine what we can do to 
     * Making the "wrong" decision is better than making no decision. If you have nothing but bad options, pick one and proceed.
 
 1. **Gain consensus. _- Ask "Are there any strong objections?"_**
-    * Gather support for the plan (See "Polling During a Decision" below).
+    * Gather support for the plan (See "[Polling During a Decision](/training/incident_commander/#gaining-consensus-polling-during-a-decision)" below).
     * Listen for objections.
     * Be prepared to adjust your plan if new information is presented.
 
@@ -174,7 +174,7 @@ When you need to give out an assignment or task, you should follow these three s
 1. Confirm that the responder has acknowledged and understood the instructions.
 
 !!!warning "Can someone..."
-    Never say "Can someone..." as this leads to the [bystander effect](https://en.wikipedia.org/wiki/Bystander_effect). Tasks should always be assigned directly to an individual, and never just thrown out with the hope that someone will pick it up.
+    Never say "Can someone..." as this leads to the [bystander effect](https://en.wikipedia.org/wiki/Bystander_effect){:target="_blank"}. Tasks should always be assigned directly to an individual, and never just thrown out with the hope that someone will pick it up.
 
 > IC: Bob, please investigate the high latency on web app boxes. I'll come back to you for an answer in 3 minutes.
 
@@ -200,7 +200,7 @@ It's important to maintain a cadence during a major incident call. Whenever ther
 
 > While we wait for [X], here's an update of our current situation.
 
-> We are currently in a SEV-1 situation, we believe to be caused by [X]. There's an open question to [Y] who will be getting back to us in 2 minutes. In the meantime, we have Tweeted out that we are experiencing issues. Our next Tweet will be in 10 minutes if the incident is still ongoing at that time.
+> We are currently in a SEV-1 situation, we believe to be caused by [X]. There's an open question to [Y] who will be getting back to us in 2 minutes. In the meantime, we have posted it out that we are experiencing issues. Our next post will be in 10 minutes if the incident is still ongoing at that time.
 
 > Are there any additional actions or proposals from anyone else at this time?
 

@@ -17,7 +17,7 @@ It is intended for on-call practitioners and those involved in an operational in
 
 ## Why do I need it?
 
-Incident response is something you hope to never need, but when you do, you want it to go smoothly and seamlessly. Normally the knowledge of how to handle incidents within your company will be built up over time, getting better with each incident. While tools such as [PagerDuty's Modern Incidents Response](https://www.pagerduty.com/platform/modern-incident-response/) can help you recover quickly, the process you follow is just as important. This documentation will allow you to learn from the start something which has taken us years to build up. Giving you a head start on how to deal with major incidents in a way which leads to the fastest possible recovery time.
+Incident response is something you hope to never need, but when you do, you want it to go smoothly and seamlessly. Normally the knowledge of how to handle incidents within your company will be built up over time, getting better with each incident. While tools such as [PagerDuty's Modern Incidents Response](https://www.pagerduty.com/platform/modern-incident-response/){:target="_blank" } can help you recover quickly, the process you follow is just as important. This documentation will allow you to learn from the start something which has taken us years to build up. Giving you a head start on how to deal with major incidents in a way which leads to the fastest possible recovery time.
 
 ## What is covered?
 

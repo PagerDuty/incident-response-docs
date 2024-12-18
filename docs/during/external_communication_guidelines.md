@@ -3,11 +3,11 @@ cover: assets/img/covers/whos_on-call.png
 description: Information on how to manage external communications
 ---
 
-Information on how to manage external communications during an incident. See our [role descriptions](../before/different_roles/) for information about who is responsible for external communications.
+Information on how to manage external communications during an incident. See our [role descriptions](../before/different_roles.md) for information about who is responsible for external communications.
 
 ## When to communicate publicly
 
-Before you decide to communicate an incident, it’s important to have an agreed-upon set of criteria for when a major incident is communicated. False alarms and short-lived issues can sometimes kick off incident calls, so knowing when communication is appropriate will help your customers avoid widespread panic. This can be tied to your organization’s definition of [what an incident is](https://response.pagerduty.com/before/what_is_an_incident/), and/or your [severity levels](https://response.pagerduty.com/before/severity_levels/).
+Before you decide to communicate an incident, it’s important to have an agreed-upon set of criteria for when a major incident is communicated. False alarms and short-lived issues can sometimes kick off incident calls, so knowing when communication is appropriate will help your customers avoid widespread panic. This can be tied to your organization’s definition of [what an incident is](../before/what_is_an_incident.md), and/or your [severity levels](../before/severity_levels.md).
 
 You might consider the following criteria as well: 
 
@@ -23,7 +23,7 @@ We also recommend coming up with a set of templates for different stages of an i
 
 ### Initial communication:
 
-The first communication should indicate that an incident is under investigation. The goal here is to avoid a customer experiencing symptoms of the incident, checking status pages or Twitter accounts, and not seeing awareness of the issue from the business. 
+The first communication should indicate that an incident is under investigation. The goal here is to avoid a customer experiencing symptoms of the incident, checking status pages or social media accounts, and not seeing awareness of the issue from the business. 
 
 - Decision and posting of initial communication happens within 5 minutes of kicking off the incident call.
 - These messages should be entirely templated for ease of action.
@@ -63,7 +63,7 @@ Your final communication should be posted when full recovery of the incident has
 - Clear indication of any data loss or lingering corruption.
 - If there are no lingering impacts, clearly note this in the update. 
 
-Once this is posted, continue to follow the steps for [After an Incident](https://response.pagerduty.com/after/after_an_incident/) and the [Postmortem Process](https://response.pagerduty.com/after/post_mortem_process/). 
+Once this is posted, continue to follow the steps for [After an Incident](../after/after_an_incident.md) and the [Postmortem Process](../after/post_mortem_process.md). 
 
 ## Quick Reference
 

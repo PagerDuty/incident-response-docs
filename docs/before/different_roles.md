@@ -138,7 +138,7 @@ All of the other roles will be actively working on identifying the cause and res
 1. Drafting [external communication][ecg] messages when needed, picking the appropriate template, either when asked by the IC or at own initiative
 1. Asking for more information / clarification if needed for clear communication
 1. Regularly notify the IC of the number of customers reporting that they are affected by the incident. This can include providing specific customer references or examples for investigation purposes.
-1. Post any publicly facing messages regarding the incident (Twitter, StatusPage, etc) once approved by the IC
+1. Post any publicly facing messages regarding the incident (X, StatusPage, etc) once approved by the IC
 1. Removing an ephemeral investigation message once approved by the IC
 1. Provide customers with the external message from the postmortem once it is completed.
 

@@ -8,7 +8,7 @@ Writing an effective postmortem allows us to learn quickly from our mistakes and
 
 * Make sure the timeline is an accurate representation of events.
 * Describe any technical lingo/acronyms you use that newcomers may not understand.
-* [Discuss how the incident fits into our understanding of the health and resiliency of the services affected](https://www.pagerduty.com/blog/postmortem-understand-service-reliability/).
+* [Discuss how the incident fits into our understanding of the health and resiliency of the services affected](https://www.pagerduty.com/blog/postmortem-understand-service-reliability/){:target="_blank" }.
 
 ## Don'ts
 
@@ -21,8 +21,8 @@ Writing an effective postmortem allows us to learn quickly from our mistakes and
 * Avoid the concept of "human error." This is related to the point above about "naming and shaming," but there's a subtle difference - very rarely is the mistake "rooted" in a human performing an action, there are often several contributing factors (the script the human ran didn't have rate limiting, the documentation was out of date, etc) that can and should be addressed.
 * Avoid "alternate reality" discussion in the timeline or description sections. "Service X started seeing elevated traffic early this morning, and stopped responding to requests. _*If service X had*_ rate limited the requests from the customer, _*it would not have*_ failed." & "Service X began slowly responding to requests this evening, _*there was insufficient monitoring*_ to detect the elevated CPU usage." as two examples, blends describing the actual problem with a hypothetical fix - keep the improvements separate from the description, so that each can be appropriately discussed.
 * These videos go into more detail on the above points:
-  * "[Three analytical traps in accident investigation](https://www.youtube.com/watch?v=TqaFT-0cY7U)"
-  * "[Two views on Human Error](https://www.youtube.com/watch?v=rHeukoWWtQ8)"
+  * "[Three analytical traps in accident investigation](https://www.youtube.com/watch?v=TqaFT-0cY7U){:target="_blank" }"
+  * "[Two views on Human Error](https://www.youtube.com/watch?v=rHeukoWWtQ8){:target="_blank" }"
 
 ## Reviewing
 
@@ -40,15 +40,15 @@ Reviewing a postmortem isn't about nit-picking typos (although we should make su
 ## Examples
 Here are some examples of postmortems from other companies as a reference,
 
-* [LastPass](https://blog.lastpass.com/2015/06/lastpass-security-notice/)
-* [AWS](https://aws.amazon.com/message/5467D2/)
-* [Twilio](https://www.twilio.com/blog/2013/07/billing-incident-post-mortem-breakdown-analysis-and-root-cause.html)
-* [Heroku](https://status.heroku.com/incidents/151)
-* [Netflix](https://netflixtechblog.com/post-mortem-of-october-22-2012-aws-degradation-efcee3ab40d5)
-* [GOV.UK Rail Accident Investigation](https://www.gov.uk/government/publications/kyle-beck-safety-digest/near-miss-at-kyle-beck-3-august-2016)
-* [A List of Postmortems!](https://github.com/danluu/post-mortems)
+* [LastPass](https://blog.lastpass.com/2015/06/lastpass-security-notice/){:target="_blank" }
+* [AWS](https://aws.amazon.com/message/5467D2/){:target="_blank" }
+* [Twilio](https://www.twilio.com/blog/2013/07/billing-incident-post-mortem-breakdown-analysis-and-root-cause.html){:target="_blank" }
+* [Heroku](https://status.heroku.com/incidents/151){:target="_blank" }
+* [Netflix](https://netflixtechblog.com/post-mortem-of-october-22-2012-aws-degradation-efcee3ab40d5){:target="_blank" }
+* [GOV.UK Rail Accident Investigation](https://www.gov.uk/government/publications/kyle-beck-safety-digest/near-miss-at-kyle-beck-3-august-2016){:target="_blank" }
+* [A List of Postmortems!](https://github.com/danluu/post-mortems){:target="_blank" }
 
 ## Useful Resources
 
-* [Advanced PostMortem Fu and Human Error 101 (Velocity 2011)](https://www.slideshare.net/jallspaw/advanced-postmortem-fu-and-human-error-101-velocity-2011)
-* [Blame. Language. Sharing.](https://fractio.nl/2015/10/30/blame-language-sharing/)
+* [Advanced PostMortem Fu and Human Error 101 (Velocity 2011)](https://www.slideshare.net/jallspaw/advanced-postmortem-fu-and-human-error-101-velocity-2011){:target="_blank" }
+* [Blame. Language. Sharing.](https://fractio.nl/2015/10/30/blame-language-sharing/){:target="_blank" }

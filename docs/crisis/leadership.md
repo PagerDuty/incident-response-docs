@@ -15,7 +15,7 @@ When your company’s values are at the forefront, your stakeholder communicatio
 
 The unpredictable and fluid nature of a crisis requires situational awareness. Being aware of what you know and don't know is crucial. Continually monitoring the situation, predicting statuses and being prepared to roll with the changing environment makes your company adept at crisis response and provides your team with purpose, i.e., everyone is in sync and working towards the same goal.
 
-An increasingly important aspect of Crisis Leadership is taking care of yourself and your team. Members of your crisis response team may have been impacted by the events but are still working to resolve it. Some of your team may have been awake for 24 hours needing someone to give them permission to step away. Fatigue may be setting in and so forth. Leveraging the functionality built into the PagerDuty platform to establish on-call rotations, hand-offs and integrate video conferencing technology like Zoom or Teams can help create a safe and healthy [on call culture](https://goingoncall.pagerduty.com/culture/) for your teams while responding to what could be a protracted situation.
+An increasingly important aspect of Crisis Leadership is taking care of yourself and your team. Members of your crisis response team may have been impacted by the events but are still working to resolve it. Some of your team may have been awake for 24 hours needing someone to give them permission to step away. Fatigue may be setting in and so forth. Leveraging the functionality built into the PagerDuty platform to establish on-call rotations, hand-offs and integrate video conferencing technology like Zoom or Teams can help create a safe and healthy [on call culture](https://goingoncall.pagerduty.com/culture/){:target="_blank" } for your teams while responding to what could be a protracted situation.
 
 ![On-call Restrictions by day and hour](../assets/img/crisis/01_oncallrestrictions.png)
 
@@ -85,12 +85,12 @@ Once you’ve built your handful of scenarios, assigning members of your organiz
 | Marketing campaign failure | Typo, untrue product claim, wrong tone | Chief Digital Officer | Communications Chief |
 
 
-Using PagerDuty, you can build your [on-call schedule](https://support.pagerduty.com/docs/schedule-basics) right inside the platform providing visibility and accountability about who’s on call for what area of the business if a crisis situation takes place. You can also add backups using an escalation policy that alerts the next person up after a custom time delay.
+Using PagerDuty, you can build your [on-call schedule](https://support.pagerduty.com/docs/schedule-basics){:target="_blank" } right inside the platform providing visibility and accountability about who’s on call for what area of the business if a crisis situation takes place. You can also add backups using an escalation policy that alerts the next person up after a custom time delay.
 
 ![Set escalation timeouts](../assets/img/crisis/02_escalationtimeout.png)
 
 
-If you want to balance the load for your on-call team, the [round robin scheduling](https://support.pagerduty.com/docs/round-robin-scheduling) can help by alternating who’s the primary team member that’s notified for each crisis notification.
+If you want to balance the load for your on-call team, the [round robin scheduling](https://support.pagerduty.com/docs/round-robin-scheduling){:target="_blank" } can help by alternating who’s the primary team member that’s notified for each crisis notification.
 
 ![Use round-robin scheduling](../assets/img/crisis/03_roundrobin.png)
 

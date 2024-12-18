@@ -23,7 +23,7 @@ Read up on our [Different Roles for Incidents](../before/different_roles.md) to 
 There is no formal training process for this role, reading this page should be sufficient for most tasks.
 
 ## Incident Call Procedures and Lingo
-The [Steps for Internal Liaison](../during/during_an_incident.md) provide a detailed description of what you should be doing during an incident.
+The [Steps for Internal Liaison](../during/during_an_incident.md/#steps-for-internal-liaison) provide a detailed description of what you should be doing during an incident.
 
 Here are some examples of phrases and patterns you should use during incident calls.
 

@@ -18,7 +18,7 @@ As we grew our engineer department, this did not scale well at all, and problems
 1. Paging people has a cost impact. Both in employee health, and in finance. Waking up your entire engineering department at 3am means nothing productive is going to be done the next day, across the entire department.
 1. People who weren't on-call would still get paged.
 
-It's important to maintain an **effective span of control** on any incident response. If you have more than 7 or 8 people directly reporting to the [Incident Commander]() things can quickly get overwhelming. We now will only page the engineers who are on-call for a specific service, rather than the entire team. If more responders are required, then they will be mobilized by the [Internal Liaison]() to join the response. 9 times out of 10 we don't need additional responders, so the rest of the engineering department can get some rest without interference. This results in a happier engineering department and a more streamlined response process.
+It's important to maintain an **effective span of control** on any incident response. If you have more than 7 or 8 people directly reporting to the [Incident Commander](/before/different_roles/#incident-commander-ic) things can quickly get overwhelming. We now will only page the engineers who are on-call for a specific service, rather than the entire team. If more responders are required, then they will be mobilized by the [Internal Liaison]() to join the response. 9 times out of 10 we don't need additional responders, so the rest of the engineering department can get some rest without interference. This results in a happier engineering department and a more streamlined response process.
 
 ## Forcing everyone to stay on the call.
 
