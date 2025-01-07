@@ -28,12 +28,12 @@ The training process for a Deputy is quite simple.
 * Read this page.
 
 ## Incident Call Procedures and Lingo
-The [Steps for Deputy](../during/during_an_incident.md) provide a detailed description of what you should be doing during an incident.
+The [Steps for Deputy](../during/during_an_incident.md/#steps-for-deputy) provide a detailed description of what you should be doing during an incident.
 
 Here are some examples of phrases and patterns you should use during incident calls.
 
 ### Alert IC to Timers
-You are expected to keep track of how long the incident has been running for, and provide callouts to the IC every 10 minutes so they can take actions such as increasing the severity, or asking Support to Tweet out. This is as simple as telling the IC on the call,
+You are expected to keep track of how long the incident has been running for, and provide callouts to the IC every 10 minutes so they can take actions such as increasing the severity, or asking Support to post it out. This is as simple as telling the IC on the call,
 
 > IC, be advised the incident is now at the 10 minute mark.
 

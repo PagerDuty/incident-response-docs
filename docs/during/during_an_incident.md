@@ -58,7 +58,7 @@ Resolve the incident as quickly and as safely as possible, use the Deputy to ass
     * **Degraded Service Behavior without load:** Gather forensic data (heap dumps, etc), and consider doing a rolling restart.
 
 1. Listen for prompts from your Deputy regarding severity escalations, decide whether we need to announce publicly, and instruct Customer Liaison accordingly.
-    * Announcing publicly is at your discretion as IC. If you are unsure, then announce publicly ("If in doubt, tweet it out").
+    * Announcing publicly is at your discretion as IC. If you are unsure, then announce publicly ("If in doubt, post it out").
 
 1. Keep track of your [span of control](../training/glossary.md#span-of-control). If the response starts to become larger, or the incident increases in complexity, consider [splitting off sub-teams](../before/complex_incidents.md#spinning-off-sub-teams) in order to get a more effective response.
 
@@ -112,7 +112,7 @@ You are there to support the Incident Commander in identifying the cause of the 
 ## Steps for Customer Liaison
 Be on stand-by to post public-facing messages regarding the incident.
 
-1. You will typically be required to update the status page and to send tweets from our various accounts at certain times during the call.
+1. You will typically be required to update the status page and to send posts from our various accounts at certain times during the call.
 
 1. Follow instructions from the Incident Commander.
 

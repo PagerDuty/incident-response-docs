@@ -24,7 +24,7 @@ Read up on our [Different Roles for Incidents](../before/different_roles.md) to 
 There is no formal training process for this role, you should feel free to contact our Customer Support team to learn more.
 
 ## Customer Liaison
-The objective of a Customer Liaison is to keep our customers informed during an incident as to what is happening, and to act as a voice for our customers to the Incident Commander. It is important for customers to have visibility into how they are impacted by an incident we are having, and to have insight into the fact that the problem is actively being worked on. Crafting a public message for customers is tricky, especially on platforms such as Twitter where the number of characters you can use are limited. But here are some general tips for crafting a public message,
+The objective of a Customer Liaison is to keep our customers informed during an incident as to what is happening, and to act as a voice for our customers to the Incident Commander. It is important for customers to have visibility into how they are impacted by an incident we are having, and to have insight into the fact that the problem is actively being worked on. Crafting a public message for customers is tricky, especially on platforms where the number of characters you can use are limited. But here are some general tips for crafting a public message,
 
 * Prepare a default message in advance.
     * One that can be used for the initial update if the scope of the issue is unknown.
@@ -45,7 +45,7 @@ The objective of a Customer Liaison is to keep our customers informed during an 
     * Customers don't care if `application-server-123` is having issues, they care that they are not getting notifications. Make sure the information you provide is relevant and not just noise.
 
 ## Incident Call Procedures and Lingo
-The [Steps for Customer Liaison](../during/during_an_incident.md) provide a detailed description of what you should be doing during an incident.
+The [Steps for Customer Liaison](../during/during_an_incident.md/#steps-for-customer-liaison) provide a detailed description of what you should be doing during an incident.
 
 Here are some examples of phrases and patterns you should use during incident calls.
 

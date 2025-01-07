@@ -21,12 +21,12 @@ We've also published slides and videos of some of our training courses. Original
 * [Incident Response Training Course](../training/courses/incident_response.md) - Introductory course on incident response and the role of the Incident Commander.
 
 ## Example Incident
-This recorded call is a reenactment of an actual major incident that occurred at PagerDuty in [January 2017](https://status.pagerduty.com/incidents/510k1bnvwv6g). Some details have been changed in the interest of brevity and privacy, but the incident remains otherwise largely intact. For more details about the recording, you can read the [PagerDuty blog post](https://www.pagerduty.com/blog/incident-response-reenactment/).
+This recorded call is a reenactment of an actual major incident that occurred at PagerDuty in January 2017. Some details have been changed in the interest of brevity and privacy, but the incident remains otherwise largely intact. For more details about the recording, you can read the [PagerDuty blog post](https://www.pagerduty.com/blog/incident-response-reenactment/){:target="_blank" }.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yoY_pDxc0TA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## National Incident Management System (NIMS)
-Our incident response process is loosely based on the [US National Incident Management System (NIMS)](https://www.fema.gov/national-incident-management-system), which is described as,
+Our incident response process is loosely based on the [US National Incident Management System (NIMS)](https://www.fema.gov/national-incident-management-system){:target="_blank" }, which is described as,
 
   _A systematic, proactive approach to guide departments and agencies at all levels of government, nongovernmental organizations, and the private sector to work together seamlessly and manage incidents involving all threats and hazards—regardless of cause, size, location, or complexity—in order to reduce loss of life, property, and harm to the environment._
 
@@ -34,53 +34,53 @@ While it might not initially seem that this would be applicable to an IT operati
 
 [![NIMS](../assets/img/thumbnails/nims_core.png)](https://www.fema.gov/pdf/emergency/nims/NIMS_core.pdf) [![NIMS Training](../assets/img/thumbnails/nims_training.png)](https://www.fema.gov/pdf/emergency/nims/nims_training_program.pdf)
 
-If you want to learn more about NIMS, we recommend the [ICS-100](https://training.fema.gov/is/courseoverview.aspx?code=IS-100.b) and [ICS-700](https://training.fema.gov/is/courseoverview.aspx?code=IS-700.a) online training courses, which go over NIMS and the Incident Command System (You can also take an online examination after training in order to get a certificate from FEMA). There is also a wealth of [additional training material and courses from FEMA](https://training.fema.gov/nims/) on NIMS, which I would encourage you to look at.
+If you want to learn more about NIMS, we recommend the [ICS-100](https://training.fema.gov/is/courseoverview.aspx?code=IS-100.b){:target="_blank" } and [ICS-700](https://training.fema.gov/is/courseoverview.aspx?code=IS-700.a){:target="_blank" } online training courses, which go over NIMS and the Incident Command System (You can also take an online examination after training in order to get a certificate from FEMA). There is also a wealth of [additional training material and courses from FEMA](https://training.fema.gov/nims/){:target="_blank" } on NIMS, which I would encourage you to look at.
 
-If you're based in the US and interested in taking a more active incident response role in your community, we recommend investigating your local [CERT programs](https://www.ready.gov/cert) (Community Emergency Response Teams). Many cities offer CERT training, after which you can volunteer as a CERT contributor within your community. Not only is it an opportunity to get real world experience with disaster response, but the skills you learn can be applied to everyday life too.
+If you're based in the US and interested in taking a more active incident response role in your community, we recommend investigating your local [CERT programs](https://www.ready.gov/cert){:target="_blank" } (Community Emergency Response Teams). Many cities offer CERT training, after which you can volunteer as a CERT contributor within your community. Not only is it an opportunity to get real world experience with disaster response, but the skills you learn can be applied to everyday life too.
 
 Also take a look at the [Additional Reading](../resources/reading.md) page.
 
 ## Incident Response Around the World
+
 While NIMS is the US incident response framework, many countries have their own similar frameworks. Some are based on the US system, but many were developed on their own. There's a wealth of additional information to be learned by investigating the methods and frameworks used in countries all over the world.
 
-A book called "[Comparative Emergency Management: Understanding Disaster Policies, Organizations, and Initiatives from Around the World](https://training.fema.gov/hiedu/aemrc/booksdownload/compemmgmtbookproject/)" (available from the [FEMA website](https://training.fema.gov/hiedu/aemrc/)) compares the systems used by 30 or so different countries, and is an amazing collection of information on emergency management frameworks used around the world.
+A book called "Comparative Emergency Management: Understanding Disaster Policies, Organizations, and Initiatives from Around the World" compares the systems used by 30 or so different countries, and is an amazing collection of information on emergency management frameworks used around the world.
 
 Here are a few of the systems we looked at in more detail in order to adapt and improve our own process at PagerDuty.
 
 ### United Kingdom
 
-The United Kingdom emergency services use a command hierarchy called [**Gold-Silver-Bronze Command Structure**](https://en.wikipedia.org/wiki/Gold%E2%80%93silver%E2%80%93bronze_command_structure) for their major operations. The framework involves three levels responsible for strategic (gold), tactical (silver), and operational (bronze) command decisions.
+The United Kingdom emergency services use a command hierarchy called [**Gold-Silver-Bronze Command Structure**](https://en.wikipedia.org/wiki/Gold%E2%80%93silver%E2%80%93bronze_command_structure){:target="_blank" } for their major operations. The framework involves three levels responsible for strategic (gold), tactical (silver), and operational (bronze) command decisions.
 
 Here are some useful reading materials if you're interested in learning more:
 
-* [UK.GOV - Emergency Response and Recovery](https://www.gov.uk/guidance/emergency-response-and-recovery).
-* [UK.GOV - Incident Command - 3rd Edition (2008)](https://www.gov.uk/government/publications/fire-and-rescue-manual-volume-1-incident-command).
-* [UK Home Office - Critical Incident Management](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/735103/critical-incident-management-v12.0ext.pdf) (PDF).
+* [UK.GOV - Emergency Response and Recovery](https://www.gov.uk/guidance/emergency-response-and-recovery){:target="_blank" }.
+* [UK.GOV - Incident Command - 3rd Edition (2008)](https://www.gov.uk/government/publications/fire-and-rescue-manual-volume-1-incident-command){:target="_blank"}.
+* [UK Home Office - Critical Incident Management](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/735103/critical-incident-management-v12.0ext.pdf){:target="_blank" } (PDF).
 
 
 ### New Zealand
 
-New Zealand's system is called the [**Coordinated Incident Management System (CIMS)**](https://en.wikipedia.org/wiki/Coordinated_Incident_Management_System) and is based upon the Incident Command System used in the US. One area we particularly liked from CIMS is its focus on common terminology, which helps prevents confusion during an incident and allows for a faster and more effective response. Some terminology has been changed from ICS (e.g. "Control" instead of "Command" to describe the management functions), but should still be familiar.
+New Zealand's system is called the [**Coordinated Incident Management System (CIMS)**](https://en.wikipedia.org/wiki/Coordinated_Incident_Management_System){:target="_blank" } and is based upon the Incident Command System used in the US. One area we particularly liked from CIMS is its focus on common terminology, which helps prevents confusion during an incident and allows for a faster and more effective response. Some terminology has been changed from ICS (e.g. "Control" instead of "Command" to describe the management functions), but should still be familiar.
 
 Here are some useful reading materials if you're interested in learning more:
 
-* [Ministry of Civil Defence & Emergency Management - New Zealand Coordinated Incident Management System (CIMS)](https://www.civildefence.govt.nz/resources/coordinated-incident-management-system-cims-third-edition/) ([PDF](https://www.civildefence.govt.nz/assets/Uploads/CIMS-3rd-edition-FINAL-Aug-2019.pdf)).
-* [Devereux-Blum Training & Development - Emergency Management Training](https://www.emergencymanagement.co.nz/)
+* [Ministry of Civil Defence & Emergency Management - New Zealand Coordinated Incident Management System (CIMS)](https://www.civildefence.govt.nz/resources/coordinated-incident-management-system-cims-third-edition/){:target="_blank" }
+* [Devereux-Blum Training & Development - Emergency Management Training](https://www.emergencymanagement.co.nz/){:target="_blank"}
+
 
 ### Australia
 
-Australia uses a system called the [**Australasian Inter-Service Incident Management System (AIIMS)**](https://en.wikipedia.org/wiki/Australasian_Inter-Service_Incident_Management_System) which is a derivative of the NIMS framework used in the US. While based on ICS, AIIMS puts a bigger focus on _span of control_ than other frameworks. As with New Zealand's system, there are some differences to the terminology being used (e.g. "Incident Controller" instead of "Incident Commander"), but it should still be familiar to those who know ICS.
+Australia uses a system called the [**Australasian Inter-Service Incident Management System (AIIMS)**](https://en.wikipedia.org/wiki/Australasian_Inter-Service_Incident_Management_System){:target="_blank" } which is a derivative of the NIMS framework used in the US. While based on ICS, AIIMS puts a bigger focus on span of control than other frameworks. As with New Zealand's system, there are some differences to the terminology being used (e.g. "Incident Controller" instead of "Incident Commander"), but it should still be familiar to those who know ICS.
 
 Here are some useful reading materials if you're interested in learning more:
 
-* [The Australasian Inter-Service Incident Management System, 3rd Edition](https://training.fema.gov/hiedu/docs/cem/comparative%20em%20-%20session%2021%20-%20handout%2021-1%20aiims%20manual.pdf) (PDF).
-* [Incident Management in Australia Handbook](https://knowledge.aidr.org.au/resources/handbook-14-incident-management-in-australia/)
+* [Incident Management in Australia Handbook](https://knowledge.aidr.org.au/resources/handbook-14-incident-management-in-australia/){:target="_blank"}
 
 ### Canada
 
-Canada uses their own [**Incident Command System**](https://www.icscanada.ca/images/upload/ICS%20OPS%20Description2012.pdf) (PDF). The standard for which is maintained by a network of organizations called [ICS Canada](https://www.icscanada.ca/en/home.html). Their website has a collection of information on how you can find local training courses in Canada, depending on your Province.
+Canada uses their own [**Incident Command System**](https://icscanada.ca/wp-content/uploads/2023/11/2021-Part-1-TOX-Tips-Introduction-to-ICS.pdf){:target="_blank"} (PDF). The standard for which is maintained by a network of organizations called [ICS Canada](https://www.icscanada.ca/en/home.html){:target="_blank"}. Their website has a collection of information on how you can find local training courses in Canada, depending on your Province.
 
 Here are some useful reading materials if you're interested in learning more:
 
-* [ICSCanada - I-100 Introduction to Incident Command System](https://www.svffa.ca/s/ICS100-Self-Paced-Student-Workbook_2016.pdf) (PDF).
-* [Canada ICS Forms](https://www.icscanada.ca/en/Forms.html) - _Standard ICS forms that you can download and use in your own incidents ([FEMA has the US equivalents](https://training.fema.gov/icsresource/icsforms.aspx))._
+* [Canada ICS Forms](https://icscanada.ca/resources/ics-forms/){:target="_blank"}  - Standard ICS forms that you can download and use in your own incidents ([FEMA has the US equivalents](https://training.fema.gov/icsresource/icsforms.aspx){:target="_blank"} ).

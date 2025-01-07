@@ -46,7 +46,7 @@ Once you've been designated as the owner of a postmortem, you should start creat
         * Identify the Incident Commander and Scribe in this list.
 
 1. Populate the postmortem with more detailed information.
-    * For each item in the timeline, identify a metric, or some third-party page where the data came from. This could be a link to a Datadog graph, a SumoLogic search, a tweet, etc. Anything which shows the data point you're trying to illustrate in the timeline.
+    * For each item in the timeline, identify a metric, or some third-party page where the data came from. This could be a link to a Datadog graph, a SumoLogic search, a post, etc. Anything which shows the data point you're trying to illustrate in the timeline.
     * Add a link to the incident call recording.
 
 1. Perform an analysis of the incident.
@@ -98,7 +98,7 @@ A general agenda for the meeting would be something like,
 1. Recap the timeline, to make sure everyone agrees and is on the same page.
 1. Recap important points, and any unusual items.
 1. Discuss how the problem could've been caught.
-    * Did it show up in [canary](https://www.pagerduty.com/blog/continuous-build-break-fix-fast#canary-releases)?
+    * Did it show up in [canary](https://www.pagerduty.com/blog/continuous-build-break-fix-fast#canary-releases){:target="_blank" }?
     * Could it have been caught in tests, or loadtest environment?
 1. Discuss customer impact. Any comments from customers, etc.
 1. Review action items that have been created, discuss if appropriate, or if more are needed, etc.
@@ -106,15 +106,15 @@ A general agenda for the meeting would be something like,
 ## Examples
 Here are some examples of postmortems from other companies as a reference,
 
-* [LastPass](https://blog.lastpass.com/2015/06/lastpass-security-notice/)
-* [AWS](https://aws.amazon.com/message/5467D2/)
-* [Twilio](https://www.twilio.com/blog/2013/07/billing-incident-post-mortem-breakdown-analysis-and-root-cause.html)
-* [Heroku](https://status.heroku.com/incidents/151)
-* [Netflix](https://netflixtechblog.com/post-mortem-of-october-22-2012-aws-degradation-efcee3ab40d5)
-* [GOV.UK Rail Accident Investigation](https://www.gov.uk/government/publications/kyle-beck-safety-digest/near-miss-at-kyle-beck-3-august-2016)
-* [A List of Postmortems!](https://github.com/danluu/post-mortems)
+* [LastPass](https://blog.lastpass.com/2015/06/lastpass-security-notice/){:target="_blank" }
+* [AWS](https://aws.amazon.com/message/5467D2/){:target="_blank" }
+* [Twilio](https://www.twilio.com/blog/2013/07/billing-incident-post-mortem-breakdown-analysis-and-root-cause.html){:target="_blank" }
+* [Heroku](https://status.heroku.com/incidents/151){:target="_blank" }
+* [Netflix](https://netflixtechblog.com/post-mortem-of-october-22-2012-aws-degradation-efcee3ab40d5){:target="_blank" }
+* [GOV.UK Rail Accident Investigation](https://www.gov.uk/government/publications/kyle-beck-safety-digest/near-miss-at-kyle-beck-3-august-2016){:target="_blank" }
+* [A List of Postmortems!](https://github.com/danluu/post-mortems){:target="_blank" }
 
 ## Useful Resources
 
-* [Advanced PostMortem Fu and Human Error 101 (Velocity 2011)](https://www.slideshare.net/jallspaw/advanced-postmortem-fu-and-human-error-101-velocity-2011)
-* [Blame. Language. Sharing.](https://fractio.nl/2015/10/30/blame-language-sharing/)
+* [Advanced PostMortem Fu and Human Error 101 (Velocity 2011)](https://www.slideshare.net/jallspaw/advanced-postmortem-fu-and-human-error-101-velocity-2011){:target="_blank" }
+* [Blame. Language. Sharing.](https://fractio.nl/2015/10/30/blame-language-sharing/){:target="_blank" }

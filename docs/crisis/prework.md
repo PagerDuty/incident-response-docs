@@ -9,6 +9,6 @@ You now have your Executive Crisis Leadership team, your crisis response managem
 ## Crisis Simulations
 Conducting discussion-based tabletop exercises with your team is an ideal starting point. However, leveraging functional exercises to simulate your level of maturity with crisis coordination, and command and control is also important. Running a crisis simulation using PagerDuty is as simple as triggering an alert on your crisis service—randomly if you really want to simulate real life. You would then follow your typical process of getting the right people on a conference call or instant messaging channel through an integration and running through a scenario with your corresponding playbook.
 
-The PagerDuty platform will automatically track the length of the exercise and record any notes or status changes in the timeline which you can then use in your [postmortem](https://postmortems.pagerduty.com/what_is/) (i.e, after action report or hotwash) and in developing further tabletops or simulations. 
+The PagerDuty platform will automatically track the length of the exercise and record any notes or status changes in the timeline which you can then use in your [postmortem](https://postmortems.pagerduty.com/what_is/){:target="_blank" } (i.e, after action report or hotwash) and in developing further tabletops or simulations. 
 
 A biannual cadence for crisis simulations provides sufficient time for preparation and to review the findings in the postmortem.

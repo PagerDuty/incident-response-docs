@@ -13,7 +13,7 @@ RUN git clone https://github.com/pagerduty/mkdocs-theme-pagerduty \
 
 # Set our working directory and user
 WORKDIR /docs
-RUN useradd -m --uid 1000 mkdocs
+RUN sudo useradd -m --uid 1000 mkdocs
 USER mkdocs
 
 # Expose MkDocs server

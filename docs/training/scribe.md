@@ -25,7 +25,7 @@ There is no formal training process for this role, reading this page should be s
 
 * Read the rest of this page, particularly the sections below.
 
-* Participate in [Failure Friday](https://www.pagerduty.com/blog/failure-friday-at-pagerduty/) (FF).
+* Participate in [Failure Friday](https://www.pagerduty.com/blog/failure-friday-at-pagerduty/){:target="_blank"}  (FF).
     * Shadow a FF to see how it's run.
     * Be the Scribe for multiple FF's.
 
@@ -40,7 +40,7 @@ Scribing is more art than science. The objective is to keep an accurate record o
     * <span class="icon good"></span>  This is "TODO: Why didn't we get paged for this earlier?"
 
 ## Incident Call Procedures and Lingo
-The [Steps for Scribe](../during/during_an_incident.md) provide a detailed description of what you should be doing during an incident.
+The [Steps for Scribe](../during/during_an_incident.md/#steps-for-scribe) provide a detailed description of what you should be doing during an incident.
 
 Here are some examples of phrases and patterns you should use during incident calls.
 

@@ -51,7 +51,7 @@ We want less of the latter, and more of the former. We want to replace chaos wit
 ### What is Incident Response?
 
 <input type="checkbox" id="004" /><label for="004">![004](../../assets/slides/incident_response/incident_response.004.jpeg)</label>
-_004. What is incident response? [Docs Reference](../../before/what_is_an_incident/#what-is-incident-response)_
+_004. What is incident response? [Docs Reference](../../before/what_is_an_incident.md/#what-is-incident-response)_
 
 So when we talk about incident response, what we're really talking about is an organized approach to addressing and managing an incident. This is how we define incident response at PagerDuty. They key here is on the word _organized_. We don't want to be running around in a panic anytime an alert goes off. We want our response to be almost routine, and for everyone to work together like a well-oiled machine.
 
@@ -216,7 +216,7 @@ When developing our process at PagerDuty, we looked at a few of the other system
 ???+ aside hide-arrow "Emergency Management Around the World"
     If you're interested in learning more about the systems in use by other countries, we have [links to some official resources](../../resources/reading.md#official-resources).
 
-    There's also a book available from the US FEMA website, called "[Comparative Emergency Management: Understanding Disaster Policies, Organizations, and Initiatives from Around the World](https://training.fema.gov/hiedu/aemrc/booksdownload/compemmgmtbookproject/)" where it compares the systems used by about 30 different countries.
+    There's also a book available from the US FEMA website, called "Comparative Emergency Management: Understanding Disaster Policies, Organizations, and Initiatives from Around the World" where it compares the systems used by about 30 different countries.
 
 ---
 
@@ -237,7 +237,7 @@ While we don’t use exactly the same roles as ICS, we picked out the ones that 
 
 Together, these roles are called the Command Staff.
 
-* Next we have the **Customer Liaison**. This is a member of our support team, and their job is to handle the two-way interaction with our customers. So they'll update customers as to what is going on, whether that's via email, tweet, or updating our status page. But they'll also let us know what customers are saying too. If we're getting 100's of support requests, or no one has raised a ticket at all. Since this can be useful information in tracking down a cause, and determining the level of risk we can take during our recovery.
+* Next we have the **Customer Liaison**. This is a member of our support team, and their job is to handle the two-way interaction with our customers. So they'll update customers as to what is going on, whether that's via email, post, or updating our status page. But they'll also let us know what customers are saying too. If we're getting 100's of support requests, or no one has raised a ticket at all. Since this can be useful information in tracking down a cause, and determining the level of risk we can take during our recovery.
 
 * The **Internal Liaison** is a relatively new role in our process. Their job is to handle all the interaction with internal teams, such as our executives, or our marketing teams, and so on. We have a separate Slack channel for incident updates, to which the Internal Liaison will post regular status updates, and answer any questions from the rest of the organization. This keeps those questions out of our main response, but allows people to still get answers. The internal liaison will also page other teams as necessary if they're needed on the response. Again, this isn't a role you'll need for most companies, for a while this was also handled by our Deputy/Scribe role.
 
@@ -446,7 +446,7 @@ Once we have a collection of actions and their associated risks, it's time to ma
 
 There’s no golden rule here I can give you, it’ll be up to context and your company culture. But my advice if you can't decide between two options is to literally flip a coin. **Making the wrong decision is better than making no decision.** Making no decision doesn't help to make forward progress, you learn nothing new and the incident is still going on. Making a decision, even if it's the "wrong" one will give you more information. If it turns out to be wrong, you can then put all your resources into the other option.
 
-A wrong decision gives you more useful information, making no decision gives you nothing. You want to avoid [decision paralysis](https://xkcd.com/1801/) at all costs, as it can prolong your incident further.
+A wrong decision gives you more useful information, making no decision gives you nothing. You want to avoid [decision paralysis](https://xkcd.com/1801/){:target="_blank"} at all costs, as it can prolong your incident further.
 
 ???+ aside hide-arrow "'Do nothing' is an acceptable decision."
     I should note that the above advice is intended for the situation when you can't decide between two options. "Do nothing" is a perfectly acceptable decision if that's the course of action you want to take. It is sometimes appropriate to get more information by waiting and seeing what changes.
@@ -458,7 +458,7 @@ A wrong decision gives you more useful information, making no decision gives you
 <input type="checkbox" id="034" /><label for="034">![034](../../assets/slides/incident_response/incident_response.034.jpeg)</label>
 _034. Gain consensus._
 
-Once we've made a decision, we need to gain consensus for our plan. But wait, why? Didn't I say earlier that the IC is basically a dictator and everyone should follow their instructions? While technically true, we want to be sure we give a chance to listen to any potential problems our experts may have with the plan. We don't want people to come back later and say things like "I knew that wouldn't work". We want to make sure we stop the [hindsight 20/20 problem](https://en.wikipedia.org/wiki/Hindsight_bias). It demotivates responders, and wastes time.
+Once we've made a decision, we need to gain consensus for our plan. But wait, why? Didn't I say earlier that the IC is basically a dictator and everyone should follow their instructions? While technically true, we want to be sure we give a chance to listen to any potential problems our experts may have with the plan. We don't want people to come back later and say things like "I knew that wouldn't work". We want to make sure we stop the [hindsight 20/20 problem](https://en.wikipedia.org/wiki/Hindsight_bias){:target="_blank"}. It demotivates responders, and wastes time.
 
 But gaining consensus amongst a large group of people can be a bit difficult.
 
@@ -526,7 +526,7 @@ It's likely because of how I phrased the question.
 <input type="checkbox" id="039" /><label for="039">![039](../../assets/slides/incident_response/incident_response.039.jpeg)</label>
 _039. Bystander effect._
 
-I said "Can someone...". This is called the [bystander effect](https://en.wikipedia.org/wiki/Bystander_effect). Everyone assumed someone else was doing it, so no one ended up doing it. If by some chance, someone actually did do it, you won't know who it is anyway, or if they've even started.
+I said "Can someone...". This is called the [bystander effect](https://en.wikipedia.org/wiki/Bystander_effect){:target="_blank"}. Everyone assumed someone else was doing it, so no one ended up doing it. If by some chance, someone actually did do it, you won't know who it is anyway, or if they've even started.
 
 A good example of this is if there's a medical emergency, and you shout "Somebody call 911!", you'll find that no one does, because everyone assumes someone else is doing it. If you're ever in that situation, you want to point to someone and say "You, call 911". Then it'll get done.
 
@@ -1034,9 +1034,9 @@ Finally, you want to practice your incident response process as much as you can.
 
 Start by running mock incidents. Then treat your smaller incidents as if they're larger ones. If you trigger incident response and find it's not a real incident, treat it like one anyway since it's free practice.
 
-At PagerDuty, we run something called [Failure Friday](https://www.pagerduty.com/blog/failure-friday-at-pagerduty/) where we purposefully inject failure into our systems to test their resilience. We treat this like a major incident, with an incident commander and everything. It allows us to practice while we're not under the stress of a normal incident.
+At PagerDuty, we run something called [Failure Friday](https://www.pagerduty.com/blog/failure-friday-at-pagerduty/){:target="_blank"} where we purposefully inject failure into our systems to test their resilience. We treat this like a major incident, with an incident commander and everything. It allows us to practice while we're not under the stress of a normal incident.
 
-We also play a game called [Keep Talking And Nobody Explodes](https://www.keeptalkinggame.com). Yes, that's right, we play video games at work. But we've found that this game really helps to simulate a lot of the things an incident commander has to deal with, and is a great way to get some stress free practice.
+We also play a game called [Keep Talking And Nobody Explodes](https://www.keeptalkinggame.com){:target="_blank"}. Yes, that's right, we play video games at work. But we've found that this game really helps to simulate a lot of the things an incident commander has to deal with, and is a great way to get some stress free practice.
 
 The bottom line is to practice as much as you can, so that when you do have the inevitable incident, your response is just routine.
 
@@ -1049,7 +1049,7 @@ _080. Our open-source incident response documentation._
 
 This was just a brief taste of the training we run at PagerDuty for our own Incident Commanders. We had nowhere near enough time to cover everything.
 
-Good news though! We have published our entire incident response process online. It is an exact copy of our internal documentation only with things like phone numbers removed. It's complete free to use, and is open-sourced under an Apache 2 license so you can use it in your own organizations. [It's on GitHub](https://github.com/PagerDuty/incident-response-docs) and we do accept pull requests if you spot any mistakes or have improvement suggestions.
+Good news though! We have published our entire incident response process online. It is an exact copy of our internal documentation only with things like phone numbers removed. It's complete free to use, and is open-sourced under an Apache 2 license so you can use it in your own organizations. [It's on GitHub](https://github.com/PagerDuty/incident-response-docs){:target="_blank"} and we do accept pull requests if you spot any mistakes or have improvement suggestions.
 
 Everything I've talked about today can be found in the documentation, and there's lots of great [additional reading material](../../resources/reading.md) if you want to learn more.
 
@@ -1074,8 +1074,7 @@ Incident command training is useful in so many situations outside of a server ex
 Anyway, with that, I'll leave you with a quick summary of the main things we discussed today. Thanks!
 
 ???+ aside hide-arrow "Questions?"
-    If you have questions about this training material, feel free to ask me on Twitter, I'm [@r_adams](https://twitter.com/r_adams).
-
+    If you have questions about this training material, feel free to reach out to the [PagerDuty Advocates team](mailto:advocates@pagerduty.com)
 ---
 
 ### Image Credits
