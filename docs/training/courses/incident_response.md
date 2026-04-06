@@ -1034,7 +1034,7 @@ Finally, you want to practice your incident response process as much as you can.
 
 Start by running mock incidents. Then treat your smaller incidents as if they're larger ones. If you trigger incident response and find it's not a real incident, treat it like one anyway since it's free practice.
 
-At PagerDuty, we run something called [Failure Friday](https://www.pagerduty.com/blog/failure-friday-at-pagerduty/){:target="_blank"} where we purposefully inject failure into our systems to test their resilience. We treat this like a major incident, with an incident commander and everything. It allows us to practice while we're not under the stress of a normal incident.
+At PagerDuty, we run something called [Failure Friday](https://www.youtube.com/watch?v=XKl-7hB3paY){:target="_blank"} where we purposefully inject failure into our systems to test their resilience. We treat this like a major incident, with an incident commander and everything. It allows us to practice while we're not under the stress of a normal incident.
 
 We also play a game called [Keep Talking And Nobody Explodes](https://www.keeptalkinggame.com){:target="_blank"}. Yes, that's right, we play video games at work. But we've found that this game really helps to simulate a lot of the things an incident commander has to deal with, and is a great way to get some stress free practice.
 

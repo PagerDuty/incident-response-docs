@@ -37,7 +37,7 @@ The process is fairly loose for now. Here's a list of things you can do to train
 
 * Read the rest of this page, particularly the sections below.
 
-* Participate in [Failure Friday](https://www.pagerduty.com/blog/failure-friday-at-pagerduty/){:target="_blank"}  (FF).
+* Participate in [Failure Friday](https://www.youtube.com/watch?v=XKl-7hB3paY){:target="_blank"}  (FF).
     * Shadow a FF to see how it's run.
     * Be the Scribe for multiple FF's.
     * Be the Incident Commander for multiple FF's.

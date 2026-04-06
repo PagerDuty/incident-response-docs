@@ -79,7 +79,7 @@ Here are some useful reading materials if you're interested in learning more:
 
 ### Canada
 
-Canada uses their own [**Incident Command System**](https://icscanada.ca/wp-content/uploads/2023/11/2021-Part-1-TOX-Tips-Introduction-to-ICS.pdf){:target="_blank"} (PDF). The standard for which is maintained by a network of organizations called [ICS Canada](https://www.icscanada.ca/en/home.html){:target="_blank"}. Their website has a collection of information on how you can find local training courses in Canada, depending on your Province.
+Canada uses their own [**Incident Command System**](https://icscanada.ca/wp-content/uploads/2023/11/2021-Part-1-TOX-Tips-Introduction-to-ICS.pdf){:target="_blank"} (PDF). The standard for which is maintained by a network of organizations called [ICS Canada](https://www.icscanada.ca/){:target="_blank"}. Their website has a collection of information on how you can find local training courses in Canada, depending on your Province.
 
 Here are some useful reading materials if you're interested in learning more:
 

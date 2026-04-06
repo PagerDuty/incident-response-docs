@@ -8,7 +8,7 @@ Writing an effective postmortem allows us to learn quickly from our mistakes and
 
 * Make sure the timeline is an accurate representation of events.
 * Describe any technical lingo/acronyms you use that newcomers may not understand.
-* [Discuss how the incident fits into our understanding of the health and resiliency of the services affected](https://www.pagerduty.com/blog/postmortem-understand-service-reliability/){:target="_blank" }.
+* [Discuss how the incident fits into our understanding of the health and resiliency of the services affected](https://www.pagerduty.com/resources/insights/learn/reliability/){:target="_blank" }.
 
 ## Don'ts
 
