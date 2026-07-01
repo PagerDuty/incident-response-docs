@@ -48,7 +48,7 @@ The first step in any incident response process is to determine what actually [c
           <li>Incident response functionality (ack, resolve, etc) is severely impaired.</li>
           <li>Web app is unavailable or experiencing severe performance degradation for most/all users.</li>
           <li>Monitoring of PagerDuty systems for major incident conditions is impaired.</li>
-          <li>Any other event to which a PagerDuty employee deems necessary of an incident response.</li>
+          <li>Any other event to which a PagerDuty employee deems necessary for an incident response.</li>
         </ul>
       </td>
       <td>
