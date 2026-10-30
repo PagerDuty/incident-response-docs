@@ -1,10 +1,249 @@
+
+# netlify.toml — response.pagerduty.com
+# This site now only redirects to docs.pagerduty.com/ops-guides/incident-response-guide.
+
+# ---------------------------------------------------------------------------
+# Headers
+# ---------------------------------------------------------------------------
+# These are attached to the 301 responses too. Referrer-Policy matters here:
+# a redirect response's Referrer-Policy is applied to the follow-up request,
+# so "same-origin" would strip the referrer when the browser goes on to
+# docs.pagerduty.com (cross-origin), and docs analytics would lose the
+# original traffic source (Google, blogs, Slack, etc.).
 [[headers]]
   for = "/*"
   [headers.values]
-    Strict-Transport-Security = "max-age=31536000 ; includeSubDomains"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-    Referrer-Policy = "same-origin"
-    Feature-Policy = "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
-    Content-Security-Policy-Report-Only = "default-src 'none'; script-src 'self' ssl.google-analytics.com www.google-analytics.com 'sha256-AzwHtScSzFOoXIoLRz4+vK2rDADGdNC3AXQG5FjKK68=' 'sha256-8IZh+gkrYCTCvcu/zawPN9Vj4RLghgOT4F5rTZXvdkQ='; object-src 'self'; style-src 'self'; img-src 'self' data: ssl.google-analytics.com www.google-analytics.com; media-src 'none'; frame-src www.youtube.com www.youtube-nocookie.com; font-src 'self'; connect-src 'self' ssl.google-analytics.com www.google-analytics.com; base-uri 'none'; form-action 'self'; frame-ancestors 'none'"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# ---------------------------------------------------------------------------
+# Redirects — first match wins. Keep the catch-all LAST.
+# force = true is required because the old MkDocs build output (if still
+# deployed) would otherwise shadow these rules.
+# ---------------------------------------------------------------------------
+[[redirects]]
+  from = "/"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/getting_started/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/getting-started"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/oncall/being_oncall/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/being-oncall"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/oncall/whos_oncall/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/whos-oncall"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/oncall/alerting_principles/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/alerting-principles"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/before/what_is_an_incident/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/what-is-an-incident"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/before/severity_levels/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/severity-levels"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/before/different_roles/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/different-roles"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/before/call_etiquette/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/call-etiquette"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/before/complex_incidents/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/complex-incidents"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/during/during_an_incident/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/during-an-incident"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/during/external_communication_guidelines/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/external-comms"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/during/security_incident_response/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/security-incident"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/after/after_an_incident/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/after-an-incident"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/after/post_mortem_process/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/postmortem-process"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/after/post_mortem_template/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/postmortem-template"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/after/effective_post_mortems/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/effective-postmortems"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crisis/crisis_intro/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/crisis-intro"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crisis/terms/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/terminology"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crisis/leadership/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/crisis-leadership"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crisis/operations/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/crisis-operations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crisis/prework/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/pre-crisis-phase"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crisis/pagerduty/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/pagerduty-for-crmops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/training/overview/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/training-overview"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/training/incident_commander/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/incident-commander"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/training/deputy/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/deputy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/training/scribe/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/scribe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/training/subject_matter_expert/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/subject-matter-expert"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/training/customer_liaison/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/customer-liaison"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/training/internal_liaison/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/internal-liaison"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/training/glossary/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/glossary"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/training/courses/incident_response/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/incident-response-course"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/reading/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/reading"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/chatops/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/chatops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/anti_patterns/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/anti-patterns"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide/about"
+  status = 301
+  force = true
+
+# Catch-all: assets, sitemap.xml, search index, section folders
+# (/oncall/, /before/, /during/, /after/, /crisis/, /training/,
+# /resources/), unknown/mistyped URLs
+[[redirects]]
+  from = "/*"
+  to = "https://docs.pagerduty.com/ops-guides/incident-response-guide"
+  status = 301
+  force = true
